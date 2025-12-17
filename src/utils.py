@@ -14,11 +14,13 @@ import hashlib
 # Token Counting
 # =============================================================================
 
-_tokenizer = None
+from functools import lru_cache
 
-def get_tokenizer(model_name: str = "google/gemma-2-2b"):
+
+@lru_cache(maxsize=4)
+def get_tokenizer(model_name: str = "google/gemma-3-12b-it"):
     """
-    Get or initialize the tokenizer (cached for performance).
+    Get or initialize the tokenizer (cached per model for performance).
     
     Args:
         model_name: Model name to load tokenizer from
@@ -26,19 +28,16 @@ def get_tokenizer(model_name: str = "google/gemma-2-2b"):
     Returns:
         Tokenizer instance
     """
-    global _tokenizer
-    if _tokenizer is None:
-        try:
-            from transformers import AutoTokenizer
-            _tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-        except Exception as e:
-            print(f"Warning: Could not load tokenizer {model_name}: {e}")
-            print("Using simple word-based tokenization as fallback")
-            return None
-    return _tokenizer
+    try:
+        from transformers import AutoTokenizer
+        return AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    except Exception as e:
+        print(f"Warning: Could not load tokenizer {model_name}: {e}")
+        print("Using simple word-based tokenization as fallback")
+        return None
 
 
-def count_tokens(text: str, model_name: str = "google/gemma-2-2b") -> int:
+def count_tokens(text: str, model_name: str = "google/gemma-3-12b-it") -> int:
     """
     Count tokens in text using the model's tokenizer.
     Falls back to word-based estimation if tokenizer unavailable.
@@ -77,7 +76,7 @@ def count_tokens_simple(text: str) -> int:
 
 
 def count_pair_tokens(instruction: str, output: str, 
-                      model_name: str = "google/gemma-2-2b") -> Dict[str, int]:
+                      model_name: str = "google/gemma-3-12b-it") -> Dict[str, int]:
     """
     Count tokens for an instruction-output pair.
     
@@ -149,7 +148,9 @@ def save_jsonl(data: List[Dict], filepath: str, mode: str = 'w'):
         filepath: Output file path
         mode: Write mode ('w' for overwrite, 'a' for append)
     """
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    file_dir = os.path.dirname(filepath)
+    if file_dir:  # Only makedirs if there's a directory component
+        os.makedirs(file_dir, exist_ok=True)
     with open(filepath, mode, encoding='utf-8') as f:
         for item in data:
             f.write(json.dumps(item, ensure_ascii=False) + '\n')
@@ -176,7 +177,9 @@ def load_jsonl(filepath: str) -> List[Dict]:
 
 def save_json(data: Any, filepath: str):
     """Save data as JSON file"""
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    file_dir = os.path.dirname(filepath)
+    if file_dir:  # Only makedirs if there's a directory component
+        os.makedirs(file_dir, exist_ok=True)
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
@@ -298,7 +301,7 @@ def extract_numbers(text: str) -> List[int]:
 
 
 def truncate_text(text: str, max_tokens: int, 
-                  model_name: str = "google/gemma-2-2b") -> str:
+                  model_name: str = "google/gemma-3-12b-it") -> str:
     """
     Truncate text to maximum token count.
     

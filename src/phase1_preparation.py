@@ -364,7 +364,7 @@ class SemanticChunker:
         # 1. Extract FAQs first
         faq_chunks = self._chunk_faq(content, source_file)
         for chunk in faq_chunks:
-            content_hash = hash(chunk.content[:100])
+            content_hash = hashlib.md5(chunk.content[:100].encode()).hexdigest()
             if content_hash not in used_content_hashes:
                 all_chunks.append(chunk)
                 used_content_hashes.add(content_hash)
@@ -372,7 +372,7 @@ class SemanticChunker:
         # 2. Extract table rows
         table_chunks = self._chunk_tables(content, source_file)
         for chunk in table_chunks:
-            content_hash = hash(chunk.content[:100])
+            content_hash = hashlib.md5(chunk.content[:100].encode()).hexdigest()
             if content_hash not in used_content_hashes:
                 all_chunks.append(chunk)
                 used_content_hashes.add(content_hash)
@@ -380,7 +380,7 @@ class SemanticChunker:
         # 3. Extract sections (## and ### headers)
         section_chunks = self._chunk_by_section(content, source_file)
         for chunk in section_chunks:
-            content_hash = hash(chunk.content[:100])
+            content_hash = hashlib.md5(chunk.content[:100].encode()).hexdigest()
             if content_hash not in used_content_hashes:
                 all_chunks.append(chunk)
                 used_content_hashes.add(content_hash)
@@ -621,8 +621,10 @@ class SemanticChunker:
                     chunks.append(chunk)
                     
                     # Store last sentence as context (not full paragraphs)
+                    # Use simple split instead of lookbehind regex for Unicode compatibility
                     last_para = current_chunk[-1]
-                    sentences = re.split(r'(?<=[.!?])\s+', last_para)
+                    # Split on sentence-ending punctuation followed by space
+                    sentences = [s.strip() for s in re.split(r'[.!?]\s+', last_para) if s.strip()]
                     previous_context = sentences[-1] if sentences else last_para[:100]
                 
                 # Start new chunk
@@ -1469,22 +1471,25 @@ def run_phase1(
         
         # Read CSV and create table chunks
         try:
+            import csv
+            from io import StringIO
+            
             with open(csv_path, 'r', encoding='utf-8') as f:
                 csv_content = f.read()
             
-            # Create a markdown table from CSV for chunking
-            lines = csv_content.strip().split('\n')
-            if len(lines) > 1:
-                # Parse CSV
-                headers = [h.strip() for h in lines[0].split(',')]
+            # Use proper CSV parsing to handle quoted fields
+            reader = csv.reader(StringIO(csv_content))
+            rows = list(reader)
+            
+            if len(rows) > 1:
+                headers = [h.strip() for h in rows[0]]
                 
-                for row_idx, line in enumerate(lines[1:], 1):
-                    cells = [c.strip() for c in line.split(',')]
+                for row_idx, cells in enumerate(rows[1:], 1):
                     if len(cells) >= len(headers):
                         # Format as readable content
                         row_content = f"Data dari {csv_file}:\n"
                         for h, c in zip(headers, cells):
-                            row_content += f"- {h}: {c}\n"
+                            row_content += f"- {h}: {c.strip()}\n"
                         
                         # Create chunk
                         chunk = chunker._create_chunk(
@@ -1499,7 +1504,7 @@ def run_phase1(
                         )
                         all_chunks.append(chunk)
                 
-                print(f"       Created {len(lines) - 1} chunks from rows")
+                print(f"       Created {len(rows) - 1} chunks from rows")
         except Exception as e:
             print(f"       Error processing CSV: {e}")
     
@@ -1518,9 +1523,8 @@ def run_phase1(
     if use_embeddings:
         try:
             import sys
-            import os as os_module
             # Add src directory to path for import
-            src_dir = os_module.path.dirname(os_module.path.abspath(__file__))
+            src_dir = os.path.dirname(os.path.abspath(__file__))
             if src_dir not in sys.path:
                 sys.path.insert(0, src_dir)
             from e5_embedding import E5EmbeddingService

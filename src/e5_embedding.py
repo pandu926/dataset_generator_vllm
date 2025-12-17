@@ -32,18 +32,31 @@ class E5EmbeddingService:
         self.use_fp16 = use_fp16 and device == "cuda"
         
         print(f"Loading E5-multilingual model on {device}...")
-        self.model = SentenceTransformer(self.MODEL_NAME, device=device)
         
+        # Modern approach for sentence-transformers 3.x (Dec 2025)
+        # Use model_kwargs instead of deprecated model.half()
+        model_kwargs = {}
         if self.use_fp16:
-            self.model.half()
+            model_kwargs["torch_dtype"] = torch.float16
+        
+        self.model = SentenceTransformer(
+            self.MODEL_NAME, 
+            device=device,
+            model_kwargs=model_kwargs  # Pass dict (empty or with dtype)
+        )
         
         self.embedding_dim = self.model.get_sentence_embedding_dimension()
+        
+        # Embedding cache for repeated texts (Issue #20 optimization)
+        self._cache = {}
+        self._cache_max_size = 1000
         print(f"  Model loaded. Embedding dim: {self.embedding_dim}")
     
     def encode(self, texts: List[str], batch_size: int = 32, 
-               prefix: str = "passage: ", show_progress: bool = True) -> np.ndarray:
+               prefix: str = "passage: ", show_progress: bool = True,
+               use_cache: bool = True) -> np.ndarray:
         """
-        Encode texts to embeddings.
+        Encode texts to embeddings with optional caching.
         
         E5 models require a prefix:
         - "query: " for search queries
@@ -54,6 +67,7 @@ class E5EmbeddingService:
             batch_size: Batch size for encoding
             prefix: Prefix to add to each text ("passage: " or "query: ")
             show_progress: Show progress bar
+            use_cache: Whether to use embedding cache (default True)
             
         Returns:
             numpy array of shape (n_texts, embedding_dim)
@@ -61,19 +75,47 @@ class E5EmbeddingService:
         if not texts:
             return np.array([])
         
-        # Add E5 prefix
-        prefixed_texts = [f"{prefix}{t}" for t in texts]
+        # Check cache for previously computed embeddings
+        results = []
+        texts_to_encode = []
+        text_indices = []
         
-        # Encode
-        embeddings = self.model.encode(
-            prefixed_texts,
-            batch_size=batch_size,
-            show_progress_bar=show_progress,
-            convert_to_numpy=True,
-            normalize_embeddings=True  # L2 normalize for cosine similarity
-        )
+        for i, text in enumerate(texts):
+            cache_key = f"{prefix}{text}"
+            if use_cache and cache_key in self._cache:
+                results.append((i, self._cache[cache_key]))
+            else:
+                texts_to_encode.append(text)
+                text_indices.append(i)
         
-        return embeddings.astype(np.float32)
+        # Encode uncached texts
+        if texts_to_encode:
+            prefixed_texts = [f"{prefix}{t}" for t in texts_to_encode]
+            
+            new_embeddings = self.model.encode(
+                prefixed_texts,
+                batch_size=batch_size,
+                show_progress_bar=show_progress and len(prefixed_texts) > 10,
+                convert_to_numpy=True,
+                normalize_embeddings=True
+            ).astype(np.float32)
+            
+            # Store in cache and results
+            for j, (idx, text) in enumerate(zip(text_indices, texts_to_encode)):
+                cache_key = f"{prefix}{text}"
+                emb = new_embeddings[j]
+                
+                # Only cache if under size limit
+                if use_cache and len(self._cache) < self._cache_max_size:
+                    self._cache[cache_key] = emb
+                
+                results.append((idx, emb))
+        
+        # Sort by original index and stack
+        results.sort(key=lambda x: x[0])
+        embeddings = np.stack([emb for _, emb in results])
+        
+        return embeddings
     
     def encode_query(self, query: str) -> np.ndarray:
         """Encode a single query text"""

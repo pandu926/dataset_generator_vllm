@@ -168,7 +168,7 @@ class MultiTurnGenerator:
         
         # Call LLM
         if self.engine:
-            formatted_prompt = f"<start_of_turn>user\n{SYSTEM_PROMPT}\n\n{prompt}<end_of_turn>\n<start_of_turn>model\n"
+            formatted_prompt = f"<bos><start_of_turn>user\n{SYSTEM_PROMPT}\n\n{prompt}<end_of_turn>\n<start_of_turn>model\n"
             outputs = self.engine.generate_batch(
                 [formatted_prompt],
                 max_tokens=2048, # Long output for multi-turn
@@ -181,12 +181,34 @@ class MultiTurnGenerator:
 
         # Parse & Validate
         try:
-            # Extract JSON from response (handle markdown blocks)
+            # Extract JSON from response using multiple strategies
             json_str = response
+            
+            # Strategy 1: Look for ```json block
             if "```json" in response:
-                json_str = response.split("```json")[1].split("```")[0]
+                parts = response.split("```json")
+                if len(parts) > 1:
+                    json_part = parts[1].split("```")[0]
+                    json_str = json_part.strip()
+            # Strategy 2: Look for any ``` block
             elif "```" in response:
-                json_str = response.split("```")[0]
+                parts = response.split("```")
+                if len(parts) >= 2:
+                    # Get content between first pair of ```
+                    json_part = parts[1]
+                    # Skip language identifier if present (e.g., "json\n" at start)
+                    lines = json_part.split('\n')
+                    if lines and lines[0].strip().isalpha():
+                        json_str = '\n'.join(lines[1:]).strip()
+                    else:
+                        json_str = json_part.strip()
+            # Strategy 3: Look for [ at start of valid JSON array
+            else:
+                # Find first [ and last ] for array extraction
+                start_idx = response.find('[')
+                end_idx = response.rfind(']')
+                if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+                    json_str = response[start_idx:end_idx + 1]
             
             conversation = json.loads(json_str.strip())
             

@@ -59,7 +59,9 @@ class PipelineLogger:
         
         # File handler (no colors)
         if log_file:
-            os.makedirs(os.path.dirname(log_file), exist_ok=True)
+            log_dir = os.path.dirname(log_file)
+            if log_dir:  # Only makedirs if there's a directory component
+                os.makedirs(log_dir, exist_ok=True)
             file_handler = logging.FileHandler(log_file, encoding='utf-8')
             file_handler.setFormatter(logging.Formatter(
                 '%(asctime)s [%(levelname)s] %(message)s',

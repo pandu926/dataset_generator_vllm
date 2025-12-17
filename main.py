@@ -1,5 +1,5 @@
 """
-Main Script: Synthetic Datset Generator (Pipeline)
+Main Script: Synthetic Dataset Generator (Pipeline)
 Reads raw JSON files -> Retrieves RAG Context -> Generates Multi-turn Conversations
 """
 
@@ -7,8 +7,8 @@ import os
 import glob
 import json
 import random
-import asyncio
 from typing import List, Dict
+from tqdm import tqdm
 
 # Import our custom modules
 from src.llm_multiturn_generator import MultiTurnGenerator
@@ -78,26 +78,41 @@ def load_rag_chunks() -> List[Dict]:
     return chunks
 
 def retrieve_context(seed: Dict, chunks: List[Dict], embed_service, top_k=3) -> str:
-    """Simple semantic retrieval using E5"""
+    """
+    Semantic retrieval using E5 embeddings when available.
+    Falls back to category-based filtering if embed_service is None.
+    """
     query = seed["seed_question"]
     
-    # In a full pipeline, we would embed all chunks once.
-    # For now, if chunks are small, we can simulate or filter by category first
-    # Optimization: Filter chunks by category if possible to speed up
+    # Strategy 1: Use embedding service if available
+    if embed_service is not None:
+        try:
+            # Encode query
+            query_emb = embed_service.encode_query(query)
+            
+            # Get chunk contents and encode them
+            chunk_contents = [c.get("content", "") for c in chunks]
+            if chunk_contents:
+                chunk_embs = embed_service.encode_passages(chunk_contents)
+                
+                # Find top-k similar chunks
+                results = embed_service.find_similar(query_emb, chunk_embs, top_k=top_k, threshold=0.3)
+                
+                if results:
+                    selected_chunks = [chunks[idx] for idx, _ in results]
+                    return "\n\n".join([c.get("content", "") for c in selected_chunks])
+        except Exception as e:
+            print(f"Warning: Embedding retrieval failed, using fallback: {e}")
     
-    # 1. Naive Keyword Match (Fallback if no embedding service ready)
-    # This is temporary. Ideally we use vector search.
-    # For this script, let's assume we pick chunks matching the category
-    
+    # Strategy 2: Fallback - Filter by category then random sample
     relevant_chunks = [c for c in chunks if seed["category"] in c.get("id", "")]
     if not relevant_chunks:
-        relevant_chunks = chunks # Fallback to all if no category match
+        relevant_chunks = chunks  # Fallback to all if no category match
         
     if not relevant_chunks:
         return "Info tidak tersedia."
         
-    # Pick random 3 relevant chunks (Simulation of retrieval)
-    # In production, use vector similarity here.
+    # Pick random chunks from relevant set
     selected = random.sample(relevant_chunks, min(len(relevant_chunks), top_k))
     
     return "\n\n".join([c.get("content", "") for c in selected])
@@ -139,6 +154,12 @@ def main():
     print(f"Target: {target_count} datasets.")
     
     count = 0
+    consecutive_failures = 0
+    MAX_CONSECUTIVE_FAILURES = 10  # Prevent infinite loop
+    
+    # Use tqdm for progress tracking
+    pbar = tqdm(total=target_count, desc="Generating datasets", unit="conv")
+    
     while count < target_count:
         # Pick a seed (cycle through)
         seed = seeds[count % len(seeds)]
@@ -154,10 +175,11 @@ def main():
         }
         
         # Generate
-        print(f"[{count+1}/{target_count}] Generating {seed['category']}...")
+        pbar.set_description(f"Generating {seed['category']}")
         result = generator.generate_conversation(chunk_input)
         
         if result:
+            consecutive_failures = 0  # Reset on success
             # Flatten structure for final JSON
             item = {
                 "instruction": "Multi-turn conversation about UNSIQ", # Metadata
@@ -170,12 +192,21 @@ def main():
             }
             generated_data.append(item)
             count += 1
+            pbar.update(1)  # Update progress bar
             
             # Save intermediate every 50
             if count % 50 == 0:
                 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                     json.dump(generated_data, f, ensure_ascii=False, indent=2)
-                print(f"Saved checkpoint: {count}")
+                tqdm.write(f"Saved checkpoint: {count}")
+        else:
+            consecutive_failures += 1
+            tqdm.write(f"Warning: Generation failed ({consecutive_failures}/{MAX_CONSECUTIVE_FAILURES})")
+            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                tqdm.write("ERROR: Too many consecutive failures. Stopping to prevent infinite loop.")
+                break
+    
+    pbar.close()  # Close progress bar
     
     # Final Save
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:

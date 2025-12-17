@@ -11,6 +11,7 @@ Features:
 
 import os
 import json
+import re
 import asyncio
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
@@ -18,7 +19,9 @@ from datetime import datetime
 
 try:
     from vllm import LLM, SamplingParams
-    from vllm.lora.request import LoRARequest
+    # LoRARequest import path changed in vLLM 0.5+
+    # Old: from vllm.lora.request import LoRARequest
+    # New (if needed): from vllm import LoRARequest
     HAS_VLLM = True
 except ImportError:
     HAS_VLLM = False
@@ -46,9 +49,9 @@ A100_80GB_CONFIG = {
     "max_num_batched_tokens": 16384,  # Large batch for A100
     "max_num_seqs": 256,  # Max concurrent sequences
     
-    # KV Cache optimization
-    "block_size": 16,  # PagedAttention block size
-    "swap_space": 4,  # GB for CPU swap
+    # KV Cache optimization (vLLM 0.5+ compatible)
+    # Note: block_size is deprecated in newer vLLM versions
+    "swap_space_gb": 4,  # GB for CPU swap (renamed from swap_space)
     
     # Generation defaults
     "default_max_tokens": 512,
@@ -113,8 +116,7 @@ class VLLMEngine:
                 tensor_parallel_size=self.config["tensor_parallel_size"],
                 max_num_batched_tokens=self.config.get("max_num_batched_tokens"),
                 max_num_seqs=self.config.get("max_num_seqs"),
-                block_size=self.config.get("block_size", 16),
-                swap_space=self.config.get("swap_space", 4),
+                swap_space=self.config.get("swap_space_gb", 4),  # Use new key name
             )
             self.is_loaded = True
             print("Model loaded successfully!")
@@ -239,8 +241,8 @@ INSTRUKSI: Buat 1 pasangan pertanyaan-jawaban yang AKURAT berdasarkan konteks di
             topic=topic
         )
         
-        # Format for Gemma chat
-        prompt = f"""<start_of_turn>user
+        # Format for Gemma 3 chat (includes <bos> token)
+        prompt = f"""<bos><start_of_turn>user
 {self.GENERATION_SYSTEM_PROMPT}
 
 {user_prompt}<end_of_turn>
@@ -250,7 +252,6 @@ INSTRUKSI: Buat 1 pasangan pertanyaan-jawaban yang AKURAT berdasarkan konteks di
     
     def _parse_generated_output(self, text: str) -> Tuple[Optional[str], Optional[str]]:
         """Parse generated text to extract question and answer."""
-        import re
         
         # Try to find PERTANYAAN/JAWABAN pattern
         q_match = re.search(r'PERTANYAAN:\s*(.+?)(?=JAWABAN:|$)', text, re.DOTALL | re.IGNORECASE)
@@ -406,7 +407,8 @@ Berikan penilaian dalam format JSON."""
             output=pair.get("output", "")
         )
         
-        prompt = f"""<start_of_turn>user
+        # Format for Gemma 3 chat (includes <bos> token)
+        prompt = f"""<bos><start_of_turn>user
 {self.JUDGE_SYSTEM_PROMPT}
 
 {user_prompt}<end_of_turn>
@@ -416,24 +418,51 @@ Berikan penilaian dalam format JSON."""
     
     def _parse_judge_output(self, text: str) -> Optional[Dict]:
         """Parse judge output to extract scores."""
-        import re
         
-        # Try to find JSON in the output
-        json_match = re.search(r'\{[^}]+\}', text, re.DOTALL)
+        # Try to find JSON in the output - use a balanced brace matching approach
+        # First try to find JSON that starts with { and properly closes
+        start_idx = text.find('{')
+        if start_idx == -1:
+            return None
         
-        if json_match:
-            try:
-                scores = json.loads(json_match.group())
-                # Validate required fields
-                required = ["akurasi", "kelengkapan", "kejelasan", "relevansi", "format"]
-                if all(k in scores for k in required):
-                    # Calculate total if not present
-                    if "total" not in scores:
-                        scores["total"] = sum(scores[k] for k in required) / len(required)
-                    return scores
-            except json.JSONDecodeError:
-                pass
+        # Find matching closing brace
+        brace_count = 0
+        end_idx = -1
+        for i in range(start_idx, len(text)):
+            if text[i] == '{':
+                brace_count += 1
+            elif text[i] == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    end_idx = i
+                    break
         
+        if end_idx == -1:
+            # Fallback to simple regex for single-level JSON
+            json_match = re.search(r'\{[^{}]*\}', text, re.DOTALL)
+            if json_match:
+                try:
+                    scores = json.loads(json_match.group())
+                    return self._validate_scores(scores)
+                except json.JSONDecodeError:
+                    return None
+            return None
+        
+        try:
+            json_str = text[start_idx:end_idx + 1]
+            scores = json.loads(json_str)
+            return self._validate_scores(scores)
+        except json.JSONDecodeError:
+            return None
+    
+    def _validate_scores(self, scores: Dict) -> Optional[Dict]:
+        """Validate required fields in scores dict."""
+        required = ["akurasi", "kelengkapan", "kejelasan", "relevansi", "format"]
+        if all(k in scores for k in required):
+            # Calculate total if not present
+            if "total" not in scores:
+                scores["total"] = sum(scores[k] for k in required) / len(required)
+            return scores
         return None
     
     def judge_pairs(self, pairs: List[Dict],
