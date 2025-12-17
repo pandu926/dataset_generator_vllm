@@ -1,0 +1,2207 @@
+[
+  {
+    "kept_id": "profil_0001",
+    "removed_id": "profil_0017",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9333642721176147,
+    "kept_quality": 0.8207729468599034,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0001",
+    "removed_id": "profil_0020",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9425885677337646,
+    "kept_quality": 0.8207729468599034,
+    "removed_quality": 0.6877192982456141
+  },
+  {
+    "kept_id": "profil_0021",
+    "removed_id": "profil_0001",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9282345771789551,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8207729468599034
+  },
+  {
+    "kept_id": "profil_0001",
+    "removed_id": "profil_0055",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9271412491798401,
+    "kept_quality": 0.8207729468599034,
+    "removed_quality": 0.5757575757575758
+  },
+  {
+    "kept_id": "profil_0002",
+    "removed_id": "profil_0021",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9601777195930481,
+    "kept_quality": 1.0,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "profil_0002",
+    "removed_id": "profil_0022",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9444084167480469,
+    "kept_quality": 1.0,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "profil_0002",
+    "removed_id": "profil_0023",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9245948195457458,
+    "kept_quality": 1.0,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "profil_0002",
+    "removed_id": "profil_0029",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9288318753242493,
+    "kept_quality": 1.0,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "profil_0017",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9214553833007812,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0021",
+    "removed_id": "profil_0029",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9256330728530884,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "profil_0029",
+    "removed_id": "profil_0025",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.930741548538208,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "profil_0031",
+    "removed_id": "profil_0030",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9512227773666382,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0030",
+    "removed_id": "profil_0043",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9632173180580139,
+    "kept_quality": 0.4,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0030",
+    "removed_id": "profil_0044",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.920581579208374,
+    "kept_quality": 0.4,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0030",
+    "removed_id": "profil_0045",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9427329301834106,
+    "kept_quality": 0.4,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0030",
+    "removed_id": "profil_0049",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9228127598762512,
+    "kept_quality": 0.4,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0031",
+    "removed_id": "profil_0032",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9329215288162231,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0031",
+    "removed_id": "profil_0043",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9390047788619995,
+    "kept_quality": 0.5,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0031",
+    "removed_id": "profil_0045",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9319517612457275,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0031",
+    "removed_id": "profil_0049",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9203815460205078,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0032",
+    "removed_id": "profil_0040",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9392385482788086,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0032",
+    "removed_id": "profil_0044",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9399402141571045,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0033",
+    "removed_id": "profil_0047",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9437878131866455,
+    "kept_quality": 0.5,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "profil_0034",
+    "removed_id": "profil_0048",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9411747455596924,
+    "kept_quality": 0.2,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0035",
+    "removed_id": "profil_0047",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9250771999359131,
+    "kept_quality": 0.4,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "profil_0035",
+    "removed_id": "profil_0048",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9281396269798279,
+    "kept_quality": 0.4,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0036",
+    "removed_id": "profil_0048",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9328932762145996,
+    "kept_quality": 0.2,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0037",
+    "removed_id": "profil_0046",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9546598196029663,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0038",
+    "removed_id": "profil_0040",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9305788278579712,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0038",
+    "removed_id": "profil_0041",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9207805395126343,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0038",
+    "removed_id": "profil_0049",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.958116888999939,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0039",
+    "removed_id": "profil_0044",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9320898652076721,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "profil_0039",
+    "removed_id": "profil_0046",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9277366399765015,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "profil_0041",
+    "removed_id": "profil_0050",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9353076219558716,
+    "kept_quality": 0.5,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0042",
+    "removed_id": "profil_0048",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9271773099899292,
+    "kept_quality": 0.4,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0045",
+    "removed_id": "profil_0043",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9484241604804993,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0049",
+    "removed_id": "profil_0043",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9254210591316223,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0043",
+    "removed_id": "profil_0050",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9247778058052063,
+    "kept_quality": 0.2,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0044",
+    "removed_id": "profil_0049",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9401785731315613,
+    "kept_quality": 0.4,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "profil_0045",
+    "removed_id": "profil_0050",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9289159774780273,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "profil_0052",
+    "removed_id": "profil_0054",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9223716259002686,
+    "kept_quality": 0.1,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "profil_0053",
+    "removed_id": "profil_0054",
+    "kept_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "removed_source": "Profil_UNSIQ_Jawa_Tengah_Lengkap.md",
+    "similarity": 0.9492051601409912,
+    "kept_quality": 0.1,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "alur_0059",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9222627282142639,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0056",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9305834770202637,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "alur_0062",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9217327833175659,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "alur_0084",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9902169704437256,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "alur_0086",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9316264390945435,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "alur_0092",
+    "removed_id": "alur_0056",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9245727062225342,
+    "kept_quality": 0.743103448275862,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "alur_0114",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9390004873275757,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7324503311258278
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9248852133750916,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "syarat_0252",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9496113657951355,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "alur_0056",
+    "removed_id": "syarat_0261",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9251956939697266,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0291",
+    "removed_id": "alur_0056",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9228801727294922,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0056",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9520323872566223,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0105",
+    "removed_id": "alur_0057",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9246854782104492,
+    "kept_quality": 0.6,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0057",
+    "removed_id": "syarat_0261",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9342867732048035,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0269",
+    "removed_id": "alur_0057",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9429982900619507,
+    "kept_quality": 0.6,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0057",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9210546016693115,
+    "kept_quality": 0.98,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0059",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9512960314750671,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "alur_0059",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.921414852142334,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "alur_0092",
+    "removed_id": "alur_0059",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9823464751243591,
+    "kept_quality": 0.743103448275862,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "alur_0114",
+    "removed_id": "alur_0059",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9236956834793091,
+    "kept_quality": 0.7324503311258278,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "syarat_0262",
+    "removed_id": "alur_0059",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9214322566986084,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7142225497420781
+  },
+  {
+    "kept_id": "alur_0059",
+    "removed_id": "syarat_0270",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9475301504135132,
+    "kept_quality": 0.7142225497420781,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0060",
+    "removed_id": "alur_0061",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9240010976791382,
+    "kept_quality": 0.8757575757575757,
+    "removed_quality": 0.7993377483443709
+  },
+  {
+    "kept_id": "alur_0060",
+    "removed_id": "alur_0098",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9335237741470337,
+    "kept_quality": 0.8757575757575757,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "alur_0060",
+    "removed_id": "syarat_0281",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9312114715576172,
+    "kept_quality": 0.8757575757575757,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0062",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9339046478271484,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0084",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9259084463119507,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0086",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9297988414764404,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0092",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9384628534317017,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.743103448275862
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "alur_0114",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9510072469711304,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.7324503311258278
+  },
+  {
+    "kept_id": "alur_0061",
+    "removed_id": "syarat_0270",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.927738606929779,
+    "kept_quality": 0.7993377483443709,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0061",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9277541637420654,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7993377483443709
+  },
+  {
+    "kept_id": "alur_0086",
+    "removed_id": "alur_0062",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9864658117294312,
+    "kept_quality": 0.6454545454545455,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "alur_0062",
+    "removed_id": "alur_0095",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9287776350975037,
+    "kept_quality": 0.6234741784037559,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "alur_0114",
+    "removed_id": "alur_0062",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9256207346916199,
+    "kept_quality": 0.7324503311258278,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "syarat_0210",
+    "removed_id": "alur_0062",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9222376346588135,
+    "kept_quality": 0.7298701298701298,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "alur_0062",
+    "removed_id": "syarat_0276",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9484216570854187,
+    "kept_quality": 0.6234741784037559,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0062",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9450258016586304,
+    "kept_quality": 0.98,
+    "removed_quality": 0.6234741784037559
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "alur_0086",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9302903413772583,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "alur_0092",
+    "removed_id": "alur_0084",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.92223060131073,
+    "kept_quality": 0.743103448275862,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "alur_0114",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9279348850250244,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7324503311258278
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "alur_0084",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9209737181663513,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9242923259735107,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "syarat_0252",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9542572498321533,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "alur_0084",
+    "removed_id": "syarat_0261",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.926648736000061,
+    "kept_quality": 0.7421940928270042,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0084",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9498206973075867,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7421940928270042
+  },
+  {
+    "kept_id": "alur_0095",
+    "removed_id": "alur_0085",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9225331544876099,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0276",
+    "removed_id": "alur_0085",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9369885921478271,
+    "kept_quality": 0.5,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0282",
+    "removed_id": "alur_0085",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9372085332870483,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "alur_0114",
+    "removed_id": "alur_0086",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9227426052093506,
+    "kept_quality": 0.7324503311258278,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "syarat_0210",
+    "removed_id": "alur_0086",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9218542575836182,
+    "kept_quality": 0.7298701298701298,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "alur_0086",
+    "removed_id": "syarat_0276",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9420768618583679,
+    "kept_quality": 0.6454545454545455,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0086",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9492257833480835,
+    "kept_quality": 0.98,
+    "removed_quality": 0.6454545454545455
+  },
+  {
+    "kept_id": "alur_0088",
+    "removed_id": "alur_0090",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9349756836891174,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0088",
+    "removed_id": "alur_0093",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9344494342803955,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0089",
+    "removed_id": "alur_0111",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.930406928062439,
+    "kept_quality": 0.4,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "alur_0090",
+    "removed_id": "alur_0093",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9611871242523193,
+    "kept_quality": 0.2,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0091",
+    "removed_id": "syarat_0259",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9643174409866333,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "alur_0091",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9458252191543579,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0091",
+    "removed_id": "syarat_0296",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9651535749435425,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0092",
+    "removed_id": "syarat_0270",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9462655782699585,
+    "kept_quality": 0.743103448275862,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0094",
+    "removed_id": "alur_0093",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9290403723716736,
+    "kept_quality": 0.5,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0094",
+    "removed_id": "alur_0096",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9290857315063477,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "alur_0108",
+    "removed_id": "alur_0094",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9248500466346741,
+    "kept_quality": 0.7,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0273",
+    "removed_id": "alur_0094",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.927677571773529,
+    "kept_quality": 0.6,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0094",
+    "removed_id": "syarat_0279",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9328269362449646,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0095",
+    "removed_id": "alur_0104",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9267946481704712,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "syarat_0276",
+    "removed_id": "alur_0095",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9383608102798462,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "alur_0095",
+    "removed_id": "syarat_0282",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9485746622085571,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "alur_0097",
+    "removed_id": "alur_0110",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9272853136062622,
+    "kept_quality": 0.5,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0100",
+    "removed_id": "alur_0098",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9207358956336975,
+    "kept_quality": 0.7,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "alur_0098",
+    "removed_id": "alur_0104",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9229733347892761,
+    "kept_quality": 0.4,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "alur_0101",
+    "removed_id": "alur_0112",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9343136548995972,
+    "kept_quality": 0.8941176470588235,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0101",
+    "removed_id": "syarat_0281",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9517995715141296,
+    "kept_quality": 0.8941176470588235,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0299",
+    "removed_id": "alur_0102",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9239784479141235,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0106",
+    "removed_id": "syarat_0271",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9261038899421692,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0106",
+    "removed_id": "syarat_0294",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9259393215179443,
+    "kept_quality": 0.5,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "alur_0108",
+    "removed_id": "syarat_0273",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9312800168991089,
+    "kept_quality": 0.7,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "alur_0109",
+    "removed_id": "syarat_0210",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9412074089050293,
+    "kept_quality": 0.7678571428571428,
+    "removed_quality": 0.7298701298701298
+  },
+  {
+    "kept_id": "syarat_0285",
+    "removed_id": "alur_0109",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9250056743621826,
+    "kept_quality": 0.8760736196319019,
+    "removed_quality": 0.7678571428571428
+  },
+  {
+    "kept_id": "syarat_0295",
+    "removed_id": "alur_0109",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9795222282409668,
+    "kept_quality": 0.7985074626865671,
+    "removed_quality": 0.7678571428571428
+  },
+  {
+    "kept_id": "syarat_0274",
+    "removed_id": "alur_0110",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9377433657646179,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "syarat_0280",
+    "removed_id": "alur_0110",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9423707127571106,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "alur_0112",
+    "removed_id": "syarat_0259",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9214388132095337,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0112",
+    "removed_id": "syarat_0281",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9289259314537048,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "alur_0112",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9271655678749084,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "alur_0112",
+    "removed_id": "syarat_0296",
+    "kept_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9303926825523376,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "alur_0114",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Alur_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9475951194763184,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7324503311258278
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "beasiswa_0115",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9524320363998413,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8218934911242604
+  },
+  {
+    "kept_id": "beasiswa_0115",
+    "removed_id": "beasiswa_0153",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9622033834457397,
+    "kept_quality": 0.8218934911242604,
+    "removed_quality": 0.7072961373390558
+  },
+  {
+    "kept_id": "beasiswa_0161",
+    "removed_id": "beasiswa_0115",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9256839156150818,
+    "kept_quality": 0.8991452991452991,
+    "removed_quality": 0.8218934911242604
+  },
+  {
+    "kept_id": "beasiswa_0115",
+    "removed_id": "beasiswa_0166",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9293190240859985,
+    "kept_quality": 0.8218934911242604,
+    "removed_quality": 0.7252252252252251
+  },
+  {
+    "kept_id": "beasiswa_0115",
+    "removed_id": "syarat_0252",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9217157959938049,
+    "kept_quality": 0.8218934911242604,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "beasiswa_0154",
+    "removed_id": "beasiswa_0116",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9308115243911743,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.6534562211981567
+  },
+  {
+    "kept_id": "beasiswa_0155",
+    "removed_id": "beasiswa_0116",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.933480978012085,
+    "kept_quality": 0.7083333333333333,
+    "removed_quality": 0.6534562211981567
+  },
+  {
+    "kept_id": "beasiswa_0156",
+    "removed_id": "beasiswa_0116",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9278510808944702,
+    "kept_quality": 0.7,
+    "removed_quality": 0.6534562211981567
+  },
+  {
+    "kept_id": "beasiswa_0157",
+    "removed_id": "beasiswa_0116",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.92963707447052,
+    "kept_quality": 0.8,
+    "removed_quality": 0.6534562211981567
+  },
+  {
+    "kept_id": "beasiswa_0116",
+    "removed_id": "beasiswa_0158",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9204029440879822,
+    "kept_quality": 0.6534562211981567,
+    "removed_quality": 0.548076923076923
+  },
+  {
+    "kept_id": "beasiswa_0160",
+    "removed_id": "beasiswa_0117",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9398871064186096,
+    "kept_quality": 0.8648351648351649,
+    "removed_quality": 0.8504816955684007
+  },
+  {
+    "kept_id": "beasiswa_0161",
+    "removed_id": "beasiswa_0117",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9533781409263611,
+    "kept_quality": 0.8991452991452991,
+    "removed_quality": 0.8504816955684007
+  },
+  {
+    "kept_id": "beasiswa_0118",
+    "removed_id": "beasiswa_0163",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9537895321846008,
+    "kept_quality": 0.9520912547528517,
+    "removed_quality": 0.8315789473684211
+  },
+  {
+    "kept_id": "beasiswa_0118",
+    "removed_id": "syarat_0290",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9243539571762085,
+    "kept_quality": 0.9520912547528517,
+    "removed_quality": 0.8459016393442622
+  },
+  {
+    "kept_id": "beasiswa_0118",
+    "removed_id": "syarat_0291",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9259482622146606,
+    "kept_quality": 0.9520912547528517,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "beasiswa_0118",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9231280088424683,
+    "kept_quality": 0.98,
+    "removed_quality": 0.9520912547528517
+  },
+  {
+    "kept_id": "beasiswa_0119",
+    "removed_id": "beasiswa_0161",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9214555025100708,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8991452991452991
+  },
+  {
+    "kept_id": "beasiswa_0119",
+    "removed_id": "beasiswa_0164",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9465638399124146,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "beasiswa_0119",
+    "removed_id": "beasiswa_0165",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9772958755493164,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "beasiswa_0119",
+    "removed_id": "beasiswa_0166",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9287811517715454,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7252252252252251
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "beasiswa_0166",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9276443123817444,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7252252252252251
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "beasiswa_0177",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9375277757644653,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7041666666666666
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9273067712783813,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "beasiswa_0152",
+    "removed_id": "syarat_0252",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9535055756568909,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "beasiswa_0161",
+    "removed_id": "beasiswa_0153",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.921210765838623,
+    "kept_quality": 0.8991452991452991,
+    "removed_quality": 0.7072961373390558
+  },
+  {
+    "kept_id": "beasiswa_0166",
+    "removed_id": "beasiswa_0153",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9231083393096924,
+    "kept_quality": 0.7252252252252251,
+    "removed_quality": 0.7072961373390558
+  },
+  {
+    "kept_id": "beasiswa_0154",
+    "removed_id": "beasiswa_0155",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9455736875534058,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7083333333333333
+  },
+  {
+    "kept_id": "beasiswa_0154",
+    "removed_id": "beasiswa_0156",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9523019790649414,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7
+  },
+  {
+    "kept_id": "beasiswa_0154",
+    "removed_id": "beasiswa_0157",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9554629325866699,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "beasiswa_0155",
+    "removed_id": "beasiswa_0156",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9840975999832153,
+    "kept_quality": 0.7083333333333333,
+    "removed_quality": 0.7
+  },
+  {
+    "kept_id": "beasiswa_0157",
+    "removed_id": "beasiswa_0155",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9800768494606018,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7083333333333333
+  },
+  {
+    "kept_id": "beasiswa_0155",
+    "removed_id": "beasiswa_0173",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9292293787002563,
+    "kept_quality": 0.7083333333333333,
+    "removed_quality": 0.6351351351351351
+  },
+  {
+    "kept_id": "beasiswa_0157",
+    "removed_id": "beasiswa_0156",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9911290407180786,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7
+  },
+  {
+    "kept_id": "beasiswa_0159",
+    "removed_id": "beasiswa_0158",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9213717579841614,
+    "kept_quality": 0.7531645569620253,
+    "removed_quality": 0.548076923076923
+  },
+  {
+    "kept_id": "beasiswa_0161",
+    "removed_id": "beasiswa_0166",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9212358593940735,
+    "kept_quality": 0.8991452991452991,
+    "removed_quality": 0.7252252252252251
+  },
+  {
+    "kept_id": "beasiswa_0164",
+    "removed_id": "beasiswa_0165",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9479994773864746,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "beasiswa_0165",
+    "removed_id": "beasiswa_0166",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9239134788513184,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7252252252252251
+  },
+  {
+    "kept_id": "beasiswa_0166",
+    "removed_id": "beasiswa_0167",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9462653398513794,
+    "kept_quality": 0.7252252252252251,
+    "removed_quality": 0.653061224489796
+  },
+  {
+    "kept_id": "syarat_0300",
+    "removed_id": "beasiswa_0168",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "similarity": 0.9356982707977295,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7
+  },
+  {
+    "kept_id": "beasiswa_0174",
+    "removed_id": "syarat_0279",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9222682118415833,
+    "kept_quality": 0.6980392156862745,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "beasiswa_0176",
+    "removed_id": "fasilitas_0208",
+    "kept_source": "Beasiswa_UNSIQ_D3_S1_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9247376918792725,
+    "kept_quality": 0.5,
+    "removed_quality": 0.2
+  },
+  {
+    "kept_id": "fasilitas_0196",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.926564633846283,
+    "kept_quality": 0.7234567901234568,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0252",
+    "removed_id": "fasilitas_0195",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9335174560546875,
+    "kept_quality": 0.7204819277108434,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "fasilitas_0207",
+    "removed_id": "fasilitas_0196",
+    "kept_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.924181342124939,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7234567901234568
+  },
+  {
+    "kept_id": "fasilitas_0196",
+    "removed_id": "fasilitas_0209",
+    "kept_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9203481078147888,
+    "kept_quality": 0.7234567901234568,
+    "removed_quality": 0.662111801242236
+  },
+  {
+    "kept_id": "fasilitas_0202",
+    "removed_id": "fasilitas_0203",
+    "kept_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9459284543991089,
+    "kept_quality": 0.8369863013698631,
+    "removed_quality": 0.7941747572815534
+  },
+  {
+    "kept_id": "fasilitas_0204",
+    "removed_id": "fasilitas_0209",
+    "kept_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "removed_source": "Fasilitas_UNSIQ_Lengkap.md",
+    "similarity": 0.9244140386581421,
+    "kept_quality": 0.7213675213675214,
+    "removed_quality": 0.662111801242236
+  },
+  {
+    "kept_id": "syarat_0210",
+    "removed_id": "syarat_0294",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9396023154258728,
+    "kept_quality": 0.7298701298701298,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0295",
+    "removed_id": "syarat_0210",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9543271660804749,
+    "kept_quality": 0.7985074626865671,
+    "removed_quality": 0.7298701298701298
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0210",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9291843175888062,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7298701298701298
+  },
+  {
+    "kept_id": "syarat_0211",
+    "removed_id": "syarat_0297",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9629979729652405,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7
+  },
+  {
+    "kept_id": "syarat_0252",
+    "removed_id": "syarat_0261",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9226475358009338,
+    "kept_quality": 0.7204819277108434,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0289",
+    "removed_id": "syarat_0252",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9310775399208069,
+    "kept_quality": 0.7912621359223302,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0252",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.944247305393219,
+    "kept_quality": 0.98,
+    "removed_quality": 0.7204819277108434
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0254",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9870659708976746,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0255",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.989251971244812,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0256",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9593278169631958,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0257",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9518841505050659,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0258",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9560407400131226,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0283",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9333091974258423,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0253",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.939409613609314,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0255",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.995712161064148,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0256",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.963701605796814,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0257",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9688827991485596,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0258",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9698214530944824,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0281",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9213155508041382,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0283",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9372146129608154,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0254",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9348158836364746,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0256",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9549463987350464,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0257",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9586328864097595,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0258",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.965984046459198,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0281",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9204813241958618,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0283",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9386050701141357,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0255",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9381762742996216,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0256",
+    "removed_id": "syarat_0257",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9937008619308472,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0256",
+    "removed_id": "syarat_0258",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9898119568824768,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0256",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9246981739997864,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0257",
+    "removed_id": "syarat_0258",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9962069988250732,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0258",
+    "removed_id": "syarat_0283",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9221725463867188,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0258",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9212976694107056,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "syarat_0259",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9458043575286865,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0259",
+    "removed_id": "syarat_0296",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9643071293830872,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0262",
+    "removed_id": "syarat_0260",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9556889533996582,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "syarat_0260",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9217329025268555,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0269",
+    "removed_id": "syarat_0261",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9652926921844482,
+    "kept_quality": 0.6,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0261",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9332845211029053,
+    "kept_quality": 0.98,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0262",
+    "removed_id": "syarat_0270",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9506147503852844,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0262",
+    "removed_id": "syarat_0275",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9220528602600098,
+    "kept_quality": 0.7999999999999999,
+    "removed_quality": 0.7612903225806451
+  },
+  {
+    "kept_id": "syarat_0271",
+    "removed_id": "syarat_0263",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9656611680984497,
+    "kept_quality": 0.5,
+    "removed_quality": 0.4
+  },
+  {
+    "kept_id": "syarat_0264",
+    "removed_id": "syarat_0272",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9226813316345215,
+    "kept_quality": 1.0,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0264",
+    "removed_id": "syarat_0298",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9342117309570312,
+    "kept_quality": 1.0,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0269",
+    "removed_id": "syarat_0271",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9217246770858765,
+    "kept_quality": 0.6,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0269",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9283374547958374,
+    "kept_quality": 0.98,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0273",
+    "removed_id": "syarat_0279",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9394904971122742,
+    "kept_quality": 0.6,
+    "removed_quality": 0.5
+  },
+  {
+    "kept_id": "syarat_0274",
+    "removed_id": "syarat_0280",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.946107804775238,
+    "kept_quality": 0.30000000000000004,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "syarat_0275",
+    "removed_id": "syarat_0281",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9317772388458252,
+    "kept_quality": 0.7612903225806451,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0276",
+    "removed_id": "syarat_0282",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.923654317855835,
+    "kept_quality": 0.5,
+    "removed_quality": 0.30000000000000004
+  },
+  {
+    "kept_id": "syarat_0299",
+    "removed_id": "syarat_0281",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9229429960250854,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.6
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "syarat_0296",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9475547671318054,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.7999999999999999
+  },
+  {
+    "kept_id": "syarat_0283",
+    "removed_id": "syarat_0299",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9343075752258301,
+    "kept_quality": 0.8999999999999999,
+    "removed_quality": 0.8999999999999999
+  },
+  {
+    "kept_id": "syarat_0284",
+    "removed_id": "syarat_0287",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9318112134933472,
+    "kept_quality": 0.5,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0285",
+    "removed_id": "syarat_0290",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9381480813026428,
+    "kept_quality": 0.8760736196319019,
+    "removed_quality": 0.8459016393442622
+  },
+  {
+    "kept_id": "syarat_0285",
+    "removed_id": "syarat_0291",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9384686350822449,
+    "kept_quality": 0.8760736196319019,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "syarat_0285",
+    "removed_id": "syarat_0295",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.931862473487854,
+    "kept_quality": 0.8760736196319019,
+    "removed_quality": 0.7985074626865671
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0285",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9223440885543823,
+    "kept_quality": 0.98,
+    "removed_quality": 0.8760736196319019
+  },
+  {
+    "kept_id": "syarat_0286",
+    "removed_id": "syarat_0287",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9411084651947021,
+    "kept_quality": 0.8,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0288",
+    "removed_id": "syarat_0287",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.920484185218811,
+    "kept_quality": 0.6,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0289",
+    "removed_id": "syarat_0287",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9203648567199707,
+    "kept_quality": 0.7912621359223302,
+    "removed_quality": 0.1
+  },
+  {
+    "kept_id": "syarat_0290",
+    "removed_id": "syarat_0289",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9205271005630493,
+    "kept_quality": 0.8459016393442622,
+    "removed_quality": 0.7912621359223302
+  },
+  {
+    "kept_id": "syarat_0291",
+    "removed_id": "syarat_0289",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.921799898147583,
+    "kept_quality": 0.8,
+    "removed_quality": 0.7912621359223302
+  },
+  {
+    "kept_id": "syarat_0290",
+    "removed_id": "syarat_0291",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9914863705635071,
+    "kept_quality": 0.8459016393442622,
+    "removed_quality": 0.8
+  },
+  {
+    "kept_id": "syarat_0290",
+    "removed_id": "syarat_0292",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9361079931259155,
+    "kept_quality": 0.8459016393442622,
+    "removed_quality": 0.4793650793650793
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0290",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9227308034896851,
+    "kept_quality": 0.98,
+    "removed_quality": 0.8459016393442622
+  },
+  {
+    "kept_id": "syarat_0291",
+    "removed_id": "syarat_0292",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9320888519287109,
+    "kept_quality": 0.8,
+    "removed_quality": 0.4793650793650793
+  },
+  {
+    "kept_id": "syarat_0302",
+    "removed_id": "syarat_0291",
+    "kept_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "removed_source": "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md",
+    "similarity": 0.9264129400253296,
+    "kept_quality": 0.98,
+    "removed_quality": 0.8
+  }
+]

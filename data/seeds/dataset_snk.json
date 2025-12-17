@@ -1,0 +1,434 @@
+[
+  {
+    "Q": "Bagaimana proses pendaftaran calon mahasiswa baru jenjang D3 dan S1 di UNSIQ?",
+    "A": "Proses dimulai dengan mengisi formulir online dan menyimpan nomor pendaftaran serta PIN. Selanjutnya, calon mahasiswa harus membayar biaya pendaftaran sesuai gelombang melalui Bank Jateng atau Finpay menggunakan nomor pendaftaran—bukan nomor rekening. Setelah itu, mereka login untuk mengisi biodata, mengunggah dokumen, lalu menunggu verifikasi selama maksimal 2x24 jam. Jika lolos, calon mahasiswa mengikuti placement test online sebelum batas akhir gelombang, lalu membayar angsuran pertama dan melakukan reservasi NIM untuk resmi menjadi mahasiswa."
+  },
+  {
+    "Q": "Mengapa calon mahasiswa harus menyimpan nomor pendaftaran dan PIN setelah mengisi formulir online?",
+    "A": "Nomor pendaftaran dan PIN berfungsi sebagai identitas digital calon mahasiswa selama proses seleksi. Tanpa keduanya, calon tidak bisa login untuk mengisi biodata, mengunggah dokumen, atau mengakses sistem ujian. Selain itu, pembayaran biaya pendaftaran dan angsuran pertama juga menggunakan nomor pendaftaran, bukan nomor rekening. Jika data ini hilang, calon kesulitan melacak status pendaftaran atau diverifikasi oleh sistem. Oleh karena itu, penyimpanan yang aman sangat penting agar proses administratif berjalan lancar tanpa hambatan teknis atau administratif yang mengganggu kelulusan seleksi."
+  },
+  {
+    "Q": "Apa dampak jika calon mahasiswa tidak mengikuti placement test sebelum batas akhir gelombang?",
+    "A": "Jika calon mahasiswa tidak mengikuti placement test sebelum batas akhir gelombang pendaftarannya, maka proses seleksi dianggap tidak lengkap. Meskipun telah membayar dan mengunggah dokumen, tanpa hasil placement test, calon tidak bisa melanjutkan ke tahap pembayaran angsuran pertama. Akibatnya, hak untuk mendapatkan NIM dan status mahasiswa aktif hangus. Mereka harus mendaftar ulang di gelombang berikutnya—jika masih dibuka—dan membayar biaya pendaftaran lagi. Ini berpotensi memperlambat masa studi dan menambah beban biaya, sehingga ketepatan waktu sangat krusial dalam proses penerimaan."
+  },
+  {
+    "Q": "Bagaimana calon mahasiswa dari lulusan 2025 bisa memenuhi persyaratan dokumen jika SKL belum terbit?",
+    "A": "Calon mahasiswa lulusan 2025 yang belum menerima Surat Keterangan Lulus (SKL) dapat menggantinya dengan surat keterangan aktif dari sekolah. Surat ini berfungsi sebagai bukti bahwa calon masih aktif menempuh pendidikan dan akan lulus sesuai jadwal. Meski demikian, mereka tetap wajib melengkapi dokumen lain seperti kartu keluarga dan foto formal. Namun, jika hingga batas akhir verifikasi SKL belum tersedia tanpa surat pengganti, dokumen dianggap tidak lengkap dan verifikasi ditolak. Oleh karena itu, surat aktif menjadi solusi sementara yang sah selama masa transisi administratif kelulusan."
+  },
+  {
+    "Q": "Mengapa pembayaran biaya pendaftaran tidak menggunakan nomor rekening melainkan nomor pendaftaran?",
+    "A": "Penggunaan nomor pendaftaran—bukan nomor rekening—memastikan pembayaran langsung terhubung dengan identitas unik calon mahasiswa dalam sistem. Ini mencegah kesalahan alokasi dana, seperti pembayaran tertukar antar calon atau tertunda karena data tidak cocok. Sistem otomatis akan mencocokkan nomor pendaftaran dengan akun pendaftar, sehingga verifikasi cepat dan akurat. Jika menggunakan nomor rekening, risiko kesalahan teknis atau administratif meningkat, terutama jika rekening berubah atau digunakan bersama. Mekanisme ini juga mempermudah pelacakan status pembayaran tanpa campur tangan manual, meningkatkan efisiensi dan transparansi proses penerimaan."
+  },
+  {
+    "Q": "Apa konsekuensi jika calon mahasiswa Fakultas Ilmu Kesehatan tidak memenuhi syarat tinggi badan minimal?",
+    "A": "Jika calon mahasiswa Fakultas Ilmu Kesehatan tidak memenuhi tinggi badan minimal—155 cm untuk laki-laki atau 150 cm untuk perempuan—maka pendaftarannya tidak akan diverifikasi, terlepas dari kelengkapan dokumen lain. Persyaratan ini bersifat mutlak karena terkait dengan kompetensi profesional, seperti kemampuan menjangkau peralatan medis atau menjaga postur saat merawat pasien. Meski calon lulus placement test, ketidaksesuaian fisik ini dianggap menghambat kinerja klinis. Oleh karena itu, penting bagi calon untuk memastikan kelayakan fisik sebelum mendaftar agar tidak membuang waktu, biaya, dan energi dalam proses yang pada akhirnya tidak membuahkan status mahasiswa."
+  },
+  {
+    "Q": "Bagaimana alur verifikasi dokumen calon mahasiswa setelah mengunggah persyaratan?",
+    "A": "Setelah calon mengunggah dokumen seperti ijazah, KK, foto, dan surat kesehatan (jika diperlukan), sistem memulai proses verifikasi maksimal dalam 2x24 jam. Tim administrasi memeriksa kelengkapan, keaslian, dan kesesuaian format file. Jika dokumen tidak sesuai—misalnya foto tidak formal atau surat kesehatan tidak mencantumkan tes buta warna—verifikasi ditolak dan calon diberi kesempatan memperbaiki. Namun, jika perbaikan melewati batas waktu gelombang, calon kehilangan hak seleksi. Proses ini dirancang agar hanya calon yang benar-benar memenuhi standar administratif dan teknis yang melanjutkan ke ujian dan registrasi, menjaga kualitas dan integritas penerimaan."
+  },
+  {
+    "Q": "Mengapa calon mahasiswa Keperawatan S1 kelas karyawan harus sudah lulus D3 Keperawatan terlebih dahulu?",
+    "A": "Persyaratan ini muncul karena program S1 Keperawatan kelas karyawan dirancang sebagai lanjutan akademik bagi tenaga keperawatan yang sudah memiliki kompetensi dasar. D3 Keperawatan memberikan fondasi praktik dan teori yang dibutuhkan untuk memahami kurikulum S1 yang lebih analitis dan manajerial. Tanpa latar belakang D3, calon tidak memiliki bekal pengalaman klinis atau pengetahuan teknis yang memadai, sehingga kesulitan mengikuti pembelajaran. Selain itu, kelas karyawan biasanya memadatkan materi dengan asumsi mahasiswa telah menguasai dasar profesi. Oleh karena itu, syarat ini menjaga relevansi, efisiensi, dan kualitas lulusan program tersebut."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon mahasiswa tidak membayar angsuran pertama sebelum batas akhir gelombang?",
+    "A": "Jika calon mahasiswa tidak membayar angsuran pertama sebesar Rp745.000 sebelum batas akhir gelombang, maka hak untuk mendapatkan NIM dan status mahasiswa hangus. Meski telah lulus placement test dan diverifikasi, mereka dianggap mengundurkan diri secara otomatis. Calon tidak bisa melanjutkan ke tahap reservasi NIM, sehingga tidak resmi terdaftar sebagai mahasiswa UNSIQ. Mereka harus mendaftar ulang di gelombang berikutnya dengan biaya pendaftaran baru (kecuali gelombang 1). Ini menunjukkan bahwa kewajiban finansial awal bersifat mengikat dan menjadi penentu finalisasi status akademik."
+  },
+  {
+    "Q": "Mengapa surat keterangan sehat dari fasilitas kesehatan wajib bagi calon Fakultas Ilmu Kesehatan?",
+    "A": "Surat keterangan sehat tidak hanya membuktikan kondisi fisik layak, tetapi juga mencakup komponen spesifik seperti tinggi badan, berat badan, dan hasil tes buta warna—terutama untuk laki-laki. Dalam bidang kesehatan, ketajaman penglihatan warna sangat krusial, misalnya saat membaca label obat atau mengidentifikasi perubahan warna kulit pasien. Fasilitas kesehatan pratama seperti puskesmas dianggap memadai karena memiliki standar pemeriksaan dasar yang diakui. Tanpa surat ini, calon dianggap tidak memenuhi standar kompetensi fisik profesi, sehingga tidak layak melanjutkan ke jenjang yang menuntut ketepatan persepsi visual dan stamina fisik."
+  },
+  {
+    "Q": "Bagaimana sistem memastikan calon hanya membayar biaya pendaftaran sesuai gelombang yang dipilih?",
+    "A": "Sistem otomatis mengenali tanggal pendaftaran calon dan menetapkan biaya berdasarkan periode gelombang. Jika mendaftar antara 1 November–31 Desember 2024, biaya otomatis nol rupiah; jika antara 1 Januari–30 April 2025, sistem menetapkan Rp250.000. Nomor pendaftaran yang digunakan saat pembayaran terhubung langsung dengan tanggal registrasi awal, sehingga tidak mungkin membayar jumlah yang salah. Jika calon mencoba membayar di luar jendela gelombang, sistem akan menolak atau menyesuaikan biaya. Mekanisme ini mencegah manipulasi biaya dan memastikan keadilan akses berdasarkan komitmen waktu pendaftar."
+  },
+  {
+    "Q": "Apa alasan UNSIQ menetapkan pembayaran angsuran pertama lebih kecil daripada biaya kuliah penuh?",
+    "A": "Strategi ini bertujuan menurunkan hambatan finansial awal dan meningkatkan aksesibilitas pendidikan. Dengan hanya membayar Rp745.000—yang mencakup atribut dan dana kemahasiswaan—calon tidak perlu menyiapkan dana besar sekaligus. Ini memungkinkan keluarga merencanakan pembayaran semester secara bertahap. Selain itu, biaya awal yang ringan mendorong komitmen lebih awal: calon yang serius segera membayar, sementara yang ragu-ragu mungkin mengundurkan diri lebih cepat, sehingga kampus bisa mengisi kuota dengan calon cadangan. Pendekatan ini mencerminkan fleksibilitas keuangan yang pro-mahasiswa tanpa mengorbankan keberlanjutan operasional."
+  },
+  {
+    "Q": "Mengapa format foto calon mahasiswa harus formal dan berukuran 250x350 pixel?",
+    "A": "Format formal (misalnya, tidak memakai pakaian kasual, latar polos, wajah terlihat jelas) mencerminkan profesionalisme awal sebagai calon civitas akademika. Ukuran 250x350 pixel dipilih karena merupakan standar nasional untuk dokumen administratif digital, termasuk KTM dan sistem akademik. Resolusi ini cukup tajam untuk identifikasi wajah namun ringan untuk penyimpanan server. Jika ukuran atau gaya tidak sesuai, sistem mungkin menolak unggahan atau menyebabkan penundaan verifikasi. Dengan demikian, standarisasi ini menjamin konsistensi data, keamanan identitas, dan efisiensi pemrosesan administrasi secara massal."
+  },
+  {
+    "Q": "Bagaimana calon mahasiswa bisa memastikan dokumen yang diunggah diterima sistem tanpa kesalahan?",
+    "A": "Calon harus memastikan setiap file berformat JPG, ukuran tidak melebihi batas sistem, dan konten jelas terbaca. Sebelum mengunggah, mereka bisa memeriksa ulang kelengkapan data dalam dokumen—misalnya, surat kesehatan mencantumkan tinggi badan dan tes buta warna. Setelah unggah, sistem biasanya menampilkan pratinjau; jika tidak muncul, berarti gagal. Calon juga disarankan memantau status verifikasi dalam 2x24 jam. Jika ditolak, sistem biasanya memberi alasan spesifik, sehingga perbaikan bisa dilakukan segera. Proaktif dalam pemeriksaan awal mencegah penundaan yang berujung pada kegagalan pendaftaran."
+  },
+  {
+    "Q": "Mengapa gelombang 1 tidak dikenakan biaya pendaftaran, sedangkan gelombang berikutnya dikenakan?",
+    "A": "Kebijakan ini mendorong pendaftaran dini, yang memberi keuntungan bagi kampus dan calon. Bagi kampus, pendaftaran awal mempermudah perencanaan akademik, alokasi ruang, dan anggaran. Bagi calon, mendaftar lebih awal memberi waktu lebih lama untuk persiapan administratif dan finansial. Gratisnya biaya di gelombang 1 berfungsi sebagai insentif untuk mengisi kuota secepatnya. Sebaliknya, gelombang berikutnya dikenakan biaya karena ketersediaan kuota berkurang dan beban administratif meningkat—misalnya, verifikasi mendekati batas akhir semester. Ini menciptakan keseimbangan antara akses dan efisiensi operasional."
+  },
+  {
+    "Q": "Apa yang membedakan proses pendaftaran gelombang 1, 2, dan 3 selain biaya dan jadwal?",
+    "A": "Selain biaya dan jadwal, perbedaan utama terletak pada urgensi dan fleksibilitas waktu. Gelombang 1 memberi ruang hingga 2 bulan untuk ujian dan pembayaran, memungkinkan persiapan matang. Gelombang 2 dan 3 memiliki jeda lebih pendek antara pendaftaran dan batas akhir ujian, sehingga calon harus lebih cepat menyelesaikan semua tahap. Selain itu, risiko kuota penuh lebih tinggi di gelombang akhir, sehingga peluang diterima menurun. Namun, prosedur inti—formulir, verifikasi, ujian, pembayaran—tetap sama. Perbedaan ini mendorong calon mempertimbangkan kesiapan dan prioritas waktu dalam memilih gelombang."
+  },
+  {
+    "Q": "Mengapa calon mahasiswa laki-laki di Fakultas Ilmu Kesehatan wajib menyertakan hasil tes buta warna?",
+    "A": "Tes buta warna wajib karena profesi kesehatan menuntut kemampuan membedakan warna secara akurat—misalnya, saat membaca strip urine, mengenali sianosis, atau memilih jarum infus berdasarkan kode warna. Laki-laki memiliki risiko buta warna lebih tinggi secara genetik, sehingga pemeriksaan ini menjadi filter awal. Jika calon buta warna, mereka mungkin tidak memenuhi standar kompetensi profesi, terutama di bidang yang sangat visual seperti keperawatan atau analis kesehatan. Surat kesehatan tanpa tes ini dianggap tidak lengkap, dan pendaftaran ditolak. Ini adalah langkah pencegahan untuk menghindari kegagalan akademik atau profesional di kemudian hari."
+  },
+  {
+    "Q": "Bagaimana calon bisa memastikan pembayaran melalui Finpay atau Bank Jateng tercatat di sistem UNSIQ?",
+    "A": "Setelah membayar, calon harus menyimpan bukti transaksi yang mencantumkan nomor pendaftaran. Sistem UNSIQ terintegrasi secara real-time atau semi-real-time dengan gateway pembayaran, sehingga status pembayaran biasanya muncul dalam 1x24 jam. Calon disarankan login kembali ke akun pendaftaran untuk memeriksa status \"biaya pendaftaran\" atau \"angsuran pertama\". Jika belum terverifikasi setelah 24 jam, mereka harus menghubungi layanan administrasi dengan melampirkan bukti bayar. Tanpa konfirmasi ini, calon tidak bisa melanjutkan ke ujian atau reservasi NIM, sehingga proaktif memantau sangat penting."
+  },
+  {
+    "Q": "Mengapa calon mahasiswa harus mengunggah scan Kartu Keluarga asli, bukan fotokopi?",
+    "A": "Scan Kartu Keluarga asli—bukan fotokopi—diperlukan untuk memastikan keaslian dan kejelasan data. Fotokopi berisiko kabur, terpotong, atau dimanipulasi, yang menghambat verifikasi keanggotaan keluarga dan domisili. Data KK digunakan untuk administrasi akademik, beasiswa, dan keadaan darurat. Sistem digital lebih mudah memverifikasi dokumen berwarna dengan hologram atau tanda air asli. Selain itu, banyak layanan pemerintah kini menerima KK digital sebagai standar legal. Dengan demikian, persyaratan ini menjamin validitas data, mencegah kecurangan, dan memenuhi standar administrasi modern yang andal dan transparan."
+  },
+  {
+    "Q": "Apa yang harus dilakukan calon jika lupa PIN/Password setelah pendaftaran awal?",
+    "A": "Jika calon lupa PIN atau password, mereka tidak bisa mengakses akun untuk mengisi biodata atau mengunggah dokumen. Seharusnya, sistem UNSIQ menyediakan fitur \"lupa password\" yang memungkinkan reset melalui email atau nomor HP yang terdaftar saat pendaftaran. Jika tidak tersedia, calon harus menghubungi bagian administrasi penerimaan dengan menyertakan nomor pendaftaran dan identitas diri. Tanpa akses akun, semua proses berhenti—bahkan jika pembayaran sudah dilakukan. Oleh karena itu, pencatatan PIN/password sejak awal sangat krusial, dan sistem idealnya dirancang dengan mekanisme pemulihan yang mudah untuk mencegah kegagalan teknis yang tidak perlu."
+  },
+  {
+    "Q": "Bagaimana calon bisa memanfaatkan masa pendaftaran gelombang 1 secara optimal?",
+    "A": "Calon sebaiknya segera mendaftar di awal November 2024 untuk memperoleh nomor pendaftaran dan PIN. Dengan waktu hingga 31 Desember, mereka bisa mempersiapkan dokumen, menjadwalkan pemeriksaan kesehatan, dan mengikuti placement test tanpa terburu-buru. Mereka juga punya cadangan waktu jika terjadi kendala teknis atau penolakan verifikasi. Selain gratis, gelombang ini memberi keleluasaan mental dan logistik, sehingga mengurangi stres. Dengan demikian, pendaftaran awal bukan hanya soal hemat biaya, tetapi juga strategi manajemen risiko untuk memastikan kelancaran seluruh proses seleksi hingga resmi menjadi mahasiswa."
+  },
+  {
+    "Q": "Mengapa placement test boleh dilakukan kapan saja sebelum batas akhir gelombang?",
+    "A": "Fleksibilitas waktu ujian dirancang untuk mengakomodasi jadwal calon yang beragam—terutama pekerja atau yang tinggal jauh. Dengan akses online, calon bisa memilih waktu paling siap secara mental dan teknis. Namun, menunda ujian hingga mendekati batas akhir berisiko: jika terjadi gangguan internet atau sakit mendadak, calon kehilangan kesempatan. Sistem mungkin juga lebih lambat saat banyak pengguna mengakses bersamaan di hari terakhir. Oleh karena itu, meski diperbolehkan kapan saja, kebijaksanaan terbaik adalah mengikuti ujian segera setelah verifikasi dokumen, agar proses berjalan lancar dan tidak terganggu oleh faktor eksternal di menit-menit akhir."
+  },
+  {
+    "Q": "Apa dampak jika calon mengunggah ijazah yang belum dilegalisir?",
+    "A": "Meski tidak disebutkan secara eksplisit, sistem kemungkinan besar menerima scan ijazah asli (belum legalisir) selama masih dalam masa transisi kelulusan. Namun, jika ijazah tidak jelas, rusak, atau tidak sesuai nama, verifikasi akan ditolak. Di tahap akhir—sebelum wisuda—ijazah legalisir tetap wajib. Jika calon hanya mengandalkan dokumen tidak sah, mereka berisiko diskors saat verifikasi ulang di semester awal. Oleh karena itu, meski sistem awal fleksibel, calon tetap harus menyiapkan dokumen resmi secepatnya. Penggunaan ijazah asli tanpa legalisir hanya berlaku sementara, bukan pengganti permanen."
+  },
+  {
+    "Q": "Bagaimana sistem mencegah calon mendaftar di lebih dari satu gelombang?",
+    "A": "Setiap calon diidentifikasi oleh NIK atau data pribadi unik dalam sistem. Jika mencoba mendaftar ulang di gelombang berikutnya dengan data yang sama, sistem akan mendeteksi duplikasi dan menolak pendaftaran baru. Selain itu, nomor pendaftaran pertama tetap aktif, sehingga pembayaran di gelombang kedua tidak terhubung ke akun baru. Ini mencegah manipulasi—misalnya, mendaftar di gelombang 1 gratis, lalu mundur dan mendaftar lagi di gelombang 2 dengan alasan teknis. Kebijakan ini menjaga integritas kuota dan keadilan bagi calon lain yang memang baru mendaftar di gelombang tersebut."
+  },
+  {
+    "Q": "Mengapa dana muawanah dan kemahasiswaan termasuk dalam angsuran pertama?",
+    "A": "Dana muawanah (gotong royong) dan kemahasiswaan mendukung kegiatan non-akademik seperti organisasi, pelatihan kepemimpinan, dan kegiatan sosial. Dengan memasukkannya di angsuran pertama, kampus memastikan mahasiswa baru langsung terintegrasi dalam kehidupan kampus sejak awal. Ini juga mencegah penundaan partisipasi karena tunggakan dana kemahasiswaan. Selain itu, biaya ini relatif kecil dibanding SPP, sehingga tidak memberatkan. Konsep muawanah mencerminkan nilai kebersamaan dalam budaya pesantren yang mungkin menjadi akar UNSIQ, sehingga penerapannya sejak awal memperkuat identitas institusi."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon lulus placement test tetapi gagal verifikasi dokumen?",
+    "A": "Meski lulus placement test, calon tetap tidak bisa melanjutkan jika dokumen ditolak—misalnya, tinggi badan tidak sesuai atau surat kesehatan tidak lengkap. Placement test hanya mengukur kemampuan akademik, tetapi kelengkapan administratif dan persyaratan fisik bersifat mutlak. Sistem tidak akan membuka akses pembayaran angsuran pertama tanpa verifikasi dokumen tuntas. Dalam kasus ini, calon harus memperbaiki dokumen dan mengajukan ulang verifikasi sebelum batas waktu gelombang. Jika waktu habis, mereka gagal diterima meski secara akademik layak, menunjukkan bahwa aspek non-akademik sama pentingnya dalam seleksi."
+  },
+  {
+    "Q": "Bagaimana calon luar daerah bisa mengakses layanan kesehatan untuk surat keterangan sehat?",
+    "A": "Calon luar daerah bisa memperoleh surat keterangan sehat dari puskesmas, klinik pratama, atau rumah sakit di wilayahnya, selama fasilitas tersebut resmi terdaftar dan mampu melakukan pengukuran tinggi badan, berat badan, dan tes buta warna. Tidak perlu datang ke Jawa Tengah. Surat harus berstempel resmi dan ditandatangani tenaga kesehatan berwenang. Ini menunjukkan bahwa UNSIQ tidak membatasi akses berdasarkan lokasi, selama standar medis terpenuhi. Fleksibilitas ini penting untuk menjaga inklusivitas geografis tanpa mengorbankan kriteria profesionalisme kesehatan."
+  },
+  {
+    "Q": "Mengapa pembayaran angsuran pertama hanya Rp745.000, bukan seluruh biaya semester?",
+    "A": "Strategi ini memisahkan komitmen awal dari pembayaran penuh. Rp745.000 mencakup biaya non-akademik yang segera dibutuhkan—seperti atribut (seragam, ID card) dan dana kemahasiswaan. Biaya akademik (SPP, praktikum) biasanya dibayar setelah NIM diterima dan jadwal kuliah ditetapkan. Ini memberi calon kepastian bahwa mereka hanya membayar penuh setelah benar-benar diterima dan siap kuliah. Selain itu, sistem angsuran meringankan beban ekonomi keluarga, terutama dari latar belakang menengah ke bawah. Ini adalah bentuk kebijakan sosial yang mendukung akses pendidikan tinggi yang adil."
+  },
+  {
+    "Q": "Apa yang membuat gelombang 3 berisiko lebih tinggi dibanding gelombang sebelumnya?",
+    "A": "Gelombang 3 berisiko karena kuota kemungkinan besar sudah hampir penuh, sehingga peluang diterima lebih kecil. Selain itu, batas waktu sangat ketat: pendaftaran hingga 31 Agustus, ujian hingga 31 Agustus, dan pembayaran hingga 7 September—bersamaan dengan awal tahun ajaran. Jika terjadi penundaan, calon mungkin ketinggalan orientasi atau awal kuliah. Risiko teknis (gangguan server, kesalahan unggah) juga lebih berdampak karena waktu perbaikan terbatas. Oleh karena itu, gelombang 3 sebaiknya hanya dipilih jika benar-benar tidak memungkinkan mendaftar lebih awal, bukan sebagai pilihan utama."
+  },
+  {
+    "Q": "Bagaimana calon bisa memastikan surat keterangan aktif dari sekolah diterima sebagai pengganti SKL?",
+    "A": "Surat keterangan aktif harus dikeluarkan oleh pihak sekolah resmi (kepala sekolah atau bagian administrasi), mencantumkan nama lengkap, NISN, dan pernyataan bahwa calon sedang menempuh ujian akhir dan akan lulus tahun 2025. Surat harus berstempel basah dan ditandatangani. Jika hanya keterangan tertulis tanpa stempel atau tidak menyebut kelulusan, sistem mungkin menolaknya. Calon disarankan mengonfirmasi format surat ke pihak UNSIQ terlebih dahulu. Dengan begitu, surat tidak sekadar formalitas, tetapi dokumen legal yang memenuhi standar pengganti SKL dalam masa transisi administratif kelulusan."
+  },
+  {
+    "Q": "Mengapa calon tidak boleh menggunakan rekening pribadi untuk pembayaran pendaftaran?",
+    "A": "Karena sistem tidak mengenali identitas berdasarkan nomor rekening, yang bisa dimiliki banyak orang atau berubah. Sebaliknya, nomor pendaftaran bersifat unik dan langsung terhubung ke data calon dalam database. Jika menggunakan rekening, pembayaran tidak bisa dikaitkan otomatis ke akun, menyebabkan keterlambatan verifikasi atau bahkan kehilangan dana. Ini juga membuka celah penipuan—misalnya, pembayaran dari rekening tidak terkait. Dengan menetapkan nomor pendaftaran sebagai kunci, sistem memastikan akuntabilitas, kecepatan, dan keamanan transaksi, yang esensial dalam proses penerimaan massal."
+  },
+  {
+    "Q": "Apa yang harus dilakukan jika hasil placement test tidak sesuai harapan?",
+    "A": "Placement test di UNSIQ kemungkinan besar bersifat penempatan—bukan seleksi gugur. Artinya, hasilnya menentukan level atau kelas awal (misalnya, remedial Bahasa Inggris), bukan kelulusan. Jadi, calon tetap bisa melanjutkan selama memenuhi persyaratan administratif. Namun, jika ternyata test bersifat selektif dan calon tidak lulus, mereka harus mendaftar ulang di gelombang berikutnya—jika masih ada. Oleh karena itu, penting mempersiapkan diri dengan baik, karena hasil test memengaruhi pengalaman akademik awal, meski tidak selalu menentukan diterima atau tidak."
+  },
+  {
+    "Q": "Mengapa calon dari Fakultas selain Ilmu Kesehatan tidak perlu surat keterangan sehat?",
+    "A": "Karena persyaratan fisik ketat—seperti tinggi badan dan buta warna—spesifik untuk profesi kesehatan yang menuntut interaksi langsung dengan pasien dan alat medis. Fakultas lain (misalnya, ekonomi atau agama) tidak memiliki standar kompetensi fisik yang mengikat. Ini mencerminkan prinsip seleksi berbasis relevansi: persyaratan hanya diberlakukan jika benar-benar menentukan kinerja profesi. Dengan demikian, kebijakan ini adil—tidak membebani calon dengan tes yang tidak relevan dengan bidang studinya, sekaligus menjaga standar kompetensi di bidang yang memang memerlukan kondisi fisik tertentu."
+  },
+  {
+    "Q": "Bagaimana sistem menangani calon yang mengunggah dokumen setelah batas verifikasi?",
+    "A": "Jika dokumen diunggah setelah 2x24 jam sejak pendaftaran atau melewati batas akhir gelombang, sistem otomatis menolaknya. Verifikasi hanya berlaku selama jendela waktu yang ditentukan—tidak ada pengecualian manual kecuali ada pengumuman resmi. Ini mendorong disiplin waktu dan mencegah penumpukan verifikasi di akhir periode. Calon yang terlambat harus mendaftar ulang di gelombang berikutnya. Mekanisme ini penting untuk menjaga ritme administratif kampus, terutama jika jumlah pendaftar sangat besar. Oleh karena itu, manajemen waktu menjadi kunci sukses dalam proses pendaftaran digital."
+  },
+  {
+    "Q": "Apa keuntungan mendaftar di gelombang 1 meskipun biaya gelombang lain terjangkau?",
+    "A": "Selain gratis, gelombang 1 memberi waktu lebih panjang untuk menyelesaikan semua tahap—dari verifikasi hingga pembayaran. Ini mengurangi tekanan dan risiko kesalahan teknis. Calon juga lebih mungkin mendapat kuota penuh, karena belum ada yang diterima. Selain itu, mereka bisa segera mempersiapkan orientasi dan kebutuhan kuliah. Dari sisi psikologis, kepastian diterima lebih awal mengurangi kecemasan. Jadi, meski biaya gelombang 2 dan 3 hanya Rp250.000, nilai waktu, kepastian, dan ruang persiapan di gelombang 1 jauh lebih berharga bagi perencanaan akademik jangka panjang."
+  },
+  {
+    "Q": "Mengapa calon wajib menggunakan file JPG, bukan PDF atau format lain?",
+    "A": "Format JPG dipilih karena ukurannya kecil, kompatibel dengan semua perangkat, dan mudah diproses oleh sistem verifikasi otomatis. PDF terlalu besar dan berisiko mengandung metadata yang mengganggu sistem. Selain itu, foto formal harus berupa gambar, bukan dokumen—sehingga JPG lebih sesuai. Sistem mungkin tidak bisa menampilkan pratinjau atau mengekstrak data dari format lain, menyebabkan penolakan otomatis. Dengan menetapkan satu format, UNSIQ menjamin kecepatan pemrosesan massal dan konsistensi tampilan dokumen, terutama saat dicetak untuk arsip fisik."
+  },
+  {
+    "Q": "Apa yang terjadi setelah calon berhasil reservasi NIM?",
+    "A": "Setelah reservasi NIM, calon resmi menjadi mahasiswa UNSIQ dan mendapatkan akses ke sistem akademik, email kampus, dan informasi orientasi. Mereka wajib melunasi sisa biaya semester sesuai ketentuan dan mengikuti kegiatan pengenalan kampus. NIM juga digunakan untuk semua transaksi akademik—ujian, KHS, hingga wisuda. Jika tidak melanjutkan setelah reservasi, NIM bisa dibatalkan dan kuota diberikan ke calon cadangan. Tahap ini adalah titik balik: dari calon menjadi mahasiswa aktif, sehingga komitmen penuh diperlukan untuk mempertahankan status tersebut."
+  },
+  {
+    "Q": "Mengapa calon S1 Keperawatan kelas karyawan tidak boleh lulusan SMA langsung?",
+    "A": "Karena kelas karyawan dirancang untuk tenaga kerja yang sudah berpengalaman di bidang keperawatan. Lulusan SMA tidak memiliki kompetensi teknis dasar—seperti pemberian injeksi, perawatan luka, atau penggunaan alat medis—yang diasumsikan telah dikuasai oleh lulusan D3. Kurikulum S1 kelas karyawan lebih fokus pada manajemen, penelitian, dan kebijakan, bukan keterampilan klinis dasar. Jika menerima lulusan SMA, kampus harus menyediakan pelatihan dasar tambahan, yang tidak efisien. Oleh karena itu, syarat D3 menjaga relevansi kurikuler dan memastikan kesiapan akademik mahasiswa."
+  },
+  {
+    "Q": "Bagaimana calon bisa memastikan surat keterangan sehat mencakup semua komponen yang diminta?",
+    "A": "Calon harus secara eksplisit meminta petugas kesehatan mencantumkan: (1) tinggi badan, (2) berat badan, (3) pernyataan sehat jasmani-rohani, dan (4) hasil tes buta warna (untuk laki-laki). Banyak surat standar hanya menyatakan “sehat”, tanpa rincian. Oleh karena itu, calon perlu membawa panduan persyaratan UNSIQ saat pemeriksaan. Jika surat tidak lengkap, verifikasi ditolak—meski biaya pemeriksaan sudah dikeluarkan. Proaktif berkomunikasi dengan tenaga kesehatan sejak awal mencegah pemborosan waktu dan uang, serta memastikan dokumen diterima tanpa revisi."
+  },
+  {
+    "Q": "Apa yang membedakan persyaratan pendaftaran Fakultas Ilmu Kesehatan dengan fakultas lain?",
+    "A": "Fakultas Ilmu Kesehatan memiliki persyaratan tambahan yang bersifat fisik dan profesional: tinggi badan minimal, surat keterangan sehat lengkap, dan tes buta warna untuk laki-laki. Fakultas lain tidak memerlukan dokumen-dokumen ini karena bidang studinya tidak menuntut standar fisik ketat. Perbedaan ini mencerminkan kompetensi inti profesi kesehatan—yang mengharuskan interaksi langsung dengan pasien dalam kondisi darurat atau rutin. Dengan demikian, seleksi tidak hanya menilai akademik, tetapi juga kelayakan fisik untuk menjalankan tugas profesi secara aman dan efektif."
+  },
+  {
+    "Q": "Mengapa calon harus menunggu verifikasi sebelum mengikuti placement test?",
+    "A": "Karena placement test hanya tersedia setelah dokumen diverifikasi—sebagai bukti bahwa calon memenuhi syarat administratif dan fisik (jika berlaku). Ini mencegah calon yang tidak memenuhi syarat—misalnya, tinggi badan tidak cukup—membuang waktu mengikuti ujian. Sistem mengunci akses test hingga status verifikasi “lulus”. Alur ini efisien: verifikasi dulu, baru test. Jika dibalik, kampus harus memverifikasi dua kali—setelah test dan setelah dokumen—yang memperlambat proses. Oleh karena itu, urutan ini adalah bentuk optimasi alur seleksi yang logis dan hemat sumber daya."
+  },
+  {
+    "Q": "Apa risiko jika calon menunda pembayaran angsuran pertama hingga hari terakhir?",
+    "A": "Menunda pembayaran hingga hari terakhir (misalnya, 8 Januari 2025) berisiko karena gangguan teknis—seperti gangguan server bank, antrian panjang, atau kesalahan input—bisa menyebabkan pembayaran gagal atau terlambat tercatat. Jika sistem belum memverifikasi pembayaran saat tenggat berakhir, calon kehilangan hak NIM meski uang sudah dikirim. Selain itu, tidak ada jaminan layanan administrasi responsif di hari libur. Dengan membayar lebih awal, calon punya waktu untuk mengatasi kendala dan mengonfirmasi status. Proaktif menghindari risiko yang sebenarnya bisa dicegah dengan perencanaan sederhana."
+  },
+  {
+    "Q": "Mengapa sistem tidak mengizinkan calon mengganti gelombang setelah pendaftaran awal?",
+    "A": "Karena nomor pendaftaran dan biaya langsung dikaitkan dengan periode gelombang saat pertama kali mendaftar. Mengizinkan pergantian gelombang akan mengacaukan alokasi kuota, perhitungan biaya, dan jadwal verifikasi. Misalnya, calon yang mendaftar di gelombang 1 (gratis) lalu ingin pindah ke gelombang 2—apakah harus bayar? Ini menciptakan kompleksitas administratif. Selain itu, kampus perlu kepastian jumlah calon per gelombang untuk perencanaan. Oleh karena itu, kebijakan “sekali daftar, satu gelombang” menjaga stabilitas sistem dan keadilan bagi semua pendaftar yang memilih gelombang sesuai kesiapan mereka."
+  },
+  {
+    "Q": "Bagaimana calon bisa memastikan foto formal memenuhi standar UNSIQ?",
+    "A": "Foto harus memperlihatkan wajah utuh dari dada ke atas, latar belakang polos (putih atau biru muda), ekspresi netral, tanpa senyum lebar atau aksesori mencolok. Pakaian formal—kemeja atau blus berkerah—disarankan. Rambut tidak menutupi wajah, dan tidak memakai kacamata hitam. Ukuran tepat 250x350 pixel, format JPG, dan ukuran file tidak terlalu besar. Calon bisa menggunakan aplikasi editor foto untuk menyesuaikan. Foto yang tidak sesuai berisiko ditolak verifikasi, sehingga pemeriksaan mandiri sebelum unggah sangat penting untuk menghindari penundaan yang tidak perlu."
+  },
+  {
+    "Q": "Apa yang harus dilakukan jika calon lulusan 2025 sudah punya SKL saat mendaftar?",
+    "A": "Calon sebaiknya langsung mengunggah SKL sebagai pengganti ijazah, karena SKL dianggap lebih resmi dan lengkap daripada surat keterangan aktif. SKL biasanya mencantumkan nilai kelulusan dan pernyataan resmi dari sekolah/Dinas Pendidikan. Dengan menggunakan SKL sejak awal, risiko penolakan verifikasi lebih kecil, karena dokumen ini memenuhi standar kelulusan penuh. Calon tetap harus melengkapi dokumen lain seperti KK dan foto. Menggunakan SKL sedini mungkin menunjukkan kesiapan administratif dan mempercepat proses verifikasi tanpa perlu revisi di kemudian hari."
+  },
+  {
+    "Q": "Mengapa calon tidak bisa langsung mendapatkan NIM setelah lulus placement test?",
+    "A": "Karena NIM hanya diberikan setelah semua kewajiban—administratif dan finansial—terpenuhi. Lulus placement test hanya salah satu syarat. Calon juga harus: (1) diverifikasi dokumennya, (2) membayar angsuran pertama, dan (3) melakukan reservasi NIM. Ini mencegah calon yang tidak serius—misalnya, tidak bayar—mendapat nomor mahasiswa. Sistem dirancang bertahap untuk memastikan komitmen penuh sebelum memberikan status resmi. Dengan demikian, NIM bukan sekadar hasil ujian, tetapi simbol finalisasi seluruh proses penerimaan yang holistik."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon membayar biaya pendaftaran di luar masa gelombang?",
+    "A": "Jika calon mencoba membayar di luar jendela gelombang—misalnya, membayar Rp250.000 pada Desember 2024—sistem mungkin menolak transaksi atau menganggapnya sebagai pembayaran tidak sah. Nomor pendaftaran hanya aktif selama gelombang pendaftarannya. Pembayaran di luar periode tidak terhubung ke akun, sehingga tidak memicu verifikasi atau akses test. Calon tetap dianggap belum bayar dan berisiko kehilangan hak seleksi. Oleh karena itu, calon harus memastikan tanggal pendaftaran awal sesuai dengan periode gelombang yang ingin mereka ikuti—karena sistem otomatis mengunci akses di luar jendela tersebut."
+  },
+  {
+    "Q": "Mengapa calon perempuan di Fakultas Ilmu Kesehatan tidak wajib tes buta warna?",
+    "A": "Kebijakan ini kemungkinan didasarkan pada data epidemiologis: prevalensi buta warna pada perempuan jauh lebih rendah karena sifat genetik resesif terkait kromosom X. Meski demikian, dalam praktik klinis, kemampuan membedakan warna tetap penting bagi semua tenaga kesehatan. Namun, karena risiko lebih kecil, universitas mungkin memilih tidak mewajibkannya untuk efisiensi administratif—bukan berarti tidak penting. Jika ada indikasi gangguan penglihatan, calon tetap bisa diminta tes tambahan. Ini adalah keputusan kebijakan yang menyeimbangkan kebutuhan profesi dan realitas biologis populasi."
+  },
+  {
+    "Q": "Bagaimana calon bisa memastikan surat keterangan hasil ujian diterima sistem?",
+    "A": "Surat keterangan hasil ujian—biasanya berisi nilai UN atau ujian sekolah—harus dikeluarkan oleh pihak sekolah resmi, berstempel, dan mencantumkan nama lengkap serta mata pelajaran. Jika belum ada, calon boleh tidak mengunggahnya, tetapi jika tersedia, sebaiknya diunggah untuk melengkapi profil akademik. Sistem tidak menolak pendaftaran hanya karena dokumen ini kosong, tetapi keberadaannya memperkuat kelengkapan data. Pastikan scan jelas dan tidak terpotong. Ini terutama penting jika placement test mempertimbangkan riwayat akademik sebelumnya dalam penempatan kelas."
+  },
+  {
+    "Q": "Apa yang membedakan proses pendaftaran D3 dan S1 dalam informasi yang diberikan?",
+    "A": "Berdasarkan informasi yang tersedia, tidak ada perbedaan prosedur antara D3 dan S1—keduanya mengikuti alur yang sama: formulir online, pembayaran, verifikasi, ujian, dan pembayaran angsuran. Satu-satunya pengecualian adalah untuk S1 Keperawatan kelas karyawan yang mensyaratkan lulusan D3, tetapi ini spesifik program, bukan jenjang. Dengan demikian, sistem penerimaan UNSIQ menyamaratakan prosedur untuk efisiensi, sementara persyaratan khusus hanya berlaku berdasarkan fakultas atau program studi—bukan tingkat pendidikan. Ini menunjukkan desain sistem yang modular dan adil, dengan fleksibilitas di level mikro tanpa mengorbankan standar makro."
+  },
+  {
+    "Q": "Apa langkah pertama dalam proses pendaftaran S2 di UNSIQ?",
+    "A": "Langkah pertama adalah mengisi formulir pendaftaran online melalui menu Formulir Pendaftaran di laman resmi. Setelah pengisian selesai, sistem akan menghasilkan nomor pendaftaran serta PIN/password yang harus disimpan oleh calon mahasiswa, karena akan digunakan untuk login dan tahapan selanjutnya."
+  },
+  {
+    "Q": "Berapa biaya pendaftaran untuk Gelombang 2 dan 3 jenjang S2?",
+    "A": "Biaya pendaftaran untuk Gelombang 2 (1 Januari–30 April 2025) dan Gelombang 3 (1 Mei–31 Agustus 2025) masing-masing sebesar Rp300.000. Berbeda dengan Gelombang 1 yang gratis, calon pendaftar di kedua gelombang ini wajib membayar melalui Bank Jateng atau Finpay menggunakan nomor pendaftaran—bukan nomor rekening—sebagai identifikasi pembayaran."
+  },
+  {
+    "Q": "Kapan batas akhir ujian placement test untuk Gelombang 3?",
+    "A": "Batas akhir ujian placement test untuk Gelombang 3 adalah 31 Agustus 2025. Calon mahasiswa dapat mengikuti ujian tersebut kapan saja selama periode gelombang berlangsung, namun wajib menyelesaikannya sebelum tanggal tersebut agar tetap memenuhi syarat administratif untuk tahap selanjutnya."
+  },
+  {
+    "Q": "Berapa jumlah yang harus dibayarkan sebagai angsuran pertama semester 1?",
+    "A": "Calon mahasiswa wajib membayar Rp1.100.000 sebagai angsuran pertama semester 1, yang mencakup biaya atribut, matrikulasi, serta dana muawanah dan kemahasiswaan. Pembayaran ini berlaku untuk semua gelombang dan merupakan syarat wajib untuk resmi terdaftar dan memperoleh NIM."
+  },
+  {
+    "Q": "Apa dokumen wajib yang harus diunggah oleh calon mahasiswa S2?",
+    "A": "Dokumen wajib meliputi: scan ijazah atau Surat Keterangan Lulus (SKL), surat keterangan hasil ujian (jika tersedia), scan Kartu Keluarga asli, foto berwarna formal ukuran 250×350 pixel, serta—khusus untuk Fakultas Ilmu Kesehatan—surat keterangan sehat dan hasil tes buta warna (untuk laki-laki)."
+  },
+  {
+    "Q": "Mengapa pembayaran pendaftaran harus menggunakan nomor pendaftaran, bukan nomor rekening?",
+    "A": "Menggunakan nomor pendaftaran—bukan nomor rekening—memastikan bahwa setiap pembayaran dapat langsung dikaitkan dengan identitas calon mahasiswa tertentu dalam sistem. Ini menghindari kekeliruan administratif seperti pembayaran ganda, kehilangan data, atau kesalahan alokasi dana, sekaligus mempercepat proses verifikasi otomatis oleh sistem."
+  },
+  {
+    "Q": "Mengapa angsuran pertama wajib dibayar sebelum batas gelombang masing-masing?",
+    "A": "Pembayaran angsuran pertama sebelum batas waktu menunjukkan komitmen calon mahasiswa untuk bergabung dan memungkinkan pihak universitas merencanakan kapasitas kelas, alokasi dosen, serta administrasi akademik. Jika tidak dibayar tepat waktu, calon berisiko kehilangan status pendaftaran dan tidak memperoleh NIM meski telah lulus placement test."
+  },
+  {
+    "Q": "Bagaimana proses verifikasi biodata berlangsung dalam 2×24 jam?",
+    "A": "Setelah dokumen diunggah, tim administrasi Pascasarjana UNSIQ memeriksa kelengkapan dan keabsahan data seperti kesesuaian foto, kejelasan scan ijazah, dan validitas Kartu Keluarga. Dalam 2×24 jam (48 jam kerja), sistem akan memberikan notifikasi apakah verifikasi berhasil atau perlu perbaikan—memastikan efisiensi tanpa penundaan berlebihan."
+  },
+  {
+    "Q": "Mengapa calon wajib mengunggah ijazah atau SKL meski belum lulus?",
+    "A": "Ijazah atau SKL berfungsi sebagai bukti bahwa calon telah menyelesaikan pendidikan sebelumnya—prasyarat mutlak jenjang S2. Bagi lulusan 2025 yang belum menerima SKL, surat keterangan aktif dari institusi pendidikan menjadi pengganti sementara yang menunjukkan status kelulusan yang akan segera dikonfirmasi."
+  },
+  {
+    "Q": "Mengapa foto harus formal dengan ukuran 250×350 pixel?",
+    "A": "Ukuran dan gaya formal foto menjamin konsistensi visual dalam sistem administrasi dan kartu identitas mahasiswa. Foto resmi mencerminkan profesionalisme, sementara ukuran standar memungkinkan integrasi otomatis ke database universitas tanpa distorsi atau penolakan teknis akibat format tidak sesuai."
+  },
+  {
+    "Q": "Mengapa calon diminta login menggunakan nomor pendaftaran dan PIN?",
+    "A": "Kombinasi ini berfungsi sebagai identitas digital unik yang melindungi data pendaftar dari akses tidak sah. Berbeda dengan email atau NIK yang bisa digunakan di banyak platform, nomor pendaftaran + PIN khusus dibuat untuk proses ini, meningkatkan keamanan dan akurasi pelacakan data selama proses seleksi."
+  },
+  {
+    "Q": "Mengapa surat keterangan sehat hanya diwajibkan untuk Fakultas Ilmu Kesehatan?",
+    "A": "Program di Fakultas Ilmu Kesehatan—terutama keperawatan—melibatkan praktik klinis, perawatan pasien, dan tugas fisik yang menuntut kondisi tubuh prima. Surat sehat membuktikan bahwa calon mampu menjalani tuntutan profesi tersebut, termasuk memenuhi standar tinggi badan minimal dan bebas buta warna (untuk laki-laki)."
+  },
+  {
+    "Q": "Apa risiko jika dokumen diunggah setelah batas waktu verifikasi?",
+    "A": "Jika dokumen diunggah terlambat atau tidak lengkap melewati tenggat, sistem mungkin menolak verifikasi, sehingga calon tidak bisa mengikuti placement test atau kehilangan kesempatan di gelombang tersebut. Dalam kasus ekstrem, pendaftaran bisa dibatalkan otomatis, memaksa calon mendaftar ulang di gelombang berikutnya."
+  },
+  {
+    "Q": "Mengapa ujian placement test bisa dilakukan kapan saja sebelum batas akhir?",
+    "A": "Fleksibilitas waktu ujian memungkinkan calon menyesuaikan dengan kesiapan pribadi dan jadwal harian, terutama bagi pekerja atau calon dari luar kota. Namun, sistem tetap menetapkan batas akhir untuk menjaga alur administrasi dan memastikan semua peserta diseleksi dalam kerangka waktu yang terukur dan adil."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon lulusan 2025 belum memiliki SKL saat pendaftaran?",
+    "A": "Calon tetap dapat mendaftar dengan mengunggah surat keterangan aktif dari sekolah sebagai pengganti sementara. Namun, SKL asli harus dilengkapi sebelum proses registrasi akhir (pembayaran angsuran pertama), karena tanpa dokumen tersebut, status kelulusan tidak bisa diverifikasi, sehingga calon tidak memenuhi syarat masuk S2."
+  },
+  {
+    "Q": "Bagaimana jika calon salah mengunggah dokumen, misalnya kartu keluarga tidak jelas?",
+    "A": "Sistem verifikasi kemungkinan besar akan menolak dokumen tersebut dan meminta perbaikan dalam waktu 2×24 jam. Jika tidak segera dikoreksi, proses pendaftaran terhambat, dan calon berisiko melewatkan tenggat ujian atau pembayaran. Oleh karena itu, penting memastikan setiap file jelas, lengkap, dan sesuai format sebelum diunggah."
+  },
+  {
+    "Q": "Apa yang harus dilakukan jika calon tidak lulus placement test?",
+    "A": "Informasi resmi tidak menyebut ulang ujian, tetapi secara implisit, tidak lulus placement test berarti tidak memenuhi syarat akademik untuk masuk program S2. Calon mungkin perlu memperkuat kompetensi dasar, lalu mendaftar ulang di gelombang berikutnya—dengan asumsi kebijakan memungkinkan pengulangan ujian."
+  },
+  {
+    "Q": "Apa konsekuensi jika calon mendaftar di Gelombang 1 tetapi baru bayar angsuran pertama pada Mei 2025?",
+    "A": "Meski mendaftar di Gelombang 1 (gratis), pembayaran angsuran pertama yang melebihi batas 8 Januari 2025 akan dianggap tidak valid. Calon kemungkinan kehilangan hak sebagai mahasiswa gelombang tersebut dan mungkin harus mendaftar ulang di gelombang berikutnya—dengan biaya pendaftaran Rp300.000."
+  },
+  {
+    "Q": "Bagaimana jika calon dari luar FIKES mengunggah surat sehat secara sukarela?",
+    "A": "Meski tidak wajib, mengunggah surat sehat tidak merugikan dan bahkan bisa menunjukkan kesiapan fisik. Namun, sistem hanya memverifikasi dokumen yang diwajibkan. Dokumen tambahan tidak memengaruhi kelulusan administrasi, kecuali universitas memiliki kebijakan khusus—yang tidak disebutkan dalam panduan ini. Fokus tetap pada kelengkapan dokumen wajib."
+  },
+  {
+    "Q": "Apa status uang pendaftaran setelah dibayarkan?",
+    "A": "Uang pendaftaran yang telah dibayarkan tidak dapat dikembalikan dalam bentuk apa pun, bahkan jika calon membatalkan pendaftaran atau gagal seleksi. Ini karena biaya tersebut digunakan untuk administrasi sistem seleksi, termasuk verifikasi data, penyelenggaraan placement test, dan operasional PMB. Kebijakan ini mendorong calon untuk mempertimbangkan keputusan mendaftar secara matang sebelum melakukan pembayaran."
+  },
+  {
+    "Q": "Mengapa uang pendaftaran tidak dikembalikan meski calon tidak lanjut?",
+    "A": "Alasannya adalah biaya tersebut langsung dialokasikan untuk proses administratif non-reversibel seperti alokasi server, SDM verifikasi, dan pengaktifan akun sistem. Pengembalian dana akan membebani sistem keuangan dan membuka celah penyalahgunaan (misal: daftar bayar lalu batalkan berulang). Maka, kebijakan “tidak refund” menjaga integritas dan efisiensi proses seleksi."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon bayar pendaftaran lalu memutuskan tidak ikut seleksi?",
+    "A": "Calon tetap kehilangan seluruh uang pendaftaran dan dianggap mengundurkan diri. Tidak ada pengecualian, karena pembayaran menandai komitmen awal. Jika ingin mendaftar di periode berikutnya, calon harus membayar lagi—meski sebelumnya sudah bayar. Ini berlaku untuk semua gelombang, termasuk yang gratis, karena “gratis” berarti biaya pendaftaran = Rp0, bukan berarti ada biaya yang bisa dikembalikan."
+  },
+  {
+    "Q": "Kapan calon boleh mengganti prodi sendiri tanpa bantuan CS?",
+    "A": "Calon boleh mengganti prodi sendiri melalui menu Biodata → Data Pilihan Jurusan selama belum mengikuti placement test. Fitur ini tersedia setelah login dengan nomor pendaftaran dan PIN. Perubahan langsung tersimpan di sistem dan menjadi acuan untuk ujian seleksi serta penilaian kelulusan."
+  },
+  {
+    "Q": "Mengapa sistem mengizinkan perubahan prodi sebelum placement test?",
+    "A": "Karena placement test sering kali disesuaikan dengan bidang studi (misal: soal S2 Manajemen vs. S2 Pendidikan berbeda). Memungkinkan perubahan sebelum ujian menjamin kesesuaian antara kompetensi yang diuji dan prodi yang dipilih. Ini juga mencegah calon gagal karena salah pilih prodi, sekaligus mengurangi beban administrasi pasca-uji."
+  },
+  {
+    "Q": "Apa yang harus dilakukan jika sudah ujian tapi ingin pindah prodi?",
+    "A": "Calon harus menghubungi layanan CS PMB untuk meminta reset placement test. Setelah reset, sistem akan mengizinkan perubahan prodi melalui menu biodata. Reset ini hanya bisa dilakukan sebelum reservasi NIM, karena setelah NIM diberikan, status calon sudah final sebagai mahasiswa suatu prodi."
+  },
+  {
+    "Q": "Mengapa perlu reset placement test untuk ganti prodi setelah ujian?",
+    "A": "Karena hasil placement test terikat pada prodi awal. Jika tidak di-reset, sistem akan menilai kelulusan berdasarkan prodi lama, sehingga perubahan prodi otomatis tidak valid. Reset menjamin bahwa ujian ulang (dengan soal sesuai prodi baru) dilakukan, menjaga keadilan akademik dan validitas seleksi."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon ganti prodi tanpa reset placement test?",
+    "A": "Sistem akan mengabaikan perubahan dan tetap memproses kelulusan berdasarkan prodi awal. Bahkan jika calon diterima, NIM akan diberikan untuk prodi lama. Jika calon memaksa masuk prodi baru tanpa prosedur, ia berisiko ditolak saat verifikasi administrasi atau tidak bisa mengikuti matrikulasi prodi tujuan."
+  },
+  {
+    "Q": "Berapa persen biaya pendidikan yang dikembalikan jika calon keluar setelah daftar ulang?",
+    "A": "Hanya 25% dari total biaya pendidikan yang dikembalikan. Namun, dana atribut, matrikulasi, muawanah, dan kemahasiswaan tidak dapat dikembalikan, karena sudah dialokasikan untuk keperluan operasional (misal: seragam, modul, kegiatan kampus). Buku mahasiswa tetap bisa diambil sebagai arsip."
+  },
+  {
+    "Q": "Mengapa hanya 25% yang dikembalikan meski calon belum kuliah?",
+    "A": "Karena setelah herregistrasi, universitas telah mengalokasikan sumber daya seperti kuota kelas, jadwal dosen, dan fasilitas. Pengembalian penuh akan merugikan institusi yang telah berkomitmen pada keberadaan calon tersebut. Sisa 75% menutupi biaya tetap yang tidak bisa ditarik kembali, sementara 25% sebagai bentuk pertimbangan etis."
+  },
+  {
+    "Q": "Apa konsekuensi jika calon tidak ikut placement test sesuai jadwal?",
+    "A": "Calon dianggap mengundurkan diri secara otomatis dan kehilangan hak untuk dinyatakan diterima, meski sudah bayar pendaftaran. Tidak ada penjadwalan ulang, kecuali dalam kondisi force majeure yang diverifikasi resmi oleh panitia."
+  },
+  {
+    "Q": "Mengapa tidak ikut seleksi langsung dianggap mengundurkan diri?",
+    "A": "Karena jadwal ujian bersifat final dan sistem telah mengalokasikan slot ujian berdasarkan kapasitas server dan pengawas. Ketidakhadiran tanpa pemberitahuan mengganggu perencanaan teknis dan akademik. Kebijakan ini mendorong disiplin waktu dan komitmen, sekaligus melindungi hak calon lain yang menunggu."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon diterima tapi tidak lakukan herregistrasi?",
+    "A": "Jika calon tidak melakukan herregistrasi (daftar ulang) dan tidak melapor ke bagian registrasi atau data, maka ia dianggap mengundurkan diri. Status kelulusan dibatalkan, dan NIM tidak diberikan—meski sebelumnya lulus placement test."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon diterima tapi tidak lakukan herregistrasi?",
+    "A": "Karena herregistrasi adalah bukti final komitmen finansial dan administratif. Tanpa itu, universitas tidak bisa memastikan kehadiran calon, sehingga kuota dialihkan ke cadangan. Jika tidak ada konfirmasi, sistem menghindari penumpukan “mahasiswa bayangan” yang memblokir akses calon lain."
+  },
+  {
+    "Q": "Mengapa tidak hadir selama satu semester penuh berakibat pengunduran otomatis?",
+    "A": "Karena kehadiran adalah indikator utama komitmen akademik. Izin tidak hadir harus diajukan secara formal. Tanpa itu, universitas tidak bisa membedakan antara mahasiswa yang cuti, lupa, atau memang tidak berniat kuliah. Pengunduran otomatis mencegah penumpukan data mahasiswa tidak aktif yang mengganggu manajemen akademik."
+  },
+  {
+    "Q": "Di mana calon bisa ganti prodi jika belum ujian?",
+    "A": "Di menu Biodata → Data Pilihan Jurusan, setelah login ke sistem PMB. Perubahan langsung berlaku tanpa perlu persetujuan atau biaya tambahan, selama dilakukan sebelum mengklik “mulai ujian” placement test."
+  },
+  {
+    "Q": "Mengapa perubahan prodi bebas biaya sebelum ujian?",
+    "A": "Karena pada tahap ini, belum ada alokasi sumber daya spesifik ke prodi tertentu. Universitas masih dalam fase seleksi umum. Memberikan fleksibilitas tanpa biaya mendorong calon memilih prodi yang paling sesuai, meningkatkan kepuasan dan keberhasilan studi jangka panjang."
+  },
+  {
+    "Q": "Apa langkah pindah prodi setelah ujian tapi sebelum dapat NIM?",
+    "A": "Calon harus menghubungi layanan PMB untuk reset placement test. Setelah reset, sistem membuka kembali akses ubah prodi di menu biodata. Ujian ulang wajib dilakukan sesuai prodi baru."
+  },
+  {
+    "Q": "Apa risiko jika tidak reset placement test sebelum ganti prodi?",
+    "A": "Hasil ujian tetap dikaitkan dengan prodi awal. Jika calon diterima berdasarkan skor prodi lama, tetapi ingin masuk prodi baru, kelulusannya tidak valid. Ia bisa ditolak saat verifikasi akhir atau terpaksa mengulang seleksi di gelombang berikutnya."
+  },
+  {
+    "Q": "Apa syarat pindah prodi setelah dapat NIM?",
+    "A": "Calon harus membuat surat pengajuan pindah prodi ditujukan ke Kepala UPT PMB, membayar biaya Rp200.000, dan menyerahkan surat maksimal 7 hari setelah Studium General. Proses dilakukan offline di gedung UPT PMB."
+  },
+  {
+    "Q": "Mengapa dikenakan biaya dan batas waktu 7 hari?",
+    "A": "Biaya menutupi administrasi ulang NIM, perubahan database, dan koordinasi antar-prodi. Batas 7 hari memastikan perubahan dilakukan sebelum perkuliahan inti dimulai, sehingga tidak mengganggu distribusi modul, jadwal, atau kuota kelas. Setelah itu, sistem akademik sudah “membeku”."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon coba ganti prodi online setelah dapat NIM?",
+    "A": "Sistem akan menolak perubahan. Fitur edit prodi dinonaktifkan otomatis setelah reservasi NIM. Satu-satunya jalan adalah melalui surat resmi dan biaya—jika masih dalam 7 hari pasca-Studium General. Jika lewat, harus menunggu hingga semester berikutnya."
+  },
+  {
+    "Q": "Apa dokumen yang dibutuhkan untuk pindah prodi di semester 2?",
+    "A": "Tiga dokumen: (1) surat permohonan ke Dekan/Ketua Prodi Asal, (2) surat rekomendasi dari Kaprodi Asal, dan (3) konfirmasi persetujuan dari Kaprodi Tujuan sebelum perkuliahan dimulai. Semua diserahkan ke bagian Registrasi di Rektorat."
+  },
+  {
+    "Q": "Mengapa butuh rekomendasi Kaprodi Asal dan persetujuan Kaprodi Baru?",
+    "A": "Karena pindah prodi bukan hanya administratif, tapi juga akademik. Kaprodi asal menilai kinerja dan kesesuaian, sementara kaprodi baru memastikan calon memenuhi prasyarat dan ada kuota. Ini mencegah pindah asal-asalan yang bisa mengganggu kualitas pembelajaran di kedua prodi."
+  },
+  {
+    "Q": "Apa konsekuensi jika pindah prodi tanpa rekomendasi Kaprodi Asal?",
+    "A": "Permohonan ditolak oleh bagian registrasi. Calon tetap terdaftar di prodi lama dan wajib menyelesaikan kewajiban akademik di sana. Jika memaksa tidak kuliah, ia berisiko dianggap mengundurkan diri sesuai ketentuan semester 1."
+  },
+  {
+    "Q": "Berapa dana yang dikembalikan jika mundur sebelum orientasi?",
+    "A": "25% dari total biaya pendidikan dikembalikan. Biaya pendaftaran tidak termasuk, karena memang tidak dikembalikan sejak awal. Dana atribut, matrikulasi, dan muawanah juga tidak dikembalikan."
+  },
+  {
+    "Q": "Mengapa refund hanya 25% meski belum kuliah sama sekali?",
+    "A": "Karena setelah registrasi, biaya sudah dialokasikan untuk persiapan prakuliah (modul, seragam, kegiatan ospek). Pengembalian penuh tidak mungkin karena barang/jasa sudah dipesan. 25% adalah kompromi antara keadilan finansial dan pertimbangan operasional."
+  },
+  {
+    "Q": "Apakah ada pengembalian dana jika mundur setelah kuliah dimulai?",
+    "A": "Tidak ada pengembalian dana pendidikan sama sekali. Seluruh biaya menjadi hak universitas, karena calon telah menggunakan fasilitas akademik (ruang kelas, dosen, sistem LMS, dll)."
+  },
+  {
+    "Q": "Mengapa tidak ada refund sama sekali setelah kuliah dimulai?",
+    "A": "Karena biaya pendidikan bersifat konsumtif sejak hari pertama kuliah. Universitas telah menyediakan layanan yang tidak bisa “dikembalikan” seperti waktu dosen, listrik, server, dan bimbingan. Kebijakan ini juga mencegah penyalahgunaan (misal: coba kuliah 1 minggu lalu mundur minta uang kembali)."
+  },
+  {
+    "Q": "Apakah ada pengecualian pengembalian dana karena keadaan darurat?",
+    "A": "Ya, dalam kasus force majeure (bencana alam, sakit kritis, kematian keluarga inti), calon bisa mengajukan pengembalian dengan pertimbangan khusus dari pimpinan universitas. Tidak otomatis, perlu bukti resmi dan keputusan tertulis."
+  },
+  {
+    "Q": "Mengapa kebijakan force majeure tidak otomatis?",
+    "A": "Karena perlu verifikasi independen untuk membedakan antara keadaan darurat sungguhan dan alasan subjektif. Tim pimpinan menilai berdasarkan bukti (surat dokter, SK kematian, dll) dan dampaknya terhadap kemampuan studi. Ini menjaga keadilan tanpa membuka celah penyalahgunaan."
+  },
+  {
+    "Q": "Apa yang harus dilakukan jika ingin mundur karena sakit berat?",
+    "A": "Ajukan surat pengunduran diri disertai surat keterangan dokter resmi ke bagian registrasi. Tim akan meninjau dan, jika memenuhi kriteria force majeure, bisa memberikan pengembalian parsial atau penuh sesuai kebijakan. Tanpa dokumen, permohonan dianggap mundur biasa → tidak ada refund."
+  },
+  {
+    "Q": "Apa dokumen yang harus disiapkan mahasiswa transfer yang belum lulus dari PT asal?",
+    "A": "Mahasiswa yang belum lulus wajib melampirkan surat keterangan resmi pindah dari perguruan tinggi asal dan Kartu Hasil Studi (KHS) dari semua semester yang telah ditempuh. Dokumen ini menjadi dasar untuk konversi nilai ke dalam kurikulum prodi tujuan di UNSIQ. Tanpa kedua dokumen ini, proses pengakuan mata kuliah tidak dapat dilakukan, karena tidak ada bukti akademik yang sah untuk dievaluasi oleh Kaprodi."
+  },
+  {
+    "Q": "Mengapa proses konversi nilai untuk mahasiswa transfer harus disetujui oleh Ketua Program Studi?",
+    "A": "Karena Ketua Program Studi memiliki otoritas akademik untuk menilai kesetaraan konten, bobot, dan relevansi mata kuliah antara kurikulum lama dan baru. Konversi yang sembarangan bisa menyebabkan ketimpangan kompetensi atau duplikasi mata kuliah. Dengan melibatkan Kaprodi, universitas menjamin bahwa pengakuan pembelajaran lampau (RPL) memenuhi standar kualitas akademik, sekaligus melindungi integritas capaian pembelajaran program studi di UNSIQ."
+  },
+  {
+    "Q": "Apa konsekuensi jika mahasiswa transfer tidak memiliki surat keterangan pindah resmi dari PT asal?",
+    "A": "Tanpa surat pindah resmi, mahasiswa tidak dapat diakui sebagai calon transfer, karena surat tersebut membuktikan bahwa status akademiknya di PT asal telah ditutup secara administratif. Dalam kasus ini, calon mungkin harus mendaftar sebagai mahasiswa baru reguler, bukan jalur transfer, sehingga semua mata kuliah harus diambil ulang—meski pernah ditempuh. Hal ini mengakibatkan pemborosan waktu dan biaya, karena tidak ada pengakuan atas pembelajaran sebelumnya."
+  },
+  {
+    "Q": "Bagaimana alur pendaftaran mahasiswa transfer di UNSIQ?",
+    "A": "Setelah konversi nilai disetujui oleh Ketua Prodi, mahasiswa mendaftar melalui web PMB pada jalur RPL (Rekognisi Pembelajaran Lampau) dengan memilih opsi “Transfer Kredit”. Prosesnya mengikuti alur pendaftaran mahasiswa baru—mulai dari pengisian data, verifikasi dokumen, hingga pembayaran—dan berakhir dengan penerbitan Nomor Induk Mahasiswa (NIM). Ini menunjukkan bahwa meski berstatus transfer, mahasiswa tetap melalui sistem administrasi terpadu yang sama dengan calon baru."
+  },
+  {
+    "Q": "Mengapa UNSIQ menerapkan sistem Rekognisi Pembelajaran Lampau (RPL) untuk mahasiswa transfer?",
+    "A": "RPL adalah kerangka nasional yang mengakui kompetensi dan pembelajaran sebelumnya secara formal, sesuai regulasi Kampus Merdeka. Dengan RPL, UNSIQ memastikan bahwa pengalihan kredit tidak bersifat subjektif, tetapi melalui proses evaluasi berbasis capaian pembelajaran. Ini meningkatkan akuntabilitas akademik, mempercepat penyelesaian studi, dan mendukung mobilitas mahasiswa antar-perguruan tinggi tanpa kehilangan nilai pembelajaran sebelumnya."
+  },
+  {
+    "Q": "Apa langkah mahasiswa transfer setelah jadwal kuliah semester diterbitkan?",
+    "A": "Setelah jadwal kuliah keluar, mahasiswa transfer harus menentukan mata kuliah yang akan diambil di prodi tujuan, berdasarkan hasil konversi nilai dan sisa SKS yang belum terpenuhi. Ini penting karena meski sebagian mata kuliah sudah diakui, ia tetap perlu menyusun rencana studi yang selaras dengan urutan prasyarat dan beban semester. Jika tidak segera memilih, ia berisiko ketinggalan KRS dan tidak terdaftar dalam kelas yang dibutuhkan:"
+  },
+  {
+    "Q": "Bagaimana penyesuaian biaya kuliah untuk mahasiswa transfer di UNSIQ?",
+    "A": "Mahasiswa transfer hanya membayar biaya untuk SKS yang belum dikonversi atau belum ditempuh, dan penyesuaian ini dilakukan di bagian registrasi di rektorat setelah konversi nilai final. Ini adil secara finansial karena mahasiswa tidak membayar dua kali untuk mata kuliah yang sudah lulus. Sistem ini juga mendorong efisiensi—baik bagi mahasiswa (hemat biaya) maupun universitas (alokasi sumber daya lebih tepat)—karena biaya dihitung berdasarkan beban akademik riil, bukan asumsi penuh seperti mahasiswa baru."
+  }
+]

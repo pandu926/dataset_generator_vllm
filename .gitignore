@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated data (will be created during pipeline run)
+data/generation/
+data/filtered/
+data/raw/
+data/final/
+logs/
+
+# Model files (too large for git)
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# Temporary
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local

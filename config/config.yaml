@@ -1,0 +1,213 @@
+# Configuration for PMB UNSIQ Dataset Generation Pipeline
+# Version: 1.0
+# Last Updated: December 13, 2025
+
+# =============================================================================
+# PHASE 1: PREPARATION
+# =============================================================================
+preparation:
+  docs_dir: "./new_dokument_rag"
+  markdown_files:
+    - "Profil_UNSIQ_Jawa_Tengah_Lengkap.md"
+    - "Alur_Pendaftaran_UNSIQ_Lengkap.md"
+    - "Beasiswa_UNSIQ_D3_S1_Lengkap.md"
+    - "Fasilitas_UNSIQ_Lengkap.md"
+    - "Syarat_Ketentuan_Pendaftaran_UNSIQ_Lengkap.md"
+  csv_files:
+    - "biayatotal.csv"
+    - "pmb_jadwal_gelombang.csv"
+    - "pmb_kontak.csv"
+    - "pmb_program_studi.csv"
+  json_files:
+    - "data_singkatan.json"
+
+  chunking:
+    chunk_size: 500 # tokens
+    chunk_overlap: 50
+    min_chunk_size: 100
+
+  embedding:
+    model: "intfloat/multilingual-e5-base"
+    batch_size: 32
+
+# =============================================================================
+# vLLM CONFIGURATION (A100 80GB Optimized)
+# =============================================================================
+vllm:
+  enabled: true # Set to false to use HuggingFace Transformers instead
+
+  # Model settings
+  generation_model: "google/gemma-3-12b-it"
+  judge_model: "google/gemma-3-12b-it" # Can use same model for judging
+  dtype: "bfloat16"
+  trust_remote_code: true
+
+  # A100 80GB Memory settings
+  gpu_memory_utilization: 0.90 # 90% of 80GB = ~72GB available for model
+  max_model_len: 4096 # Maximum sequence length
+
+  # Parallelism (for multi-GPU setups)
+  tensor_parallel_size: 1 # Set to 2 for dual A100 setup
+
+  # Batch settings for maximum throughput
+  max_num_batched_tokens: 16384 # High value for A100 80GB
+  max_num_seqs: 256 # Maximum concurrent sequences
+
+  # PagedAttention settings
+  block_size: 16
+  swap_space: 4 # GB for CPU swap
+
+  # Generation parameters
+  generation:
+    batch_size: 64 # Prompts per batch
+    max_tokens: 512
+    temperature: 0.8
+    top_p: 0.95
+
+  # LLM-as-Judge parameters
+  judge:
+    batch_size: 64
+    max_tokens: 256
+    temperature: 0.1 # Low temperature for consistent scoring
+
+# =============================================================================
+# PHASE 2: GENERATION
+# =============================================================================
+generation:
+  model_name: "google/gemma-3-12b"
+  quantization: "4bit"
+  base_seed: 42
+
+  parameters:
+    num_total_pairs: 7000
+    batch_size: 256
+    temperature: 0.8
+    max_new_tokens: 256
+    top_p: 0.95
+    do_sample: true
+
+  templates:
+    num_templates: 50
+    categories:
+      factual: 10
+      procedural: 12
+      comparative: 8
+      conditional: 10
+      open_ended: 10
+
+  rag:
+    retrieval_method: "semantic"
+    num_retrieved_chunks: 1
+    similarity_threshold: 0.3
+
+  checkpointing:
+    save_every_n_batches: 10
+    checkpoint_dir: "./data/raw/checkpoints"
+
+# =============================================================================
+# PHASE 3: FILTERING & VALIDATION
+# =============================================================================
+filtering:
+  basic_validation:
+    min_instruction_tokens: 30
+    max_instruction_tokens: 200
+    min_output_tokens: 50
+    max_output_tokens: 250
+    max_total_tokens: 512
+
+  bert_score:
+    threshold: 0.78
+    language: "id" # Indonesian
+    model_type: "bert-base-multilingual-cased"
+
+  llm_judge:
+    enabled: true
+    threshold: 3.7 # out of 5
+    model: "google/gemma-2-9b" # or API-based judge
+    criteria:
+      - "factuality"
+      - "clarity"
+      - "relevance"
+      - "length_appropriateness"
+
+  manual_validation:
+    sample_percentage: 0.30
+    ratings:
+      excellent: "e"
+      good: "g"
+      fair: "f"
+      poor: "p"
+
+  score_combination:
+    bert_weight: 0.6
+    judge_weight: 0.4
+    final_threshold: 0.70
+
+# =============================================================================
+# PHASE 4: FINALIZATION
+# =============================================================================
+finalization:
+  target_pairs: 3000
+  quality_threshold: 0.85
+  max_hallucination_rate: 0.05
+
+  deduplication:
+    similarity_threshold: 0.85
+    embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+  distribution:
+    question_length:
+      short_30_50_tokens: 0.25
+      medium_50_150_tokens: 0.50
+      long_150_200_tokens: 0.25
+
+    answer_length:
+      short_50_100_tokens: 0.30
+      medium_100_200_tokens: 0.60
+      long_200_250_tokens: 0.10
+
+    question_types:
+      factual: 0.35
+      procedural: 0.25
+      comparative: 0.15
+      conditional: 0.15
+      open_ended: 0.10
+
+    special:
+      soft_cot_percentage: 0.30
+      short_qa_pairs_percentage: 0.30
+
+# =============================================================================
+# PHASE 5: OUTPUT CONFIGURATION
+# =============================================================================
+output:
+  format: "json" # json or jsonl
+  destination: "./data/final/train.json"
+
+  # Final dataset composition target
+  target_size: 1000
+  composition:
+    synthetic_ratio: 0.5 # 50% synthetic
+    real_ratio: 0.5 # 50% real
+
+# =============================================================================
+# PATHS
+# =============================================================================
+paths:
+  data_dir: "./data"
+  seeds_dir: "./data/seeds"
+  chunks_dir: "./data/chunks"
+  embeddings_dir: "./data/embeddings"
+  raw_dir: "./data/raw"
+  filtered_dir: "./data/filtered"
+  final_dir: "./data/final"
+  logs_dir: "./logs"
+
+# =============================================================================
+# LOGGING
+# =============================================================================
+logging:
+  level: "INFO"
+  log_file: "./logs/pipeline.log"
+  save_all_logs: true
+  format: "%(asctime)s [%(levelname)s] %(message)s"

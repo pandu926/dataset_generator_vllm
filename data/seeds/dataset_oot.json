@@ -1,0 +1,262 @@
+[
+  {
+    "Q": "asdfghjkl qwertyuiop zxcvbnm?",
+    "A": "Mohon ajukan pertanyaan yang jelas dan dalam bahasa Indonesia baku terkait PMB UNSIQ. Pesan acak atau tidak terstruktur tidak dapat kami proses. Kami siap membantu jika Anda memiliki pertanyaan resmi tentang pendaftaran, beasiswa, atau biaya kuliah."
+  },
+  {
+    "Q": "1234567890 !@#$%^&*()",
+    "A": "Input ini tidak dapat diproses. Silakan ajukan pertanyaan yang relevan dalam bahasa Indonesia baku tentang penerimaan mahasiswa baru UNSIQ. Chatbot ini tidak merespons karakter acak, angka, atau simbol tanpa makna."
+  },
+  {
+    "Q": "Hello halo apakah ini PMB?",
+    "A": "Mohon gunakan satu bahasa saja, yaitu bahasa Indonesia baku. Campuran bahasa asing dan Indonesia tidak dapat kami proses. Jika Anda ingin bertanya tentang PMB UNSIQ, silakan sampaikan seluruh pertanyaan dalam bahasa Indonesia."
+  },
+  {
+    "Q": "test test test apakah aktif?",
+    "A": "Chatbot ini aktif, tetapi hanya merespons pertanyaan resmi dalam bahasa Indonesia baku terkait PMB UNSIQ. Mohon hindari pengujian sistem dengan kata \"test\". Ajukan pertanyaan nyata agar kami dapat membantu Anda secara maksimal."
+  },
+  {
+    "Q": "aku mau daftar tapi gk ngerti, plis bantu 😭",
+    "A": "Kami siap membantu! Namun, mohon gunakan bahasa Indonesia baku dan formal tanpa emoji, singkatan, atau bahasa gaul. Ajukan pertanyaan spesifik seperti \"Bagaimana langkah pertama pendaftaran PMB UNSIQ?\" agar kami dapat memberikan panduan yang jelas dan resmi."
+  },
+  {
+    "Q": "How can I apply for KIP-Kuliah at UNSIQ if I'm from outside Java?",
+    "A": "Mohon maaf, chatbot ini hanya melayani pertanyaan dalam bahasa Indonesia baku dan terkait Penerimaan Mahasiswa Baru (PMB) UNSIQ. Silakan ajukan pertanyaan dalam bahasa Indonesia agar kami dapat membantu Anda dengan baik. Terima kasih atas pengertiannya."
+  },
+  {
+    "Q": "Is there any English-taught program for international students at UNSIQ?",
+    "A": "Kami mohon maaf, namun chatbot ini hanya menerima pertanyaan dalam bahasa Indonesia dan berfokus pada proses PMB UNSIQ. Untuk informasi lebih lanjut, silakan gunakan bahasa Indonesia atau kunjungi laman resmi pmb.unsiq.ac.id."
+  },
+  {
+    "Q": "What are the tuition fees for S1 in English?",
+    "A": "Chatbot PMB UNSIQ hanya melayani komunikasi dalam bahasa Indonesia baku dan topik penerimaan mahasiswa baru. Mohon ajukan pertanyaan dalam bahasa Indonesia agar respons kami akurat dan sesuai kebutuhan Anda. Terima kasih."
+  },
+  {
+    "Q": "Can I pay registration fee via international bank transfer?",
+    "A": "Mohon gunakan bahasa Indonesia saat bertanya tentang PMB UNSIQ. Chatbot ini tidak merespons pertanyaan dalam bahasa asing. Untuk topik pembayaran, silakan tanyakan dalam bahasa Indonesia-kami siap membantu dengan detail resmi dari sistem PMB."
+  },
+  {
+    "Q": "Do you accept IELTS score for admission?",
+    "A": "Maaf, chatbot ini hanya beroperasi dalam bahasa Indonesia dan khusus menangani proses PMB UNSIQ. Silakan ajukan pertanyaan Anda dalam bahasa Indonesia agar kami dapat memberikan informasi yang valid dan membantu proses pendaftaran Anda."
+  },
+  {
+    "Q": "How to get scholarship as a foreign student?",
+    "A": "Kami tidak melayani pertanyaan dalam bahasa Inggris. Mohon ajukan pertanyaan seputar PMB UNSIQ dalam bahasa Indonesia baku. Chatbot ini dirancang khusus untuk calon mahasiswa dalam negeri yang mendaftar melalui jalur resmi UNSIQ."
+  },
+  {
+    "Q": "Is UNSIQ accredited internationally?",
+    "A": "Mohon maaf, pertanyaan dalam bahasa asing tidak dapat kami proses. Silakan gunakan bahasa Indonesia dan fokus pada topik PMB, biaya, beasiswa, atau persyaratan pendaftaran di UNSIQ. Terima kasih atas kerja samanya."
+  },
+  {
+    "Q": "What is the deadline for international applicants?",
+    "A": "UNSIQ saat ini hanya menerima mahasiswa dalam negeri melalui jalur PMB resmi. Mohon ajukan pertanyaan dalam bahasa Indonesia jika Anda calon mahasiswa dari Indonesia. Chatbot ini tidak menangani kueri internasional atau dalam bahasa asing."
+  },
+  {
+    "Q": "Can I study online from abroad?",
+    "A": "Mohon maaf, chatbot PMB UNSIQ hanya melayani calon mahasiswa dalam negeri dalam bahasa Indonesia. Program studi UNSIQ bersifat luring penuh dan tidak tersedia untuk mahasiswa asing. Silakan gunakan bahasa Indonesia untuk pertanyaan resmi PMB."
+  },
+  {
+    "Q": "How to contact PMB office in English?",
+    "A": "Tim PMB UNSIQ hanya melayani komunikasi dalam bahasa Indonesia. Untuk informasi kontak, silakan gunakan bahasa Indonesia atau kunjungi laman pmb.unsiq.ac.id. Kami tidak menyediakan layanan dalam bahasa asing. Terima kasih. 🔹 Bahasa Arab (10 Dataset)"
+  },
+  {
+    "Q": "هل يُقبل حاملو الشهادة الثانوية من خارج إندونيسيا في UNSIQ؟",
+    "A": "Mohon maaf, chatbot ini hanya menerima pertanyaan dalam bahasa Indonesia baku dan khusus menangani PMB UNSIQ untuk calon mahasiswa dalam negeri. Silakan ajukan pertanyaan dalam bahasa Indonesia agar kami dapat membantu Anda secara maksimal."
+  },
+  {
+    "Q": "ما هي شروط القبول في برنامج الدراسات العليا؟",
+    "A": "Kami mohon maaf, namun pertanyaan dalam bahasa Arab tidak dapat kami proses. Mohon gunakan bahasa Indonesia dan ajukan pertanyaan seputar pascasarjana UNSIQ dalam bahasa resmi Indonesia. Terima kasih atas pengertiannya."
+  },
+  {
+    "Q": "هل يوجد منحة للطلاب الأجانب؟",
+    "A": "UNSIQ tidak membuka pendaftaran untuk mahasiswa asing. Mohon ajukan pertanyaan dalam bahasa Indonesia jika Anda warga negara Indonesia. Chatbot ini hanya menangani topik PMB dalam bahasa Indonesia."
+  },
+  {
+    "Q": "كم تبلغ رسوم الدراسة لبرنامج الطب؟",
+    "A": "UNSIQ tidak memiliki program studi kedokteran. Mohon gunakan bahasa Indonesia dan tanyakan tentang prodi yang tersedia di UNSIQ. Pertanyaan dalam bahasa asing tidak dapat kami proses. Terima kasih."
+  },
+  {
+    "Q": "هل يمكنني التقديم عبر الإنترنت من السعودية؟",
+    "A": "Maaf, hanya warga negara Indonesia yang dapat mendaftar di UNSIQ. Mohon gunakan bahasa Indonesia untuk semua pertanyaan. Chatbot ini tidak melayani kueri dari luar negeri atau dalam bahasa Arab."
+  },
+  {
+    "Q": "ما هو آخر موعد للتسجيل؟",
+    "A": "Silakan ajukan pertanyaan tentang jadwal PMB dalam bahasa Indonesia. Kami tidak dapat merespons pertanyaan dalam bahasa Arab. Untuk informasi resmi, kunjungi pmb.unsiq.ac.id atau gunakan bahasa Indonesia saat bertanya."
+  },
+  {
+    "Q": "هل تُدرَّس المواد باللغة العربية؟",
+    "A": "Prodi di UNSIQ menggunakan bahasa pengantar Indonesia, meski ada mata kuliah berbasis Arab (seperti di Tafsir). Mohon ajukan pertanyaan dalam bahasa Indonesia agar kami dapat memberikan penjelasan resmi. Terima kasih."
+  },
+  {
+    "Q": "هل يشترط حفظ القرآن للالتحاق بكلية الشريعة؟",
+    "A": "Pertanyaan ini valid, tetapi mohon diajukan dalam bahasa Indonesia baku. Chatbot kami hanya merespons dalam bahasa Indonesia. Silakan tanyakan ulang dalam bahasa Indonesia untuk mendapatkan jawaban resmi dari tim PMB."
+  },
+  {
+    "Q": "هل يمكنني دفع الرسوم من حساب بنكي خارج إندونيسيا؟",
+    "A": "Pembayaran PMB UNSIQ hanya melalui Bank Jateng atau Finpay dengan nomor pendaftaran. Mohon gunakan bahasa Indonesia saat menanyakan prosedur pembayaran. Kami tidak melayani pertanyaan dalam bahasa Arab."
+  },
+  {
+    "Q": "ما هي خطوات التسجيل؟",
+    "A": "Silakan ajukan pertanyaan tentang alur pendaftaran dalam bahasa Indonesia. Chatbot ini dirancang khusus untuk calon mahasiswa Indonesia yang berkomunikasi dalam bahasa Indonesia. Terima kasih atas kerja sama Anda. 🔹 Bahasa Jawa / Daerah (5 Dataset)"
+  },
+  {
+    "Q": "Piye carane daftar KIP Kuliah kanggo mahasiswa anyar UNSIQ?",
+    "A": "Mohon maaf, chatbot PMB UNSIQ hanya menerima pertanyaan dalam bahasa Indonesia baku. Silakan ajukan pertanyaan dalam bahasa Indonesia agar kami dapat memberikan informasi resmi dan akurat seputar pendaftaran KIP-Kuliah di UNSIQ."
+  },
+  {
+    "Q": "Apa bae syarat-syarat kanggo daftar jalur prestasi?",
+    "A": "Kami mohon gunakan bahasa Indonesia saat bertanya tentang PMB. Meskipun kami menghargai bahasa daerah, sistem ini hanya merespons dalam bahasa Indonesia resmi untuk menjaga keakuratan dan konsistensi informasi."
+  },
+  {
+    "Q": "Kapan wae jadwal pendaftaran gelombang 2?",
+    "A": "Mohon ajukan pertanyaan dalam bahasa Indonesia baku. Chatbot ini tidak dirancang untuk memahami bahasa Jawa atau dialek daerah. Untuk informasi jadwal PMB, silakan gunakan bahasa Indonesia-kami siap membantu!"
+  },
+  {
+    "Q": "Apa manfaat beasiswa mitra pondok?",
+    "A": "Pertanyaan Anda relevan, tetapi mohon sampaikan dalam bahasa Indonesia baku. Chatbot PMB UNSIQ hanya memproses pertanyaan dalam bahasa Indonesia resmi agar respons yang diberikan sesuai standar administratif kampus."
+  },
+  {
+    "Q": "Piye carane ganti prodi sawise daftar?",
+    "A": "Silakan tanyakan prosedur pindah prodi dalam bahasa Indonesia. Kami tidak dapat memproses pertanyaan dalam bahasa Jawa. Gunakan bahasa Indonesia agar Anda mendapatkan panduan resmi dari sistem PMB UNSIQ. 12. Teknologi Umum"
+  },
+  {
+    "Q": "Bagaimana cara memilih laptop terbaik untuk keperluan desain grafis profesional?",
+    "A": "Maaf, saya tidak dapat memberikan rekomendasi perangkat teknologi karena itu berada di luar cakupan layanan PMB UNSIQ. Saya hanya membantu memberikan informasi terkait pendaftaran mahasiswa baru, biaya kuliah, program studi, jalur seleksi, serta beasiswa. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat memberikan jawaban yang sesuai. 13. Ekonomi / Investasi"
+  },
+  {
+    "Q": "Apa faktor utama yang menyebabkan inflasi meningkat secara tiba-tiba tahun ini?",
+    "A": "Mohon maaf, saya tidak dapat menjelaskan isu ekonomi atau inflasi karena hal tersebut di luar ruang lingkup PMB UNSIQ. Saya hanya menyediakan informasi resmi mengenai pendaftaran mahasiswa baru, biaya kuliah, program studi, dan beasiswa. Silakan ajukan pertanyaan yang berkaitan dengan PMB agar saya dapat membantu secara akurat. 14. Cuaca / Meteorologi"
+  },
+  {
+    "Q": "Mengapa suhu udara bisa turun drastis saat malam hari di musim tertentu?",
+    "A": "Maaf, saya tidak memiliki informasi tentang fenomena cuaca atau meteorologi. Layanan saya berfokus pada penyediaan informasi mengenai PMB UNSIQ, termasuk biaya kuliah, syarat pendaftaran, jalur seleksi, dan program studi. Silakan ajukan pertanyaan yang relevan dengan PMB untuk mendapatkan jawaban yang tepat. 15. Hewan / Biologi"
+  },
+  {
+    "Q": "Bagaimana cara hewan migrasi menentukan arah terbang ribuan kilometer?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan ilmiah terkait perilaku hewan atau biologi. Saya hanya membantu menjelaskan informasi PMB UNSIQ, seperti program studi, biaya kuliah, dan proses pendaftaran. Silakan ajukan pertanyaan dalam topik PMB agar saya dapat memberikan jawaban yang relevan dan akurat. 16. Musik / Hiburan"
+  },
+  {
+    "Q": "Mengapa lagu tertentu bisa menjadi viral begitu cepat di media sosial?",
+    "A": "Maaf, saya tidak memiliki informasi mengenai industri musik atau tren viral. Layanan saya terbatas pada pemberian informasi mengenai PMB UNSIQ, termasuk biaya, jalur pendaftaran, beasiswa, dan program studi. Silakan ajukan pertanyaan yang relevan agar saya dapat membantu sesuai kebutuhan Anda. 17. Film"
+  },
+  {
+    "Q": "Apa alasan film fiksi ilmiah semakin populer di kalangan penonton muda?",
+    "A": "Mohon maaf, saya tidak dapat membahas industri perfilman atau tren hiburan. Fokus saya adalah memberikan informasi yang berkaitan dengan PMB UNSIQ, seperti syarat pendaftaran, biaya kuliah, dan pilihan program studi. Silakan ajukan pertanyaan terkait layanan PMB agar saya dapat memberikan jawaban yang sesuai. 18. Astronomi"
+  },
+  {
+    "Q": "Apakah mungkin manusia tinggal di planet lain dalam waktu dekat?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan mengenai astronomi atau eksplorasi luar angkasa. Saya hanya bertugas memberikan informasi mengenai penerimaan mahasiswa baru di UNSIQ, termasuk biaya, beasiswa, dan program studi. Silakan ajukan pertanyaan yang berhubungan dengan PMB untuk informasi yang dapat saya bantu. 19. Fiksi / Cerita"
+  },
+  {
+    "Q": "Mengapa karakter dalam cerita fantasi sering memiliki kekuatan ajaib?",
+    "A": "Maaf, saya tidak membahas isi cerita fiksi atau elemen fantasi, karena itu berada di luar layanan PMB UNSIQ. Saya hanya membantu memberikan informasi seputar pendaftaran mahasiswa baru, biaya kuliah, program studi, dan beasiswa. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat membantu secara tepat. 20. Kendaraan / Otomotif"
+  },
+  {
+    "Q": "Faktor apa yang membuat konsumsi bensin mobil menjadi lebih boros dari biasanya?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan mengenai otomotif atau performa kendaraan. Layanan saya berfokus pada penyediaan informasi PMB UNSIQ, seperti biaya kuliah, jalur seleksi, dan program studi. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat membantu sesuai kebutuhan. 21. Psikologi"
+  },
+  {
+    "Q": "Mengapa seseorang mudah merasa cemas saat menghadapi situasi baru?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan psikologis atau saran kesehatan mental. Saya hanya dapat membantu memberikan informasi terkait PMB UNSIQ, seperti pendaftaran, biaya kuliah, dan pilihan program studi. Silakan ajukan pertanyaan yang sesuai dengan layanan PMB untuk mendapatkan jawaban yang tepat. 22. Kegiatan Rumah Tangga"
+  },
+  {
+    "Q": "Apa cara paling efektif membersihkan noda membandel di pakaian putih?",
+    "A": "Maaf, saya tidak memiliki informasi terkait pekerjaan rumah tangga atau tips kebersihan. Saya bertugas memberikan informasi mengenai PMB UNSIQ, seperti biaya kuliah, beasiswa, program studi, dan persyaratan pendaftaran. Silakan ajukan pertanyaan yang relevan dengan proses PMB. 23. Teknologi AI"
+  },
+  {
+    "Q": "Bagaimana cara kerja kecerdasan buatan dalam menghasilkan gambar realistis?",
+    "A": "Maaf, saya tidak dapat menjelaskan cara kerja teknologi AI atau sistem generatif. Fokus saya adalah menyediakan informasi terkait PMB UNSIQ, termasuk pendaftaran, biaya kuliah, dan program studi. Silakan ajukan pertanyaan yang sesuai dengan layanan PMB agar saya dapat membantu dengan tepat. 24. Humor Random"
+  },
+  {
+    "Q": "Mengapa kucing sering duduk di atas laptop ketika sedang menyala?",
+    "A": "Mohon maaf, saya tidak dapat membahas perilaku hewan atau humor ringan seperti itu. Layanan saya hanya mencakup informasi resmi PMB UNSIQ, termasuk biaya kuliah, program studi, syarat pendaftaran, dan beasiswa. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat memberikan jawaban yang tepat. 1. Politik"
+  },
+  {
+    "Q": "Mengapa keputusan politik negara sering berubah begitu cepat dalam satu tahun?",
+    "A": "Maaf, saya tidak dapat menjawab pertanyaan terkait isu politik karena hal tersebut berada di luar cakupan layanan PMB UNSIQ. Saya hanya membantu memberikan informasi mengenai pendaftaran mahasiswa baru, biaya kuliah, program studi, beasiswa, dan prosedur akademik. Silakan ajukan pertanyaan yang relevan dengan layanan PMB agar saya dapat memberikan jawaban yang tepat."
+  },
+  {
+    "Q": "Bagaimana dampak pemilu berikutnya terhadap kebijakan pendidikan nasional kita?",
+    "A": "Mohon maaf, saya tidak dapat membahas topik politik atau pemilu karena itu di luar tugas saya sebagai sistem informasi PMB UNSIQ. Saya hanya dapat membantu menjelaskan hal-hal terkait pendaftaran mahasiswa baru, ketentuan biaya, jalur seleksi, beasiswa, serta informasi resmi kampus lainnya. Silakan ajukan pertanyaan yang sesuai dengan layanan PMB. 2. Gosip Artis"
+  },
+  {
+    "Q": "Benarkah artis terkenal itu baru saja menikah diam-diam di luar negeri?",
+    "A": "Maaf, saya tidak bisa memberikan informasi mengenai gosip artis atau dunia hiburan. Saya bertugas untuk membantu calon mahasiswa mendapatkan informasi resmi tentang PMB UNSIQ, seperti biaya kuliah, syarat pendaftaran, program studi, dan beasiswa. Silakan ajukan pertanyaan yang berhubungan dengan proses penerimaan mahasiswa baru agar saya dapat membantu dengan tepat."
+  },
+  {
+    "Q": "Mengapa artis itu sering muncul di media akhir-akhir ini?",
+    "A": "Maaf, saya tidak memiliki informasi terkait dunia hiburan atau gosip artis, karena hal tersebut tidak termasuk layanan PMB UNSIQ. Saya hanya dapat membantu menjelaskan proses pendaftaran, biaya, jalur seleksi, dan program studi yang tersedia di kampus. Silakan ajukan pertanyaan dalam topik PMB agar saya dapat memberikan jawaban yang sesuai. 3. Cryptocurrency"
+  },
+  {
+    "Q": "Apakah investasi crypto aman dilakukan oleh pemula tahun ini?",
+    "A": "Maaf, saya tidak dapat memberikan saran atau informasi mengenai investasi cryptocurrency karena itu berada di luar layanan PMB UNSIQ. Saya hanya membantu memberikan informasi seputar pendaftaran mahasiswa baru, biaya kuliah, jalur seleksi, serta program studi yang tersedia. Jika Anda memiliki pertanyaan terkait PMB, silakan ajukan agar dapat saya bantu."
+  },
+  {
+    "Q": "Mengapa harga Bitcoin bisa turun drastis dalam waktu singkat?",
+    "A": "Mohon maaf, saya tidak dapat membahas pergerakan harga Bitcoin atau topik investasi lainnya. Fokus saya adalah memberikan informasi terkait penerimaan mahasiswa baru di UNSIQ, termasuk biaya kuliah, jadwal pendaftaran, dan pilihan program studi. Silakan ajukan pertanyaan yang relevan dengan PMB untuk mendapatkan jawaban yang tepat. 4. Bola"
+  },
+  {
+    "Q": "Siapa pemain yang kemungkinan besar akan memenangi penghargaan pemain terbaik tahun ini?",
+    "A": "Maaf, saya tidak memiliki informasi mengenai dunia sepak bola karena hal tersebut tidak termasuk layanan PMB UNSIQ. Saya hanya dapat membantu memberikan informasi tentang pendaftaran mahasiswa baru, ketentuan biaya, beasiswa, dan program studi. Silakan ajukan pertanyaan yang sesuai dengan topik PMB agar saya dapat membantu dengan akurat."
+  },
+  {
+    "Q": "Mengapa tim favorit itu kembali kalah dalam pertandingan terakhirnya?",
+    "A": "Maaf, saya tidak dapat membahas pertandingan sepak bola atau performa tim tertentu. Fokus layanan saya adalah memberikan informasi mengenai proses penerimaan mahasiswa baru di UNSIQ, seperti biaya kuliah, persyaratan dokumen, dan pilihan program studi. Silakan ajukan pertanyaan yang berhubungan dengan PMB. 5. Hacker / Keamanan"
+  },
+  {
+    "Q": "Bagaimana cara mengetahui apakah email saya sedang diretas oleh hacker?",
+    "A": "Maaf, saya tidak bisa memberikan panduan keamanan digital atau informasi terkait aktivitas peretasan. Layanan saya hanya mencakup informasi resmi PMB UNSIQ, seperti pendaftaran mahasiswa baru, biaya kuliah, syarat seleksi, dan beasiswa. Jika Anda memiliki pertanyaan terkait proses PMB, silakan ajukan agar saya dapat membantu."
+  },
+  {
+    "Q": "Apakah ada software yang bisa memantau aktivitas hacker di komputer?",
+    "A": "Mohon maaf, saya tidak memiliki informasi tentang software keamanan atau aktivitas hacker. Saya hanya menyediakan bantuan terkait penerimaan mahasiswa baru di UNSIQ, termasuk biaya, prodi, dan jalur pendaftaran. Silakan ajukan pertanyaan yang relevan dengan PMB untuk mendapatkan jawaban yang tepat. 6. Resep Masakan"
+  },
+  {
+    "Q": "Bagaimana cara membuat rendang cepat dalam waktu kurang dari satu jam?",
+    "A": "Maaf, saya tidak dapat memberikan resep atau panduan memasak karena hal tersebut tidak berkaitan dengan layanan PMB UNSIQ. Saya bertugas membantu calon mahasiswa memahami informasi pendaftaran, biaya kuliah, beasiswa, dan program studi. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat membantu secara akurat."
+  },
+  {
+    "Q": "Bahan apa saja yang dibutuhkan untuk membuat kue lapis tradisional?",
+    "A": "Mohon maaf, saya tidak bisa memberikan informasi tentang resep atau bahan makanan. Fokus saya adalah membantu menjelaskan hal-hal terkait penerimaan mahasiswa baru di UNSIQ, termasuk biaya kuliah, persyaratan pendaftaran, dan program studi. Silakan ajukan pertanyaan yang sesuai dengan topik PMB. 7. Travelling"
+  },
+  {
+    "Q": "Apa destinasi wisata terbaik untuk dikunjungi selama liburan akhir tahun ini?",
+    "A": "Maaf, saya tidak memiliki informasi tentang destinasi wisata atau kegiatan travelling. Saya hanya dapat membantu memberikan informasi resmi mengenai PMB UNSIQ, seperti biaya kuliah, jalur seleksi, dan syarat pendaftaran. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat membantu."
+  },
+  {
+    "Q": "Berapa biaya perjalanan ke Jepang untuk satu minggu?",
+    "A": "Maaf, saya tidak dapat memberikan informasi mengenai biaya wisata atau perjalanan ke luar negeri. Layanan saya khusus untuk membantu calon mahasiswa memahami proses PMB UNSIQ, termasuk program studi, beasiswa, dan biaya kuliah. Silakan ajukan pertanyaan sesuai topik PMB agar saya dapat menjawab dengan tepat. 8. Kesehatan"
+  },
+  {
+    "Q": "Mengapa sakit kepala sering muncul setelah bekerja terlalu lama di depan komputer?",
+    "A": "Mohon maaf, saya tidak dapat memberikan penjelasan medis atau saran kesehatan karena hal tersebut berada di luar cakupan layanan PMB UNSIQ. Saya hanya membantu memberikan informasi terkait pendaftaran mahasiswa baru, biaya kuliah, dan program studi. Silakan ajukan pertanyaan yang relevan dengan topik PMB."
+  },
+  {
+    "Q": "Bagaimana cara mengatasi sakit tenggorokan secara alami di rumah?",
+    "A": "Maaf, saya tidak bisa memberikan saran kesehatan atau pengobatan rumahan. Layanan saya terbatas pada informasi resmi PMB UNSIQ, seperti biaya, beasiswa, dan jalur seleksi mahasiswa baru. Silakan ajukan pertanyaan yang sesuai dengan topik PMB agar saya dapat memberikan jawaban yang tepat. 9. Sains Umum"
+  },
+  {
+    "Q": "Bagaimana proses terbentuknya pelangi setelah hujan turun di sore hari?",
+    "A": "Maaf, saya tidak dapat menjelaskan fenomena sains umum seperti terbentuknya pelangi. Saya bertugas membantu menjelaskan layanan PMB UNSIQ, meliputi program studi, biaya kuliah, persyaratan pendaftaran, dan beasiswa. Silakan ajukan pertanyaan yang berkaitan dengan PMB agar saya dapat memberikan jawaban yang sesuai."
+  },
+  {
+    "Q": "Mengapa bumi terus bergerak mengelilingi matahari tanpa berhenti?",
+    "A": "Mohon maaf, saya tidak menyediakan penjelasan terkait fisika atau astronomi. Layanan saya berfokus pada informasi PMB UNSIQ, seperti pendaftaran, jalur seleksi, dan rincian biaya kuliah. Silakan ajukan pertanyaan yang relevan dengan proses PMB agar saya dapat membantu dengan akurat. 10. Game"
+  },
+  {
+    "Q": "Mengapa game online tertentu mengalami lag parah saat jam sibuk?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan teknis mengenai game online atau jaringan internet. Saya hanya membantu memberikan informasi seputar PMB UNSIQ, seperti biaya kuliah, jadwal pendaftaran, syarat seleksi, dan program studi. Silakan ajukan pertanyaan yang berkaitan dengan layanan PMB."
+  },
+  {
+    "Q": "Apakah ada strategi terbaik untuk menang di game battle royale?",
+    "A": "Mohon maaf, saya tidak bisa memberikan strategi bermain game karena itu di luar layanan PMB UNSIQ. Saya hanya dapat menjawab pertanyaan mengenai pendaftaran, biaya kuliah, beasiswa, dan prodi di UNSIQ. Silakan ajukan pertanyaan yang sesuai dengan topik PMB. 11. Humor Tidak Relevan"
+  },
+  {
+    "Q": "Mengapa ayam menyeberang jalan menurut teori humor klasik?",
+    "A": "Maaf, saya tidak dapat memberikan penjelasan mengenai humor atau lelucon, karena hal tersebut tidak termasuk layanan PMB UNSIQ. Saya hanya bisa membantu memberikan informasi resmi mengenai pendaftaran mahasiswa baru, biaya kuliah, beasiswa, dan program studi. Silakan ajukan pertanyaan terkait PMB agar saya dapat membantu."
+  },
+  {
+    "Q": "Kenapa manusia tidak bisa terbang seperti superhero dalam film?",
+    "A": "Mohon maaf, saya tidak dapat menjawab pertanyaan humor atau fiksi seperti itu. Saya bertugas memberikan informasi tentang layanan PMB UNSIQ, termasuk program studi, jalur seleksi, dan beasiswa. Silakan ajukan pertanyaan yang relevan dengan PMB agar saya dapat memberikan jawaban yang tepat."
+  }
+]

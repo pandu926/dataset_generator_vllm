@@ -1,0 +1,2515 @@
+{
+  "tanggal:10 juli 2001": {
+    "id": "ent_0001",
+    "name": "10 Juli 2001",
+    "type": "tanggal",
+    "value": "10 Juli 2001",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Tahun Berdiri",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 5
+  },
+  "tanggal:6 november 1987": {
+    "id": "ent_0002",
+    "name": "6 November 1987",
+    "type": "tanggal",
+    "value": "6 November 1987",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 3
+  },
+  "langkah:1988": {
+    "id": "ent_0003",
+    "name": "1988",
+    "type": "langkah",
+    "value": "1988",
+    "source_sections": [
+      "FAQ",
+      "Akreditasi"
+    ],
+    "mentions": 2
+  },
+  "dokumen:akta": {
+    "id": "ent_0004",
+    "name": "Akta",
+    "type": "dokumen",
+    "value": "Akta",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 6
+  },
+  "dokumen:surat": {
+    "id": "ent_0005",
+    "name": "Surat",
+    "type": "dokumen",
+    "value": "Surat",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:",
+      "Q5: Apakah bisa pindah program studi saat proses pendaftaran?",
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?",
+      "A. Tahfidz 30 Juz",
+      "B. Tahfidz 21-29 Juz",
+      "C. Tahfidz 11-20 Juz",
+      "D. Tahfidz 5-10 Juz",
+      "A. Kerjasama Mitra Sekolah/Madrasah",
+      "B. Kerjasama Beasiswa UNSIQ",
+      "B. Beasiswa Ketua Organisasi Kemahasiswaan (Ormawa)",
+      "Q4: Dokumen apa saja yang perlu disiapkan?",
+      "Q6: Apakah SPP yang dibebaskan termasuk biaya lain?",
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?",
+      "Panduan Dokumen",
+      "Klinik UNSIQ",
+      "Scan Ijazah / Surat Kelulusan",
+      "Surat Keterangan Hasil Ujian",
+      "Surat Keterangan Sehat (Khusus Fak. Ilmu Kesehatan)",
+      "Langkah 4️⃣ Upload Dokumen Persyaratan",
+      "Tinggi Badan - Fakultas Ilmu Kesehatan",
+      "Waktu yang Diperbolehkan Pindah Prodi",
+      "Pengunduran Diri Karena Force Majeure",
+      "Transfer dari PT Lain - Belum Lulus",
+      "Q3: Apakah saya bisa mengubah program studi setelah daftar?",
+      "Q5: Apakah dokumentasinya harus yang asli?",
+      "Q6: Bagaimana jika saya belum punya SKL (Surat Keterangan Lulus)?",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 74
+  },
+  "prodi:pendidikan agama islam": {
+    "id": "ent_0006",
+    "name": "Pendidikan Agama Islam",
+    "type": "prodi",
+    "value": "Pendidikan Agama Islam",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988",
+      "Komposisi UNSIQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI",
+      "CSV"
+    ],
+    "mentions": 10
+  },
+  "prodi:penerangan dan penyiaran agama islam": {
+    "id": "ent_0007",
+    "name": "Penerangan dan Penyiaran Agama Islam",
+    "type": "prodi",
+    "value": "Penerangan dan Penyiaran Agama Islam",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988"
+    ],
+    "mentions": 2
+  },
+  "prodi:ini": {
+    "id": "ent_0008",
+    "name": "ini",
+    "type": "prodi",
+    "value": "ini",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988"
+    ],
+    "mentions": 2
+  },
+  "prodi:keperawatan": {
+    "id": "ent_0009",
+    "name": "Keperawatan",
+    "type": "prodi",
+    "value": "Keperawatan",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:",
+      "Akademi Keperawatan (AKPER) - 1996",
+      "Komposisi UNSIQ",
+      "Total Fasilitas UNSIQ",
+      "Laboratorium Keperawatan",
+      "Kontak Layanan Fasilitas",
+      "Latar Belakang Pendidikan - Keperawatan S1 Karyawan",
+      "CSV"
+    ],
+    "mentions": 35
+  },
+  "prodi:kebidanan": {
+    "id": "ent_0010",
+    "name": "Kebidanan",
+    "type": "prodi",
+    "value": "Kebidanan",
+    "source_sections": [
+      "FAQ",
+      "Akademi Keperawatan (AKPER) - 1996",
+      "Komposisi UNSIQ",
+      "Tabel",
+      "Total Fasilitas UNSIQ",
+      "Laboratorium Kebidanan",
+      "Kontak Layanan Fasilitas",
+      "CSV"
+    ],
+    "mentions": 23
+  },
+  "fakultas:fakultas tarbiyah": {
+    "id": "ent_0011",
+    "name": "Fakultas Tarbiyah",
+    "type": "fakultas",
+    "value": "Fakultas Tarbiyah",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988"
+    ],
+    "mentions": 2
+  },
+  "fakultas:fakultas dakwah": {
+    "id": "ent_0012",
+    "name": "Fakultas Dakwah",
+    "type": "fakultas",
+    "value": "Fakultas Dakwah",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:ppa": {
+    "id": "ent_0013",
+    "name": "PPA",
+    "type": "beasiswa",
+    "value": "PPA",
+    "source_sections": [
+      "FAQ",
+      "Institut Ilmu Al-Qur'an (IIQ) - 1988"
+    ],
+    "mentions": 2
+  },
+  "tanggal:30 mei 1989": {
+    "id": "ent_0014",
+    "name": "30 Mei 1989",
+    "type": "tanggal",
+    "value": "30 Mei 1989",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 3
+  },
+  "tanggal:26 februari 1996": {
+    "id": "ent_0015",
+    "name": "26 Februari 1996",
+    "type": "tanggal",
+    "value": "26 Februari 1996",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 3
+  },
+  "tanggal:8 januari 1998": {
+    "id": "ent_0016",
+    "name": "8 Januari 1998",
+    "type": "tanggal",
+    "value": "8 Januari 1998",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 3
+  },
+  "tanggal:25 februari 1999": {
+    "id": "ent_0017",
+    "name": "25 Februari 1999",
+    "type": "tanggal",
+    "value": "25 Februari 1999",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Timeline Pembentukan:"
+    ],
+    "mentions": 3
+  },
+  "prodi:manajemen": {
+    "id": "ent_0018",
+    "name": "manajemen",
+    "type": "prodi",
+    "value": "manajemen",
+    "source_sections": [
+      "Tabel",
+      "Sekolah Tinggi Ilmu Ekonomi (STIE-YPIIQ) - 1999",
+      "Konsep 4 Pilar Kekuatan",
+      "Komposisi UNSIQ",
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ",
+      "CSV"
+    ],
+    "mentions": 13
+  },
+  "prodi:akuntansi": {
+    "id": "ent_0019",
+    "name": "Akuntansi",
+    "type": "prodi",
+    "value": "Akuntansi",
+    "source_sections": [
+      "Sekolah Tinggi Ilmu Ekonomi (STIE-YPIIQ) - 1999",
+      "Komposisi UNSIQ",
+      "CSV"
+    ],
+    "mentions": 4
+  },
+  "langkah:2001": {
+    "id": "ent_0020",
+    "name": "2001",
+    "type": "langkah",
+    "value": "2001",
+    "source_sections": [
+      "Peleburan Menjadi UNSIQ - 2001"
+    ],
+    "mentions": 1
+  },
+  "prodi:komunikasi dan penyiaran islam": {
+    "id": "ent_0021",
+    "name": "Komunikasi dan Penyiaran Islam",
+    "type": "prodi",
+    "value": "Komunikasi dan Penyiaran Islam",
+    "source_sections": [
+      "Komposisi UNSIQ",
+      "Radio UNSIQ"
+    ],
+    "mentions": 2
+  },
+  "prodi:lainnya\n\nselain ketiga lembaga tersebut": {
+    "id": "ent_0022",
+    "name": "lainnya\n\nSelain ketiga lembaga tersebut",
+    "type": "prodi",
+    "value": "lainnya\n\nSelain ketiga lembaga tersebut",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "prodi:lainnya yang terus berkembang sesuai dengan kebutuhan zaman": {
+    "id": "ent_0023",
+    "name": "lainnya yang terus berkembang sesuai dengan kebutuhan zaman",
+    "type": "prodi",
+    "value": "lainnya yang terus berkembang sesuai dengan kebutuhan zaman",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "fakultas:fakultas tarbiyah dan ilmu": {
+    "id": "ent_0024",
+    "name": "Fakultas Tarbiyah dan Ilmu",
+    "type": "fakultas",
+    "value": "Fakultas Tarbiyah dan Ilmu",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "fakultas:fakultas tarbiyah & dakwah": {
+    "id": "ent_0025",
+    "name": "Fakultas Tarbiyah & Dakwah",
+    "type": "fakultas",
+    "value": "Fakultas Tarbiyah & Dakwah",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "fakultas:fakultas ilmu": {
+    "id": "ent_0026",
+    "name": "Fakultas Ilmu",
+    "type": "fakultas",
+    "value": "Fakultas Ilmu",
+    "source_sections": [
+      "Komposisi UNSIQ",
+      "FAQ",
+      "Tabel",
+      "Tinggi Badan - Fakultas Ilmu Kesehatan"
+    ],
+    "mentions": 4
+  },
+  "fakultas:fakultas ekonomi dan bisnis": {
+    "id": "ent_0027",
+    "name": "Fakultas Ekonomi dan Bisnis",
+    "type": "fakultas",
+    "value": "Fakultas Ekonomi dan Bisnis",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "fakultas:fakultas dan": {
+    "id": "ent_0028",
+    "name": "fakultas dan",
+    "type": "fakultas",
+    "value": "fakultas dan",
+    "source_sections": [
+      "Komposisi UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:ini merupakan profil resmi dari universitas sains al-qur'an (unsiq) jawa tengah yang disusun berdasarkan sumber resmi institusi.**": {
+    "id": "ent_0029",
+    "name": "ini merupakan profil resmi dari Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah yang disusun berdasarkan sumber resmi institusi.**",
+    "type": "dokumen",
+    "value": "ini merupakan profil resmi dari Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah yang disusun berdasarkan sumber resmi institusi.**",
+    "source_sections": [
+      "Untuk Dunia"
+    ],
+    "mentions": 1
+  },
+  "dokumen:ijazah": {
+    "id": "ent_0030",
+    "name": "Ijazah",
+    "type": "dokumen",
+    "value": "Ijazah",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Intro",
+      "Scan Ijazah / Surat Kelulusan",
+      "Langkah 4️⃣ Upload Dokumen Persyaratan",
+      "Latar Belakang Pendidikan - Keperawatan S1 Karyawan",
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus",
+      "Q6: Bagaimana jika saya belum punya SKL (Surat Keterangan Lulus)?",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 21
+  },
+  "dokumen:foto": {
+    "id": "ent_0031",
+    "name": "Foto",
+    "type": "dokumen",
+    "value": "Foto",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Intro",
+      "A. Prestasi Olahraga dan Seni",
+      "B. Prestasi Akademik (UASBN/UAS ≥ 85)",
+      "A. Kerjasama Mitra Sekolah/Madrasah",
+      "Q4: Dokumen apa saja yang perlu disiapkan?",
+      "Perpustakaan",
+      "Foto Formal Berwarna",
+      "Langkah 4️⃣ Upload Dokumen Persyaratan",
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 21
+  },
+  "prodi:teknik mesin": {
+    "id": "ent_0032",
+    "name": "Teknik Mesin",
+    "type": "prodi",
+    "value": "Teknik Mesin",
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ",
+      "Laboratorium Komputer",
+      "CSV"
+    ],
+    "mentions": 6
+  },
+  "biaya:250.000": {
+    "id": "ent_0033",
+    "name": "250.000",
+    "type": "biaya",
+    "value": 250000,
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Besaran Biaya:",
+      "Step-by-Step Pembayaran:",
+      "A. Tahfidz 30 Juz",
+      "Q6: Apakah SPP yang dibebaskan termasuk biaya lain?",
+      "D3 & S1 - Gelombang 2",
+      "D3 & S1 - Gelombang 3",
+      "Perbandingan Biaya Pendaftaran",
+      "Pengunduran Diri Sebelum Orientasi Mahasiswa Baru",
+      "Q4: Berapa biaya pendaftaran sebenarnya?",
+      "CSV"
+    ],
+    "mentions": 24
+  },
+  "biaya:300.000": {
+    "id": "ent_0034",
+    "name": "300.000",
+    "type": "biaya",
+    "value": 300000,
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Besaran Biaya:",
+      "Step-by-Step Pembayaran:",
+      "S2 (Pascasarjana) - Gelombang 2",
+      "S2 (Pascasarjana) - Gelombang 3",
+      "Perbandingan Biaya Pendaftaran",
+      "Q4: Berapa biaya pendaftaran sebenarnya?",
+      "CSV"
+    ],
+    "mentions": 21
+  },
+  "tanggal:30 desember 2024": {
+    "id": "ent_0035",
+    "name": "30 Desember 2024",
+    "type": "tanggal",
+    "value": "30 Desember 2024",
+    "source_sections": [
+      "FAQ",
+      "Jangka Waktu Pengumuman:"
+    ],
+    "mentions": 2
+  },
+  "tanggal:7 januari 2025": {
+    "id": "ent_0036",
+    "name": "7 Januari 2025",
+    "type": "tanggal",
+    "value": "7 Januari 2025",
+    "source_sections": [
+      "FAQ",
+      "Jangka Waktu Pengumuman:"
+    ],
+    "mentions": 2
+  },
+  "dokumen:yang diperlukan.": {
+    "id": "ent_0037",
+    "name": "yang diperlukan.",
+    "type": "dokumen",
+    "value": "yang diperlukan.",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:- 📝 status pendaftaran": {
+    "id": "ent_0038",
+    "name": "- 📝 Status Pendaftaran",
+    "type": "dokumen",
+    "value": "- 📝 Status Pendaftaran",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:(format jpg)**": {
+    "id": "ent_0039",
+    "name": "(Format JPG)**",
+    "type": "dokumen",
+    "value": "(Format JPG)**",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:berikut dalam format **jpg**:": {
+    "id": "ent_0040",
+    "name": "berikut dalam format **JPG**:",
+    "type": "dokumen",
+    "value": "berikut dalam format **JPG**:",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:| spesifikasi |": {
+    "id": "ent_0041",
+    "name": "| Spesifikasi |",
+    "type": "dokumen",
+    "value": "| Spesifikasi |",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:2. pilih file jpg dari komputer/smartphone": {
+    "id": "ent_0042",
+    "name": "2. Pilih file JPG dari komputer/smartphone",
+    "type": "dokumen",
+    "value": "2. Pilih file JPG dari komputer/smartphone",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:terupload dengan warna ✅ **sukses**": {
+    "id": "ent_0043",
+    "name": "terupload dengan warna ✅ **Sukses**",
+    "type": "dokumen",
+    "value": "terupload dengan warna ✅ **Sukses**",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:lengkap:": {
+    "id": "ent_0044",
+    "name": "lengkap:",
+    "type": "dokumen",
+    "value": "lengkap:",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:anda**": {
+    "id": "ent_0045",
+    "name": "Anda**",
+    "type": "dokumen",
+    "value": "Anda**",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:yang diminta": {
+    "id": "ent_0046",
+    "name": "yang diminta",
+    "type": "dokumen",
+    "value": "yang diminta",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**yang jelas & terbaca** (jangan buram atau miring)": {
+    "id": "ent_0047",
+    "name": "**yang jelas & terbaca** (jangan buram atau miring)",
+    "type": "dokumen",
+    "value": "**yang jelas & terbaca** (jangan buram atau miring)",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:yang dimanipulasi** (tidak akan lolos verifikasi)": {
+    "id": "ent_0048",
+    "name": "yang dimanipulasi** (tidak akan lolos verifikasi)",
+    "type": "dokumen",
+    "value": "yang dimanipulasi** (tidak akan lolos verifikasi)",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:terupload**": {
+    "id": "ent_0049",
+    "name": "terupload**",
+    "type": "dokumen",
+    "value": "terupload**",
+    "source_sections": [
+      "FAQ",
+      "Status Setelah Tahap 4:"
+    ],
+    "mentions": 2
+  },
+  "dokumen:skhun": {
+    "id": "ent_0050",
+    "name": "SKHUN",
+    "type": "dokumen",
+    "value": "SKHUN",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Surat Keterangan Hasil Ujian",
+      "Langkah 4️⃣ Upload Dokumen Persyaratan"
+    ],
+    "mentions": 4
+  },
+  "prodi:lain": {
+    "id": "ent_0051",
+    "name": "lain",
+    "type": "prodi",
+    "value": "lain",
+    "source_sections": [
+      "FAQ",
+      "Jika DITOLAK:"
+    ],
+    "mentions": 2
+  },
+  "biaya:745.000": {
+    "id": "ent_0052",
+    "name": "745.000",
+    "type": "biaya",
+    "value": 745000,
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Nominal Pembayaran:",
+      "D3 & S1 - Gelombang 1",
+      "D3 & S1 - Gelombang 2",
+      "D3 & S1 - Gelombang 3",
+      "Langkah 7️⃣ Registrasi Angsuran Pertama (Bayar Semester 1)",
+      "Registrasi Angsuran Pertama",
+      "Q7: Kapan deadline bayar semester 1?"
+    ],
+    "mentions": 13
+  },
+  "biaya:1.100.000": {
+    "id": "ent_0053",
+    "name": "1.100.000",
+    "type": "biaya",
+    "value": 1100000,
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Nominal Pembayaran:",
+      "S2 (Pascasarjana) - Gelombang 1",
+      "S2 (Pascasarjana) - Gelombang 2",
+      "S2 (Pascasarjana) - Gelombang 3",
+      "Langkah 7️⃣ Registrasi Angsuran Pertama (Bayar Semester 1)",
+      "Registrasi Angsuran Pertama",
+      "Q7: Kapan deadline bayar semester 1?"
+    ],
+    "mentions": 13
+  },
+  "tanggal:8 januari 2025": {
+    "id": "ent_0054",
+    "name": "8 Januari 2025",
+    "type": "tanggal",
+    "value": "8 Januari 2025",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Deadline Pembayaran:",
+      "D3 & S1 - Gelombang 1",
+      "S2 (Pascasarjana) - Gelombang 1",
+      "Q7: Kapan deadline bayar semester 1?"
+    ],
+    "mentions": 9
+  },
+  "tanggal:8 mei 2025": {
+    "id": "ent_0055",
+    "name": "8 Mei 2025",
+    "type": "tanggal",
+    "value": "8 Mei 2025",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Deadline Pembayaran:",
+      "D3 & S1 - Gelombang 2",
+      "S2 (Pascasarjana) - Gelombang 2",
+      "Q7: Kapan deadline bayar semester 1?"
+    ],
+    "mentions": 13
+  },
+  "tanggal:7 september 2025": {
+    "id": "ent_0056",
+    "name": "7 September 2025",
+    "type": "tanggal",
+    "value": "7 September 2025",
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Deadline Pembayaran:",
+      "D3 & S1 - Gelombang 3",
+      "S2 (Pascasarjana) - Gelombang 3",
+      "Q7: Kapan deadline bayar semester 1?"
+    ],
+    "mentions": 9
+  },
+  "dokumen:\"biaya pendidikan\"": {
+    "id": "ent_0057",
+    "name": "\"Biaya Pendidikan\"",
+    "type": "dokumen",
+    "value": "\"Biaya Pendidikan\"",
+    "source_sections": [
+      "FAQ",
+      "Nominal Pembayaran:"
+    ],
+    "mentions": 2
+  },
+  "prodi:anda": {
+    "id": "ent_0058",
+    "name": "Anda",
+    "type": "prodi",
+    "value": "Anda",
+    "source_sections": [
+      "FAQ",
+      "Step-by-Step:",
+      "Tips Merawat Fasilitas"
+    ],
+    "mentions": 4
+  },
+  "dokumen:**ijazah/skl**": {
+    "id": "ent_0059",
+    "name": "**Ijazah/SKL**",
+    "type": "dokumen",
+    "value": "**Ijazah/SKL**",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**kartu keluarga**": {
+    "id": "ent_0060",
+    "name": "**Kartu Keluarga**",
+    "type": "dokumen",
+    "value": "**Kartu Keluarga**",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**foto formal**": {
+    "id": "ent_0061",
+    "name": "**Foto Formal**",
+    "type": "dokumen",
+    "value": "**Foto Formal**",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**surat keterangan hasil ujian**": {
+    "id": "ent_0062",
+    "name": "**Surat Keterangan Hasil Ujian**",
+    "type": "dokumen",
+    "value": "**Surat Keterangan Hasil Ujian**",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**surat sehat**": {
+    "id": "ent_0063",
+    "name": "**Surat Sehat**",
+    "type": "dokumen",
+    "value": "**Surat Sehat**",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:yang kurang/tidak jelas: ada notifikasi untuk upload ulang": {
+    "id": "ent_0064",
+    "name": "yang kurang/tidak jelas: ada notifikasi untuk upload ulang",
+    "type": "dokumen",
+    "value": "yang kurang/tidak jelas: ada notifikasi untuk upload ulang",
+    "source_sections": [
+      "Q4: Berapa lama waktu verifikasi biodata & dokumen?"
+    ],
+    "mentions": 1
+  },
+  "prodi:saat proses pendaftaran": {
+    "id": "ent_0065",
+    "name": "saat proses pendaftaran",
+    "type": "prodi",
+    "value": "saat proses pendaftaran",
+    "source_sections": [
+      "Q5: Apakah bisa pindah program studi saat proses pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "biaya:200.000": {
+    "id": "ent_0066",
+    "name": "200.000",
+    "type": "biaya",
+    "value": 200000,
+    "source_sections": [
+      "Q5: Apakah bisa pindah program studi saat proses pendaftaran?",
+      "Waktu yang Diperbolehkan Pindah Prodi",
+      "Q3: Apakah saya bisa mengubah program studi setelah daftar?"
+    ],
+    "mentions": 3
+  },
+  "biaya:745": {
+    "id": "ent_0067",
+    "name": "745",
+    "type": "biaya",
+    "value": 745,
+    "source_sections": [
+      "Q8: Berapa total biaya yang harus dibayar tahun pertama?",
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?",
+      "Tabel",
+      "Ketentuan Pembayaran",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 5
+  },
+  "biaya:1.1": {
+    "id": "ent_0068",
+    "name": "1.1",
+    "type": "biaya",
+    "value": 11,
+    "source_sections": [
+      "Q8: Berapa total biaya yang harus dibayar tahun pertama?",
+      "Tabel",
+      "Ketentuan Pembayaran",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 4
+  },
+  "dokumen:\"komponen biaya pendidikan\"": {
+    "id": "ent_0069",
+    "name": "\"Komponen Biaya Pendidikan\"",
+    "type": "dokumen",
+    "value": "\"Komponen Biaya Pendidikan\"",
+    "source_sections": [
+      "Q8: Berapa total biaya yang harus dibayar tahun pertama?"
+    ],
+    "mentions": 1
+  },
+  "prodi:tertentu": {
+    "id": "ent_0070",
+    "name": "tertentu",
+    "type": "prodi",
+    "value": "tertentu",
+    "source_sections": [
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?"
+    ],
+    "mentions": 1
+  },
+  "biaya:250": {
+    "id": "ent_0071",
+    "name": "250",
+    "type": "biaya",
+    "value": 250,
+    "source_sections": [
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?",
+      "FAQ",
+      "Tabel",
+      "Jenis-Jenis Beasiswa UNSIQ",
+      "Pembayaran Biaya Pendaftaran",
+      "Ketentuan Pembayaran",
+      "Q9: Bagaimana jika saya tidak lulus ujian?"
+    ],
+    "mentions": 8
+  },
+  "dokumen:\"komponen biaya\" untuk rincian lengkap.": {
+    "id": "ent_0072",
+    "name": "\"Komponen Biaya\" untuk rincian lengkap.",
+    "type": "dokumen",
+    "value": "\"Komponen Biaya\" untuk rincian lengkap.",
+    "source_sections": [
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:(jpg)": {
+    "id": "ent_0073",
+    "name": "(JPG)",
+    "type": "dokumen",
+    "value": "(JPG)",
+    "source_sections": [
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:ini merupakan panduan lengkap dari infografis resmi upt pmb unsiq.**": {
+    "id": "ent_0074",
+    "name": "ini merupakan panduan lengkap dari Infografis Resmi UPT PMB UNSIQ.**",
+    "type": "dokumen",
+    "value": "ini merupakan panduan lengkap dari Infografis Resmi UPT PMB UNSIQ.**",
+    "source_sections": [
+      "Q10: Apakah ada biaya tambahan selain biaya pendaftaran & semester?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:tahfidzul qur": {
+    "id": "ent_0075",
+    "name": "Tahfidzul Qur",
+    "type": "beasiswa",
+    "value": "Tahfidzul Qur",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "Jenis-Jenis Beasiswa UNSIQ",
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 5
+  },
+  "beasiswa:prestasi": {
+    "id": "ent_0076",
+    "name": "Prestasi",
+    "type": "beasiswa",
+    "value": "Prestasi",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "D. Tahfidz 5-10 Juz"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:kerjasama": {
+    "id": "ent_0077",
+    "name": "Kerjasama",
+    "type": "beasiswa",
+    "value": "Kerjasama",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "B. Prestasi Akademik (UASBN/UAS ≥ 85)"
+    ],
+    "mentions": 4
+  },
+  "beasiswa:pemerintah": {
+    "id": "ent_0078",
+    "name": "Pemerintah",
+    "type": "beasiswa",
+    "value": "Pemerintah",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:lembaga eksternal": {
+    "id": "ent_0079",
+    "name": "Lembaga Eksternal",
+    "type": "beasiswa",
+    "value": "Lembaga Eksternal",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:mahasiswa ongoing": {
+    "id": "ent_0080",
+    "name": "Mahasiswa Ongoing",
+    "type": "beasiswa",
+    "value": "Mahasiswa Ongoing",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "B. Beasiswa BSI (Bank Syari'ah Indonesia)"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:unsiq": {
+    "id": "ent_0081",
+    "name": "UNSIQ",
+    "type": "beasiswa",
+    "value": "UNSIQ",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "Jenis-Jenis Beasiswa UNSIQ",
+      "B. Kerjasama Beasiswa UNSIQ",
+      "Q1: Bisakah mengajukan 2 beasiswa sekaligus?",
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 12
+  },
+  "beasiswa:beasiswa tahfidz": {
+    "id": "ent_0082",
+    "name": "Beasiswa Tahfidz",
+    "type": "beasiswa",
+    "value": "Beasiswa Tahfidz",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "Jenis-Jenis Beasiswa UNSIQ",
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?",
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 7
+  },
+  "beasiswa:beasiswa prestasi": {
+    "id": "ent_0083",
+    "name": "Beasiswa Prestasi",
+    "type": "beasiswa",
+    "value": "Beasiswa Prestasi",
+    "source_sections": [
+      "FAQ",
+      "Intro",
+      "D. Tahfidz 5-10 Juz",
+      "A. Beasiswa Prestasi Non-Akademik",
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?",
+      "Q5: Bagaimana jika nilai UASBN saya 84,5 (kurang dari 85)?",
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 10
+  },
+  "biaya:1.595": {
+    "id": "ent_0084",
+    "name": "1.595",
+    "type": "biaya",
+    "value": 1595,
+    "source_sections": [
+      "FAQ",
+      "Tabel",
+      "Jenis-Jenis Beasiswa UNSIQ"
+    ],
+    "mentions": 3
+  },
+  "biaya:95.000": {
+    "id": "ent_0085",
+    "name": "95.000",
+    "type": "biaya",
+    "value": 95000,
+    "source_sections": [
+      "FAQ",
+      "A. Tahfidz 30 Juz"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:prestasi\n\njawaban": {
+    "id": "ent_0086",
+    "name": "PRESTASI\n\nJawaban",
+    "type": "beasiswa",
+    "value": "PRESTASI\n\nJawaban",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "biaya:10.000": {
+    "id": "ent_0087",
+    "name": "10.000",
+    "type": "biaya",
+    "value": 10000,
+    "source_sections": [
+      "FAQ",
+      "A. Tahfidz 30 Juz",
+      "B. Tahfidz 21-29 Juz",
+      "C. Tahfidz 11-20 Juz",
+      "D. Tahfidz 5-10 Juz",
+      "Panduan Dokumen",
+      "Q5: Apakah dokumentasinya harus yang asli?"
+    ],
+    "mentions": 10
+  },
+  "syarat:di atas": {
+    "id": "ent_0088",
+    "name": "di atas",
+    "type": "syarat",
+    "value": "di atas",
+    "source_sections": [
+      "FAQ",
+      "A. Tahfidz 30 Juz"
+    ],
+    "mentions": 2
+  },
+  "dokumen:syarat di atas": {
+    "id": "ent_0089",
+    "name": "syarat di atas",
+    "type": "dokumen",
+    "value": "syarat di atas",
+    "source_sections": [
+      "FAQ",
+      "A. Tahfidz 30 Juz"
+    ],
+    "mentions": 2
+  },
+  "dokumen:melalui portal pmb unsiq": {
+    "id": "ent_0090",
+    "name": "melalui portal PMB UNSIQ",
+    "type": "dokumen",
+    "value": "melalui portal PMB UNSIQ",
+    "source_sections": [
+      "FAQ",
+      "A. Tahfidz 30 Juz"
+    ],
+    "mentions": 2
+  },
+  "dokumen:asli atau fotokopi yang sudah dilegalisir": {
+    "id": "ent_0091",
+    "name": "ASLI atau Fotokopi yang sudah dilegalisir",
+    "type": "dokumen",
+    "value": "ASLI atau Fotokopi yang sudah dilegalisir",
+    "source_sections": [
+      "FAQ",
+      "B. Prestasi Akademik (UASBN/UAS ≥ 85)"
+    ],
+    "mentions": 2
+  },
+  "dokumen:resmi sekolah": {
+    "id": "ent_0092",
+    "name": "resmi sekolah",
+    "type": "dokumen",
+    "value": "resmi sekolah",
+    "source_sections": [
+      "FAQ",
+      "B. Prestasi Akademik (UASBN/UAS ≥ 85)"
+    ],
+    "mentions": 2
+  },
+  "prodi:yang tersedia": {
+    "id": "ent_0093",
+    "name": "yang Tersedia",
+    "type": "prodi",
+    "value": "yang Tersedia",
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 2
+  },
+  "prodi:dengan": {
+    "id": "ent_0094",
+    "name": "dengan",
+    "type": "prodi",
+    "value": "dengan",
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 2
+  },
+  "prodi:pilihan": {
+    "id": "ent_0095",
+    "name": "pilihan",
+    "type": "prodi",
+    "value": "pilihan",
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 2
+  },
+  "prodi:yang eligible": {
+    "id": "ent_0096",
+    "name": "yang Eligible",
+    "type": "prodi",
+    "value": "yang Eligible",
+    "source_sections": [
+      "FAQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI"
+    ],
+    "mentions": 2
+  },
+  "prodi:eligible dengan akreditasi unggul": {
+    "id": "ent_0097",
+    "name": "eligible dengan akreditasi Unggul",
+    "type": "prodi",
+    "value": "eligible dengan akreditasi Unggul",
+    "source_sections": [
+      "FAQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI"
+    ],
+    "mentions": 2
+  },
+  "prodi:arsitektur": {
+    "id": "ent_0098",
+    "name": "Arsitektur",
+    "type": "prodi",
+    "value": "Arsitektur",
+    "source_sections": [
+      "FAQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI",
+      "CSV"
+    ],
+    "mentions": 4
+  },
+  "beasiswa:pemerintah\n\njawaban": {
+    "id": "ent_0099",
+    "name": "PEMERINTAH\n\nJawaban",
+    "type": "beasiswa",
+    "value": "PEMERINTAH\n\nJawaban",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:santri berprestasi": {
+    "id": "ent_0100",
+    "name": "Santri Berprestasi",
+    "type": "beasiswa",
+    "value": "Santri Berprestasi",
+    "source_sections": [
+      "FAQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:kip kuliah merdeka": {
+    "id": "ent_0101",
+    "name": "KIP Kuliah Merdeka",
+    "type": "beasiswa",
+    "value": "KIP Kuliah Merdeka",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 2
+  },
+  "biaya:1.595.000": {
+    "id": "ent_0102",
+    "name": "1.595.000",
+    "type": "biaya",
+    "value": 1595000,
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 4
+  },
+  "syarat:utama                                 |": {
+    "id": "ent_0103",
+    "name": "Utama                                 |",
+    "type": "syarat",
+    "value": "Utama                                 |",
+    "source_sections": [
+      "FAQ",
+      "B. Kerjasama Beasiswa UNSIQ"
+    ],
+    "mentions": 2
+  },
+  "syarat:mahasiswa harus diterima di prodi eligible dengan akreditasi unggul/a": {
+    "id": "ent_0104",
+    "name": "Mahasiswa harus diterima di prodi eligible dengan akreditasi Unggul/A",
+    "type": "syarat",
+    "value": "Mahasiswa harus diterima di prodi eligible dengan akreditasi Unggul/A",
+    "source_sections": [
+      "FAQ",
+      "A. Program Beasiswa Santri Berprestasi (PBSB) - Kemenag RI"
+    ],
+    "mentions": 2
+  },
+  "syarat:pendaftaran:**": {
+    "id": "ent_0105",
+    "name": "Pendaftaran:**",
+    "type": "syarat",
+    "value": "Pendaftaran:**",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 2
+  },
+  "dokumen:yang sah": {
+    "id": "ent_0106",
+    "name": "yang sah",
+    "type": "dokumen",
+    "value": "yang sah",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 2
+  },
+  "prodi:dengan akreditasi": {
+    "id": "ent_0107",
+    "name": "dengan Akreditasi",
+    "type": "prodi",
+    "value": "dengan Akreditasi",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 2
+  },
+  "prodi:akreditasi": {
+    "id": "ent_0108",
+    "name": "Akreditasi",
+    "type": "prodi",
+    "value": "Akreditasi",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:lembaga eksternal\n\njawaban": {
+    "id": "ent_0109",
+    "name": "LEMBAGA EKSTERNAL\n\nJawaban",
+    "type": "beasiswa",
+    "value": "LEMBAGA EKSTERNAL\n\nJawaban",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:baznas ri": {
+    "id": "ent_0110",
+    "name": "BAZNAS RI",
+    "type": "beasiswa",
+    "value": "BAZNAS RI",
+    "source_sections": [
+      "FAQ",
+      "A. Beasiswa BAZNAS RI (Badan Amil Zakat Nasional)",
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:kip-k": {
+    "id": "ent_0111",
+    "name": "kip-k",
+    "type": "beasiswa",
+    "value": "kip-k",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa KIP Kuliah Merdeka 2025"
+    ],
+    "mentions": 8
+  },
+  "beasiswa:spp dan sks selama": {
+    "id": "ent_0112",
+    "name": "SPP dan SKS selama",
+    "type": "beasiswa",
+    "value": "SPP dan SKS selama",
+    "source_sections": [
+      "FAQ",
+      "A. Beasiswa BAZNAS RI (Badan Amil Zakat Nasional)"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:bsi": {
+    "id": "ent_0113",
+    "name": "BSI",
+    "type": "beasiswa",
+    "value": "BSI",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa BSI (Bank Syari'ah Indonesia)",
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?"
+    ],
+    "mentions": 3
+  },
+  "beasiswa:spp dan sks gratis selama": {
+    "id": "ent_0114",
+    "name": "SPP dan SKS gratis selama",
+    "type": "beasiswa",
+    "value": "SPP dan SKS gratis selama",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa BSI (Bank Syari'ah Indonesia)"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:mahasiswa ongoing\n\njawaban": {
+    "id": "ent_0115",
+    "name": "MAHASISWA ONGOING\n\nJawaban",
+    "type": "beasiswa",
+    "value": "MAHASISWA ONGOING\n\nJawaban",
+    "source_sections": [
+      "FAQ"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:prestasi non": {
+    "id": "ent_0116",
+    "name": "Prestasi Non",
+    "type": "beasiswa",
+    "value": "Prestasi Non",
+    "source_sections": [
+      "FAQ",
+      "A. Beasiswa Prestasi Non-Akademik",
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?"
+    ],
+    "mentions": 3
+  },
+  "syarat:dan ketentuan lebih lanjut menunggu kuota dibuka": {
+    "id": "ent_0117",
+    "name": "dan ketentuan lebih lanjut menunggu kuota dibuka",
+    "type": "syarat",
+    "value": "dan ketentuan lebih lanjut menunggu kuota dibuka",
+    "source_sections": [
+      "FAQ",
+      "A. Beasiswa BAZNAS RI (Badan Amil Zakat Nasional)"
+    ],
+    "mentions": 2
+  },
+  "syarat:dan ketentuan berlaku saat program dibuka": {
+    "id": "ent_0118",
+    "name": "dan ketentuan berlaku saat program dibuka",
+    "type": "syarat",
+    "value": "dan ketentuan berlaku saat program dibuka",
+    "source_sections": [
+      "FAQ",
+      "B. Beasiswa BSI (Bank Syari'ah Indonesia)"
+    ],
+    "mentions": 2
+  },
+  "dokumen:akan dijelaskan saat dibuka": {
+    "id": "ent_0119",
+    "name": "akan dijelaskan saat dibuka",
+    "type": "dokumen",
+    "value": "akan dijelaskan saat dibuka",
+    "source_sections": [
+      "FAQ",
+      "A. Beasiswa BAZNAS RI (Badan Amil Zakat Nasional)"
+    ],
+    "mentions": 2
+  },
+  "kuota:200": {
+    "id": "ent_0120",
+    "name": "200",
+    "type": "kuota",
+    "value": 200,
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 2
+  },
+  "kuota:100": {
+    "id": "ent_0121",
+    "name": "100",
+    "type": "kuota",
+    "value": 100,
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "kuota:500": {
+    "id": "ent_0122",
+    "name": "500",
+    "type": "kuota",
+    "value": 500,
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "kuota:350": {
+    "id": "ent_0123",
+    "name": "350",
+    "type": "kuota",
+    "value": 350,
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: terdaftar sebagai santri di pesantren": {
+    "id": "ent_0124",
+    "name": "Utama: Terdaftar sebagai santri di pesantren",
+    "type": "syarat",
+    "value": "Utama: Terdaftar sebagai santri di pesantren",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: mengajar di tpq atau madrasah diniyah": {
+    "id": "ent_0125",
+    "name": "Utama: Mengajar di TPQ atau Madrasah Diniyah",
+    "type": "syarat",
+    "value": "Utama: Mengajar di TPQ atau Madrasah Diniyah",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: bekerja sebagai penyuluh agama": {
+    "id": "ent_0126",
+    "name": "Utama: Bekerja sebagai Penyuluh Agama",
+    "type": "syarat",
+    "value": "Utama: Bekerja sebagai Penyuluh Agama",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: termasuk dalam program kepemimpinan desa": {
+    "id": "ent_0127",
+    "name": "Utama: Termasuk dalam program kepemimpinan desa",
+    "type": "syarat",
+    "value": "Utama: Termasuk dalam program kepemimpinan desa",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: aktif di organisasi kemasyarakatan": {
+    "id": "ent_0128",
+    "name": "Utama: Aktif di Organisasi Kemasyarakatan",
+    "type": "syarat",
+    "value": "Utama: Aktif di Organisasi Kemasyarakatan",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: aktif di partai politik": {
+    "id": "ent_0129",
+    "name": "Utama: Aktif di Partai Politik",
+    "type": "syarat",
+    "value": "Utama: Aktif di Partai Politik",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:utama: pendamping keluarga harapan (program kemsos)": {
+    "id": "ent_0130",
+    "name": "Utama: Pendamping Keluarga Harapan (program Kemsos)",
+    "type": "syarat",
+    "value": "Utama: Pendamping Keluarga Harapan (program Kemsos)",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: syahadah + surat kyai bermaterai": {
+    "id": "ent_0131",
+    "name": "Utama: Syahadah + Surat Kyai bermaterai",
+    "type": "dokumen",
+    "value": "Utama: Syahadah + Surat Kyai bermaterai",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: piagam penghargaan asli": {
+    "id": "ent_0132",
+    "name": "Utama: Piagam penghargaan asli",
+    "type": "dokumen",
+    "value": "Utama: Piagam penghargaan asli",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: uasbn legalisir": {
+    "id": "ent_0133",
+    "name": "Utama: UASBN legalisir",
+    "type": "dokumen",
+    "value": "Utama: UASBN legalisir",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: surat rekomendasi sekolah": {
+    "id": "ent_0134",
+    "name": "Utama: Surat rekomendasi sekolah",
+    "type": "dokumen",
+    "value": "Utama: Surat rekomendasi sekolah",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: surat rekomendasi + sktm": {
+    "id": "ent_0135",
+    "name": "Utama: Surat rekomendasi + SKTM",
+    "type": "dokumen",
+    "value": "Utama: Surat rekomendasi + SKTM",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama: nik + nisn + npsn (digital)": {
+    "id": "ent_0136",
+    "name": "Utama: NIK + NISN + NPSN (digital)",
+    "type": "dokumen",
+    "value": "Utama: NIK + NISN + NPSN (digital)",
+    "source_sections": [
+      "Tabel"
+    ],
+    "mentions": 1
+  },
+  "syarat:- mahasiswa yang memiliki prestasi di bidang organisasi kemahasiswaan": {
+    "id": "ent_0137",
+    "name": "- Mahasiswa yang memiliki prestasi di bidang organisasi kemahasiswaan",
+    "type": "syarat",
+    "value": "- Mahasiswa yang memiliki prestasi di bidang organisasi kemahasiswaan",
+    "source_sections": [
+      "A. Beasiswa Prestasi Non-Akademik"
+    ],
+    "mentions": 1
+  },
+  "syarat:- mahasiswa yang memiliki prestasi kejuaraan lomba": {
+    "id": "ent_0138",
+    "name": "- Mahasiswa yang memiliki prestasi kejuaraan lomba",
+    "type": "syarat",
+    "value": "- Mahasiswa yang memiliki prestasi kejuaraan lomba",
+    "source_sections": [
+      "A. Beasiswa Prestasi Non-Akademik"
+    ],
+    "mentions": 1
+  },
+  "syarat:dan ketentuan berlaku saat diajukan": {
+    "id": "ent_0139",
+    "name": "dan ketentuan berlaku saat diajukan",
+    "type": "syarat",
+    "value": "dan ketentuan berlaku saat diajukan",
+    "source_sections": [
+      "A. Beasiswa Prestasi Non-Akademik",
+      "B. Beasiswa Ketua Organisasi Kemahasiswaan (Ormawa)"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:ketua organisasi kemahasiswaan": {
+    "id": "ent_0140",
+    "name": "Ketua Organisasi Kemahasiswaan",
+    "type": "beasiswa",
+    "value": "Ketua Organisasi Kemahasiswaan",
+    "source_sections": [
+      "B. Beasiswa Ketua Organisasi Kemahasiswaan (Ormawa)"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:sekaligus": {
+    "id": "ent_0141",
+    "name": "sekaligus",
+    "type": "beasiswa",
+    "value": "sekaligus",
+    "source_sections": [
+      "Q1: Bisakah mengajukan 2 beasiswa sekaligus?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:tambahan": {
+    "id": "ent_0142",
+    "name": "tambahan",
+    "type": "beasiswa",
+    "value": "tambahan",
+    "source_sections": [
+      "Q1: Bisakah mengajukan 2 beasiswa sekaligus?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:lain": {
+    "id": "ent_0143",
+    "name": "lain",
+    "type": "beasiswa",
+    "value": "lain",
+    "source_sections": [
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?",
+      "Q5: Bagaimana jika nilai UASBN saya 84,5 (kurang dari 85)?"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:ketua ormawa": {
+    "id": "ent_0144",
+    "name": "Ketua Ormawa",
+    "type": "beasiswa",
+    "value": "Ketua Ormawa",
+    "source_sections": [
+      "Q2: Bagaimana jika tidak lulus seleksi beasiswa, bisakah apply beasiswa lain?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:dibuka": {
+    "id": "ent_0145",
+    "name": "dibuka",
+    "type": "beasiswa",
+    "value": "dibuka",
+    "source_sections": [
+      "Q3: Kapan pendaftaran beasiswa dibuka?"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:yang dipilih": {
+    "id": "ent_0146",
+    "name": "yang dipilih",
+    "type": "beasiswa",
+    "value": "yang dipilih",
+    "source_sections": [
+      "Q4: Dokumen apa saja yang perlu disiapkan?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:apa saja yang perlu disiapkan?": {
+    "id": "ent_0147",
+    "name": "apa saja yang perlu disiapkan?",
+    "type": "dokumen",
+    "value": "apa saja yang perlu disiapkan?",
+    "source_sections": [
+      "Q4: Dokumen apa saja yang perlu disiapkan?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:utama                    |": {
+    "id": "ent_0148",
+    "name": "Utama                    |",
+    "type": "dokumen",
+    "value": "Utama                    |",
+    "source_sections": [
+      "Q4: Dokumen apa saja yang perlu disiapkan?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:harus asli atau copy legalisir": {
+    "id": "ent_0149",
+    "name": "harus asli atau copy legalisir",
+    "type": "dokumen",
+    "value": "harus asli atau copy legalisir",
+    "source_sections": [
+      "Q4: Dokumen apa saja yang perlu disiapkan?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:prestasi akademik": {
+    "id": "ent_0150",
+    "name": "Prestasi Akademik",
+    "type": "beasiswa",
+    "value": "Prestasi Akademik",
+    "source_sections": [
+      "Q5: Bagaimana jika nilai UASBN saya 84,5 (kurang dari 85)?",
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 2
+  },
+  "beasiswa:ongoing": {
+    "id": "ent_0151",
+    "name": "ongoing",
+    "type": "beasiswa",
+    "value": "ongoing",
+    "source_sections": [
+      "Q5: Bagaimana jika nilai UASBN saya 84,5 (kurang dari 85)?"
+    ],
+    "mentions": 1
+  },
+  "syarat:beasiswa prestasi akademik, karena syaratnya **minimal 85,00**. namun, anda masih bisa:": {
+    "id": "ent_0152",
+    "name": "beasiswa Prestasi Akademik, karena syaratnya **minimal 85,00**. Namun, Anda masih bisa:",
+    "type": "syarat",
+    "value": "beasiswa Prestasi Akademik, karena syaratnya **minimal 85,00**. Namun, Anda masih bisa:",
+    "source_sections": [
+      "Q5: Bagaimana jika nilai UASBN saya 84,5 (kurang dari 85)?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:** 3-7 hari kerja": {
+    "id": "ent_0153",
+    "name": "** 3-7 hari kerja",
+    "type": "dokumen",
+    "value": "** 3-7 hari kerja",
+    "source_sections": [
+      "Q7: Berapa lama proses verifikasi beasiswa?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:tahfidz bisa perpanjangan setelah": {
+    "id": "ent_0154",
+    "name": "Tahfidz bisa perpanjangan setelah",
+    "type": "beasiswa",
+    "value": "Tahfidz bisa perpanjangan setelah",
+    "source_sections": [
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:tahfidz bisa diajukan setiap semester dengan ketentuan telah mengajukan beasiswa saat menjadi mahasiswa baru": {
+    "id": "ent_0155",
+    "name": "Tahfidz bisa diajukan setiap semester dengan ketentuan telah mengajukan beasiswa saat menjadi Mahasiswa Baru",
+    "type": "beasiswa",
+    "value": "Tahfidz bisa diajukan setiap semester dengan ketentuan telah mengajukan beasiswa saat menjadi Mahasiswa Baru",
+    "source_sections": [
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:saat menjadi mahasiswa baru": {
+    "id": "ent_0156",
+    "name": "saat menjadi mahasiswa baru",
+    "type": "beasiswa",
+    "value": "saat menjadi mahasiswa baru",
+    "source_sections": [
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?"
+    ],
+    "mentions": 1
+  },
+  "syarat:harus sudah mengajukan beasiswa saat menjadi mahasiswa baru": {
+    "id": "ent_0157",
+    "name": "Harus sudah mengajukan beasiswa saat menjadi mahasiswa baru",
+    "type": "syarat",
+    "value": "Harus sudah mengajukan beasiswa saat menjadi mahasiswa baru",
+    "source_sections": [
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?"
+    ],
+    "mentions": 1
+  },
+  "syarat:sama seperti awal (syahadah, surat kyai, dll)": {
+    "id": "ent_0158",
+    "name": "sama seperti awal (Syahadah, surat Kyai, dll)",
+    "type": "syarat",
+    "value": "sama seperti awal (Syahadah, surat Kyai, dll)",
+    "source_sections": [
+      "Q8: Apakah Beasiswa Tahfidz bisa perpanjangan setelah 6 semester (untuk Tahfidz 21-29)?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:unsiq bisa untuk": {
+    "id": "ent_0159",
+    "name": "UNSIQ bisa untuk",
+    "type": "beasiswa",
+    "value": "UNSIQ bisa untuk",
+    "source_sections": [
+      "Q10: Apakah beasiswa UNSIQ bisa untuk D3 dan S1?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:berlaku untuk keduanya": {
+    "id": "ent_0160",
+    "name": "berlaku untuk keduanya",
+    "type": "beasiswa",
+    "value": "berlaku untuk keduanya",
+    "source_sections": [
+      "Q10: Apakah beasiswa UNSIQ bisa untuk D3 dan S1?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**syahadah (untuk tahfidz):**": {
+    "id": "ent_0161",
+    "name": "**Syahadah (untuk Tahfidz):**",
+    "type": "dokumen",
+    "value": "**Syahadah (untuk Tahfidz):**",
+    "source_sections": [
+      "Panduan Dokumen"
+    ],
+    "mentions": 1
+  },
+  "dokumen:sah dari qur'an center/pesantren": {
+    "id": "ent_0162",
+    "name": "sah dari Qur'an center/pesantren",
+    "type": "dokumen",
+    "value": "sah dari Qur'an center/pesantren",
+    "source_sections": [
+      "Panduan Dokumen"
+    ],
+    "mentions": 1
+  },
+  "dokumen:bulan maret            : pengumuman hasil + daftar ulang": {
+    "id": "ent_0163",
+    "name": "Bulan Maret            : Pengumuman hasil + Daftar ulang",
+    "type": "dokumen",
+    "value": "Bulan Maret            : Pengumuman hasil + Daftar ulang",
+    "source_sections": [
+      "Timeline Pengajuan (Estimasi)"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:sebagai penerima beasiswa": {
+    "id": "ent_0164",
+    "name": "Sebagai penerima beasiswa",
+    "type": "beasiswa",
+    "value": "Sebagai penerima beasiswa",
+    "source_sections": [
+      "Komitmen Penerima Beasiswa"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:sesuai syarat": {
+    "id": "ent_0165",
+    "name": "sesuai syarat",
+    "type": "beasiswa",
+    "value": "sesuai syarat",
+    "source_sections": [
+      "Komitmen Penerima Beasiswa"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:bisa dicabut tanpa pemberitahuan lebih lanjut": {
+    "id": "ent_0166",
+    "name": "bisa dicabut tanpa pemberitahuan lebih lanjut",
+    "type": "beasiswa",
+    "value": "bisa dicabut tanpa pemberitahuan lebih lanjut",
+    "source_sections": [
+      "Komitmen Penerima Beasiswa"
+    ],
+    "mentions": 1
+  },
+  "syarat:2. ✅ melaporkan setiap perubahan data/status ke unsiq": {
+    "id": "ent_0167",
+    "name": "2. ✅ Melaporkan setiap perubahan data/status ke UNSIQ",
+    "type": "syarat",
+    "value": "2. ✅ Melaporkan setiap perubahan data/status ke UNSIQ",
+    "source_sections": [
+      "Komitmen Penerima Beasiswa"
+    ],
+    "mentions": 1
+  },
+  "dokumen:ini merupakan referensi lengkap dari sumber resmi upt pmb unsiq.**": {
+    "id": "ent_0168",
+    "name": "ini merupakan referensi lengkap dari sumber resmi UPT PMB UNSIQ.**",
+    "type": "dokumen",
+    "value": "ini merupakan referensi lengkap dari sumber resmi UPT PMB UNSIQ.**",
+    "source_sections": [
+      "Komitmen Penerima Beasiswa",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 2
+  },
+  "prodi:informatika": {
+    "id": "ent_0169",
+    "name": "Informatika",
+    "type": "prodi",
+    "value": "Informatika",
+    "source_sections": [
+      "Tabel",
+      "Laboratorium Komputer",
+      "Kontak Layanan Fasilitas"
+    ],
+    "mentions": 3
+  },
+  "prodi:pendidikan fisika": {
+    "id": "ent_0170",
+    "name": "Pendidikan Fisika",
+    "type": "prodi",
+    "value": "Pendidikan Fisika",
+    "source_sections": [
+      "Tabel",
+      "Laboratorium Fisika",
+      "Kontak Layanan Fasilitas"
+    ],
+    "mentions": 3
+  },
+  "prodi:unsiq": {
+    "id": "ent_0171",
+    "name": "UNSIQ",
+    "type": "prodi",
+    "value": "UNSIQ",
+    "source_sections": [
+      "Status Fasilitas",
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus"
+    ],
+    "mentions": 4
+  },
+  "prodi:hukum": {
+    "id": "ent_0172",
+    "name": "Hukum",
+    "type": "prodi",
+    "value": "Hukum",
+    "source_sections": [
+      "Ruang Sidang Semu (Mock Court)"
+    ],
+    "mentions": 2
+  },
+  "prodi:hukum lainnya": {
+    "id": "ent_0173",
+    "name": "hukum lainnya",
+    "type": "prodi",
+    "value": "hukum lainnya",
+    "source_sections": [
+      "Ruang Sidang Semu (Mock Court)"
+    ],
+    "mentions": 1
+  },
+  "fakultas:fakultas hukum": {
+    "id": "ent_0174",
+    "name": "Fakultas Hukum",
+    "type": "fakultas",
+    "value": "Fakultas Hukum",
+    "source_sections": [
+      "Ruang Sidang Semu (Mock Court)"
+    ],
+    "mentions": 1
+  },
+  "prodi:informatika dengan peralatan dan software terkini": {
+    "id": "ent_0175",
+    "name": "informatika dengan peralatan dan software terkini",
+    "type": "prodi",
+    "value": "informatika dengan peralatan dan software terkini",
+    "source_sections": [
+      "Laboratorium Komputer"
+    ],
+    "mentions": 1
+  },
+  "prodi:kpi": {
+    "id": "ent_0176",
+    "name": "KPI",
+    "type": "prodi",
+    "value": "KPI",
+    "source_sections": [
+      "Radio UNSIQ"
+    ],
+    "mentions": 1
+  },
+  "dokumen:ini merupakan panduan lengkap fasilitas resmi unsiq jawa tengah.**": {
+    "id": "ent_0177",
+    "name": "ini merupakan panduan lengkap fasilitas resmi UNSIQ Jawa Tengah.**",
+    "type": "dokumen",
+    "value": "ini merupakan panduan lengkap fasilitas resmi UNSIQ Jawa Tengah.**",
+    "source_sections": [
+      "Tips Merawat Fasilitas"
+    ],
+    "mentions": 1
+  },
+  "prodi:setelah daftar": {
+    "id": "ent_0178",
+    "name": "setelah daftar",
+    "type": "prodi",
+    "value": "setelah daftar",
+    "source_sections": [
+      "FAQ",
+      "Q3: Apakah saya bisa mengubah program studi setelah daftar?"
+    ],
+    "mentions": 2
+  },
+  "dokumen:** tidak perlu asli, cukup **scan yang jelas** (jpg).": {
+    "id": "ent_0179",
+    "name": "** Tidak perlu asli, cukup **scan yang jelas** (JPG).",
+    "type": "dokumen",
+    "value": "** Tidak perlu asli, cukup **scan yang jelas** (JPG).",
+    "source_sections": [
+      "FAQ",
+      "Q5: Apakah dokumentasinya harus yang asli?"
+    ],
+    "mentions": 2
+  },
+  "biaya:300": {
+    "id": "ent_0180",
+    "name": "300",
+    "type": "biaya",
+    "value": 300,
+    "source_sections": [
+      "Tabel",
+      "Pembayaran Biaya Pendaftaran",
+      "Ketentuan Pembayaran",
+      "Q9: Bagaimana jika saya tidak lulus ujian?"
+    ],
+    "mentions": 4
+  },
+  "syarat:& ketentuan pendaftaran unsiq": {
+    "id": "ent_0181",
+    "name": "& KETENTUAN PENDAFTARAN UNSIQ",
+    "type": "syarat",
+    "value": "& KETENTUAN PENDAFTARAN UNSIQ",
+    "source_sections": [
+      "Intro"
+    ],
+    "mentions": 1
+  },
+  "dokumen:yang diperlukan](#dokumen-yang-diperlukan)": {
+    "id": "ent_0182",
+    "name": "yang Diperlukan](#dokumen-yang-diperlukan)",
+    "type": "dokumen",
+    "value": "yang Diperlukan](#dokumen-yang-diperlukan)",
+    "source_sections": [
+      "Intro"
+    ],
+    "mentions": 1
+  },
+  "tanggal:1 november 2024": {
+    "id": "ent_0183",
+    "name": "1 November 2024",
+    "type": "tanggal",
+    "value": "1 November 2024",
+    "source_sections": [
+      "D3 & S1 - Gelombang 1"
+    ],
+    "mentions": 1
+  },
+  "tanggal:31 desember 2024": {
+    "id": "ent_0184",
+    "name": "31 Desember 2024",
+    "type": "tanggal",
+    "value": "31 Desember 2024",
+    "source_sections": [
+      "D3 & S1 - Gelombang 1"
+    ],
+    "mentions": 2
+  },
+  "tanggal:1 januari 2025": {
+    "id": "ent_0185",
+    "name": "1 Januari 2025",
+    "type": "tanggal",
+    "value": "1 Januari 2025",
+    "source_sections": [
+      "D3 & S1 - Gelombang 2",
+      "S2 (Pascasarjana) - Gelombang 2"
+    ],
+    "mentions": 2
+  },
+  "tanggal:30 april 2025": {
+    "id": "ent_0186",
+    "name": "30 April 2025",
+    "type": "tanggal",
+    "value": "30 April 2025",
+    "source_sections": [
+      "D3 & S1 - Gelombang 2",
+      "S2 (Pascasarjana) - Gelombang 2"
+    ],
+    "mentions": 4
+  },
+  "tanggal:1 mei 2025": {
+    "id": "ent_0187",
+    "name": "1 Mei 2025",
+    "type": "tanggal",
+    "value": "1 Mei 2025",
+    "source_sections": [
+      "D3 & S1 - Gelombang 3",
+      "S2 (Pascasarjana) - Gelombang 3"
+    ],
+    "mentions": 2
+  },
+  "tanggal:31 agustus 2025": {
+    "id": "ent_0188",
+    "name": "31 Agustus 2025",
+    "type": "tanggal",
+    "value": "31 Agustus 2025",
+    "source_sections": [
+      "D3 & S1 - Gelombang 3",
+      "S2 (Pascasarjana) - Gelombang 3"
+    ],
+    "mentions": 4
+  },
+  "tanggal:1 november 2025": {
+    "id": "ent_0189",
+    "name": "1 November 2025",
+    "type": "tanggal",
+    "value": "1 November 2025",
+    "source_sections": [
+      "S2 (Pascasarjana) - Gelombang 1"
+    ],
+    "mentions": 1
+  },
+  "tanggal:31 desember 2025": {
+    "id": "ent_0190",
+    "name": "31 Desember 2025",
+    "type": "tanggal",
+    "value": "31 Desember 2025",
+    "source_sections": [
+      "S2 (Pascasarjana) - Gelombang 1"
+    ],
+    "mentions": 2
+  },
+  "dokumen:yang diperlukan": {
+    "id": "ent_0191",
+    "name": "YANG DIPERLUKAN",
+    "type": "dokumen",
+    "value": "YANG DIPERLUKAN",
+    "source_sections": [
+      "Catatan Biaya Pendaftaran",
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 2
+  },
+  "prodi:yang diminati": {
+    "id": "ent_0192",
+    "name": "yang diminati",
+    "type": "prodi",
+    "value": "yang diminati",
+    "source_sections": [
+      "Langkah 1️⃣ Isi Formulir Pendaftaran Online"
+    ],
+    "mentions": 1
+  },
+  "dokumen:persyaratan": {
+    "id": "ent_0193",
+    "name": "Persyaratan",
+    "type": "dokumen",
+    "value": "Persyaratan",
+    "source_sections": [
+      "Langkah 4️⃣ Upload Dokumen Persyaratan"
+    ],
+    "mentions": 1
+  },
+  "dokumen:berikut:": {
+    "id": "ent_0194",
+    "name": "berikut:",
+    "type": "dokumen",
+    "value": "berikut:",
+    "source_sections": [
+      "Langkah 4️⃣ Upload Dokumen Persyaratan"
+    ],
+    "mentions": 1
+  },
+  "dokumen:anda": {
+    "id": "ent_0195",
+    "name": "Anda",
+    "type": "dokumen",
+    "value": "Anda",
+    "source_sections": [
+      "Langkah 5️⃣ Tunggu Verifikasi (2x24 Jam)"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**target:** semua calon mahasiswa": {
+    "id": "ent_0196",
+    "name": "**Target:** Semua calon mahasiswa",
+    "type": "dokumen",
+    "value": "**Target:** Semua calon mahasiswa",
+    "source_sections": [
+      "Verifikasi Biodata & Dokumen"
+    ],
+    "mentions": 1
+  },
+  "dokumen:**verifikasi oleh:** sistem pmb unsiq otomatis + tim manual": {
+    "id": "ent_0197",
+    "name": "**Verifikasi oleh:** Sistem PMB UNSIQ otomatis + tim manual",
+    "type": "dokumen",
+    "value": "**Verifikasi oleh:** Sistem PMB UNSIQ otomatis + tim manual",
+    "source_sections": [
+      "Verifikasi Biodata & Dokumen"
+    ],
+    "mentions": 1
+  },
+  "prodi:sendiri lalu ujian ulang": {
+    "id": "ent_0198",
+    "name": "sendiri lalu ujian ulang",
+    "type": "prodi",
+    "value": "sendiri lalu ujian ulang",
+    "source_sections": [
+      "Waktu yang Diperbolehkan Pindah Prodi"
+    ],
+    "mentions": 1
+  },
+  "prodi:asal": {
+    "id": "ent_0199",
+    "name": "Asal",
+    "type": "prodi",
+    "value": "Asal",
+    "source_sections": [
+      "Waktu yang Diperbolehkan Pindah Prodi"
+    ],
+    "mentions": 2
+  },
+  "prodi:baru sebelum kuliah": {
+    "id": "ent_0200",
+    "name": "baru sebelum kuliah",
+    "type": "prodi",
+    "value": "baru sebelum kuliah",
+    "source_sections": [
+      "Waktu yang Diperbolehkan Pindah Prodi"
+    ],
+    "mentions": 1
+  },
+  "biaya:5.000.000": {
+    "id": "ent_0201",
+    "name": "5.000.000",
+    "type": "biaya",
+    "value": 5000000,
+    "source_sections": [
+      "Pengunduran Diri Sebelum Orientasi Mahasiswa Baru"
+    ],
+    "mentions": 2
+  },
+  "biaya:1.250.000": {
+    "id": "ent_0202",
+    "name": "1.250.000",
+    "type": "biaya",
+    "value": 1250000,
+    "source_sections": [
+      "Pengunduran Diri Sebelum Orientasi Mahasiswa Baru"
+    ],
+    "mentions": 1
+  },
+  "biaya:10.000.000": {
+    "id": "ent_0203",
+    "name": "10.000.000",
+    "type": "biaya",
+    "value": 10000000,
+    "source_sections": [
+      "Pindah Perguruan Tinggi Setelah Diterima & Daftar Ulang"
+    ],
+    "mentions": 1
+  },
+  "biaya:8.000.000": {
+    "id": "ent_0204",
+    "name": "8.000.000",
+    "type": "biaya",
+    "value": 8000000,
+    "source_sections": [
+      "Pindah Perguruan Tinggi Setelah Diterima & Daftar Ulang"
+    ],
+    "mentions": 2
+  },
+  "biaya:1.000.000": {
+    "id": "ent_0205",
+    "name": "1.000.000",
+    "type": "biaya",
+    "value": 1000000,
+    "source_sections": [
+      "Pindah Perguruan Tinggi Setelah Diterima & Daftar Ulang"
+    ],
+    "mentions": 2
+  },
+  "biaya:2.000.000": {
+    "id": "ent_0206",
+    "name": "2.000.000",
+    "type": "biaya",
+    "value": 2000000,
+    "source_sections": [
+      "Pindah Perguruan Tinggi Setelah Diterima & Daftar Ulang"
+    ],
+    "mentions": 1
+  },
+  "prodi:yang dituju di unsiq": {
+    "id": "ent_0207",
+    "name": "yang dituju di UNSIQ",
+    "type": "prodi",
+    "value": "yang dituju di UNSIQ",
+    "source_sections": [
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus"
+    ],
+    "mentions": 2
+  },
+  "dokumen:dari pt asal**": {
+    "id": "ent_0208",
+    "name": "dari PT Asal**",
+    "type": "dokumen",
+    "value": "dari PT Asal**",
+    "source_sections": [
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus"
+    ],
+    "mentions": 2
+  },
+  "dokumen:ke kaprodi yang dituju di unsiq": {
+    "id": "ent_0209",
+    "name": "ke Kaprodi yang dituju di UNSIQ",
+    "type": "dokumen",
+    "value": "ke Kaprodi yang dituju di UNSIQ",
+    "source_sections": [
+      "Transfer dari PT Lain - Belum Lulus",
+      "Transfer dari PT Lain - Sudah Lulus"
+    ],
+    "mentions": 2
+  },
+  "dokumen:(ijazah, khs, kartu keluarga, foto)": {
+    "id": "ent_0210",
+    "name": "(ijazah, KHS, kartu keluarga, foto)",
+    "type": "dokumen",
+    "value": "(ijazah, KHS, kartu keluarga, foto)",
+    "source_sections": [
+      "Transfer dari PT Lain - Belum Lulus"
+    ],
+    "mentions": 1
+  },
+  "prodi:dan bersifat mengikat": {
+    "id": "ent_0211",
+    "name": "dan bersifat mengikat",
+    "type": "prodi",
+    "value": "dan bersifat mengikat",
+    "source_sections": [
+      "Catatan Penting untuk Mahasiswa Transfer"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:saat pendaftaran": {
+    "id": "ent_0212",
+    "name": "saat pendaftaran",
+    "type": "beasiswa",
+    "value": "saat pendaftaran",
+    "source_sections": [
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:yang bisa diajukan saat pendaftaran": {
+    "id": "ent_0213",
+    "name": "yang bisa diajukan saat pendaftaran",
+    "type": "beasiswa",
+    "value": "yang bisa diajukan saat pendaftaran",
+    "source_sections": [
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:prestasi olahraga": {
+    "id": "ent_0214",
+    "name": "Prestasi Olahraga",
+    "type": "beasiswa",
+    "value": "Prestasi Olahraga",
+    "source_sections": [
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "beasiswa:kerjasama mitra sekolah": {
+    "id": "ent_0215",
+    "name": "Kerjasama Mitra Sekolah",
+    "type": "beasiswa",
+    "value": "Kerjasama Mitra Sekolah",
+    "source_sections": [
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:\"panduan lengkap beasiswa unsiq\" untuk detail lengkap.": {
+    "id": "ent_0216",
+    "name": "\"Panduan Lengkap Beasiswa UNSIQ\" untuk detail lengkap.",
+    "type": "dokumen",
+    "value": "\"Panduan Lengkap Beasiswa UNSIQ\" untuk detail lengkap.",
+    "source_sections": [
+      "Q8: Apakah ada beasiswa saat pendaftaran?"
+    ],
+    "mentions": 1
+  },
+  "dokumen:kk, ijazah, foto, surat kesehatan (jika perlu)": {
+    "id": "ent_0217",
+    "name": "KK, ijazah, foto, surat kesehatan (jika perlu)",
+    "type": "dokumen",
+    "value": "KK, ijazah, foto, surat kesehatan (jika perlu)",
+    "source_sections": [
+      "Q10: Apa yang harus saya lakukan setelah diterima?"
+    ],
+    "mentions": 1
+  },
+  "prodi:pendidikan bahasa arab": {
+    "id": "ent_0218",
+    "name": "Pendidikan Bahasa Arab",
+    "type": "prodi",
+    "value": "Pendidikan Bahasa Arab",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 2
+  },
+  "prodi:perbankan syariah": {
+    "id": "ent_0219",
+    "name": "Perbankan Syariah",
+    "type": "prodi",
+    "value": "Perbankan Syariah",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 2
+  },
+  "prodi:teknik sipil": {
+    "id": "ent_0220",
+    "name": "Teknik Sipil",
+    "type": "prodi",
+    "value": "Teknik Sipil",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 2
+  },
+  "prodi:teknik informatika": {
+    "id": "ent_0221",
+    "name": "Teknik Informatika",
+    "type": "prodi",
+    "value": "Teknik Informatika",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 2
+  },
+  "prodi:ilmu hukum": {
+    "id": "ent_0222",
+    "name": "Ilmu Hukum",
+    "type": "prodi",
+    "value": "Ilmu Hukum",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 2
+  },
+  "tanggal:15 mei 2026": {
+    "id": "ent_0223",
+    "name": "15 Mei 2026",
+    "type": "tanggal",
+    "value": "15 Mei 2026",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 1
+  },
+  "tanggal:15 agustus 2026": {
+    "id": "ent_0224",
+    "name": "15 Agustus 2026",
+    "type": "tanggal",
+    "value": "15 Agustus 2026",
+    "source_sections": [
+      "CSV"
+    ],
+    "mentions": 1
+  }
+}

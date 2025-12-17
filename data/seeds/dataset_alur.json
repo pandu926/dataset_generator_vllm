@@ -1,0 +1,98 @@
+[
+  {
+    "Q": "Apa langkah pertama dalam proses pendaftaran mahasiswa baru di UNSIQ?",
+    "A": "Langkah pertama adalah mengunjungi website resmi PMB UNSIQ di pmb.unsiq.ac.id. Portal ini menjadi pintu masuk tunggal untuk semua proses seleksi, mulai dari pengisian formulir hingga pengumuman kelulusan. Tanpa mengakses situs ini, calon tidak dapat memulai pendaftaran, karena seluruh alur administrasi dan teknis terintegrasi dalam sistem digital tersebut."
+  },
+  {
+    "Q": "Mengapa pendaftaran harus dimulai dari website resmi PMB?",
+    "A": "Karena website PMB berfungsi sebagai sistem terpusat yang menjamin keamanan, keakuratan, dan transparansi data. Melalui portal resmi, calon terhindar dari penipuan pihak ketiga, dan universitas dapat melacak setiap tahapan pendaftaran secara real-time. Selain itu, integrasi dengan sistem pembayaran (Bank Jateng/Finpay) dan verifikasi dokumen hanya berjalan di platform resmi ini."
+  },
+  {
+    "Q": "Apa dampaknya jika calon tidak menggunakan portal resmi PMB?",
+    "A": "Calon tidak akan dikenali oleh sistem administrasi UNSIQ, sehingga tidak bisa mendapatkan nomor pendaftaran, mengikuti seleksi, atau dinyatakan lulus. Bahkan jika membayar melalui pihak tidak resmi, pembayaran tersebut tidak tercatat. Risiko terburuk adalah kehilangan uang tanpa status pendaftaran—karena hanya data dari pmb.unsiq.ac.id yang dianggap sah oleh panitia."
+  },
+  {
+    "Q": "Apa yang harus diisi calon setelah membuka website PMB?",
+    "A": "Calon wajib mengisi formulir pendaftaran online yang membedakan antara jalur Reguler dan Ekstensi (Kelas Karyawan). Setelah submit, sistem otomatis menghasilkan nomor pendaftaran dan PIN/password, yang menjadi kunci akses untuk login dan melanjutkan proses berikutnya seperti pembayaran dan unggah dokumen."
+  },
+  {
+    "Q": "Mengapa formulir wajib diisi sebelum proses lain?",
+    "A": "Karena formulir berisi data dasar identitas dan pilihan program studi yang menjadi fondasi seluruh proses administrasi. Tanpa data ini, sistem tidak bisa mengalokasikan slot seleksi, menghasilkan nomor unik, atau menghubungkan pembayaran dengan identitas calon. Ini juga mencegah duplikasi pendaftaran dan memastikan akurasi pencatatan sejak awal."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon salah memilih jenis kelas (misal Reguler padahal seharusnya Ekstensi)?",
+    "A": "Jika kesalahan terjadi sebelum placement test, calon masih bisa mengubah pilihan di menu biodata. Namun, jika sudah ujian atau lolos seleksi, perubahan harus melalui permohonan resmi ke UPT PMB, yang bisa memakan waktu dan berpotensi mengganggu jadwal kuliah. Dalam kasus ekstrem, calon mungkin tidak memenuhi syarat (misal: tidak bekerja untuk kelas ekstensi)."
+  },
+  {
+    "Q": "Metode pembayaran apa yang digunakan untuk biaya pendaftaran?",
+    "A": "Calon harus membayar biaya pendaftaran melalui Bank Jateng atau platform Finpay, menggunakan nomor pendaftaran sebagai kode pembayaran—bukan nomor rekening pribadi. Sistem akan otomatis mencocokkan pembayaran dengan data calon setelah transaksi diverifikasi."
+  },
+  {
+    "Q": "Mengapa pembayaran harus menggunakan nomor pendaftaran, bukan rekening pribadi?",
+    "A": "Nomor pendaftaran berfungsi sebagai identifier unik yang menghubungkan transaksi dengan identitas calon dalam database PMB. Jika menggunakan rekening pribadi, sistem tidak bisa memastikan siapa yang membayar—risiko salah alokasi sangat tinggi. Ini juga mencegah penipuan dan mempercepat verifikasi otomatis oleh sistem keuangan universitas."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon membayar dengan rekening pribadi tanpa nomor pendaftaran?",
+    "A": "Pembayaran tidak akan terdeteksi oleh sistem PMB, sehingga status pendaftaran tetap “belum bayar”. Calon tidak bisa lanjut ke tahap unggah dokumen atau ujian. Meski bukti transfer ada, proses manual verifikasi memakan waktu lama dan tidak dijamin diterima—terutama jika melewati batas waktu gelombang."
+  },
+  {
+    "Q": "Apa saja berkas yang harus diunggah dalam sistem PMB?",
+    "A": "Dokumen wajib meliputi: scan Kartu Keluarga (KK), ijazah atau Surat Keterangan Lulus (SKL), foto berwarna formal ukuran 250×350 pixel, dan—khusus Fakultas Ilmu Kesehatan—surat keterangan sehat dan hasil tes buta warna (laki-laki). Semua file harus dalam format JPG dan jelas terbaca."
+  },
+  {
+    "Q": "Mengapa verifikasi membutuhkan unggah dokumen digital?",
+    "A": "Karena unggah dokumen memungkinkan verifikasi cepat, terpusat, dan bebas korupsi. Tim administrasi dapat memeriksa keabsahan ijazah, kesesuaian KK, dan kelengkapan syarat tanpa tatap muka. Ini juga mendukung sistem paperless, mengurangi risiko kehilangan berkas fisik, dan mempercepat proses seleksi hingga 48 jam."
+  },
+  {
+    "Q": "Apa konsekuensi jika calon salah unggah dokumen (misal: foto tidak formal)?",
+    "A": "Sistem verifikasi akan menolak dokumen tersebut, dan calon diberi waktu 2×24 jam untuk memperbaiki. Jika tidak diperbaiki tepat waktu, pendaftaran dianggap tidak lengkap—calon tidak bisa mengikuti placement test dan berisiko gugur. Oleh karena itu, pemeriksaan ulang sebelum unggah sangat krusial."
+  },
+  {
+    "Q": "Kapan placement test bisa dilakukan oleh calon?",
+    "A": "Placement test dapat diikuti kapan saja selama masa pendaftaran gelombang berlangsung, asalkan biodata dan dokumen sudah diverifikasi. Ujian dilakukan online melalui sistem PMB, dan hasilnya menjadi dasar penentuan kelulusan serta penempatan akademik."
+  },
+  {
+    "Q": "Mengapa placement test wajib dilakukan setelah verifikasi dokumen?",
+    "A": "Karena verifikasi dokumen memastikan calon memenuhi syarat administratif dan akademik dasar sebelum diuji. Jika ujian dilakukan sebelum verifikasi, risiko peserta tidak memenuhi syarat (misal: ijazah palsu) tetap ada—membuang sumber daya seleksi. Urutan ini menjaga efisiensi dan integritas proses akademik."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon tidak mengikuti placement test sebelum batas waktu gelombang?",
+    "A": "Calon dianggap mengundurkan diri secara otomatis, meski sudah bayar pendaftaran. Tidak ada penjadwalan ulang otomatis. Satu-satunya opsi adalah mendaftar ulang di gelombang berikutnya—dengan biaya pendaftaran baru (kecuali Gelombang 1)."
+  },
+  {
+    "Q": "Di mana calon dapat melihat hasil seleksi pendaftaran?",
+    "A": "Hasil seleksi dapat diakses melalui menu “Status Pendaftaran” di akun PMB setelah login. Jika dinyatakan lulus, calon juga bisa mencetak Surat Keterangan Lulus Seleksi (SK) sebagai bukti resmi untuk tahap selanjutnya."
+  },
+  {
+    "Q": "Mengapa hasil seleksi diumumkan melalui menu status, bukan email/SMS?",
+    "A": "Karena menu status menjamin akses yang aman, pribadi, dan terverifikasi. Email/SMS berisiko disalahgunakan atau tidak terkirim. Dengan sistem login berbasis nomor pendaftaran + PIN, hanya calon yang berhak yang bisa melihat hasil—melindungi privasi dan mencegah kebocoran data kelulusan."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon tidak mengecek status pendaftaran?",
+    "A": "Calon berisiko melewatkan tenggat registrasi ulang, karena tidak tahu bahwa ia diterima. Jika tidak membayar angsuran pertama sebelum batas waktu, status kelulusan dibatalkan otomatis, dan kuota dialihkan ke cadangan. Tidak ada pemberitahuan aktif—tanggung jawab penuh ada pada calon untuk memantau status."
+  },
+  {
+    "Q": "Apa itu registrasi ulang dalam proses pendaftaran?",
+    "A": "Registrasi ulang adalah pembayaran angsuran pertama biaya semester (Rp1.100.000) setelah dinyatakan lulus seleksi. Pembayaran dilakukan melalui Bank Jateng atau Finpay, dan menjadi syarat wajib untuk mengamankan status sebagai mahasiswa baru dan memproses NIM."
+  },
+  {
+    "Q": "Mengapa registrasi ulang wajib untuk finalisasi status mahasiswa?",
+    "A": "Karena pembayaran ini menunjukkan komitmen finansial dan akademik calon untuk benar-benar bergabung. Tanpa itu, universitas tidak bisa merencanakan kapasitas kelas, alokasi dosen, atau penyediaan fasilitas. Registrasi ulang adalah titik final yang membedakan “calon lulus” dari “mahasiswa resmi”."
+  },
+  {
+    "Q": "Apa konsekuensi jika calon terlambat registrasi ulang?",
+    "A": "Jika melebihi batas waktu (misal: 8 Januari untuk Gelombang 1), calon kehilangan hak sebagai mahasiswa baru, meski sudah lulus seleksi. Tidak ada pengecualian—status dibatalkan, dan NIM tidak diberikan. Uang pendaftaran tidak dikembalikan, dan calon harus mendaftar ulang di gelombang berikutnya."
+  },
+  {
+    "Q": "Apa langkah terakhir dalam proses pendaftaran mahasiswa baru?",
+    "A": "Langkah terakhir adalah reservasi NIM melalui menu “Status Pendaftar” setelah pembayaran registrasi ulang diverifikasi. Setelah proses ini, calon resmi menjadi mahasiswa UNSIQ dan menerima Nomor Induk Mahasiswa (NIM) yang berlaku seumur studi."
+  },
+  {
+    "Q": "Mengapa reservasi NIM dilakukan setelah registrasi ulang, bukan sebelumnya?",
+    "A": "Karena NIM adalah identitas akademik permanen yang hanya diberikan kepada calon yang benar-benar telah memenuhi semua syarat—termasuk pembayaran. Jika diberikan lebih awal, risiko penyalahgunaan atau penumpukan NIM oleh calon yang tidak jadi kuliah sangat tinggi. Ini juga menjaga integritas database mahasiswa aktif."
+  },
+  {
+    "Q": "Apa yang terjadi jika calon tidak melakukan reservasi NIM?",
+    "A": "Meski sudah bayar, calon tidak dianggap mahasiswa resmi dan tidak bisa mengakses sistem akademik (KRS, LMS, dll). NIM tidak akan diterbitkan, dan statusnya tetap “calon lulus”. Jika melebihi tenggat, proses dianggap batal—dan calon harus mengulang seluruh proses pendaftaran di gelombang berikutnya."
+  }
+]

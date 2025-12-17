@@ -1,0 +1,615 @@
+{
+  "Pendidikan Agama Islam": [
+    "profil_0002",
+    "profil_0002",
+    "beasiswa_0162",
+    "biaya_0305",
+    "prodi_0351"
+  ],
+  "Penerangan dan Penyiaran Agama Islam": [
+    "profil_0002"
+  ],
+  "ini": [
+    "profil_0002"
+  ],
+  "Keperawatan": [
+    "profil_0002",
+    "profil_0002",
+    "profil_0002",
+    "profil_0002",
+    "profil_0006",
+    "alur_0058",
+    "fasilitas_0182",
+    "fasilitas_0190",
+    "fasilitas_0190",
+    "fasilitas_0190",
+    "fasilitas_0202",
+    "fasilitas_0202",
+    "fasilitas_0202",
+    "fasilitas_0202",
+    "fasilitas_0202",
+    "fasilitas_0202",
+    "fasilitas_0207",
+    "fasilitas_0207",
+    "fasilitas_0207",
+    "syarat_0278",
+    "syarat_0278",
+    "syarat_0278",
+    "syarat_0278",
+    "biaya_0324",
+    "biaya_0325",
+    "prodi_0348",
+    "prodi_0349"
+  ],
+  "Kebidanan": [
+    "profil_0002",
+    "alur_0058",
+    "fasilitas_0182",
+    "fasilitas_0191",
+    "fasilitas_0191",
+    "fasilitas_0191",
+    "fasilitas_0207",
+    "fasilitas_0207",
+    "fasilitas_0207",
+    "biaya_0326",
+    "prodi_0347"
+  ],
+  "Fakultas Tarbiyah": [
+    "profil_0002"
+  ],
+  "Fakultas Dakwah": [
+    "profil_0002"
+  ],
+  "PPA": [
+    "profil_0002"
+  ],
+  "30 Mei 1989": [
+    "profil_0002",
+    "profil_0005"
+  ],
+  "26 Februari 1996": [
+    "profil_0002",
+    "profil_0006"
+  ],
+  "8 Januari 1998": [
+    "profil_0002",
+    "profil_0007"
+  ],
+  "25 Februari 1999": [
+    "profil_0002",
+    "profil_0008"
+  ],
+  "10 Juli 2001": [
+    "profil_0002",
+    "profil_0009"
+  ],
+  "Akta": [
+    "profil_0002",
+    "profil_0003",
+    "profil_0007"
+  ],
+  "6 November 1987": [
+    "profil_0003"
+  ],
+  "Surat": [
+    "profil_0004",
+    "alur_0066",
+    "alur_0069",
+    "alur_0070",
+    "beasiswa_0139",
+    "beasiswa_0142",
+    "beasiswa_0143",
+    "beasiswa_0154",
+    "beasiswa_0154",
+    "beasiswa_0160",
+    "beasiswa_0160",
+    "beasiswa_0171",
+    "beasiswa_0171",
+    "beasiswa_0171",
+    "beasiswa_0175",
+    "beasiswa_0178",
+    "beasiswa_0178",
+    "fasilitas_0204",
+    "syarat_0211",
+    "syarat_0211",
+    "syarat_0264",
+    "syarat_0264",
+    "syarat_0264",
+    "syarat_0264",
+    "syarat_0265",
+    "syarat_0265",
+    "syarat_0268",
+    "syarat_0277",
+    "syarat_0288",
+    "syarat_0302"
+  ],
+  "manajemen": [
+    "profil_0012",
+    "profil_0024",
+    "profil_0024",
+    "profil_0028",
+    "alur_0058",
+    "biaya_0317",
+    "biaya_0323",
+    "prodi_0345",
+    "prodi_0366"
+  ],
+  "Akuntansi": [
+    "profil_0024",
+    "biaya_0316",
+    "prodi_0344"
+  ],
+  "Teknik Mesin": [
+    "alur_0058",
+    "fasilitas_0200",
+    "biaya_0322",
+    "prodi_0365"
+  ],
+  "Ijazah": [
+    "alur_0058",
+    "alur_0058",
+    "alur_0066",
+    "alur_0066",
+    "syarat_0264",
+    "syarat_0264",
+    "syarat_0264",
+    "syarat_0278",
+    "syarat_0278",
+    "syarat_0278",
+    "syarat_0302"
+  ],
+  "Foto": [
+    "alur_0058",
+    "alur_0068",
+    "beasiswa_0159",
+    "beasiswa_0160",
+    "beasiswa_0171",
+    "fasilitas_0198",
+    "syarat_0267",
+    "syarat_0267",
+    "syarat_0302",
+    "syarat_0302"
+  ],
+  "lain": [
+    "alur_0060",
+    "alur_0100",
+    "beasiswa_0169",
+    "beasiswa_0172"
+  ],
+  "745.000": [
+    "alur_0060",
+    "alur_0074",
+    "alur_0101",
+    "syarat_0214",
+    "syarat_0217",
+    "syarat_0220",
+    "syarat_0253"
+  ],
+  "1.100.000": [
+    "alur_0060",
+    "alur_0101",
+    "syarat_0223",
+    "syarat_0226",
+    "syarat_0229"
+  ],
+  "250.000": [
+    "alur_0064",
+    "alur_0065",
+    "beasiswa_0154",
+    "syarat_0211",
+    "syarat_0230",
+    "syarat_0230",
+    "syarat_0241",
+    "syarat_0242",
+    "syarat_0286",
+    "jadwal_0332"
+  ],
+  "300.000": [
+    "alur_0064",
+    "alur_0065",
+    "syarat_0211",
+    "syarat_0211",
+    "syarat_0231",
+    "syarat_0231",
+    "syarat_0241",
+    "syarat_0242",
+    "jadwal_0333"
+  ],
+  "**Ijazah/SKL**": [
+    "alur_0066"
+  ],
+  "**Kartu Keluarga**": [
+    "alur_0067"
+  ],
+  "**Foto Formal**": [
+    "alur_0068"
+  ],
+  "**Surat Keterangan Hasil Ujian**": [
+    "alur_0069"
+  ],
+  "SKHUN": [
+    "alur_0069",
+    "syarat_0265"
+  ],
+  "Fakultas Ilmu": [
+    "alur_0070",
+    "syarat_0277"
+  ],
+  "**Surat Sehat**": [
+    "alur_0070"
+  ],
+  "8 Januari 2025": [
+    "alur_0076",
+    "syarat_0243",
+    "syarat_0243",
+    "syarat_0253"
+  ],
+  "8 Mei 2025": [
+    "alur_0077",
+    "syarat_0217",
+    "syarat_0226",
+    "syarat_0244",
+    "syarat_0244"
+  ],
+  "7 September 2025": [
+    "alur_0078",
+    "syarat_0245",
+    "syarat_0245"
+  ],
+  "30 Desember 2024": [
+    "alur_0097"
+  ],
+  "7 Januari 2025": [
+    "alur_0097"
+  ],
+  "\"Biaya Pendidikan\"": [
+    "alur_0101"
+  ],
+  "yang kurang/tidak jelas: ada notifikasi untuk upload ulang": [
+    "alur_0108"
+  ],
+  "SPP dan SKS selama": [
+    "beasiswa_0119"
+  ],
+  "BSI": [
+    "beasiswa_0119",
+    "beasiswa_0169"
+  ],
+  "SPP dan SKS gratis selama": [
+    "beasiswa_0119"
+  ],
+  "MAHASISWA ONGOING\n\nJawaban": [
+    "beasiswa_0119"
+  ],
+  "Prestasi Non": [
+    "beasiswa_0119",
+    "beasiswa_0169"
+  ],
+  "Beasiswa Prestasi": [
+    "beasiswa_0119",
+    "beasiswa_0152",
+    "beasiswa_0169",
+    "beasiswa_0172",
+    "syarat_0300",
+    "syarat_0300"
+  ],
+  "dan ketentuan lebih lanjut menunggu kuota dibuka": [
+    "beasiswa_0119"
+  ],
+  "dan ketentuan berlaku saat program dibuka": [
+    "beasiswa_0119"
+  ],
+  "akan dijelaskan saat dibuka": [
+    "beasiswa_0119"
+  ],
+  "250": [
+    "beasiswa_0121",
+    "syarat_0234",
+    "syarat_0262",
+    "syarat_0301"
+  ],
+  "200": [
+    "beasiswa_0121",
+    "beasiswa_0123"
+  ],
+  "100": [
+    "beasiswa_0122"
+  ],
+  "500": [
+    "beasiswa_0124"
+  ],
+  "1.595": [
+    "beasiswa_0125"
+  ],
+  "350": [
+    "beasiswa_0125"
+  ],
+  "Utama: Terdaftar sebagai santri di pesantren": [
+    "beasiswa_0132"
+  ],
+  "Utama: Mengajar di TPQ atau Madrasah Diniyah": [
+    "beasiswa_0133"
+  ],
+  "Utama: Bekerja sebagai Penyuluh Agama": [
+    "beasiswa_0134"
+  ],
+  "Utama: Termasuk dalam program kepemimpinan desa": [
+    "beasiswa_0135"
+  ],
+  "Utama: Aktif di Organisasi Kemasyarakatan": [
+    "beasiswa_0136"
+  ],
+  "Utama: Aktif di Partai Politik": [
+    "beasiswa_0137"
+  ],
+  "Utama: Pendamping Keluarga Harapan (program Kemsos)": [
+    "beasiswa_0138"
+  ],
+  "Utama: Syahadah + Surat Kyai bermaterai": [
+    "beasiswa_0139"
+  ],
+  "Utama: Piagam penghargaan asli": [
+    "beasiswa_0140"
+  ],
+  "Utama: Surat rekomendasi sekolah": [
+    "beasiswa_0142"
+  ],
+  "Utama: Surat rekomendasi + SKTM": [
+    "beasiswa_0143"
+  ],
+  "Utama: NIK + NISN + NPSN (digital)": [
+    "beasiswa_0144"
+  ],
+  "UNSIQ": [
+    "beasiswa_0152",
+    "fasilitas_0197",
+    "syarat_0300",
+    "syarat_0300"
+  ],
+  "Tahfidzul Qur": [
+    "beasiswa_0152",
+    "syarat_0300"
+  ],
+  "Prestasi": [
+    "beasiswa_0152"
+  ],
+  "Kerjasama": [
+    "beasiswa_0152",
+    "beasiswa_0159"
+  ],
+  "Pemerintah": [
+    "beasiswa_0152"
+  ],
+  "Lembaga Eksternal": [
+    "beasiswa_0152"
+  ],
+  "Mahasiswa Ongoing": [
+    "beasiswa_0152"
+  ],
+  "Beasiswa Tahfidz": [
+    "beasiswa_0152",
+    "beasiswa_0175",
+    "beasiswa_0175",
+    "syarat_0300"
+  ],
+  "95.000": [
+    "beasiswa_0154"
+  ],
+  "10.000": [
+    "beasiswa_0154",
+    "beasiswa_0178"
+  ],
+  "di atas": [
+    "beasiswa_0154"
+  ],
+  "syarat di atas": [
+    "beasiswa_0154"
+  ],
+  "melalui portal PMB UNSIQ": [
+    "beasiswa_0154"
+  ],
+  "ASLI atau Fotokopi yang sudah dilegalisir": [
+    "beasiswa_0159"
+  ],
+  "resmi sekolah": [
+    "beasiswa_0159"
+  ],
+  "yang Eligible": [
+    "beasiswa_0162"
+  ],
+  "eligible dengan akreditasi Unggul": [
+    "beasiswa_0162"
+  ],
+  "Arsitektur": [
+    "beasiswa_0162",
+    "biaya_0320",
+    "prodi_0362"
+  ],
+  "Santri Berprestasi": [
+    "beasiswa_0162"
+  ],
+  "Mahasiswa harus diterima di prodi eligible dengan akreditasi Unggul/A": [
+    "beasiswa_0162"
+  ],
+  "BAZNAS RI": [
+    "beasiswa_0169"
+  ],
+  "Ketua Ormawa": [
+    "beasiswa_0169"
+  ],
+  "dibuka": [
+    "beasiswa_0170",
+    "beasiswa_0170"
+  ],
+  "yang dipilih": [
+    "beasiswa_0171"
+  ],
+  "apa saja yang perlu disiapkan?": [
+    "beasiswa_0171"
+  ],
+  "Utama                    |": [
+    "beasiswa_0171"
+  ],
+  "harus asli atau copy legalisir": [
+    "beasiswa_0171"
+  ],
+  "Prestasi Akademik": [
+    "beasiswa_0172",
+    "syarat_0300"
+  ],
+  "ongoing": [
+    "beasiswa_0172"
+  ],
+  "beasiswa Prestasi Akademik, karena syaratnya **minimal 85,00**. Namun, Anda masih bisa:": [
+    "beasiswa_0172"
+  ],
+  "** 3-7 hari kerja": [
+    "beasiswa_0174"
+  ],
+  "Tahfidz bisa perpanjangan setelah": [
+    "beasiswa_0175"
+  ],
+  "Tahfidz bisa diajukan setiap semester dengan ketentuan telah mengajukan beasiswa saat menjadi Mahasiswa Baru": [
+    "beasiswa_0175"
+  ],
+  "saat menjadi mahasiswa baru": [
+    "beasiswa_0175"
+  ],
+  "Harus sudah mengajukan beasiswa saat menjadi mahasiswa baru": [
+    "beasiswa_0175"
+  ],
+  "sama seperti awal (Syahadah, surat Kyai, dll)": [
+    "beasiswa_0175"
+  ],
+  "**Syahadah (untuk Tahfidz):**": [
+    "beasiswa_0178"
+  ],
+  "sah dari Qur'an center/pesantren": [
+    "beasiswa_0178"
+  ],
+  "Bulan Maret            : Pengumuman hasil + Daftar ulang": [
+    "beasiswa_0179"
+  ],
+  "Sebagai penerima beasiswa": [
+    "beasiswa_0180"
+  ],
+  "sesuai syarat": [
+    "beasiswa_0180"
+  ],
+  "bisa dicabut tanpa pemberitahuan lebih lanjut": [
+    "beasiswa_0180"
+  ],
+  "2. ✅ Melaporkan setiap perubahan data/status ke UNSIQ": [
+    "beasiswa_0180"
+  ],
+  "ini merupakan referensi lengkap dari sumber resmi UPT PMB UNSIQ.**": [
+    "beasiswa_0180",
+    "syarat_0302"
+  ],
+  "Informatika": [
+    "fasilitas_0188",
+    "fasilitas_0200",
+    "fasilitas_0207"
+  ],
+  "Pendidikan Fisika": [
+    "fasilitas_0189",
+    "fasilitas_0201",
+    "fasilitas_0207"
+  ],
+  "Hukum": [
+    "fasilitas_0199",
+    "fasilitas_0199"
+  ],
+  "hukum lainnya": [
+    "fasilitas_0199"
+  ],
+  "Fakultas Hukum": [
+    "fasilitas_0199"
+  ],
+  "informatika dengan peralatan dan software terkini": [
+    "fasilitas_0200"
+  ],
+  "Komunikasi dan Penyiaran Islam": [
+    "fasilitas_0205"
+  ],
+  "KPI": [
+    "fasilitas_0205"
+  ],
+  "** Tidak perlu asli, cukup **scan yang jelas** (JPG).": [
+    "syarat_0211"
+  ],
+  "300": [
+    "syarat_0234",
+    "syarat_0262",
+    "syarat_0301"
+  ],
+  "745": [
+    "syarat_0235",
+    "syarat_0302"
+  ],
+  "1.1": [
+    "syarat_0235",
+    "syarat_0302"
+  ],
+  "1 November 2024": [
+    "syarat_0253"
+  ],
+  "31 Desember 2024": [
+    "syarat_0253",
+    "syarat_0253"
+  ],
+  "5.000.000": [
+    "syarat_0286",
+    "syarat_0286"
+  ],
+  "1.250.000": [
+    "syarat_0286"
+  ],
+  "saat pendaftaran": [
+    "syarat_0300"
+  ],
+  "yang bisa diajukan saat pendaftaran": [
+    "syarat_0300"
+  ],
+  "Prestasi Olahraga": [
+    "syarat_0300"
+  ],
+  "Kerjasama Mitra Sekolah": [
+    "syarat_0300"
+  ],
+  "\"Panduan Lengkap Beasiswa UNSIQ\" untuk detail lengkap.": [
+    "syarat_0300"
+  ],
+  "KK, ijazah, foto, surat kesehatan (jika perlu)": [
+    "syarat_0302"
+  ],
+  "YANG DIPERLUKAN": [
+    "syarat_0302"
+  ],
+  "Pendidikan Bahasa Arab": [
+    "biaya_0306",
+    "prodi_0352"
+  ],
+  "Perbankan Syariah": [
+    "biaya_0315",
+    "prodi_0346"
+  ],
+  "Teknik Sipil": [
+    "biaya_0319",
+    "prodi_0364"
+  ],
+  "Teknik Informatika": [
+    "biaya_0321",
+    "prodi_0363"
+  ],
+  "Ilmu Hukum": [
+    "biaya_0329",
+    "prodi_0361"
+  ],
+  "15 Mei 2026": [
+    "jadwal_0332"
+  ],
+  "15 Agustus 2026": [
+    "jadwal_0333"
+  ]
+}

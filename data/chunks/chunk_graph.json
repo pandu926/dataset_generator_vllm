@@ -1,0 +1,5396 @@
+[
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0009",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0013",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0009",
+    "target_id": "profil_0013",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0009",
+    "target_id": "profil_0017",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0013",
+    "target_id": "profil_0017",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0013",
+    "target_id": "profil_0018",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0017",
+    "target_id": "profil_0018",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0017",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "profil_0023",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0020",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0022",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0020",
+    "target_id": "profil_0022",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0020",
+    "target_id": "profil_0029",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0022",
+    "target_id": "profil_0029",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0022",
+    "target_id": "alur_0070",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "alur_0070",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "beasiswa_0149",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "beasiswa_0149",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "beasiswa_0162",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0004",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0005",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0005",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0006",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0006",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0007",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0007",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0008",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0008",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0010",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "alur_0063",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "alur_0076",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "alur_0076",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "alur_0077",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "alur_0077",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "alur_0078",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "alur_0078",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "alur_0102",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0078",
+    "target_id": "alur_0102",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0078",
+    "target_id": "alur_0110",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0038",
+    "target_id": "profil_0041",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0038",
+    "target_id": "profil_0047",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0041",
+    "target_id": "profil_0047",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0041",
+    "target_id": "profil_0052",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0047",
+    "target_id": "profil_0052",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0047",
+    "target_id": "alur_0061",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0052",
+    "target_id": "alur_0061",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0052",
+    "target_id": "alur_0064",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0061",
+    "target_id": "alur_0064",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0061",
+    "target_id": "alur_0065",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0056",
+    "target_id": "alur_0057",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0056",
+    "target_id": "alur_0058",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0057",
+    "target_id": "alur_0058",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0057",
+    "target_id": "alur_0059",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "alur_0059",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "alur_0060",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0060",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0062",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "alur_0062",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "alur_0072",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "alur_0067",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "alur_0068",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "alur_0068",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "alur_0069",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "alur_0069",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "alur_0094",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "alur_0094",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "beasiswa_0133",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0094",
+    "target_id": "beasiswa_0133",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0094",
+    "target_id": "beasiswa_0134",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "alur_0080",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "alur_0081",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "alur_0081",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "alur_0083",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "alur_0083",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "alur_0105",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "alur_0105",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "alur_0106",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "alur_0106",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "beasiswa_0176",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0117",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0119",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0119",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0122",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0122",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0123",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0123",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0126",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0123",
+    "target_id": "beasiswa_0126",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "beasiswa_0123",
+    "target_id": "beasiswa_0127",
+    "relation_type": "relates_to",
+    "strength": 0.7
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0002",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0009",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0019",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0009",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0019",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0009",
+    "target_id": "profil_0019",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0009",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0003",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0001",
+    "target_id": "profil_0020",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0022",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0005",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0006",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0007",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0008",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0008",
+    "target_id": "profil_0021",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0024",
+    "target_id": "profil_0029",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0024",
+    "target_id": "biaya_0316",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0024",
+    "target_id": "prodi_0344",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "biaya_0316",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "prodi_0344",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0316",
+    "target_id": "prodi_0344",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "fasilitas_0205",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "alur_0059",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "alur_0070",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0029",
+    "target_id": "syarat_0277",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0070",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "syarat_0277",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "syarat_0277",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0097",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0094",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "alur_0069",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "syarat_0265",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0059",
+    "target_id": "syarat_0272",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "syarat_0265",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "syarat_0272",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0265",
+    "target_id": "syarat_0272",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "alur_0100",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "beasiswa_0172",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0100",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0100",
+    "target_id": "beasiswa_0172",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0169",
+    "target_id": "beasiswa_0172",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0061",
+    "target_id": "alur_0101",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0062",
+    "target_id": "alur_0086",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0062",
+    "target_id": "fasilitas_0209",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0062",
+    "target_id": "syarat_0273",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0086",
+    "target_id": "alur_0086",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0086",
+    "target_id": "fasilitas_0209",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0086",
+    "target_id": "syarat_0273",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0209",
+    "target_id": "syarat_0273",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0109",
+    "target_id": "syarat_0285",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0109",
+    "target_id": "syarat_0295",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0285",
+    "target_id": "syarat_0295",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0112",
+    "target_id": "alur_0114",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0112",
+    "target_id": "syarat_0235",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0112",
+    "target_id": "syarat_0283",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0112",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0114",
+    "target_id": "syarat_0235",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0114",
+    "target_id": "syarat_0283",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "alur_0114",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0235",
+    "target_id": "syarat_0283",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0235",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0283",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0115",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0152",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0153",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "syarat_0300",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0153",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "syarat_0300",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0153",
+    "target_id": "syarat_0300",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0157",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0157",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0116",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0159",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0116",
+    "target_id": "beasiswa_0152",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0116",
+    "target_id": "beasiswa_0159",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0159",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0161",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0161",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0163",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0163",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0165",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0165",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0125",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0125",
+    "target_id": "beasiswa_0153",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0115",
+    "target_id": "beasiswa_0154",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0116",
+    "target_id": "beasiswa_0154",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0161",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0162",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "biaya_0320",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "prodi_0362",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0162",
+    "target_id": "biaya_0320",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0162",
+    "target_id": "prodi_0362",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0320",
+    "target_id": "prodi_0362",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0163",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0117",
+    "target_id": "beasiswa_0117",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0161",
+    "target_id": "beasiswa_0161",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0118",
+    "target_id": "beasiswa_0163",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0118",
+    "target_id": "beasiswa_0164",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0118",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0164",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0164",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0165",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0165",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0166",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0166",
+    "target_id": "beasiswa_0169",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0123",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0166",
+    "target_id": "beasiswa_0167",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0170",
+    "target_id": "beasiswa_0170",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0172",
+    "target_id": "syarat_0300",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "beasiswa_0180",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0200",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0207",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0200",
+    "target_id": "fasilitas_0207",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0189",
+    "target_id": "fasilitas_0201",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0189",
+    "target_id": "fasilitas_0207",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0201",
+    "target_id": "fasilitas_0207",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "fasilitas_0199",
+    "target_id": "fasilitas_0199",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0210",
+    "target_id": "syarat_0295",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0211",
+    "target_id": "syarat_0297",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0262",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0283",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0301",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0262",
+    "target_id": "syarat_0283",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0262",
+    "target_id": "syarat_0301",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0283",
+    "target_id": "syarat_0301",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0253",
+    "target_id": "syarat_0253",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0254",
+    "target_id": "syarat_0257",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0254",
+    "target_id": "syarat_0254",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0257",
+    "target_id": "syarat_0257",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0255",
+    "target_id": "syarat_0258",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0255",
+    "target_id": "syarat_0255",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0258",
+    "target_id": "syarat_0258",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0256",
+    "target_id": "syarat_0256",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0260",
+    "target_id": "syarat_0302",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0285",
+    "target_id": "syarat_0285",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0286",
+    "target_id": "syarat_0286",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0289",
+    "target_id": "syarat_0289",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "syarat_0290",
+    "target_id": "syarat_0291",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0306",
+    "target_id": "prodi_0352",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0315",
+    "target_id": "prodi_0346",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0319",
+    "target_id": "prodi_0364",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0321",
+    "target_id": "prodi_0363",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "biaya_0329",
+    "target_id": "prodi_0361",
+    "relation_type": "relates_to",
+    "strength": 0.9
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0004",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0005",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0005",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0006",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0006",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0007",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0007",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0008",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0008",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0009",
+    "relation_type": "compares_to",
+    "strength": 0.8
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "syarat_0249",
+    "relation_type": "semantic_similarity",
+    "strength": 1.0001262426376343
+  },
+  {
+    "source_id": "alur_0082",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9999905824661255
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "syarat_0251",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9996517896652222
+  },
+  {
+    "source_id": "alur_0064",
+    "target_id": "alur_0065",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9990094304084778
+  },
+  {
+    "source_id": "syarat_0241",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9986122250556946
+  },
+  {
+    "source_id": "alur_0065",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9961430430412292
+  },
+  {
+    "source_id": "alur_0064",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9958553910255432
+  },
+  {
+    "source_id": "prodi_0342",
+    "target_id": "prodi_0343",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9956542253494263
+  },
+  {
+    "source_id": "alur_0064",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9950243234634399
+  },
+  {
+    "source_id": "syarat_0214",
+    "target_id": "syarat_0217",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9949167966842651
+  },
+  {
+    "source_id": "biaya_0304",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9946873784065247
+  },
+  {
+    "source_id": "syarat_0223",
+    "target_id": "syarat_0226",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9942467212677002
+  },
+  {
+    "source_id": "syarat_0219",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9933711290359497
+  },
+  {
+    "source_id": "alur_0065",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9933677315711975
+  },
+  {
+    "source_id": "prodi_0363",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9929057359695435
+  },
+  {
+    "source_id": "prodi_0364",
+    "target_id": "prodi_0365",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9927057027816772
+  },
+  {
+    "source_id": "syarat_0217",
+    "target_id": "syarat_0226",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9925892353057861
+  },
+  {
+    "source_id": "prodi_0347",
+    "target_id": "prodi_0348",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9923239946365356
+  },
+  {
+    "source_id": "syarat_0220",
+    "target_id": "syarat_0229",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9921571016311646
+  },
+  {
+    "source_id": "syarat_0214",
+    "target_id": "syarat_0220",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9920965433120728
+  },
+  {
+    "source_id": "syarat_0217",
+    "target_id": "syarat_0220",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9915493726730347
+  },
+  {
+    "source_id": "syarat_0214",
+    "target_id": "syarat_0223",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9913530349731445
+  },
+  {
+    "source_id": "prodi_0351",
+    "target_id": "prodi_0355",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9906750917434692
+  },
+  {
+    "source_id": "prodi_0362",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9905412197113037
+  },
+  {
+    "source_id": "syarat_0216",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9902598261833191
+  },
+  {
+    "source_id": "syarat_0216",
+    "target_id": "syarat_0219",
+    "relation_type": "semantic_similarity",
+    "strength": 0.990044116973877
+  },
+  {
+    "source_id": "syarat_0223",
+    "target_id": "syarat_0229",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9898678660392761
+  },
+  {
+    "source_id": "prodi_0348",
+    "target_id": "prodi_0349",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9898418188095093
+  },
+  {
+    "source_id": "syarat_0226",
+    "target_id": "syarat_0229",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9892807006835938
+  },
+  {
+    "source_id": "syarat_0215",
+    "target_id": "syarat_0221",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9891422986984253
+  },
+  {
+    "source_id": "syarat_0244",
+    "target_id": "syarat_0245",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9885650873184204
+  },
+  {
+    "source_id": "jadwal_0332",
+    "target_id": "jadwal_0333",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9885202646255493
+  },
+  {
+    "source_id": "syarat_0215",
+    "target_id": "syarat_0218",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9884483218193054
+  },
+  {
+    "source_id": "syarat_0230",
+    "target_id": "syarat_0231",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9880129098892212
+  },
+  {
+    "source_id": "prodi_0360",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9878969192504883
+  },
+  {
+    "source_id": "syarat_0212",
+    "target_id": "syarat_0221",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9878798723220825
+  },
+  {
+    "source_id": "prodi_0363",
+    "target_id": "prodi_0365",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9873708486557007
+  },
+  {
+    "source_id": "syarat_0213",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9870883226394653
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "syarat_0240",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9868386387825012
+  },
+  {
+    "source_id": "prodi_0362",
+    "target_id": "prodi_0363",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9866425395011902
+  },
+  {
+    "source_id": "syarat_0214",
+    "target_id": "syarat_0226",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9864848852157593
+  },
+  {
+    "source_id": "prodi_0363",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9859621524810791
+  },
+  {
+    "source_id": "prodi_0344",
+    "target_id": "prodi_0345",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9857010841369629
+  },
+  {
+    "source_id": "syarat_0214",
+    "target_id": "syarat_0229",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9855138063430786
+  },
+  {
+    "source_id": "syarat_0217",
+    "target_id": "syarat_0223",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9854586124420166
+  },
+  {
+    "source_id": "syarat_0243",
+    "target_id": "syarat_0244",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9853916168212891
+  },
+  {
+    "source_id": "prodi_0351",
+    "target_id": "prodi_0352",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9852609634399414
+  },
+  {
+    "source_id": "syarat_0217",
+    "target_id": "syarat_0229",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9847847819328308
+  },
+  {
+    "source_id": "syarat_0218",
+    "target_id": "syarat_0221",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9846733212471008
+  },
+  {
+    "source_id": "fasilitas_0190",
+    "target_id": "fasilitas_0191",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9840676784515381
+  },
+  {
+    "source_id": "prodi_0356",
+    "target_id": "prodi_0357",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9836030006408691
+  },
+  {
+    "source_id": "prodi_0346",
+    "target_id": "prodi_0359",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9835155010223389
+  },
+  {
+    "source_id": "biaya_0305",
+    "target_id": "biaya_0308",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9834442734718323
+  },
+  {
+    "source_id": "prodi_0362",
+    "target_id": "prodi_0365",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9829698204994202
+  },
+  {
+    "source_id": "syarat_0213",
+    "target_id": "syarat_0219",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9828256368637085
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "alur_0078",
+    "relation_type": "semantic_similarity",
+    "strength": 0.982587456703186
+  },
+  {
+    "source_id": "prodi_0351",
+    "target_id": "prodi_0353",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9819245338439941
+  },
+  {
+    "source_id": "prodi_0351",
+    "target_id": "prodi_0354",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9818302392959595
+  },
+  {
+    "source_id": "beasiswa_0146",
+    "target_id": "beasiswa_0148",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9818048477172852
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "alur_0077",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9816554188728333
+  },
+  {
+    "source_id": "prodi_0359",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9815706014633179
+  },
+  {
+    "source_id": "biaya_0303",
+    "target_id": "biaya_0305",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9807476997375488
+  },
+  {
+    "source_id": "biaya_0319",
+    "target_id": "biaya_0320",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9807267189025879
+  },
+  {
+    "source_id": "prodi_0347",
+    "target_id": "prodi_0349",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9805787801742554
+  },
+  {
+    "source_id": "syarat_0220",
+    "target_id": "syarat_0226",
+    "relation_type": "semantic_similarity",
+    "strength": 0.980061411857605
+  },
+  {
+    "source_id": "syarat_0243",
+    "target_id": "syarat_0245",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9794193506240845
+  },
+  {
+    "source_id": "syarat_0220",
+    "target_id": "syarat_0223",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9793325662612915
+  },
+  {
+    "source_id": "prodi_0352",
+    "target_id": "prodi_0355",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9793084859848022
+  },
+  {
+    "source_id": "prodi_0351",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9788178205490112
+  },
+  {
+    "source_id": "syarat_0213",
+    "target_id": "syarat_0216",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9787788987159729
+  },
+  {
+    "source_id": "prodi_0360",
+    "target_id": "prodi_0368",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9785789251327515
+  },
+  {
+    "source_id": "biaya_0314",
+    "target_id": "biaya_0319",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9784888029098511
+  },
+  {
+    "source_id": "biaya_0319",
+    "target_id": "biaya_0322",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9783000946044922
+  },
+  {
+    "source_id": "biaya_0314",
+    "target_id": "biaya_0317",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9782265424728394
+  },
+  {
+    "source_id": "prodi_0367",
+    "target_id": "prodi_0368",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9781910181045532
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "syarat_0248",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9781700372695923
+  },
+  {
+    "source_id": "prodi_0354",
+    "target_id": "prodi_0355",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9778050780296326
+  },
+  {
+    "source_id": "biaya_0314",
+    "target_id": "biaya_0320",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9776573777198792
+  },
+  {
+    "source_id": "syarat_0212",
+    "target_id": "syarat_0215",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9776003956794739
+  },
+  {
+    "source_id": "prodi_0359",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.977279543876648
+  },
+  {
+    "source_id": "kontak_0338",
+    "target_id": "kontak_0339",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9772648811340332
+  },
+  {
+    "source_id": "biaya_0319",
+    "target_id": "biaya_0321",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9772416353225708
+  },
+  {
+    "source_id": "prodi_0352",
+    "target_id": "prodi_0354",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9772113561630249
+  },
+  {
+    "source_id": "biaya_0321",
+    "target_id": "biaya_0323",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9771351218223572
+  },
+  {
+    "source_id": "biaya_0325",
+    "target_id": "biaya_0326",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9768530130386353
+  },
+  {
+    "source_id": "biaya_0314",
+    "target_id": "biaya_0316",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9767422676086426
+  },
+  {
+    "source_id": "beasiswa_0146",
+    "target_id": "beasiswa_0147",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9766554832458496
+  },
+  {
+    "source_id": "prodi_0344",
+    "target_id": "prodi_0346",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9761941432952881
+  },
+  {
+    "source_id": "prodi_0349",
+    "target_id": "prodi_0350",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9760867357254028
+  },
+  {
+    "source_id": "prodi_0364",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9760706424713135
+  },
+  {
+    "source_id": "syarat_0247",
+    "target_id": "syarat_0248",
+    "relation_type": "semantic_similarity",
+    "strength": 0.97584468126297
+  },
+  {
+    "source_id": "prodi_0358",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9756836295127869
+  },
+  {
+    "source_id": "prodi_0352",
+    "target_id": "prodi_0353",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9754104614257812
+  },
+  {
+    "source_id": "prodi_0353",
+    "target_id": "prodi_0354",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9753517508506775
+  },
+  {
+    "source_id": "biaya_0328",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9753340482711792
+  },
+  {
+    "source_id": "prodi_0353",
+    "target_id": "prodi_0355",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9753337502479553
+  },
+  {
+    "source_id": "biaya_0312",
+    "target_id": "biaya_0315",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9753298163414001
+  },
+  {
+    "source_id": "prodi_0345",
+    "target_id": "prodi_0346",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9751427173614502
+  },
+  {
+    "source_id": "beasiswa_0146",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9747534990310669
+  },
+  {
+    "source_id": "biaya_0305",
+    "target_id": "biaya_0310",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9746718406677246
+  },
+  {
+    "source_id": "biaya_0324",
+    "target_id": "biaya_0325",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9744850397109985
+  },
+  {
+    "source_id": "biaya_0317",
+    "target_id": "biaya_0319",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9742465615272522
+  },
+  {
+    "source_id": "biaya_0316",
+    "target_id": "biaya_0317",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9739111661911011
+  },
+  {
+    "source_id": "biaya_0305",
+    "target_id": "biaya_0313",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9738644361495972
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0007",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9738417863845825
+  },
+  {
+    "source_id": "beasiswa_0128",
+    "target_id": "beasiswa_0129",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9736107587814331
+  },
+  {
+    "source_id": "prodi_0353",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9735606908798218
+  },
+  {
+    "source_id": "jadwal_0331",
+    "target_id": "jadwal_0332",
+    "relation_type": "semantic_similarity",
+    "strength": 0.973473846912384
+  },
+  {
+    "source_id": "beasiswa_0148",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9734436273574829
+  },
+  {
+    "source_id": "prodi_0348",
+    "target_id": "prodi_0350",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9733993411064148
+  },
+  {
+    "source_id": "prodi_0357",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9733086824417114
+  },
+  {
+    "source_id": "prodi_0357",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9730788469314575
+  },
+  {
+    "source_id": "biaya_0317",
+    "target_id": "biaya_0323",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9728307127952576
+  },
+  {
+    "source_id": "kontak_0339",
+    "target_id": "kontak_0340",
+    "relation_type": "semantic_similarity",
+    "strength": 0.972825825214386
+  },
+  {
+    "source_id": "biaya_0317",
+    "target_id": "biaya_0321",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9727790355682373
+  },
+  {
+    "source_id": "prodi_0352",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9726871848106384
+  },
+  {
+    "source_id": "syarat_0212",
+    "target_id": "syarat_0218",
+    "relation_type": "semantic_similarity",
+    "strength": 0.972493052482605
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "alur_0078",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9723124504089355
+  },
+  {
+    "source_id": "biaya_0314",
+    "target_id": "biaya_0328",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9721750020980835
+  },
+  {
+    "source_id": "biaya_0310",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9720734357833862
+  },
+  {
+    "source_id": "prodi_0365",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9714143872261047
+  },
+  {
+    "source_id": "prodi_0346",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.971369743347168
+  },
+  {
+    "source_id": "prodi_0345",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9713391065597534
+  },
+  {
+    "source_id": "prodi_0362",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9711138010025024
+  },
+  {
+    "source_id": "prodi_0355",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9710544347763062
+  },
+  {
+    "source_id": "jadwal_0331",
+    "target_id": "jadwal_0333",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9705145955085754
+  },
+  {
+    "source_id": "biaya_0312",
+    "target_id": "biaya_0313",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9704713225364685
+  },
+  {
+    "source_id": "prodi_0346",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9704452157020569
+  },
+  {
+    "source_id": "prodi_0347",
+    "target_id": "prodi_0350",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9704245328903198
+  },
+  {
+    "source_id": "prodi_0356",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9703242778778076
+  },
+  {
+    "source_id": "prodi_0345",
+    "target_id": "prodi_0365",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9703222513198853
+  },
+  {
+    "source_id": "prodi_0345",
+    "target_id": "prodi_0356",
+    "relation_type": "semantic_similarity",
+    "strength": 0.97027188539505
+  },
+  {
+    "source_id": "profil_0014",
+    "target_id": "profil_0015",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9701573252677917
+  },
+  {
+    "source_id": "syarat_0246",
+    "target_id": "syarat_0247",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9701129794120789
+  },
+  {
+    "source_id": "biaya_0316",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9700554609298706
+  },
+  {
+    "source_id": "biaya_0316",
+    "target_id": "biaya_0320",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9699821472167969
+  },
+  {
+    "source_id": "biaya_0303",
+    "target_id": "biaya_0304",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9698523879051208
+  },
+  {
+    "source_id": "beasiswa_0147",
+    "target_id": "beasiswa_0148",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9696998596191406
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "syarat_0246",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9696210622787476
+  },
+  {
+    "source_id": "alur_0074",
+    "target_id": "alur_0075",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9695134162902832
+  },
+  {
+    "source_id": "biaya_0305",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.969480037689209
+  },
+  {
+    "source_id": "syarat_0236",
+    "target_id": "syarat_0238",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9691261649131775
+  },
+  {
+    "source_id": "biaya_0321",
+    "target_id": "biaya_0322",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9690141677856445
+  },
+  {
+    "source_id": "biaya_0313",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.968923032283783
+  },
+  {
+    "source_id": "prodi_0349",
+    "target_id": "prodi_0362",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9688684940338135
+  },
+  {
+    "source_id": "prodi_0349",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9688627123832703
+  },
+  {
+    "source_id": "syarat_0237",
+    "target_id": "syarat_0238",
+    "relation_type": "semantic_similarity",
+    "strength": 0.96866774559021
+  },
+  {
+    "source_id": "prodi_0358",
+    "target_id": "prodi_0359",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9686497449874878
+  },
+  {
+    "source_id": "beasiswa_0145",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9686034917831421
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0124",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9684345722198486
+  },
+  {
+    "source_id": "biaya_0303",
+    "target_id": "biaya_0308",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9683774709701538
+  },
+  {
+    "source_id": "prodi_0343",
+    "target_id": "prodi_0356",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9683067798614502
+  },
+  {
+    "source_id": "biaya_0309",
+    "target_id": "biaya_0319",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9682382345199585
+  },
+  {
+    "source_id": "prodi_0348",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9682269096374512
+  },
+  {
+    "source_id": "biaya_0320",
+    "target_id": "biaya_0324",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9680661559104919
+  },
+  {
+    "source_id": "prodi_0347",
+    "target_id": "prodi_0366",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9679868221282959
+  },
+  {
+    "source_id": "biaya_0316",
+    "target_id": "biaya_0321",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9679358601570129
+  },
+  {
+    "source_id": "biaya_0310",
+    "target_id": "biaya_0313",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9679179191589355
+  },
+  {
+    "source_id": "biaya_0303",
+    "target_id": "biaya_0310",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9677608609199524
+  },
+  {
+    "source_id": "prodi_0358",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.967588484287262
+  },
+  {
+    "source_id": "biaya_0312",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9675881862640381
+  },
+  {
+    "source_id": "prodi_0356",
+    "target_id": "prodi_0361",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9674476385116577
+  },
+  {
+    "source_id": "biaya_0312",
+    "target_id": "biaya_0314",
+    "relation_type": "semantic_similarity",
+    "strength": 0.96714186668396
+  },
+  {
+    "source_id": "biaya_0303",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9670132398605347
+  },
+  {
+    "source_id": "biaya_0308",
+    "target_id": "biaya_0313",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9667766690254211
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0189",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9667332768440247
+  },
+  {
+    "source_id": "prodi_0342",
+    "target_id": "prodi_0356",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9665080308914185
+  },
+  {
+    "source_id": "beasiswa_0150",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9664000868797302
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0123",
+    "relation_type": "semantic_similarity",
+    "strength": 0.966002345085144
+  },
+  {
+    "source_id": "biaya_0304",
+    "target_id": "biaya_0310",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9651148319244385
+  },
+  {
+    "source_id": "prodi_0343",
+    "target_id": "prodi_0352",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9650207757949829
+  },
+  {
+    "source_id": "biaya_0306",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9646997451782227
+  },
+  {
+    "source_id": "kontak_0338",
+    "target_id": "kontak_0340",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9646517038345337
+  },
+  {
+    "source_id": "prodi_0344",
+    "target_id": "prodi_0362",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9644204378128052
+  },
+  {
+    "source_id": "prodi_0343",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9643884301185608
+  },
+  {
+    "source_id": "prodi_0344",
+    "target_id": "prodi_0359",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9642651677131653
+  },
+  {
+    "source_id": "prodi_0342",
+    "target_id": "prodi_0362",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9642378687858582
+  },
+  {
+    "source_id": "prodi_0344",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9641150236129761
+  },
+  {
+    "source_id": "biaya_0307",
+    "target_id": "biaya_0330",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9640594720840454
+  },
+  {
+    "source_id": "biaya_0308",
+    "target_id": "biaya_0310",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9634319543838501
+  },
+  {
+    "source_id": "prodi_0343",
+    "target_id": "prodi_0357",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9632489085197449
+  },
+  {
+    "source_id": "fasilitas_0189",
+    "target_id": "fasilitas_0190",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9632329940795898
+  },
+  {
+    "source_id": "alur_0065",
+    "target_id": "syarat_0231",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9631632566452026
+  },
+  {
+    "source_id": "prodi_0342",
+    "target_id": "prodi_0357",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9631405472755432
+  },
+  {
+    "source_id": "prodi_0342",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9628967046737671
+  },
+  {
+    "source_id": "alur_0064",
+    "target_id": "syarat_0231",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9627199769020081
+  },
+  {
+    "source_id": "beasiswa_0145",
+    "target_id": "beasiswa_0146",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9627159833908081
+  },
+  {
+    "source_id": "alur_0065",
+    "target_id": "syarat_0230",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9625954627990723
+  },
+  {
+    "source_id": "syarat_0231",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9622212052345276
+  },
+  {
+    "source_id": "biaya_0304",
+    "target_id": "biaya_0305",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9619140625
+  },
+  {
+    "source_id": "fasilitas_0189",
+    "target_id": "fasilitas_0191",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9615037441253662
+  },
+  {
+    "source_id": "alur_0064",
+    "target_id": "syarat_0230",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9611893892288208
+  },
+  {
+    "source_id": "prodi_0347",
+    "target_id": "prodi_0364",
+    "relation_type": "semantic_similarity",
+    "strength": 0.961155891418457
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "syarat_0247",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9608491659164429
+  },
+  {
+    "source_id": "syarat_0231",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9608194828033447
+  },
+  {
+    "source_id": "biaya_0318",
+    "target_id": "biaya_0320",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9608191251754761
+  },
+  {
+    "source_id": "biaya_0306",
+    "target_id": "biaya_0310",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9607638716697693
+  },
+  {
+    "source_id": "biaya_0308",
+    "target_id": "biaya_0311",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9607507586479187
+  },
+  {
+    "source_id": "beasiswa_0129",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9606016874313354
+  },
+  {
+    "source_id": "prodi_0354",
+    "target_id": "prodi_0360",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9605801105499268
+  },
+  {
+    "source_id": "biaya_0309",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9604283571243286
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0190",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9603981971740723
+  },
+  {
+    "source_id": "beasiswa_0145",
+    "target_id": "beasiswa_0148",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9600343108177185
+  },
+  {
+    "source_id": "prodi_0348",
+    "target_id": "prodi_0363",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959942102432251
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959884762763977
+  },
+  {
+    "source_id": "syarat_0249",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959884762763977
+  },
+  {
+    "source_id": "alur_0082",
+    "target_id": "syarat_0249",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959884762763977
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "alur_0082",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959884762763977
+  },
+  {
+    "source_id": "biaya_0304",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9598673582077026
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0191",
+    "relation_type": "semantic_similarity",
+    "strength": 0.959486186504364
+  },
+  {
+    "source_id": "biaya_0309",
+    "target_id": "biaya_0321",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9592685699462891
+  },
+  {
+    "source_id": "biaya_0306",
+    "target_id": "biaya_0308",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9592574238777161
+  },
+  {
+    "source_id": "kontak_0340",
+    "target_id": "kontak_0341",
+    "relation_type": "semantic_similarity",
+    "strength": 0.958870530128479
+  },
+  {
+    "source_id": "biaya_0309",
+    "target_id": "biaya_0322",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9585658311843872
+  },
+  {
+    "source_id": "syarat_0236",
+    "target_id": "syarat_0237",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9585069417953491
+  },
+  {
+    "source_id": "profil_0015",
+    "target_id": "profil_0016",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9583510160446167
+  },
+  {
+    "source_id": "profil_0014",
+    "target_id": "profil_0016",
+    "relation_type": "semantic_similarity",
+    "strength": 0.958342969417572
+  },
+  {
+    "source_id": "biaya_0315",
+    "target_id": "biaya_0316",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9583208560943604
+  },
+  {
+    "source_id": "biaya_0309",
+    "target_id": "biaya_0314",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9580609798431396
+  },
+  {
+    "source_id": "kontak_0338",
+    "target_id": "kontak_0341",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9578280448913574
+  },
+  {
+    "source_id": "prodi_0350",
+    "target_id": "prodi_0353",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9576091766357422
+  },
+  {
+    "source_id": "beasiswa_0142",
+    "target_id": "beasiswa_0143",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9575437307357788
+  },
+  {
+    "source_id": "beasiswa_0145",
+    "target_id": "beasiswa_0150",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9574044346809387
+  },
+  {
+    "source_id": "beasiswa_0123",
+    "target_id": "beasiswa_0124",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9573673605918884
+  },
+  {
+    "source_id": "biaya_0318",
+    "target_id": "biaya_0328",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9572761058807373
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "syarat_0244",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9570873975753784
+  },
+  {
+    "source_id": "biaya_0318",
+    "target_id": "biaya_0329",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9569292664527893
+  },
+  {
+    "source_id": "beasiswa_0147",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9566775560379028
+  },
+  {
+    "source_id": "biaya_0323",
+    "target_id": "biaya_0325",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9562525153160095
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "syarat_0243",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9558520913124084
+  },
+  {
+    "source_id": "alur_0078",
+    "target_id": "syarat_0245",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9551999568939209
+  },
+  {
+    "source_id": "kontak_0335",
+    "target_id": "kontak_0336",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9550844430923462
+  },
+  {
+    "source_id": "biaya_0327",
+    "target_id": "biaya_0330",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9550600051879883
+  },
+  {
+    "source_id": "biaya_0323",
+    "target_id": "biaya_0326",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9549993276596069
+  },
+  {
+    "source_id": "syarat_0230",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9549762010574341
+  },
+  {
+    "source_id": "beasiswa_0130",
+    "target_id": "beasiswa_0131",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9549587965011597
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9546135663986206
+  },
+  {
+    "source_id": "kontak_0334",
+    "target_id": "kontak_0336",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9540252685546875
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9539620280265808
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "syarat_0243",
+    "relation_type": "semantic_similarity",
+    "strength": 0.953404426574707
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "syarat_0230",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9531514644622803
+  },
+  {
+    "source_id": "biaya_0307",
+    "target_id": "biaya_0309",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9530867338180542
+  },
+  {
+    "source_id": "syarat_0232",
+    "target_id": "syarat_0237",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9530259370803833
+  },
+  {
+    "source_id": "kontak_0339",
+    "target_id": "kontak_0341",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9527775049209595
+  },
+  {
+    "source_id": "beasiswa_0148",
+    "target_id": "beasiswa_0150",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9522752165794373
+  },
+  {
+    "source_id": "fasilitas_0184",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9519950151443481
+  },
+  {
+    "source_id": "biaya_0307",
+    "target_id": "biaya_0317",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9519139528274536
+  },
+  {
+    "source_id": "fasilitas_0189",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.951835036277771
+  },
+  {
+    "source_id": "syarat_0240",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9515872001647949
+  },
+  {
+    "source_id": "beasiswa_0126",
+    "target_id": "beasiswa_0127",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9515097141265869
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "fasilitas_0187",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9513978958129883
+  },
+  {
+    "source_id": "fasilitas_0187",
+    "target_id": "syarat_0251",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9513978958129883
+  },
+  {
+    "source_id": "beasiswa_0146",
+    "target_id": "beasiswa_0150",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9512789249420166
+  },
+  {
+    "source_id": "syarat_0240",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9509153962135315
+  },
+  {
+    "source_id": "beasiswa_0128",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9504756331443787
+  },
+  {
+    "source_id": "beasiswa_0136",
+    "target_id": "beasiswa_0137",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9501112699508667
+  },
+  {
+    "source_id": "syarat_0234",
+    "target_id": "syarat_0235",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9500603675842285
+  },
+  {
+    "source_id": "biaya_0307",
+    "target_id": "biaya_0319",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9490865468978882
+  },
+  {
+    "source_id": "beasiswa_0143",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9490506052970886
+  },
+  {
+    "source_id": "alur_0078",
+    "target_id": "syarat_0243",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9489355087280273
+  },
+  {
+    "source_id": "syarat_0232",
+    "target_id": "syarat_0233",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9487923979759216
+  },
+  {
+    "source_id": "beasiswa_0124",
+    "target_id": "beasiswa_0129",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9487075209617615
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "alur_0080",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9486639499664307
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0124",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9484120011329651
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "syarat_0231",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9483036398887634
+  },
+  {
+    "source_id": "beasiswa_0141",
+    "target_id": "beasiswa_0143",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9480577707290649
+  },
+  {
+    "source_id": "syarat_0246",
+    "target_id": "syarat_0248",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9478054046630859
+  },
+  {
+    "source_id": "fasilitas_0188",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9475294351577759
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0004",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9472740888595581
+  },
+  {
+    "source_id": "beasiswa_0124",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9471818804740906
+  },
+  {
+    "source_id": "alur_0078",
+    "target_id": "syarat_0244",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9471570253372192
+  },
+  {
+    "source_id": "fasilitas_0181",
+    "target_id": "fasilitas_0182",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9468729496002197
+  },
+  {
+    "source_id": "beasiswa_0141",
+    "target_id": "beasiswa_0142",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9466285705566406
+  },
+  {
+    "source_id": "kontak_0337",
+    "target_id": "kontak_0339",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9464532136917114
+  },
+  {
+    "source_id": "beasiswa_0140",
+    "target_id": "beasiswa_0142",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9463548064231873
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "kontak_0337",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9462407231330872
+  },
+  {
+    "source_id": "syarat_0249",
+    "target_id": "kontak_0337",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9462407231330872
+  },
+  {
+    "source_id": "fasilitas_0182",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9460893869400024
+  },
+  {
+    "source_id": "beasiswa_0145",
+    "target_id": "beasiswa_0147",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9459975361824036
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0007",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9458469152450562
+  },
+  {
+    "source_id": "profil_0008",
+    "target_id": "profil_0024",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9458467960357666
+  },
+  {
+    "source_id": "syarat_0248",
+    "target_id": "kontak_0336",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9456738829612732
+  },
+  {
+    "source_id": "fasilitas_0187",
+    "target_id": "fasilitas_0188",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9455161094665527
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0125",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9451834559440613
+  },
+  {
+    "source_id": "kontak_0337",
+    "target_id": "kontak_0340",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9451427459716797
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9450411200523376
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "syarat_0264",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9450211524963379
+  },
+  {
+    "source_id": "fasilitas_0192",
+    "target_id": "fasilitas_0194",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9443936347961426
+  },
+  {
+    "source_id": "syarat_0215",
+    "target_id": "syarat_0216",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9443832039833069
+  },
+  {
+    "source_id": "syarat_0218",
+    "target_id": "syarat_0219",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9442084431648254
+  },
+  {
+    "source_id": "beasiswa_0132",
+    "target_id": "beasiswa_0137",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9439489841461182
+  },
+  {
+    "source_id": "fasilitas_0187",
+    "target_id": "fasilitas_0189",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9437001943588257
+  },
+  {
+    "source_id": "kontak_0337",
+    "target_id": "kontak_0338",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9434041976928711
+  },
+  {
+    "source_id": "fasilitas_0192",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9429810047149658
+  },
+  {
+    "source_id": "kontak_0334",
+    "target_id": "kontak_0335",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9427804946899414
+  },
+  {
+    "source_id": "beasiswa_0123",
+    "target_id": "beasiswa_0125",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9427708387374878
+  },
+  {
+    "source_id": "beasiswa_0129",
+    "target_id": "beasiswa_0131",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9427102208137512
+  },
+  {
+    "source_id": "alur_0075",
+    "target_id": "syarat_0231",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9423161149024963
+  },
+  {
+    "source_id": "beasiswa_0135",
+    "target_id": "beasiswa_0137",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9422492980957031
+  },
+  {
+    "source_id": "syarat_0237",
+    "target_id": "syarat_0239",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9421878457069397
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "alur_0065",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9418764114379883
+  },
+  {
+    "source_id": "fasilitas_0182",
+    "target_id": "fasilitas_0188",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9414703845977783
+  },
+  {
+    "source_id": "syarat_0236",
+    "target_id": "syarat_0239",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9409873485565186
+  },
+  {
+    "source_id": "alur_0063",
+    "target_id": "syarat_0233",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9409557580947876
+  },
+  {
+    "source_id": "syarat_0221",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9409372806549072
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0122",
+    "relation_type": "semantic_similarity",
+    "strength": 0.940784752368927
+  },
+  {
+    "source_id": "syarat_0212",
+    "target_id": "syarat_0213",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9407344460487366
+  },
+  {
+    "source_id": "beasiswa_0126",
+    "target_id": "beasiswa_0129",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9406928420066833
+  },
+  {
+    "source_id": "beasiswa_0127",
+    "target_id": "beasiswa_0129",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9404953718185425
+  },
+  {
+    "source_id": "syarat_0215",
+    "target_id": "syarat_0219",
+    "relation_type": "semantic_similarity",
+    "strength": 0.940253496170044
+  },
+  {
+    "source_id": "fasilitas_0183",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9401718378067017
+  },
+  {
+    "source_id": "alur_0074",
+    "target_id": "syarat_0230",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9396282434463501
+  },
+  {
+    "source_id": "alur_0077",
+    "target_id": "syarat_0245",
+    "relation_type": "semantic_similarity",
+    "strength": 0.939604640007019
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "syarat_0265",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9395902156829834
+  },
+  {
+    "source_id": "beasiswa_0140",
+    "target_id": "beasiswa_0147",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9395042657852173
+  },
+  {
+    "source_id": "beasiswa_0123",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9394530057907104
+  },
+  {
+    "source_id": "syarat_0216",
+    "target_id": "syarat_0218",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9393628239631653
+  },
+  {
+    "source_id": "syarat_0246",
+    "target_id": "kontak_0334",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9389951229095459
+  },
+  {
+    "source_id": "beasiswa_0122",
+    "target_id": "beasiswa_0125",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9384843707084656
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "syarat_0268",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9383613467216492
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "syarat_0247",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9383136034011841
+  },
+  {
+    "source_id": "alur_0075",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9382201433181763
+  },
+  {
+    "source_id": "fasilitas_0183",
+    "target_id": "fasilitas_0190",
+    "relation_type": "semantic_similarity",
+    "strength": 0.938073456287384
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0005",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9379715323448181
+  },
+  {
+    "source_id": "beasiswa_0142",
+    "target_id": "beasiswa_0148",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9378708004951477
+  },
+  {
+    "source_id": "fasilitas_0190",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9377329349517822
+  },
+  {
+    "source_id": "alur_0072",
+    "target_id": "alur_0099",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9375463724136353
+  },
+  {
+    "source_id": "fasilitas_0187",
+    "target_id": "fasilitas_0190",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9375168085098267
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "syarat_0267",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9374932050704956
+  },
+  {
+    "source_id": "beasiswa_0149",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9373589158058167
+  },
+  {
+    "source_id": "beasiswa_0139",
+    "target_id": "beasiswa_0143",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9370403289794922
+  },
+  {
+    "source_id": "beasiswa_0132",
+    "target_id": "beasiswa_0135",
+    "relation_type": "semantic_similarity",
+    "strength": 0.936914324760437
+  },
+  {
+    "source_id": "beasiswa_0141",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9367669820785522
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0123",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9367144107818604
+  },
+  {
+    "source_id": "alur_0074",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9365785121917725
+  },
+  {
+    "source_id": "beasiswa_0126",
+    "target_id": "beasiswa_0128",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9364753365516663
+  },
+  {
+    "source_id": "syarat_0247",
+    "target_id": "kontak_0335",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9359924793243408
+  },
+  {
+    "source_id": "beasiswa_0127",
+    "target_id": "beasiswa_0128",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9358028173446655
+  },
+  {
+    "source_id": "fasilitas_0191",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9357017278671265
+  },
+  {
+    "source_id": "syarat_0232",
+    "target_id": "syarat_0238",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9353916645050049
+  },
+  {
+    "source_id": "beasiswa_0135",
+    "target_id": "beasiswa_0136",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9351789355278015
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "fasilitas_0192",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9348769187927246
+  },
+  {
+    "source_id": "fasilitas_0192",
+    "target_id": "syarat_0251",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9348769187927246
+  },
+  {
+    "source_id": "fasilitas_0182",
+    "target_id": "fasilitas_0189",
+    "relation_type": "semantic_similarity",
+    "strength": 0.934532642364502
+  },
+  {
+    "source_id": "fasilitas_0181",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.934438943862915
+  },
+  {
+    "source_id": "alur_0075",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9344098567962646
+  },
+  {
+    "source_id": "profil_0011",
+    "target_id": "profil_0013",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9343860149383545
+  },
+  {
+    "source_id": "alur_0083",
+    "target_id": "fasilitas_0191",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9339993000030518
+  },
+  {
+    "source_id": "fasilitas_0181",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.933967113494873
+  },
+  {
+    "source_id": "beasiswa_0142",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9338728785514832
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "syarat_0251",
+    "relation_type": "semantic_similarity",
+    "strength": 0.933751106262207
+  },
+  {
+    "source_id": "alur_0079",
+    "target_id": "alur_0083",
+    "relation_type": "semantic_similarity",
+    "strength": 0.933751106262207
+  },
+  {
+    "source_id": "syarat_0248",
+    "target_id": "kontak_0335",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9336761236190796
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "syarat_0223",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9336645603179932
+  },
+  {
+    "source_id": "fasilitas_0181",
+    "target_id": "fasilitas_0184",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9335562586784363
+  },
+  {
+    "source_id": "beasiswa_0140",
+    "target_id": "beasiswa_0143",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9331640601158142
+  },
+  {
+    "source_id": "alur_0082",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9330765008926392
+  },
+  {
+    "source_id": "beasiswa_0141",
+    "target_id": "beasiswa_0146",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9328069686889648
+  },
+  {
+    "source_id": "alur_0076",
+    "target_id": "syarat_0244",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9319586157798767
+  },
+  {
+    "source_id": "beasiswa_0135",
+    "target_id": "beasiswa_0138",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9319031238555908
+  },
+  {
+    "source_id": "syarat_0233",
+    "target_id": "syarat_0240",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9318808317184448
+  },
+  {
+    "source_id": "beasiswa_0140",
+    "target_id": "beasiswa_0141",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9316438436508179
+  },
+  {
+    "source_id": "syarat_0236",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9314271807670593
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0008",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9309049844741821
+  },
+  {
+    "source_id": "beasiswa_0132",
+    "target_id": "beasiswa_0136",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9307896494865417
+  },
+  {
+    "source_id": "beasiswa_0127",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9307190179824829
+  },
+  {
+    "source_id": "alur_0082",
+    "target_id": "syarat_0246",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9305987358093262
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9304602146148682
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "alur_0070",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9303069114685059
+  },
+  {
+    "source_id": "syarat_0238",
+    "target_id": "syarat_0239",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9302849769592285
+  },
+  {
+    "source_id": "beasiswa_0149",
+    "target_id": "beasiswa_0150",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9302698373794556
+  },
+  {
+    "source_id": "beasiswa_0139",
+    "target_id": "beasiswa_0141",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9300732612609863
+  },
+  {
+    "source_id": "fasilitas_0182",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.92999267578125
+  },
+  {
+    "source_id": "alur_0081",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9297254085540771
+  },
+  {
+    "source_id": "syarat_0235",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9297126531600952
+  },
+  {
+    "source_id": "syarat_0212",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9296932220458984
+  },
+  {
+    "source_id": "beasiswa_0139",
+    "target_id": "beasiswa_0142",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9295891523361206
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "kontak_0336",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9286501407623291
+  },
+  {
+    "source_id": "fasilitas_0181",
+    "target_id": "fasilitas_0187",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9286352396011353
+  },
+  {
+    "source_id": "syarat_0213",
+    "target_id": "syarat_0221",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9282670021057129
+  },
+  {
+    "source_id": "fasilitas_0194",
+    "target_id": "fasilitas_0207",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9280796051025391
+  },
+  {
+    "source_id": "alur_0080",
+    "target_id": "syarat_0246",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9278349280357361
+  },
+  {
+    "source_id": "profil_0016",
+    "target_id": "profil_0053",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9278340339660645
+  },
+  {
+    "source_id": "profil_0009",
+    "target_id": "profil_0019",
+    "relation_type": "semantic_similarity",
+    "strength": 0.927663266658783
+  },
+  {
+    "source_id": "beasiswa_0137",
+    "target_id": "beasiswa_0138",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9273965954780579
+  },
+  {
+    "source_id": "beasiswa_0134",
+    "target_id": "beasiswa_0136",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9273791909217834
+  },
+  {
+    "source_id": "syarat_0232",
+    "target_id": "syarat_0236",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9269087314605713
+  },
+  {
+    "source_id": "beasiswa_0144",
+    "target_id": "beasiswa_0151",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9261414408683777
+  },
+  {
+    "source_id": "fasilitas_0184",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9261273145675659
+  },
+  {
+    "source_id": "fasilitas_0185",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9261246919631958
+  },
+  {
+    "source_id": "alur_0097",
+    "target_id": "syarat_0222",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9258337616920471
+  },
+  {
+    "source_id": "alur_0072",
+    "target_id": "alur_0073",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9257317781448364
+  },
+  {
+    "source_id": "beasiswa_0132",
+    "target_id": "beasiswa_0138",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9255845546722412
+  },
+  {
+    "source_id": "beasiswa_0139",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9251608848571777
+  },
+  {
+    "source_id": "fasilitas_0184",
+    "target_id": "fasilitas_0185",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9245367050170898
+  },
+  {
+    "source_id": "beasiswa_0136",
+    "target_id": "beasiswa_0138",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9244363307952881
+  },
+  {
+    "source_id": "beasiswa_0140",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.924090564250946
+  },
+  {
+    "source_id": "alur_0073",
+    "target_id": "syarat_0237",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9234434366226196
+  },
+  {
+    "source_id": "syarat_0233",
+    "target_id": "syarat_0234",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9232664704322815
+  },
+  {
+    "source_id": "alur_0097",
+    "target_id": "syarat_0213",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9231822490692139
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "fasilitas_0182",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9229887127876282
+  },
+  {
+    "source_id": "alur_0097",
+    "target_id": "syarat_0216",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9229086637496948
+  },
+  {
+    "source_id": "profil_0012",
+    "target_id": "profil_0013",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9225708246231079
+  },
+  {
+    "source_id": "alur_0073",
+    "target_id": "syarat_0236",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9216861724853516
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0007",
+    "relation_type": "semantic_similarity",
+    "strength": 0.92154860496521
+  },
+  {
+    "source_id": "alur_0073",
+    "target_id": "syarat_0232",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9215328097343445
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9214634895324707
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "syarat_0277",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9200295209884644
+  },
+  {
+    "source_id": "fasilitas_0200",
+    "target_id": "fasilitas_0202",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9198501110076904
+  },
+  {
+    "source_id": "profil_0011",
+    "target_id": "profil_0012",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9198495745658875
+  },
+  {
+    "source_id": "beasiswa_0126",
+    "target_id": "beasiswa_0130",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9198267459869385
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "alur_0101",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9197867512702942
+  },
+  {
+    "source_id": "syarat_0233",
+    "target_id": "syarat_0237",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9197061061859131
+  },
+  {
+    "source_id": "fasilitas_0201",
+    "target_id": "fasilitas_0202",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9196814298629761
+  },
+  {
+    "source_id": "alur_0087",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9196801781654358
+  },
+  {
+    "source_id": "syarat_0268",
+    "target_id": "syarat_0277",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9193878769874573
+  },
+  {
+    "source_id": "alur_0069",
+    "target_id": "fasilitas_0189",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9191539287567139
+  },
+  {
+    "source_id": "syarat_0238",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9191197752952576
+  },
+  {
+    "source_id": "alur_0070",
+    "target_id": "fasilitas_0182",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9191151857376099
+  },
+  {
+    "source_id": "beasiswa_0121",
+    "target_id": "beasiswa_0129",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9190380573272705
+  },
+  {
+    "source_id": "profil_0010",
+    "target_id": "profil_0011",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9186954498291016
+  },
+  {
+    "source_id": "alur_0097",
+    "target_id": "syarat_0219",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9179873466491699
+  },
+  {
+    "source_id": "profil_0033",
+    "target_id": "profil_0035",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9174985289573669
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0008",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9174498319625854
+  },
+  {
+    "source_id": "profil_0052",
+    "target_id": "profil_0053",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9173280596733093
+  },
+  {
+    "source_id": "alur_0073",
+    "target_id": "syarat_0238",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9171739816665649
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9171230792999268
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0180",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9171113967895508
+  },
+  {
+    "source_id": "profil_0013",
+    "target_id": "profil_0016",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9169052243232727
+  },
+  {
+    "source_id": "profil_0034",
+    "target_id": "profil_0035",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9168845415115356
+  },
+  {
+    "source_id": "alur_0099",
+    "target_id": "alur_0100",
+    "relation_type": "semantic_similarity",
+    "strength": 0.916854977607727
+  },
+  {
+    "source_id": "beasiswa_0132",
+    "target_id": "beasiswa_0134",
+    "relation_type": "semantic_similarity",
+    "strength": 0.916493833065033
+  },
+  {
+    "source_id": "alur_0087",
+    "target_id": "kontak_0341",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9164782166481018
+  },
+  {
+    "source_id": "profil_0053",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9163389205932617
+  },
+  {
+    "source_id": "syarat_0264",
+    "target_id": "syarat_0265",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9163352847099304
+  },
+  {
+    "source_id": "profil_0016",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9162551164627075
+  },
+  {
+    "source_id": "alur_0106",
+    "target_id": "alur_0107",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9160746335983276
+  },
+  {
+    "source_id": "alur_0087",
+    "target_id": "kontak_0339",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9160338640213013
+  },
+  {
+    "source_id": "fasilitas_0185",
+    "target_id": "fasilitas_0188",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9155729413032532
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9152480959892273
+  },
+  {
+    "source_id": "fasilitas_0200",
+    "target_id": "fasilitas_0201",
+    "relation_type": "semantic_similarity",
+    "strength": 0.914535403251648
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0005",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9144995212554932
+  },
+  {
+    "source_id": "fasilitas_0204",
+    "target_id": "fasilitas_0207",
+    "relation_type": "semantic_similarity",
+    "strength": 0.914489209651947
+  },
+  {
+    "source_id": "profil_0011",
+    "target_id": "profil_0053",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9144405126571655
+  },
+  {
+    "source_id": "beasiswa_0139",
+    "target_id": "beasiswa_0140",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9143549799919128
+  },
+  {
+    "source_id": "beasiswa_0170",
+    "target_id": "beasiswa_0179",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9132028818130493
+  },
+  {
+    "source_id": "alur_0087",
+    "target_id": "kontak_0340",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9130744338035583
+  },
+  {
+    "source_id": "profil_0008",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9129595160484314
+  },
+  {
+    "source_id": "syarat_0239",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9129161834716797
+  },
+  {
+    "source_id": "beasiswa_0125",
+    "target_id": "beasiswa_0126",
+    "relation_type": "semantic_similarity",
+    "strength": 0.912885308265686
+  },
+  {
+    "source_id": "beasiswa_0134",
+    "target_id": "beasiswa_0137",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9126981496810913
+  },
+  {
+    "source_id": "profil_0007",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.912338376045227
+  },
+  {
+    "source_id": "profil_0035",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9118220806121826
+  },
+  {
+    "source_id": "profil_0013",
+    "target_id": "profil_0015",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9116806983947754
+  },
+  {
+    "source_id": "profil_0010",
+    "target_id": "profil_0013",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9116538763046265
+  },
+  {
+    "source_id": "profil_0011",
+    "target_id": "profil_0016",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9111044406890869
+  },
+  {
+    "source_id": "profil_0031",
+    "target_id": "profil_0038",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9110255837440491
+  },
+  {
+    "source_id": "beasiswa_0170",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9109396934509277
+  },
+  {
+    "source_id": "profil_0031",
+    "target_id": "profil_0036",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9109334945678711
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "alur_0069",
+    "relation_type": "semantic_similarity",
+    "strength": 0.910545825958252
+  },
+  {
+    "source_id": "fasilitas_0204",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9102238416671753
+  },
+  {
+    "source_id": "alur_0089",
+    "target_id": "alur_0103",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9100871086120605
+  },
+  {
+    "source_id": "profil_0010",
+    "target_id": "profil_0016",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9099072217941284
+  },
+  {
+    "source_id": "profil_0036",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9097769856452942
+  },
+  {
+    "source_id": "beasiswa_0159",
+    "target_id": "beasiswa_0160",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9096794128417969
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "beasiswa_0162",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9092749357223511
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9089482426643372
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0008",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9083355069160461
+  },
+  {
+    "source_id": "fasilitas_0202",
+    "target_id": "fasilitas_0204",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9079769849777222
+  },
+  {
+    "source_id": "profil_0034",
+    "target_id": "profil_0037",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9075930714607239
+  },
+  {
+    "source_id": "profil_0015",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9075803756713867
+  },
+  {
+    "source_id": "beasiswa_0152",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.907028317451477
+  },
+  {
+    "source_id": "alur_0071",
+    "target_id": "alur_0103",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9070142507553101
+  },
+  {
+    "source_id": "beasiswa_0176",
+    "target_id": "syarat_0249",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9068475961685181
+  },
+  {
+    "source_id": "alur_0100",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.906688928604126
+  },
+  {
+    "source_id": "beasiswa_0176",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9066357612609863
+  },
+  {
+    "source_id": "beasiswa_0159",
+    "target_id": "beasiswa_0172",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9063032865524292
+  },
+  {
+    "source_id": "profil_0005",
+    "target_id": "profil_0008",
+    "relation_type": "semantic_similarity",
+    "strength": 0.906272828578949
+  },
+  {
+    "source_id": "profil_0004",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9061439037322998
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "alur_0069",
+    "relation_type": "semantic_similarity",
+    "strength": 0.906104564666748
+  },
+  {
+    "source_id": "alur_0101",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9059298038482666
+  },
+  {
+    "source_id": "profil_0028",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9059019088745117
+  },
+  {
+    "source_id": "beasiswa_0154",
+    "target_id": "beasiswa_0178",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9058675765991211
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0006",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9058489799499512
+  },
+  {
+    "source_id": "profil_0003",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9057828187942505
+  },
+  {
+    "source_id": "profil_0026",
+    "target_id": "profil_0028",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9057656526565552
+  },
+  {
+    "source_id": "alur_0071",
+    "target_id": "alur_0073",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9057621955871582
+  },
+  {
+    "source_id": "profil_0010",
+    "target_id": "profil_0012",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9056857228279114
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9056204557418823
+  },
+  {
+    "source_id": "alur_0101",
+    "target_id": "syarat_0235",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9054548740386963
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "syarat_0266",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9052676558494568
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "beasiswa_0176",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9050039052963257
+  },
+  {
+    "source_id": "beasiswa_0134",
+    "target_id": "beasiswa_0135",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9048625230789185
+  },
+  {
+    "source_id": "beasiswa_0134",
+    "target_id": "beasiswa_0138",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9042589068412781
+  },
+  {
+    "source_id": "profil_0034",
+    "target_id": "profil_0036",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9040771722793579
+  },
+  {
+    "source_id": "alur_0097",
+    "target_id": "syarat_0274",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9039627313613892
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "fasilitas_0193",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9036049842834473
+  },
+  {
+    "source_id": "alur_0072",
+    "target_id": "syarat_0237",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9035409688949585
+  },
+  {
+    "source_id": "alur_0113",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9028305411338806
+  },
+  {
+    "source_id": "beasiswa_0133",
+    "target_id": "beasiswa_0134",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9026327729225159
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0007",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9023626446723938
+  },
+  {
+    "source_id": "profil_0037",
+    "target_id": "profil_0039",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9022117853164673
+  },
+  {
+    "source_id": "profil_0034",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.902155876159668
+  },
+  {
+    "source_id": "beasiswa_0154",
+    "target_id": "beasiswa_0175",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9021307229995728
+  },
+  {
+    "source_id": "profil_0014",
+    "target_id": "fasilitas_0189",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9020990133285522
+  },
+  {
+    "source_id": "fasilitas_0198",
+    "target_id": "fasilitas_0207",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9018071889877319
+  },
+  {
+    "source_id": "profil_0031",
+    "target_id": "profil_0034",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9017456769943237
+  },
+  {
+    "source_id": "profil_0035",
+    "target_id": "profil_0036",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9016847610473633
+  },
+  {
+    "source_id": "profil_0010",
+    "target_id": "profil_0015",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9009932279586792
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9006034731864929
+  },
+  {
+    "source_id": "beasiswa_0133",
+    "target_id": "beasiswa_0139",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9001648426055908
+  },
+  {
+    "source_id": "profil_0028",
+    "target_id": "profil_0051",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9001508355140686
+  },
+  {
+    "source_id": "profil_0033",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9001274108886719
+  },
+  {
+    "source_id": "profil_0031",
+    "target_id": "profil_0035",
+    "relation_type": "semantic_similarity",
+    "strength": 0.9001185894012451
+  },
+  {
+    "source_id": "alur_0072",
+    "target_id": "syarat_0236",
+    "relation_type": "semantic_similarity",
+    "strength": 0.899740993976593
+  },
+  {
+    "source_id": "beasiswa_0171",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8996926546096802
+  },
+  {
+    "source_id": "fasilitas_0198",
+    "target_id": "fasilitas_0200",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8995840549468994
+  },
+  {
+    "source_id": "beasiswa_0154",
+    "target_id": "beasiswa_0159",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8993679285049438
+  },
+  {
+    "source_id": "syarat_0293",
+    "target_id": "syarat_0301",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8993525505065918
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8993018269538879
+  },
+  {
+    "source_id": "profil_0052",
+    "target_id": "alur_0069",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8992516994476318
+  },
+  {
+    "source_id": "beasiswa_0171",
+    "target_id": "beasiswa_0172",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8988840579986572
+  },
+  {
+    "source_id": "syarat_0286",
+    "target_id": "syarat_0288",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8988686800003052
+  },
+  {
+    "source_id": "beasiswa_0174",
+    "target_id": "beasiswa_0179",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8985840082168579
+  },
+  {
+    "source_id": "profil_0031",
+    "target_id": "beasiswa_0180",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8984115123748779
+  },
+  {
+    "source_id": "alur_0072",
+    "target_id": "syarat_0232",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8983851671218872
+  },
+  {
+    "source_id": "alur_0108",
+    "target_id": "beasiswa_0174",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8980792760848999
+  },
+  {
+    "source_id": "fasilitas_0199",
+    "target_id": "fasilitas_0202",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8979256749153137
+  },
+  {
+    "source_id": "alur_0071",
+    "target_id": "beasiswa_0149",
+    "relation_type": "semantic_similarity",
+    "strength": 0.897860050201416
+  },
+  {
+    "source_id": "beasiswa_0154",
+    "target_id": "beasiswa_0160",
+    "relation_type": "semantic_similarity",
+    "strength": 0.897819995880127
+  },
+  {
+    "source_id": "profil_0036",
+    "target_id": "fasilitas_0197",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8977743983268738
+  },
+  {
+    "source_id": "beasiswa_0171",
+    "target_id": "beasiswa_0178",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8977688550949097
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "alur_0106",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8977365493774414
+  },
+  {
+    "source_id": "beasiswa_0169",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8976070880889893
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "beasiswa_0139",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8974052667617798
+  },
+  {
+    "source_id": "alur_0071",
+    "target_id": "alur_0072",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8973699808120728
+  },
+  {
+    "source_id": "beasiswa_0170",
+    "target_id": "beasiswa_0174",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8973170518875122
+  },
+  {
+    "source_id": "fasilitas_0199",
+    "target_id": "fasilitas_0205",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8971948623657227
+  },
+  {
+    "source_id": "alur_0088",
+    "target_id": "alur_0099",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8971109390258789
+  },
+  {
+    "source_id": "beasiswa_0170",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8971074819564819
+  },
+  {
+    "source_id": "alur_0088",
+    "target_id": "syarat_0232",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8970932960510254
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "syarat_0249",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8969266414642334
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "alur_0081",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8969266414642334
+  },
+  {
+    "source_id": "alur_0088",
+    "target_id": "alur_0103",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8968532681465149
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "alur_0082",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8967825174331665
+  },
+  {
+    "source_id": "profil_0018",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8967825174331665
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0159",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8966862559318542
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0160",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8965861797332764
+  },
+  {
+    "source_id": "beasiswa_0175",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8964248895645142
+  },
+  {
+    "source_id": "fasilitas_0198",
+    "target_id": "fasilitas_0201",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8961710333824158
+  },
+  {
+    "source_id": "fasilitas_0198",
+    "target_id": "fasilitas_0202",
+    "relation_type": "semantic_similarity",
+    "strength": 0.89589524269104
+  },
+  {
+    "source_id": "fasilitas_0204",
+    "target_id": "fasilitas_0206",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8958256244659424
+  },
+  {
+    "source_id": "alur_0089",
+    "target_id": "alur_0113",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8958008289337158
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "syarat_0232",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8957614302635193
+  },
+  {
+    "source_id": "alur_0071",
+    "target_id": "beasiswa_0143",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8957115411758423
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0004",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8952855467796326
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "syarat_0265",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8952308893203735
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0007",
+    "relation_type": "semantic_similarity",
+    "strength": 0.895095705986023
+  },
+  {
+    "source_id": "beasiswa_0180",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8949809074401855
+  },
+  {
+    "source_id": "alur_0067",
+    "target_id": "beasiswa_0144",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8946113586425781
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "syarat_0253",
+    "relation_type": "semantic_similarity",
+    "strength": 0.894607663154602
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0008",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8940558433532715
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0005",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8938769102096558
+  },
+  {
+    "source_id": "profil_0028",
+    "target_id": "profil_0035",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8937339782714844
+  },
+  {
+    "source_id": "fasilitas_0199",
+    "target_id": "fasilitas_0200",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8936209678649902
+  },
+  {
+    "source_id": "alur_0105",
+    "target_id": "syarat_0250",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8932950496673584
+  },
+  {
+    "source_id": "syarat_0265",
+    "target_id": "syarat_0266",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8932299017906189
+  },
+  {
+    "source_id": "profil_0012",
+    "target_id": "profil_0015",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8931613564491272
+  },
+  {
+    "source_id": "profil_0002",
+    "target_id": "profil_0026",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8929851651191711
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0175",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8929591178894043
+  },
+  {
+    "source_id": "beasiswa_0133",
+    "target_id": "beasiswa_0136",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8928288221359253
+  },
+  {
+    "source_id": "beasiswa_0172",
+    "target_id": "beasiswa_0175",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8928022980690002
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "syarat_0236",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8920556306838989
+  },
+  {
+    "source_id": "beasiswa_0119",
+    "target_id": "beasiswa_0162",
+    "relation_type": "semantic_similarity",
+    "strength": 0.891768217086792
+  },
+  {
+    "source_id": "profil_0012",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8917396068572998
+  },
+  {
+    "source_id": "profil_0026",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.891381025314331
+  },
+  {
+    "source_id": "profil_0037",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8910273313522339
+  },
+  {
+    "source_id": "profil_0038",
+    "target_id": "profil_0039",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8909767866134644
+  },
+  {
+    "source_id": "alur_0060",
+    "target_id": "fasilitas_0204",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8907500505447388
+  },
+  {
+    "source_id": "fasilitas_0199",
+    "target_id": "fasilitas_0201",
+    "relation_type": "semantic_similarity",
+    "strength": 0.890705943107605
+  },
+  {
+    "source_id": "alur_0100",
+    "target_id": "syarat_0232",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8906399011611938
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "fasilitas_0183",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8904098868370056
+  },
+  {
+    "source_id": "profil_0038",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8903267979621887
+  },
+  {
+    "source_id": "alur_0099",
+    "target_id": "beasiswa_0179",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8902661800384521
+  },
+  {
+    "source_id": "profil_0006",
+    "target_id": "profil_0009",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8899638652801514
+  },
+  {
+    "source_id": "beasiswa_0169",
+    "target_id": "beasiswa_0175",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8899496793746948
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "alur_0070",
+    "relation_type": "semantic_similarity",
+    "strength": 0.889947235584259
+  },
+  {
+    "source_id": "alur_0100",
+    "target_id": "syarat_0293",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8899292945861816
+  },
+  {
+    "source_id": "profil_0038",
+    "target_id": "profil_0042",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8896665573120117
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "syarat_0238",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8894535303115845
+  },
+  {
+    "source_id": "alur_0103",
+    "target_id": "syarat_0223",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8891525864601135
+  },
+  {
+    "source_id": "profil_0019",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8887187838554382
+  },
+  {
+    "source_id": "syarat_0264",
+    "target_id": "syarat_0266",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8886801600456238
+  },
+  {
+    "source_id": "beasiswa_0120",
+    "target_id": "beasiswa_0174",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8885809779167175
+  },
+  {
+    "source_id": "profil_0051",
+    "target_id": "beasiswa_0152",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8885153532028198
+  },
+  {
+    "source_id": "profil_0027",
+    "target_id": "profil_0028",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8885105848312378
+  },
+  {
+    "source_id": "fasilitas_0205",
+    "target_id": "fasilitas_0207",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8882873058319092
+  },
+  {
+    "source_id": "alur_0089",
+    "target_id": "alur_0107",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8882866501808167
+  },
+  {
+    "source_id": "profil_0037",
+    "target_id": "beasiswa_0160",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8880700469017029
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8880308866500854
+  },
+  {
+    "source_id": "fasilitas_0206",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.887524425983429
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "alur_0069",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8869056701660156
+  },
+  {
+    "source_id": "alur_0107",
+    "target_id": "syarat_0262",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8865004181861877
+  },
+  {
+    "source_id": "fasilitas_0200",
+    "target_id": "fasilitas_0205",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8862478137016296
+  },
+  {
+    "source_id": "profil_0037",
+    "target_id": "beasiswa_0180",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8855489492416382
+  },
+  {
+    "source_id": "alur_0066",
+    "target_id": "beasiswa_0159",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8854762315750122
+  },
+  {
+    "source_id": "beasiswa_0172",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8848944902420044
+  },
+  {
+    "source_id": "syarat_0265",
+    "target_id": "syarat_0268",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8846642971038818
+  },
+  {
+    "source_id": "profil_0026",
+    "target_id": "profil_0035",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8844828009605408
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "syarat_0284",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8843014240264893
+  },
+  {
+    "source_id": "profil_0033",
+    "target_id": "profil_0034",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8842945098876953
+  },
+  {
+    "source_id": "beasiswa_0169",
+    "target_id": "beasiswa_0172",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8840983510017395
+  },
+  {
+    "source_id": "alur_0089",
+    "target_id": "alur_0099",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8840341567993164
+  },
+  {
+    "source_id": "syarat_0211",
+    "target_id": "syarat_0242",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8834288120269775
+  },
+  {
+    "source_id": "beasiswa_0162",
+    "target_id": "beasiswa_0180",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8832806944847107
+  },
+  {
+    "source_id": "beasiswa_0169",
+    "target_id": "beasiswa_0180",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8830388784408569
+  },
+  {
+    "source_id": "syarat_0277",
+    "target_id": "syarat_0278",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8829250335693359
+  },
+  {
+    "source_id": "syarat_0264",
+    "target_id": "syarat_0268",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8821836709976196
+  },
+  {
+    "source_id": "beasiswa_0133",
+    "target_id": "beasiswa_0137",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8818625211715698
+  },
+  {
+    "source_id": "syarat_0211",
+    "target_id": "syarat_0264",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8817107677459717
+  },
+  {
+    "source_id": "alur_0089",
+    "target_id": "syarat_0274",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8816919326782227
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "alur_0106",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8813247680664062
+  },
+  {
+    "source_id": "fasilitas_0206",
+    "target_id": "fasilitas_0207",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8810845613479614
+  },
+  {
+    "source_id": "alur_0108",
+    "target_id": "syarat_0301",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8808231353759766
+  },
+  {
+    "source_id": "syarat_0211",
+    "target_id": "syarat_0241",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8800978064537048
+  },
+  {
+    "source_id": "syarat_0277",
+    "target_id": "prodi_0348",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8789323568344116
+  },
+  {
+    "source_id": "beasiswa_0120",
+    "target_id": "syarat_0301",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8789280652999878
+  },
+  {
+    "source_id": "syarat_0286",
+    "target_id": "syarat_0301",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8786339163780212
+  },
+  {
+    "source_id": "alur_0107",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8779228329658508
+  },
+  {
+    "source_id": "beasiswa_0120",
+    "target_id": "syarat_0300",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8770612478256226
+  },
+  {
+    "source_id": "syarat_0278",
+    "target_id": "prodi_0349",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8769919276237488
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "alur_0060",
+    "relation_type": "semantic_similarity",
+    "strength": 0.876735270023346
+  },
+  {
+    "source_id": "beasiswa_0174",
+    "target_id": "syarat_0302",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8764023780822754
+  },
+  {
+    "source_id": "alur_0108",
+    "target_id": "beasiswa_0120",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8763436079025269
+  },
+  {
+    "source_id": "alur_0108",
+    "target_id": "beasiswa_0179",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8763391971588135
+  },
+  {
+    "source_id": "alur_0113",
+    "target_id": "beasiswa_0171",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8755679726600647
+  },
+  {
+    "source_id": "alur_0058",
+    "target_id": "alur_0107",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8748800754547119
+  },
+  {
+    "source_id": "syarat_0267",
+    "target_id": "syarat_0268",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8743455410003662
+  },
+  {
+    "source_id": "syarat_0266",
+    "target_id": "syarat_0268",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8730896711349487
+  },
+  {
+    "source_id": "alur_0113",
+    "target_id": "fasilitas_0198",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8718685507774353
+  },
+  {
+    "source_id": "syarat_0278",
+    "target_id": "prodi_0348",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8713757991790771
+  },
+  {
+    "source_id": "alur_0106",
+    "target_id": "alur_0113",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8705395460128784
+  },
+  {
+    "source_id": "profil_0027",
+    "target_id": "beasiswa_0160",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8698406219482422
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "fasilitas_0181",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8686896562576294
+  },
+  {
+    "source_id": "alur_0106",
+    "target_id": "syarat_0301",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8686380386352539
+  },
+  {
+    "source_id": "alur_0068",
+    "target_id": "fasilitas_0186",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8683323264122009
+  },
+  {
+    "source_id": "profil_0024",
+    "target_id": "profil_0039",
+    "relation_type": "semantic_similarity",
+    "strength": 0.8577450513839722
+  }
+]
