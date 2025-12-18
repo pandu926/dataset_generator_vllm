@@ -1,40 +1,36 @@
 # PMB UNSIQ Dataset Generation Pipeline - Dependencies
-# Python 3.10+ | CUDA 12.1+ required
-# Updated versions for December 2025
+# Python 3.10+ | CUDA 12.6 required
+# LATEST versions - December 2024
 # Install: pip install -r requirements.txt
 
 # =============================================================================
-# Core ML/DL - PyTorch Ecosystem (CUDA 12.1 compatible)
+# Core ML/DL - PyTorch 2.8 + CUDA 12.6
 # =============================================================================
-torch==2.5.1
-transformers==4.47.0
-accelerate==1.2.1
+torch==2.9.0
+transformers==4.56.0
+accelerate==1.8.1
 bitsandbytes==0.45.0
 
 # =============================================================================
 # High-Performance Inference (A100/H100)
 # =============================================================================
-# vLLM requires: CUDA 12.1+, torch>=2.4.0
-# Note: vLLM 0.12.0 requires CUDA 12.9+, using 0.6.6 for CUDA 12.1 compatibility
-vllm==0.6.6
+vllm==0.11.2
 
 # =============================================================================
 # Fine-tuning Libraries
 # =============================================================================
-peft==0.14.0
-trl==0.12.2
+peft==0.15.2
+trl==0.15.0
 
 # =============================================================================
 # Embeddings & Semantic Search
 # =============================================================================
-sentence-transformers==3.3.1
-# Note: chromadb has heavy deps, pin carefully
-chromadb==0.5.23
+sentence-transformers==3.4.0
+chromadb==0.6.3
 
 # =============================================================================
-# LangChain (minimal - only if needed)
+# LangChain
 # =============================================================================
-# langchain has many transitive deps, use langchain-core if possible
 langchain-core==0.3.28
 
 # =============================================================================
@@ -46,7 +42,7 @@ bert-score==0.3.13
 # Data Processing
 # =============================================================================
 pandas==2.2.3
-numpy==1.26.4
+numpy==2.2.6
 scikit-learn==1.6.0
 
 # =============================================================================
@@ -61,10 +57,3 @@ python-dotenv==1.0.1
 # =============================================================================
 colorama==0.4.6
 rich==13.9.4
-
-# =============================================================================
-# Tokenizers (explicit pin to avoid conflicts)
-# =============================================================================
-tokenizers==0.21.0
-safetensors==0.4.5
-huggingface-hub==0.27.0

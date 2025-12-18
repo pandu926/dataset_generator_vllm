@@ -26,6 +26,7 @@ except ImportError:
 
 RAW_DATA_DIR = "data/seeds" # Directory where dataset_*.json lives
 OUTPUT_FILE = "data/raw/synthetic_multiturn_v1.json"
+os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)  # Auto-create directory
 TARGET_TOTAL = 1000
 CHUNKS_PATH = "data/chunks/chunks.jsonl" # Path to RAG chunks
 
@@ -123,7 +124,7 @@ def retrieve_context(seed: Dict, chunks: List[Dict], embed_service, top_k=3) -> 
 
 def main():
     print("="*60)
-    print("STARTING SYNTHETIC DATA GENERATION")
+    print("STARTING SYNTHETIC DATA GENERATION (BATCH OPTIMIZED)")
     print("="*60)
     
     # 1. Initialize Engine
@@ -144,69 +145,79 @@ def main():
     # 4. Initialize Generator
     generator = MultiTurnGenerator(engine)
     
-    # 5. Generation Loop
-    generated_data = []
-    
-    # Calculate target per seed to reach 1000
-    # If seeds > 1000, we sample. If < 1000, we repeat.
+    # 5. BATCH Generation Configuration
+    BATCH_SIZE = 32  # Process 32 prompts at once for A100 80GB
     target_count = TARGET_TOTAL
     
     print(f"Target: {target_count} datasets.")
+    print(f"Batch Size: {BATCH_SIZE} (optimized for A100 80GB)")
     
+    generated_data = []
     count = 0
-    consecutive_failures = 0
-    MAX_CONSECUTIVE_FAILURES = 10  # Prevent infinite loop
+    batch_num = 0
     
     # Use tqdm for progress tracking
     pbar = tqdm(total=target_count, desc="Generating datasets", unit="conv")
     
     while count < target_count:
-        # Pick a seed (cycle through)
-        seed = seeds[count % len(seeds)]
+        batch_num += 1
+        remaining = target_count - count
+        current_batch_size = min(BATCH_SIZE, remaining)
         
-        # Retrieve Context
-        context = retrieve_context(seed, chunks, None)
-        
-        # Prepare Chunk Object for Generator
-        chunk_input = {
-            "content": context,
-            "topic": seed["category"],
-            "id": f"seed_{seed['category']}_{count}"
-        }
-        
-        # Generate
-        pbar.set_description(f"Generating {seed['category']}")
-        result = generator.generate_conversation(chunk_input)
-        
-        if result:
-            consecutive_failures = 0  # Reset on success
-            # Flatten structure for final JSON
-            item = {
-                "instruction": "Multi-turn conversation about UNSIQ", # Metadata
-                "input": "",
-                "output": json.dumps(result["conversation"], ensure_ascii=False), # Store valid JSON structure
-                "text": "", # Will be filled by process_dataset.py formatter later
-                "category": seed["category"],
-                "source": "synthetic_v1",
-                "metadata": result["metadata"]
-            }
-            generated_data.append(item)
-            count += 1
-            pbar.update(1)  # Update progress bar
+        # Prepare batch of chunks
+        batch_chunks = []
+        for i in range(current_batch_size):
+            seed_idx = (count + i) % len(seeds)
+            seed = seeds[seed_idx]
             
-            # Save intermediate every 50
-            if count % 50 == 0:
-                with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                    json.dump(generated_data, f, ensure_ascii=False, indent=2)
-                tqdm.write(f"Saved checkpoint: {count}")
-        else:
-            consecutive_failures += 1
-            tqdm.write(f"Warning: Generation failed ({consecutive_failures}/{MAX_CONSECUTIVE_FAILURES})")
-            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                tqdm.write("ERROR: Too many consecutive failures. Stopping to prevent infinite loop.")
-                break
+            # Retrieve Context
+            context = retrieve_context(seed, chunks, None)
+            
+            chunk_input = {
+                "content": context,
+                "topic": seed["category"],
+                "id": f"seed_{seed['category']}_{count + i}"
+            }
+            batch_chunks.append(chunk_input)
+        
+        # Generate BATCH at once!
+        pbar.set_description(f"Batch {batch_num} ({current_batch_size} prompts)")
+        results = generator.generate_conversations_batch(batch_chunks)
+        
+        # Process results
+        successful = 0
+        for i, result in enumerate(results):
+            if result:
+                seed_idx = (count + i) % len(seeds)
+                seed = seeds[seed_idx]
+                
+                item = {
+                    "instruction": "Multi-turn conversation about UNSIQ",
+                    "input": "",
+                    "output": json.dumps(result["conversation"], ensure_ascii=False),
+                    "text": "",
+                    "category": seed["category"],
+                    "source": "synthetic_v1",
+                    "metadata": result["metadata"]
+                }
+                generated_data.append(item)
+                successful += 1
+        
+        count += successful
+        pbar.update(successful)
+        
+        # Save checkpoint every 3 batches (~96 conversations)
+        if batch_num % 3 == 0:
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                json.dump(generated_data, f, ensure_ascii=False, indent=2)
+            tqdm.write(f"Checkpoint saved: {len(generated_data)} conversations (batch {batch_num})")
+        
+        # Safety: if entire batch fails, skip to next set of seeds
+        if successful == 0:
+            count += current_batch_size
+            tqdm.write(f"Warning: Batch {batch_num} failed, skipping {current_batch_size} seeds")
     
-    pbar.close()  # Close progress bar
+    pbar.close()
     
     # Final Save
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -215,6 +226,7 @@ def main():
     print("="*60)
     print(f"DONE! Generated {len(generated_data)} conversations.")
     print(f"Saved to: {OUTPUT_FILE}")
+
 
 if __name__ == "__main__":
     main()

@@ -143,6 +143,105 @@ class MultiTurnGenerator:
                 return "AMBIGUOUS: User asks vague questions using slang or wrong terms. AI must clarify intent in 'thought' then answer."
         return ""
 
+    def _parse_response(self, response: str) -> Optional[List]:
+        """Parse JSON response from LLM output"""
+        try:
+            json_str = response
+            
+            # Strategy 1: Look for ```json block
+            if "```json" in response:
+                parts = response.split("```json")
+                if len(parts) > 1:
+                    json_part = parts[1].split("```")[0]
+                    json_str = json_part.strip()
+            # Strategy 2: Look for any ``` block
+            elif "```" in response:
+                parts = response.split("```")
+                if len(parts) >= 2:
+                    json_part = parts[1]
+                    lines = json_part.split('\n')
+                    if lines and lines[0].strip().isalpha():
+                        json_str = '\n'.join(lines[1:]).strip()
+                    else:
+                        json_str = json_part.strip()
+            # Strategy 3: Look for [ at start of valid JSON array
+            else:
+                start_idx = response.find('[')
+                end_idx = response.rfind(']')
+                if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+                    json_str = response[start_idx:end_idx + 1]
+            
+            conversation = json.loads(json_str.strip())
+            
+            if not isinstance(conversation, list) or len(conversation) < 2:
+                return None
+            return conversation
+        except:
+            return None
+
+    def generate_conversations_batch(self, chunks: List[Dict]) -> List[Optional[Dict]]:
+        """Generate multiple conversations in a single batch for maximum throughput"""
+        if not self.engine or not chunks:
+            return [None] * len(chunks)
+        
+        # Prepare all prompts and metadata
+        prompts = []
+        params_list = []
+        
+        for chunk in chunks:
+            context = chunk.get("content", "")
+            topic = chunk.get("topic", "umum")
+            params = self._select_parameters()
+            params_list.append((params, chunk))
+            
+            scenario = self._build_scenario_instructions(params["complexity"], topic)
+            
+            prompt = USER_PROMPT_TEMPLATE.format(
+                context=context,
+                turn_count=params["turn_count"] * 2,
+                pairs=params["turn_count"],
+                persona_key=params["persona"],
+                persona_desc=PERSONAS[params["persona"]],
+                complexity_key=params["complexity"],
+                complexity_desc=COMPLEXITY_TIERS[params["complexity"]]["description"],
+                topic=topic,
+                scenario_instructions=scenario
+            )
+            
+            formatted_prompt = f"<bos><start_of_turn>user\n{SYSTEM_PROMPT}\n\n{prompt}<end_of_turn>\n<start_of_turn>model\n"
+            prompts.append(formatted_prompt)
+        
+        # Call LLM with ALL prompts at once (BATCH!)
+        outputs = self.engine.generate_batch(
+            prompts,
+            max_tokens=2048,
+            temperature=0.7
+        )
+        
+        # Parse all responses
+        results = []
+        for i, response in enumerate(outputs):
+            params, chunk = params_list[i]
+            conversation = self._parse_response(response)
+            
+            if conversation:
+                self.stats["generated"] += 1
+                self.stats["personas"][params["persona"]] += 1
+                results.append({
+                    "conversation": conversation,
+                    "metadata": {
+                        "source_chunk": chunk.get("id"),
+                        "topic": chunk.get("topic", "umum"),
+                        "persona": params["persona"],
+                        "complexity": params["complexity"]
+                    }
+                })
+            else:
+                self.stats["failed_validation"] += 1
+                results.append(None)
+        
+        return results
+
     def generate_conversation(self, chunk: Dict) -> Optional[Dict]:
         """Generate a single conversation from a context chunk"""
         
