@@ -24,7 +24,7 @@ export TOKENIZERS_PARALLELISM=false
 # =============================================================================
 
 # Dataset
-DATASET="../data/final/multiturn_dataset_cleaned.json"
+DATASET="../data/final/multiturn_dataset_cleaned_no_thought.json"
 OUTPUT_DIR="./outputs/gemma3-1b-qlora-sft"
 
 # Training params (Best Practices 2024)

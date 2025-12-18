@@ -32,7 +32,7 @@ env/
 data/generation/
 data/filtered/
 data/raw/
-data/final/
+
 logs/
 
 # =============================================================================

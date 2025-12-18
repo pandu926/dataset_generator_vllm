@@ -1,0 +1,14 @@
+{
+  "source": "/workspace/dataset_generator_vllm/data/final/multiturn_dataset_cleaned_no_thought.json",
+  "total_samples": 1000,
+  "train_samples": 800,
+  "eval_samples": 100,
+  "test_samples": 100,
+  "train_ratio": 0.8,
+  "eval_ratio": 0.1,
+  "test_ratio": 0.1,
+  "seed": 42,
+  "train_path": "/workspace/dataset_generator_vllm/data/split/multiturn_dataset_cleaned_no_thought_train.json",
+  "eval_path": "/workspace/dataset_generator_vllm/data/split/multiturn_dataset_cleaned_no_thought_eval.json",
+  "test_path": "/workspace/dataset_generator_vllm/data/split/multiturn_dataset_cleaned_no_thought_test.json"
+}

@@ -172,25 +172,39 @@ class TrainConfig:
 # DATA LOADING
 # =============================================================================
 
-def load_dataset_split(dataset_path: str, eval_ratio: float = 0.1) -> tuple:
-    """Load dataset and split into train/eval sets."""
-    print(f"Loading dataset from: {dataset_path}")
+def load_dataset_split(train_path: str, eval_path: str = None, eval_ratio: float = 0.1) -> tuple:
+    """Load dataset from separate files or auto-split.
     
-    with open(dataset_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    Args:
+        train_path: Path to training dataset (or full dataset if eval_path is None)
+        eval_path: Optional path to evaluation dataset
+        eval_ratio: Ratio for auto-split if eval_path is None
+        
+    Returns:
+        Tuple of (train_dataset, eval_dataset)
+    """
+    print(f"Loading training data from: {train_path}")
     
-    # Extract text field for training
-    texts = [item["text"] for item in data if item.get("text")]
+    with open(train_path, "r", encoding="utf-8") as f:
+        train_data = json.load(f)
     
-    print(f"Total examples: {len(texts)}")
-    
-    # Split into train and eval
-    split_idx = int(len(texts) * (1 - eval_ratio))
-    train_texts = texts[:split_idx]
-    eval_texts = texts[split_idx:]
-    
+    train_texts = [item["text"] for item in train_data if item.get("text")]
     print(f"Train examples: {len(train_texts)}")
-    print(f"Eval examples: {len(eval_texts)}")
+    
+    if eval_path and os.path.exists(eval_path):
+        # Load separate eval file
+        print(f"Loading eval data from: {eval_path}")
+        with open(eval_path, "r", encoding="utf-8") as f:
+            eval_data = json.load(f)
+        eval_texts = [item["text"] for item in eval_data if item.get("text")]
+        print(f"Eval examples: {len(eval_texts)}")
+    else:
+        # Auto-split from train data
+        print(f"Auto-splitting eval set with ratio {eval_ratio}")
+        split_idx = int(len(train_texts) * (1 - eval_ratio))
+        eval_texts = train_texts[split_idx:]
+        train_texts = train_texts[:split_idx]
+        print(f"After split - Train: {len(train_texts)}, Eval: {len(eval_texts)}")
     
     train_dataset = Dataset.from_dict({"text": train_texts})
     eval_dataset = Dataset.from_dict({"text": eval_texts})
@@ -288,7 +302,8 @@ def setup_lora(model, lora_config: LoRAConfig) -> tuple:
 # =============================================================================
 
 def train(
-    dataset_path: str = "../data/final/multiturn_dataset_cleaned.json",
+    dataset_path: str = "../data/final/multiturn_dataset_cleaned_no_thought.json",
+    eval_dataset_path: str = None,
     model_config: ModelConfig = None,
     lora_config: LoRAConfig = None,
     train_config: TrainConfig = None,
@@ -334,7 +349,7 @@ def train(
     
     # Load dataset with train/eval split
     logger.info("Loading dataset...")
-    train_dataset, eval_dataset = load_dataset_split(dataset_path)
+    train_dataset, eval_dataset = load_dataset_split(dataset_path, eval_dataset_path)
     logger.info(f"Train: {len(train_dataset)}, Eval: {len(eval_dataset)}")
     
     # Setup model and tokenizer
@@ -503,8 +518,10 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="QLoRA SFT Fine-tuning for Gemma 3-1B")
     parser.add_argument("--dataset", type=str, 
-                        default="../data/final/multiturn_dataset_cleaned.json",
+                        default="../data/final/multiturn_dataset_cleaned_no_thought.json",
                         help="Path to training dataset")
+    parser.add_argument("--eval_dataset", type=str, default=None,
+                        help="Path to evaluation dataset (optional, auto-split if not provided)")
     parser.add_argument("--output_dir", type=str, 
                         default="./outputs/gemma3-1b-qlora-sft",
                         help="Output directory for model")
@@ -546,7 +563,9 @@ if __name__ == "__main__":
     # Run training
     train(
         dataset_path=args.dataset,
+        eval_dataset_path=args.eval_dataset,
         model_config=model_config,
         train_config=train_config,
         lora_config=lora_config,
     )
+

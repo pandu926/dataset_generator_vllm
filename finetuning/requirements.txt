@@ -25,3 +25,8 @@ wandb  # Optional
 
 # Evaluation
 bert-score>=0.3.13
+sentence-transformers>=3.0.0
+
+# vLLM for LLM-as-Judge (requires CUDA 12.1+)
+vllm==0.11.2
+tqdm>=4.66.0
