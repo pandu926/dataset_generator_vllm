@@ -1,0 +1,27 @@
+# =============================================================================
+# QLoRA SFT Fine-tuning Requirements
+# For Gemma 3 fine-tuning on A100 80GB
+# Compatible versions tested December 2024
+# =============================================================================
+
+# Core ML Framework
+torch>=2.4.0
+
+# HuggingFace Stack - COMPATIBLE VERSIONS
+transformers==4.46.3
+accelerate==0.34.2
+peft==0.13.0
+trl==0.12.2
+
+# Quantization
+bitsandbytes==0.45.3
+
+# Dataset handling
+datasets>=2.21.0
+
+# Logging & Monitoring
+tensorboard>=2.15.0
+wandb  # Optional
+
+# Evaluation
+bert-score>=0.3.13
