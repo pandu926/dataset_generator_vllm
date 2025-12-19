@@ -234,8 +234,8 @@ print(f'  Test samples:  {test}')
     python3 split_dataset.py \
         --input "$DATASET_SOURCE" \
         --output_dir "$DATASET_DIR" \
-        --train_ratio 0.8 \
-        --eval_ratio 0.1 \
+        --train_ratio 0.75 \
+        --eval_ratio 0.15 \
         --test_ratio 0.1 \
         --seed 42
     

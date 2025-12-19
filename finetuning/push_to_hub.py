@@ -11,7 +11,7 @@ from peft import PeftModel
 BASE_MODEL = "google/gemma-3-1b-it"
 ADAPTER_PATH = "./outputs/gemma3-1b-qlora-sft/final_model"
 MERGED_PATH = "./outputs/gemma3-1b-merged"
-HF_REPO = "Pandusu/gemma-3-1b-pmb-qlora-multiturn"
+HF_REPO = "Pandusu/gemma-3-1b-pmb-qlora-multiturn-v2"
 
 print("="*60)
 print("MERGE LORA AND PUSH TO HUGGINGFACE")

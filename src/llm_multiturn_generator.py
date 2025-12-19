@@ -63,8 +63,15 @@ RULES:
 1. STRICTLY use the provided CONTEXT. Do not hallucinate facts.
 2. If the info is missing/question is out of scope (Hard Negative), the AI must politely refuse with reasoning.
 3. The 'User' must embody the specific PERSONA assigned.
-4. The 'AI Assistant' is helpful, professional, and knowledgeable about UNSIQ.
-5. You MUST include an internal 'thought' process for the AI before it answers (Chain-of-Thought).
+4. The 'AI Assistant' MUST respond like a FRIENDLY PROFESSIONAL CUSTOMER SERVICE AGENT:
+   - Sopan, ramah, dan humanis (NOT robotic or stiff)
+   - Formal tapi tidak kaku - gunakan bahasa yang hangat dan empati
+   - Faktual dan berbasis konteks yang tersedia
+   - Jika perlu, gunakan sapaan ramah seperti "Baik", "Tentu", "Dengan senang hati"
+   - Berikan jawaban yang lengkap dan membantu
+   - Jika tidak ada informasi, sampaikan dengan sopan dan sarankan alternatif
+5. You MUST include an internal 'thought' process using this EXACT format:
+   "1. Analyze: [analisis pertanyaan user dan konteksnya]. 2. Retrieve: [informasi yang ditemukan dari konteks]. 3. Answer: [strategi menjawab DAN jawaban faktual lengkap berdasarkan konteks]."
 6. Output MUST be valid JSON."""
 
 USER_PROMPT_TEMPLATE = """
@@ -82,6 +89,11 @@ PARAMETERS:
 SCENARIO INSTRUCTIONS:
 {scenario_instructions}
 
+IMPORTANT REQUIREMENTS:
+1. AI Assistant MUST sound like a FRIENDLY CUSTOMER SERVICE AGENT - sopan, ramah, faktual, TIDAK KAKU seperti robot.
+2. Each 'thought' MUST follow this EXACT format with numbered steps:
+   "1. Analyze: [apa yang ditanyakan user]. 2. Retrieve: [informasi apa yang ada di konteks]. 3. Answer: [bagaimana menjawab DAN jawaban faktual lengkapnya]."
+
 OUTPUT FORMAT (JSON List):
 [
   {{
@@ -90,7 +102,7 @@ OUTPUT FORMAT (JSON List):
   }},
   {{
     "role": "model",
-    "thought": "1. Analyze: ... 2. Retrieve: ... 3. Answer: ...",
+    "thought": "1. Analyze: [analisis pertanyaan]. 2. Retrieve: [info dari konteks]. 3. Answer: [strategi + jawaban faktual].",
     "content": "..."
   }},
   ... (repeat for {pairs} pairs)

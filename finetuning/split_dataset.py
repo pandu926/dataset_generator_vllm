@@ -13,8 +13,8 @@ from typing import Tuple, List, Dict
 def split_dataset(
     input_path: str,
     output_dir: str,
-    train_ratio: float = 0.8,
-    eval_ratio: float = 0.1,
+    train_ratio: float = 0.75,
+    eval_ratio: float = 0.15,
     test_ratio: float = 0.1,
     seed: int = 42
 ) -> Tuple[str, str, str]:
@@ -24,7 +24,7 @@ def split_dataset(
     Args:
         input_path: Path to input JSON file
         output_dir: Directory to save split files
-        train_ratio: Ratio for training set (default: 0.8)
+        train_ratio: Ratio for training set (default: 0.75)
         eval_ratio: Ratio for evaluation set (default: 0.1)
         test_ratio: Ratio for test set (default: 0.1)
         seed: Random seed for reproducibility
@@ -112,10 +112,10 @@ if __name__ == "__main__":
                         help="Path to input dataset JSON")
     parser.add_argument("--output_dir", type=str, required=True,
                         help="Directory to save split files")
-    parser.add_argument("--train_ratio", type=float, default=0.8,
-                        help="Training set ratio (default: 0.8)")
-    parser.add_argument("--eval_ratio", type=float, default=0.1,
-                        help="Evaluation set ratio (default: 0.1)")
+    parser.add_argument("--train_ratio", type=float, default=0.75,
+                        help="Training set ratio (default: 0.75)")
+    parser.add_argument("--eval_ratio", type=float, default=0.15,
+                        help="Evaluation set ratio (default: 0.15)")
     parser.add_argument("--test_ratio", type=float, default=0.1,
                         help="Test set ratio (default: 0.1)")
     parser.add_argument("--seed", type=int, default=42,

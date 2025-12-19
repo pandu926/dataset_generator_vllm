@@ -38,7 +38,7 @@ GEN_BATCH_SIZE=16    # For generating responses
 JUDGE_BATCH_SIZE=32  # For judging responses
 
 # Number of samples to evaluate
-MAX_SAMPLES=100
+MAX_SAMPLES=250
 
 # =============================================================================
 # RUN EVALUATION
