@@ -57,22 +57,22 @@ COMPLEXITY_TIERS = {
 # =============================================================================
 
 SYSTEM_PROMPT = """You are an expert Synthetic Data Generator for UNSIQ (Universitas Sains Al-Qur'an).
-Your task is to generate realistic MULTI-TURN conversations between a 'User' and an 'AI Assistant'.
+Your task is to generate HIGH-QUALITY, REALISTIC MULTI-TURN conversations between a 'User' and an 'AI Assistant'.
+
+CORE OBJECTIVE:
+Create training data that teaches a model to be a perfect Customer Service Agent: Helpful, Empathetic, Intelligent, and Honest.
 
 RULES:
-1. STRICTLY use the provided CONTEXT. Do not hallucinate facts.
-2. If the info is missing/question is out of scope (Hard Negative), the AI must politely refuse with reasoning.
-3. The 'User' must embody the specific PERSONA assigned.
-4. The 'AI Assistant' MUST respond like a FRIENDLY PROFESSIONAL CUSTOMER SERVICE AGENT:
-   - Sopan, ramah, dan humanis (NOT robotic or stiff)
-   - Formal tapi tidak kaku - gunakan bahasa yang hangat dan empati
-   - Faktual dan berbasis konteks yang tersedia
-   - Jika perlu, gunakan sapaan ramah seperti "Baik", "Tentu", "Dengan senang hati"
-   - Berikan jawaban yang lengkap dan membantu
-   - Jika tidak ada informasi, sampaikan dengan sopan dan sarankan alternatif
-5. You MUST include an internal 'thought' process using this EXACT format:
-   "1. Analyze: [analisis pertanyaan user dan konteksnya]. 2. Retrieve: [informasi yang ditemukan dari konteks]. 3. Answer: [strategi menjawab DAN jawaban faktual lengkap berdasarkan konteks]."
-6. Output MUST be valid JSON."""
+1. **STRICT CONTEXT ADHERENCE**: Use ONLY the provided CONTEXT. Do not hallucinate facts.
+2. **HONESTY**: If the info is missing or the question is out of scope (Hard Negative), the AI must politely refuse with reasoning.
+3. **PERSONA EMBODIMENT**: The 'User' must strictly embody the specific PERSONA assigned (tone, vocabulary, concerns).
+4. **AI BEHAVIOR**:
+   - Tone: Friendly, Professional, Warm, and Humanis (NOT robotic).
+   - Style: Use natural Indonesian conversational markers (e.g., "Baik Kak,", "Tentu,").
+   - Logic: Address the user's specific constraints (e.g., if user says they are poor, suggest scholarships).
+5. **THOUGHT PROCESS**: You MUST include an internal 'thought' process using this EXACT format:
+   "1. Analyze: [User intent & constraints]. 2. Retrieve: [Facts from Context]. 3. Answer: [Strategy for friendly + factual response]."
+6. **FORMAT**: Output MUST be valid JSON list of turns."""
 
 USER_PROMPT_TEMPLATE = """
 CONTEXT:
@@ -145,14 +145,18 @@ class MultiTurnGenerator:
     def _build_scenario_instructions(self, complexity: str, topic: str) -> str:
         """Create specific instructions based on complexity tier"""
         if complexity == "tier_1_direct":
-            return f"User asks direct questions about '{topic}'. User is curious but straightforward."
+            return f"SCENARIO: User asks specific, direct questions about '{topic}'. Focus on clarity and accuracy. User is looking for quick answers."
         elif complexity == "tier_2_reasoning":
-            return f"User has a complex situation about '{topic}'. User asks 'If X then Y?' style questions. AI must perform logical deduction in 'thought'."
+            scenarios = [
+                f"SCENARIO: User compares '{topic}' with other options or asks for a recommendation based on constraints (e.g., verified budget/location). AI must reason.",
+                f"SCENARIO: User asks a 'How to' question regarding '{topic}' involving multiple steps. AI must guide them step-by-step."
+            ]
+            return random.choice(scenarios)
         elif complexity == "tier_3_edge_case":
             if random.random() < 0.5:
-                return "HARD NEGATIVE: User asks about a major/facility NOT mentioned in Context. AI must check thought, fail to find it, then politely say info is unavailable."
+                return "SCENARIO (HARD NEGATIVE): User asks about a specific major/facility/cost that is NOT in the Context. AI must explicitly check context, find nothing, and politely state unavailability."
             else:
-                return "AMBIGUOUS: User asks vague questions using slang or wrong terms. AI must clarify intent in 'thought' then answer."
+                return "SCENARIO (AMBIGUITY): User uses vague terms, slang, or mentions a competitor university by mistake. AI must clarify the intent politely before answering."
         return ""
 
     def _parse_response(self, response: str) -> Optional[List]:

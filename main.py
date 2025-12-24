@@ -36,16 +36,18 @@ CHUNKS_PATH = "data/chunks/chunks.jsonl" # Path to RAG chunks
 
 # Category distribution for balanced sampling (total = 2500)
 # oot is limited to 5% as requested
+# Category distribution - Updated to match filenames
+# We will use these as base targets, but override for specific logic
 CATEGORY_DISTRIBUTION = {
-    "biaya": 400,      # 16%
-    "beasiswa": 350,   # 14%
-    "snk": 300,        # 12%
-    "prodi": 300,      # 12%
-    "umum": 275,       # 11%
-    "fasilitas": 250,  # 10%
-    "pofil": 250,      # 10%
-    "alur": 250,       # 10%
-    "oot": 125,        # 5%
+    "biaya_dan_pembayaran": 400,
+    "beasiswa": 350,
+    "syarat_dan_ketentuan_pendaftaran_mahasiswa": 300,
+    "program_pendidikan_atau_jurusan": 300,
+    "informasi_umum_singkatan": 275,
+    "fasilitas": 250,
+    "profil_universitas_sains_alquran": 250,
+    "alur_pendaftaran": 0, # Will be calculated dynamically (3x seeds)
+    "out_of_topics": 125,
 }
 
 # =============================================================================
@@ -194,12 +196,22 @@ def main():
     # 4. Initialize Generator
     generator = MultiTurnGenerator(engine)
     
-    # 5. Print distribution plan
+    print("="*60 + "\n")
+
+    # 5b. Recalculate Distribution Targets
+    # Requested: alur_pendaftaran should be 3x the number of seeds
+    if "alur_pendaftaran" in seeds_by_cat:
+        alur_seeds_count = len(seeds_by_cat["alur_pendaftaran"])
+        new_target = alur_seeds_count * 3
+        CATEGORY_DISTRIBUTION["alur_pendaftaran"] = new_target
+        print(f"Update: 'alur_pendaftaran' target set to {new_target} (3x {alur_seeds_count} seeds)")
+    
+    # 6. Print distribution plan
     print("\n" + "="*60)
     print("CATEGORY DISTRIBUTION:")
     total_target = sum(CATEGORY_DISTRIBUTION.values())
     for cat, n in CATEGORY_DISTRIBUTION.items():
-        pct = (n / total_target) * 100
+        pct = (n / total_target) * 100 if total_target > 0 else 0
         avail = len(seeds_by_cat.get(cat, []))
         print(f"  {cat:12}: {n:4} samples ({pct:5.1f}%) - Seeds available: {avail}")
     print(f"  {'TOTAL':12}: {total_target}")

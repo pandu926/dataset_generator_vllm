@@ -108,3 +108,7 @@ Thumbs.db
 *.tar.gz
 *.tar
 *.rar
+
+# Local envs
+venv_dataset/
+*.run

@@ -3,7 +3,11 @@
 # Dataset Generator Setup & Run Script
 # UNSIQ Multi-turn Conversation Dataset Generation
 # =============================================================================
-# Usage: ./run_dataset_generator.sh
+# Usage: ./run_dataset_generator.sh [script_name]
+# Examples:
+#   ./run_dataset_generator.sh                     # Run generate_alur_pendaftaran.py
+#   ./run_dataset_generator.sh main.py             # Run main.py (all categories)
+#   ./run_dataset_generator.sh generate_category.py --category beasiswa --multiplier 3
 # =============================================================================
 
 set -e  # Exit on error
@@ -25,6 +29,11 @@ echo -e "${BLUE}============================================${NC}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VENV_DIR="${SCRIPT_DIR}/venv_dataset"
 PYTHON_VERSION="python3"
+
+# Default script to run
+SCRIPT_TO_RUN="${1:-generate_alur_pendaftaran.py}"
+shift 2>/dev/null || true  # Remove first arg, ignore error if no args
+EXTRA_ARGS="$@"
 
 # =============================================================================
 # Step 1: Check Python
@@ -91,13 +100,13 @@ CUDA_CHECK
 # =============================================================================
 echo -e "\n${YELLOW}[5/5] Running Dataset Generator...${NC}"
 echo -e "${BLUE}============================================${NC}"
+echo "  Script: ${SCRIPT_TO_RUN}"
+echo "  Args: ${EXTRA_ARGS:-none}"
 echo "  Seed: 758"
-echo "  Target: 2500 samples"
-echo "  Output: data/raw/synthetic_multiturn_v1.json"
 echo -e "${BLUE}============================================${NC}\n"
 
 cd "${SCRIPT_DIR}"
-${PYTHON_VERSION} main.py
+${PYTHON_VERSION} ${SCRIPT_TO_RUN} ${EXTRA_ARGS}
 
 # =============================================================================
 # Done
@@ -105,8 +114,8 @@ ${PYTHON_VERSION} main.py
 echo -e "\n${GREEN}============================================${NC}"
 echo -e "${GREEN}  Dataset generation complete!${NC}"
 echo -e "${GREEN}============================================${NC}"
-echo -e "Output file: ${SCRIPT_DIR}/data/raw/synthetic_multiturn_v1.json"
 echo ""
 
 # Deactivate venv
 deactivate
+
