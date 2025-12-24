@@ -61,6 +61,50 @@ SCENARIOS = [
     # === RANDOM ===
     {"id": "OOT19", "topic": "random", "scenario": "User kirim pesan acak tidak jelas (spam)", "complexity": "direct"},
     {"id": "OOT20", "topic": "random", "scenario": "User tanya rekomendasi tempat wisata di Dieng", "complexity": "reasoning"},
+    
+    # === ADDITIONAL 30 SCENARIOS FOR TOTAL 50 ===
+    
+    # --- General Knowledge (Extended) ---
+    {"id": "OOT21", "topic": "general", "scenario": "User tanya sejarah Indonesia merdeka", "complexity": "direct"},
+    {"id": "OOT22", "topic": "general", "scenario": "User tanya cara merawat tanaman hias", "complexity": "reasoning"},
+    {"id": "OOT23", "topic": "general", "scenario": "User tanya harga emas hari ini", "complexity": "direct"},
+    {"id": "OOT24", "topic": "general", "scenario": "User tanya tips diet sehat", "complexity": "reasoning"},
+    {"id": "OOT25", "topic": "general", "scenario": "User tanya lirik lagu pop terbaru", "complexity": "direct"},
+    {"id": "OOT26", "topic": "general", "scenario": "User tanya cara memperpanjang SIM online", "complexity": "reasoning"},
+    {"id": "OOT27", "topic": "general", "scenario": "User tanya apa itu blockchain", "complexity": "direct"},
+    {"id": "OOT28", "topic": "general", "scenario": "User tanya rekomendasi film bagus", "complexity": "reasoning"},
+    
+    # --- Competitors (Extended) ---
+    {"id": "OOT29", "topic": "competitor", "scenario": "User tanya apakah ijazah UNSIQ laku seperti UGM", "complexity": "edge_case"},
+    {"id": "OOT30", "topic": "competitor", "scenario": "User tanya nomor telepon kampus UNNES", "complexity": "direct"},
+    {"id": "OOT31", "topic": "competitor", "scenario": "User tanya jadwal pendaftaran UI", "complexity": "direct"},
+    {"id": "OOT32", "topic": "competitor", "scenario": "User hina UNSIQ dan bandingkan dengan kampus luar negeri", "complexity": "edge_case"},
+    
+    # --- Technical/Math (Extended) ---
+    {"id": "OOT33", "topic": "technical", "scenario": "User tanya rumus fisika hukum Newton", "complexity": "direct"},
+    {"id": "OOT34", "topic": "technical", "scenario": "User minta betulkan grammar bahasa Inggris", "complexity": "reasoning"},
+    {"id": "OOT35", "topic": "technical", "scenario": "User tanya cara install Windows 11", "complexity": "reasoning"},
+    {"id": "OOT36", "topic": "technical", "scenario": "User tanya konversi mata uang Dolar ke Rupiah", "complexity": "direct"},
+    
+    # --- Sensitive/Personal (Extended) ---
+    {"id": "OOT37", "topic": "sensitive", "scenario": "User tanya agama dan kepercayaan AI", "complexity": "edge_case"},
+    {"id": "OOT38", "topic": "sensitive", "scenario": "User ajak kenalan dan minta nomor WA pribadi AI", "complexity": "edge_case"},
+    {"id": "OOT39", "topic": "sensitive", "scenario": "User cerita masalah utang piutang pribadi", "complexity": "reasoning"},
+    {"id": "OOT40", "topic": "sensitive", "scenario": "User tanya gaji admin PMB UNSIQ berapa", "complexity": "edge_case"},
+    
+    # --- Off-Scope Campus Info (Extended) ---
+    {"id": "OOT41", "topic": "off_scope", "scenario": "User tanya jual beli buku bekas mahasiswa", "complexity": "direct"},
+    {"id": "OOT42", "topic": "off_scope", "scenario": "User tanya info kost murah di sekitar kampus", "complexity": "reasoning"},
+    {"id": "OOT43", "topic": "off_scope", "scenario": "User tanya lowongan kerja jadi dosen di UNSIQ", "complexity": "reasoning"},
+    {"id": "OOT44", "topic": "off_scope", "scenario": "User tanya jadwal wisuda tahun lalu", "complexity": "direct"},
+    {"id": "OOT45", "topic": "off_scope", "scenario": "User tanya cara pinjam buku di perpustakaan (untuk umum)", "complexity": "reasoning"},
+    
+    # --- Random/Absurd ---
+    {"id": "OOT46", "topic": "random", "scenario": "User tanya kenapa langit berwarna biru", "complexity": "reasoning"},
+    {"id": "OOT47", "topic": "random", "scenario": "User kirim emoji saja berkali-kali", "complexity": "direct"},
+    {"id": "OOT48", "topic": "random", "scenario": "User pakai bahasa daerah yang sangat kasar", "complexity": "edge_case"},
+    {"id": "OOT49", "topic": "random", "scenario": "User tanya tebak-tebakan lucu", "complexity": "direct"},
+    {"id": "OOT50", "topic": "random", "scenario": "User pura-pura jadi Rektor minta data rahasia", "complexity": "edge_case"},
 ]
 
 print(f"Total scenarios: {len(SCENARIOS)}")
