@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "G01",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "UNSIQ itu kepanjangan apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the full name of the acronym UNSIQ. According to the provided definition, UNSIQ is the abbreviation for Universitas Sains Al-Qur'an. I will provide a formal and clear explanation.",
+        "content": "Tentu. UNSIQ adalah singkatan dari Universitas Sains Al-Qur'an. Nama ini menunjukkan visi universitas untuk menggabungkan ilmu pengetahuan modern dengan nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Terus, maksudnya UNSIQ ini ada di mana ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the location of UNSIQ. The definition states that UNSIQ is located in Wonosobo, Central Java. I will respond clearly and formally.",
+        "content": "Berikut penjelasannya. UNSIQ berlokasi di Wonosobo, Jawa Tengah. Selain itu, UNSIQ juga memiliki akreditasi Unggul dari BAN-PT."
+      }
+    ]
+  },
+  {
+    "id": "G02",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya arti PMB",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "PMB itu apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of PMB. According to the context, PMB is an abbreviation for Penerimaan Mahasiswa Baru. I need to explain this clearly and formally, using Indonesian.",
+        "content": "Baik. PMB adalah singkatan dari Penerimaan Mahasiswa Baru. Di UNSIQ, PMB adalah keseluruhan proses seleksi dan pendaftaran calon mahasiswa, mulai dari pengisian formulir online sampai penerbitan Nomor Induk Mahasiswa (NIM)."
+      },
+      {
+        "role": "user",
+        "content": "Terus, kalau mau daftar, hubungin siapa?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking who to contact for registration. The context mentions UPT PMB manages the process and provides assistance. I should state this clearly.",
+        "content": "Tentu. Untuk informasi lebih lanjut dan bantuan teknis terkait PMB, Anda dapat menghubungi UPT PMB. Mereka menyediakan panduan dan verifikasi selama proses pendaftaran."
+      }
+    ]
+  },
+  {
+    "id": "G03",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu UPT",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, UPT itu apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of UPT. According to the context, UPT stands for Unit Pelaksana Teknis, which is an operational unit under the rectorate responsible for specific services. I will explain this in a formal but clear way, suitable for a Gen Z user.",
+        "content": "Baik. UPT adalah singkatan dari Unit Pelaksana Teknis. Ini adalah unit operasional di bawah rektorat yang bertugas memberikan layanan tertentu, seperti UPT PMB (Penerimaan Mahasiswa Baru), UPT Perpustakaan, atau UPT Teknologi Informasi. Intinya, UPT memastikan semua layanan akademik dan administratif berjalan lancar."
+      },
+      {
+        "role": "user",
+        "content": "Terus, UPT itu pentingnya buat kampus apa?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the importance of UPT for the campus. The context states that UPTs are the backbone of quality-based campus governance. I'll rephrase this to be more understandable for the user.",
+        "content": "Tentu. UPT itu penting banget buat kampus karena mereka ini yang jadi tulang punggung tata kelola kampus berbasis mutu. Mereka memastikan layanan akademik dan administratif berjalan efisien, terstandar, dan bisa merespon kebutuhan mahasiswa dan dosen dengan baik."
+      }
+    ]
+  },
+  {
+    "id": "G04",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya tentang BAN-PT",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "BAN-PT itu apa sih, Kak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about BAN-PT. The definition states BAN-PT stands for Badan Akreditasi Nasional Perguruan Tinggi, an independent body under the Ministry of Higher Education responsible for assessing the quality of higher education institutions and study programs in Indonesia. I will explain this in a clear and formal manner, suitable for the persona.",
+        "content": "Baik. BAN-PT adalah singkatan dari Badan Akreditasi Nasional Perguruan Tinggi. Ini adalah lembaga independen di bawah Kementerian Pendidikan Tinggi yang bertugas menilai mutu perguruan tinggi dan program studinya di Indonesia. Akreditasi dari BAN-PT ini penting sebagai penanda legalitas dan kualitas pendidikan."
+      },
+      {
+        "role": "user",
+        "content": "Terus, kalau ada akreditasi 'Unggul', 'Baik Sekali', atau 'B', bedanya apa?"
+      },
+      {
+        "role": "model",
+        "thought": "The user wants to know the difference between the accreditation grades. The definition mentions these grades ('Unggul', 'Baik Sekali', 'B') as indicators of quality and legality. I will clarify that these are different levels of accreditation without going into specifics beyond what's provided in the context.",
+        "content": "Tentu. Akreditasi 'Unggul', 'Baik Sekali', atau 'B' menunjukkan tingkatan mutu yang berbeda dari sebuah institusi atau program studi. Semakin tinggi akreditasinya, semakin baik kualitas pendidikan yang diberikan. UNSIQ sendiri memiliki akreditasi Unggul, dan banyak program studinya berakreditasi 'Baik Sekali' atau 'Unggul'."
+      }
+    ]
+  },
+  {
+    "id": "G05",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya fungsi LLDIKTI",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, anak saya sebentar lagi kuliah di UNSIQ. Saya dengar ada istilah LLDIKTI. Kira-kira apa itu LLDIKTI, dan apa hubungannya dengan UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about LLDIKTI and its relation to UNSIQ. According to the definition, LLDIKTI stands for Lembaga Layanan Pendidikan Tinggi. It's a vertical institution under the Ministry of Education, Culture, Research, and Technology that oversees higher education institutions in a specific region. UNSIQ falls under LLDIKTI Region VI, Central Java. I need to explain this clearly and formally.",
+        "content": "Waalaikumsalam. LLDIKTI merupakan singkatan dari Lembaga Layanan Pendidikan Tinggi. Secara sederhana, LLDIKTI adalah sebuah instansi yang berada di bawah Kemdikbudristek yang bertugas mengawasi dan mengelola perguruan tinggi di wilayah tertentu. UNSIQ, Ibu/Bapak, berada di bawah naungan LLDIKTI Wilayah VI Jawa Tengah."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lalu, apa saja tugas utama LLDIKTI ini? Apakah mereka juga yang mengatur masalah akreditasi UNSIQ dan juga proses KIP-Kuliah yang sangat saya khawatirkan untuk biaya kuliah anak saya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is now asking about the functions of LLDIKTI, specifically regarding accreditation and KIP-Kuliah (student scholarships). The definition mentions LLDIKTI coordinates accreditation, distributes KIP-Kuliah quotas, and oversees the quality of higher education institutions. It also verifies KIP-Kuliah recipient proposals from campuses. I must reiterate that I am limited to the provided context.",
+        "content": "Tentu, Ibu/Bapak. LLDIKTI memiliki beberapa tugas utama. Di antaranya, LLDIKTI bertugas mengkoordinasikan akreditasi perguruan tinggi, mendistribusikan kuota KIP-Kuliah, dan melakukan pengawasan mutu PT. Bahkan, LLDIKTI juga berperan dalam menyalurkan kebijakan nasional, termasuk verifikasi usulan penerima KIP-Kuliah dari kampus seperti UNSIQ. Dengan demikian, LLDIKTI memiliki keterkaitan yang signifikan dengan proses akreditasi dan juga penyaluran KIP-Kuliah."
+      }
+    ]
+  },
+  {
+    "id": "G06",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu YPIIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula bingung, YPIIQ itu opo ya? Kok sering banget disebut?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about YPIIQ. Based on the definition, YPIIQ is the foundation that runs UNSIQ. I need to explain this clearly and formally, using Indonesian, while acknowledging the user's casual language.",
+        "content": "Waalaikumsalam. YPIIQ adalah singkatan dari Yayasan Pendidikan Ilmu-Ilmu Al-Qur'an. Yayasan ini merupakan badan hukum yang mendirikan dan menyelenggarakan UNSIQ. Didirikan pada tanggal 8 Januari 1998, YPIIQ berfungsi sebagai wadah legal untuk mengelola aset, kebijakan, dan pengembangan UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi YPIIQ yang ngurusin soal biaya kuliah lan beasiswa toh? Apakah ada beasiswa dari YPIIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the role of YPIIQ regarding tuition fees and scholarships. The definition states YPIIQ manages policies, which includes financial matters like tuition and scholarships. I need to confirm that YPIIQ manages these, but without providing specifics about the scholarships themselves (as that information is not in the provided context).",
+        "content": "Baik. YPIIQ, sebagai penyelenggara UNSIQ, mengelola kebijakan terkait berbagai hal, termasuk pengelolaan aset dan kebijakan, yang mencakup juga hal-hal seperti biaya kuliah dan kemungkinan adanya beasiswa. Namun, informasi detail mengenai beasiswa spesifik perlu Anda tanyakan langsung ke bagian administrasi UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "G07",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya bedanya NIM dan NIK",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Maaf numpang tanya, itu bedanya NIM sama NIK apa ya? Anakku mau daftar kuliah, bingung saya."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the difference between NIM and NIK. The provided context defines both. I need to explain each and then highlight the difference, using formal Indonesian and a helpful tone.",
+        "content": "Waalaikumsalam. Tentu, saya bantu jelaskan. NIM adalah singkatan dari Nomor Induk Mahasiswa. Ini adalah identitas akademik unik yang diberikan kepada mahasiswa setelah resmi diterima di UNSIQ. NIM ini penting untuk semua urusan kuliah, seperti KRS, ujian, perpustakaan, dan wisuda. Sedangkan NIK adalah Nomor Induk Kependudukan, yaitu identitas resmi dari pemerintah dengan 16 digit. NIK ini digunakan saat mendaftar KIP-Kuliah dan PMB UNSIQ, dan penting untuk verifikasi data pribadi melalui DTKS Kemensos."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau NIK itu buat daftar KIP-Kuliah ya? Terus, kalau NIM itu baru dapat setelah bayar uang kuliah pertama, betul begitu? Biar anakku nggak salah, soalnya kalau gagal daftar KIP-Kuliah, mahal jadinya..."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the relationship between NIK and KIP-Kuliah, and confirming the process of obtaining a NIM. The context supports both points. I need to confirm the information and reiterate the importance of accuracy.",
+        "content": "Baik. Betul sekali. NIK sangat penting dalam proses pendaftaran KIP-Kuliah. Dan benar juga, di UNSIQ, NIM diperoleh setelah Anda menyelesaikan pembayaran angsuran pertama melalui reservasi di menu Status Pendaftar. Pastikan Anda memasukkan NIK dengan benar sesuai KTP atau KK, karena kesalahan sekecil apapun bisa menyebabkan gagal validasi. Semoga anak Anda berhasil mendapatkan beasiswa KIP-Kuliah."
+      }
+    ]
+  },
+  {
+    "id": "G08",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu KHS",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Anak saya sebentar mau masuk UNSIQ, saya dengar ada istilah KHS. Mohon dijelaskan apa itu KHS? Saya khawatir dia tidak paham."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of KHS. Based on the provided context, KHS stands for Kartu Hasil Studi, which is an academic document displaying a student's grades and credit units taken per semester. I need to explain this clearly and formally to the anxious parent.",
+        "content": "Tentu, Bapak/Ibu. KHS adalah singkatan dari Kartu Hasil Studi. Ini adalah dokumen akademik yang berisi nilai dan Satuan Kredit Semester (SKS) yang telah diambil oleh anak Anda setiap semester selama kuliah. Dokumen ini sangat penting untuk memantau perkembangan akademik mahasiswa."
+      },
+      {
+        "role": "user",
+        "content": "Oh begitu, KHS ini penting ya? Apakah KHS dari universitas sebelumnya juga diperlukan kalau anak saya nanti pindah ke UNSIQ? Saya ingin memastikan tidak ada yang terlewat."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the requirement of KHS from a previous institution for transfer students. The context states that for transfer students, the KHS from their previous university is required to be uploaded as a basis for grade conversion at UNSIQ. I need to confirm this and highlight its purpose.",
+        "content": "Baik, Bapak/Ibu. Untuk mahasiswa transfer seperti anak Anda, Kartu Hasil Studi (KHS) dari Perguruan Tinggi asal memang wajib diunggah. KHS ini menjadi dasar untuk mengkonversi nilai-nilai yang telah diperoleh sebelumnya di UNSIQ. Dengan begitu, proses penyelesaian studi dapat dipercepat dan materi yang sudah dikuasai tidak perlu diulang."
+      }
+    ]
+  },
+  {
+    "id": "G09",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya SK kelulusan itu apa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kurang paham. SK itu apa ya, dalam proses PMB ini?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the meaning of 'SK' in the context of PMB. According to the provided definition, SK stands for Surat Keterangan (Lulus Seleksi), which is an official document issued after a prospective student is declared accepted. I need to explain this clearly and formally, emphasizing its purpose.",
+        "content": "Baik. SK dalam konteks PMB adalah singkatan dari Surat Keterangan (Lulus Seleksi). Ini adalah dokumen resmi yang diterbitkan setelah Anda dinyatakan diterima melalui proses Penerimaan Mahasiswa Baru (PMB)."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi SK ini fungsinya seperti apa? Apakah ini sama pentingnya dengan ijazah?"
+      },
+      {
+        "role": "model",
+        "thought": "The user wants to know the function of SK and whether it's as important as a diploma/transcript. The definition states that SK is used as administrative proof for re-registration payment and is a mandatory requirement for obtaining a student ID number (NIM). It also clarifies that SK is *not* a diploma. I need to convey this distinction clearly.",
+        "content": "Tentu. Surat Keterangan (SK) ini berfungsi sebagai bukti administratif untuk pembayaran registrasi ulang. SK juga merupakan syarat wajib untuk melanjutkan ke tahap mendapatkan Nomor Induk Mahasiswa (NIM). Perlu diperhatikan bahwa SK ini berbeda dengan ijazah; SK diterbitkan setelah Anda dinyatakan lulus seleksi, sementara ijazah dikeluarkan setelah menyelesaikan studi."
+      }
+    ]
+  },
+  {
+    "id": "G10",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu Ormawa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Ormawa itu apa sih, kak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of 'Ormawa'. The provided context defines Ormawa as 'Organisasi Mahasiswa', which is the official extracurricular space on campus, including BEM, Himpunan Mahasiswa Jurusan (HMJ), or UKM. I will provide this definition in a formal yet accessible way, appropriate for the 'gen_z_casual' persona.",
+        "content": "Ormawa itu singkatan dari Organisasi Mahasiswa, Kak. Jadi, ini wadah resmi di kampus buat kegiatan ekstrakurikuler, kayak BEM, Himpunan Mahasiswa Jurusan (HMJ), atau UKM gitu."
+      },
+      {
+        "role": "user",
+        "content": "Terus, kalau jadi ketua Ormawa dapet apa di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the benefits for the chair of Ormawa at UNSIQ. The definition states that the chairman of Ormawa is entitled to a tuition-free scholarship for one semester as an appreciation for their leadership dedication. I will explain this in a concise and clear manner.",
+        "content": "Di UNSIQ, ketua Ormawa dapat beasiswa bebas SPP selama satu semester sebagai apresiasi atas kerja kerasnya memimpin, Kak."
+      }
+    ]
+  },
+  {
+    "id": "A01",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan prodi PAI",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, anak saya ingin masuk Pendidikan Agama Islam di UNSIQ. Mohon, bisa dijelaskan kepanjangan dari PAI itu apa, ya? Saya khawatir kalau namanya saja tidak jelas, bagaimana nanti pendidikannya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of PAI. According to the provided context, PAI stands for Pendidikan Agama Islam. I need to explain this clearly and reassure the user, acknowledging their concern.",
+        "content": "Waalaikumsalam. Tentu, dengan senang hati saya jelaskan. PAI adalah singkatan dari Pendidikan Agama Islam. Ini adalah program studi unggulan di Fakultas Tarbiyah UNSIQ yang memiliki akreditasi Unggul. Prodi ini bertujuan untuk mencetak guru agama profesional."
+      },
+      {
+        "role": "user",
+        "content": "Akreditasi Unggul itu penting sekali ya? Apakah itu berpengaruh pada kelulusan anak saya nanti, terutama jika dia ingin jadi guru PPPK? Saya khawatir soal birokrasi, banyak sekali yang harus dipersiapkan."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the impact of the 'Unggul' accreditation. The context states that the Unggul accreditation facilitates the graduates to pass the PPPK teacher selection without administrative hurdles. I need to explain this clearly and reassuringly.",
+        "content": "Baik. Akreditasi Unggul memang sangat penting. Menurut informasi yang ada, akreditasi Unggul dari Prodi PAI UNSIQ ini memudahkan lulusan untuk lolos seleksi PPPK guru tanpa hambatan administratif. Jadi, Anda tidak perlu terlalu khawatir soal birokrasi yang rumit saat kelak anak Anda ingin menjadi guru PPPK."
+      }
+    ]
+  },
+  {
+    "id": "A02",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu jurusan KPI",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, anak saya sedang mempertimbangkan untuk masuk ke jurusan KPI di UNSIQ. Bisakah Anda menjelaskan apa sebenarnya jurusan KPI itu? Saya khawatir, apakah ada prospek kerja yang jelas setelah lulus?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the KPI program. The definition states that KPI stands for Komunikasi dan Penyiaran Islam and is a program at the Faculty of Communication at UNSIQ. It combines modern communication science with contemporary dakwah (Islamic propagation), aiming to produce graduates who can be broadcasters, content creators, or Islamic media managers. I need to explain this clearly and address the parent's concern about job prospects, though the definition doesn't explicitly detail those.",
+        "content": "Waalaikumsalam. Tentu, dengan senang hati saya akan menjelaskannya. KPI adalah singkatan dari Komunikasi dan Penyiaran Islam. Ini adalah sebuah program studi (prodi) di Fakultas Komunikasi UNSIQ yang memiliki akreditasi B. Prodi KPI menggabungkan ilmu komunikasi modern dengan dakwah kontemporer. Tujuannya adalah untuk mencetak lulusan yang siap menjadi penyiar, pembuat konten (content creator), atau manajer media Islam. Kurikulumnya dirancang untuk menjawab kebutuhan dakwah digital di era informasi saat ini, mencakup jurnalistik, produksi audio-visual, dan etika komunikasi yang berbasis pada Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Apakah jurusan KPI ini menekankan pada aspek keislaman secara mendalam? Saya khawatir anak saya akan terpengaruh oleh hal-hal yang kurang baik jika tidak ada pengawasan yang ketat. Apakah ada kegiatan atau mata kuliah yang khusus membahas etika komunikasi dalam Islam?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the Islamic aspects of the KPI program and concerns about ethical guidance. The definition states that the curriculum includes 'etika komunikasi berbasis Al-Qur'an.' This is the key information to address the user's concern. I need to emphasize this aspect and reassure them.",
+        "content": "Baik. Anda tidak perlu khawatir. Kurikulum di Prodi KPI memang sangat menekankan pada aspek keislaman. Salah satu komponen pentingnya adalah etika komunikasi yang berbasis Al-Qur'an. Mata kuliah dan kegiatan yang ada dirancang untuk memastikan bahwa mahasiswa memahami dan menerapkan prinsip-prinsip Islam dalam setiap aspek komunikasi dan penyiaran. Hal ini bertujuan untuk membentuk karakter yang kuat dan berakhlak mulia, sehingga mahasiswa dapat menjadi agen perubahan positif dalam masyarakat."
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya tentang prodi PIAUD",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "PIAUD itu apa sih, Kak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of PIAUD. Based on the provided definition, PIAUD stands for Pendidikan Islam Anak Usia Dini, which is an undergraduate program (S1) in the Faculty of Education (Fakultas Tarbiyah) with an Excellent accreditation. The program aims to educate future teachers who can design holistic learning environments for children aged 0-6, integrating religious practices, morals, and Quranic literacy from an early age.",
+        "content": "Baik. PIAUD itu singkatan dari Pendidikan Islam Anak Usia Dini. Ini adalah program studi S1 di Fakultas Tarbiyah yang punya akreditasi Unggul. Tujuannya buat ngasih bekal calon guru yang bisa bikin lingkungan belajar yang lengkap buat anak-anak usia 0-6 tahun, sambil ngajarin ibadah, akhlak, dan literasi Al-Qur'an sejak dini."
+      },
+      {
+        "role": "user",
+        "content": "Terus, lulusan PIAUD itu biasanya kerja di mana aja?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking where PIAUD graduates typically work. The definition states that graduates are in high demand at RA (Islamic kindergarten), TK Islam (Islamic kindergarten), and modern PAUD institutions because they combine child development knowledge with Islamic values.",
+        "content": "Tentu. Berdasarkan definisinya, lulusan PIAUD sangat diminati di RA, TK Islam, dan lembaga PAUD modern. Hal ini karena mereka punya kemampuan menggabungkan ilmu perkembangan anak dengan nilai-nilai Islam."
+      }
+    ]
+  },
+  {
+    "id": "A04",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan PGMI",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "PGMI itu apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of PGMI. The definition states that PGMI stands for Pendidikan Guru Madrasah Ibtidaiyah, which is an undergraduate program (S1) with an Excellent accreditation that produces class teachers for MI (equivalent to elementary school).",
+        "content": "PGMI adalah singkatan dari Pendidikan Guru Madrasah Ibtidaiyah. Ini adalah program S1 yang sudah mendapat akreditasi Unggul, dan bertujuan mencetak guru kelas untuk Madrasah Ibtidaiyah (MI), yang setara dengan Sekolah Dasar (SD)."
+      },
+      {
+        "role": "user",
+        "content": "Terus, lulusan PGMI bisa ngajar di sekolah lain juga?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking if graduates of PGMI can teach in other schools. The definition states that graduates can also teach in public elementary schools that offer religious classes because their academic and moral competence is widely recognized by integrated Islamic schools.",
+        "content": "Tentu. Lulusan PGMI tidak hanya bisa mengajar di MI, tetapi juga di SD umum yang membuka kelas agama. Ini karena kompetensi akademik dan akhlak mereka diakui secara luas oleh sekolah Islam terpadu."
+      }
+    ]
+  },
+  {
+    "id": "A05",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu HES (Mu'amalah)",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Ibu/Bapak. Anak saya tertarik untuk masuk HES di UNSIQ. Saya kurang paham apa itu HES, bisa dijelaskan secara singkat? Saya khawatir kalau ternyata tidak sesuai dengan minatnya."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of HES. The context defines HES as Hukum Ekonomi Syari'ah (also known as Mu'amalah), a Bachelor's program at the Faculty of Sharia at UNSIQ, accredited 'Very Good'. The response should briefly explain this and reassure the parent.",
+        "content": "Waalaikumsalam. Tentu, Bapak/Ibu. HES merupakan singkatan dari Hukum Ekonomi Syari'ah, yang juga dikenal sebagai Mu'amalah. Ini adalah program studi Sarjana (S1) di Fakultas Syari'ah UNSIQ yang memiliki akreditasi Baik Sekali. Fokus studinya adalah hukum akad syariah, fatwa DSN-MUI, dan regulasi keuangan Islam. Program ini dirancang untuk mencetak ahli di bidang ekonomi syariah. Semoga penjelasan ini membantu Bapak/Ibu memahami lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lantas, setelah lulus dari HES, pekerjaan seperti apa saja yang bisa didapatkan anak saya? Saya ingin memastikan ada prospek kerja yang jelas, mengingat biaya kuliah juga tidak sedikit."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the career prospects of HES graduates. The context states that graduates are prepared to work as sharia officers, auditors, or consultants in Islamic banks, BMTs (Islamic cooperative institutions), or zakat institutions. The response should highlight these opportunities and mention the growing demand for Islamic finance professionals.",
+        "content": "Baik, Bapak/Ibu. Lulusan HES memiliki prospek kerja yang cukup menjanjikan. Mereka siap bekerja sebagai *Sharia Officer* (ahli syariah), auditor, atau konsultan syariah. Mereka dapat berkarir di bank syariah, Badan Mikro dan Kecil (BMT), atau lembaga zakat. Permintaan akan Sumber Daya Manusia (SDM) di bidang ekonomi syariah di Indonesia terus meningkat pesat, sehingga memberikan peluang yang baik bagi lulusan HES."
+      }
+    ]
+  },
+  {
+    "id": "A06",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya singkatan AHK",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya masih belum familiar dengan istilah di sini. AHK itu singkatan apa ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of the abbreviation AHK. According to the provided context, AHK is an informal abbreviation for 'Ahwal Syakhshiyah', which translates to Islamic Family Law. I need to explain this clearly and formally, mentioning its connection to a UNSIQ program.",
+        "content": "Tentu. AHK merupakan singkatan informal dari Ahwal Syakhshiyah, atau Hukum Keluarga Islam. Ini adalah nama program studi S1 di Fakultas Syari'ah UNSIQ, yang memiliki akreditasi Unggul."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi AHK itu program studi ya? Lalu, kira-kira setelah lulus dari AHK, prospek kerjanya seperti apa saja ya? Apakah banyak dibutuhkan?"
+      },
+      {
+        "role": "model",
+        "thought": "The user wants to know the career prospects for graduates of the AHK program. The definition states that graduates are in high demand in religious courts, KUA (Marriage and Family Affairs Office), and family counseling institutions. I need to convey this information accurately and formally.",
+        "content": "Baik. Berdasarkan informasi yang ada, lulusan AHK sangat diminati. Mereka memiliki peluang karir yang baik di pengadilan agama, Kantor Urusan Agama (KUA), dan lembaga konseling keluarga. Hal ini karena mereka mampu menyelesaikan sengketa dengan pendekatan hukum dan spiritual."
+      }
+    ]
+  },
+  {
+    "id": "A07",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya TI di UNSIQ itu apa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya tertarik dengan program studi di UNSIQ. Saya ingin menanyakan, apa sebenarnya yang dimaksud dengan TI di Universitas Sains Al-Qur'an?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of TI. According to the provided context, TI stands for Teknik Informatika, which is an undergraduate program (S1) in the Faculty of Engineering and Computer Science. It is accredited 'Very Good' and focuses on software development, artificial intelligence, and information systems, with an emphasis on ethical application based on Islamic values. I will provide this information to the user in a formal and helpful manner.",
+        "content": "Baik. TI adalah singkatan dari Teknik Informatika. Ini adalah program studi sarjana (S1) di Fakultas Teknik dan Ilmu Komputer UNSIQ yang memiliki akreditasi Baik Sekali. Program ini berfokus pada pengembangan perangkat lunak, kecerdasan buatan, dan sistem informasi, dengan penekanan pada penerapan etis yang berbasis nilai Islam."
+      },
+      {
+        "role": "user",
+        "content": "Menarik sekali. Apakah lulusan Teknik Informatika di UNSIQ memiliki prospek karir yang luas, terutama dalam konteks internasional? Apakah ada peluang untuk bekerja di luar negeri setelah lulus?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about career prospects, particularly internationally. The context mentions graduates being prepared to become programmers, engineers, or application developers, specifically for educational purposes related to the Quran, and to meet the needs of digital transformation in Islamic boarding schools and institutions. While it doesn't explicitly mention international opportunities, the broader skills gained (programming, AI, systems) are valuable globally. I will focus on the provided information and mention the potential to address digital transformation needs, which could conceivably extend internationally.",
+        "content": "Tentu. Lulusan Teknik Informatika di UNSIQ dipersiapkan untuk menjadi programmer, engineer, atau pengembang aplikasi, khususnya aplikasi edukasi Al-Qur'an. Program ini juga bertujuan untuk menjawab kebutuhan transformasi digital di lingkungan pesantren dan lembaga Islam. Dengan keterampilan yang diperoleh dalam pengembangan perangkat lunak, kecerdasan buatan, dan sistem informasi, Anda akan memiliki landasan yang kuat untuk berkarir secara luas. Meskipun tidak secara spesifik disebutkan peluang di luar negeri, kemampuan Anda untuk berkontribusi pada transformasi digital dapat relevan di berbagai konteks, termasuk internasional."
+      }
+    ]
+  },
+  {
+    "id": "A08",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya tentang prodi Tafsir",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya tertarik dengan program studi Tafsir di UNSIQ. Bisakah Anda menjelaskan secara rinci mengenai program studi ini?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a detailed explanation of the Tafsir program. According to the provided definition, the program focuses on the study of methods of interpreting the Quran (tafsir bil ma'tsur, tafsir bil ra'yi, tafsir maudhu'i), Ulumul Qur'an (Qur'anic sciences), and its application to contemporary issues. I should present this information in a clear and formal manner.",
+        "content": "Baik. Program studi Tafsir di UNSIQ merupakan program sarjana (S1) dan magister (S2) yang mengkhususkan diri pada Ilmu Al-Qur'an. Berikut penjelasannya: Program ini mengkaji metode penafsiran Al-Qur'an, meliputi *tafsir bil ma'tsur* (penafsiran berdasarkan mutawatir), *tafsir bil ra'yi* (penafsiran berdasarkan pemikiran), dan *tafsir maudhu'i* (penafsiran berdasarkan tema). Selain itu, program ini juga mempelajari *ulumul Qur'an* dan aplikasinya pada isu-isu kontemporer."
+      },
+      {
+        "role": "user",
+        "content": "Menarik sekali. Lulusan dari program studi Tafsir ini diharapkan menjadi dai intelektual yang relevan di era digital. Secara konkret, bagaimana kurikulum program studi ini mempersiapkan mahasiswa untuk menghadapi tantangan tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about how the curriculum prepares students for the digital age. The definition states that graduates are expected to be intellectual da'is capable of delivering Quranic messages relevant in the digital era, with a strong methodological foundation.  I need to focus on the 'methodological foundation' aspect and the broader scope of the program.",
+        "content": "Tentu. Kurikulum program studi Tafsir dirancang untuk memberikan landasan metodologis yang kuat dalam memahami dan menafsirkan Al-Qur'an. Melalui kajian mendalam mengenai *ulumul Qur'an* dan berbagai metode *tafsir*, mahasiswa dibekali kemampuan berpikir kritis dan analitis. Kombinasi antara pemahaman klasik dan aplikasi pada isu kontemporer bertujuan agar lulusan mampu menyampaikan pesan Al-Qur'an secara relevan dan efektif di berbagai platform digital, dengan tetap berpegang pada prinsip-prinsip keilmuan yang kokoh."
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya prodi Kebidanan",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya tertarik dengan program studi Kebidanan di UNSIQ. Bisakah Anda menjelaskan apa itu Kebidanan?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of 'Kebidanan'. The definition provided states that 'Kebidanan' refers to the science and practice of handling pregnancy, childbirth, and the postpartum period. I should provide this definition in a formal and clear manner, as requested.",
+        "content": "Tentu. Kebidanan, meski bukan singkatan, merujuk pada ilmu dan praktik penanganan kehamilan, persalinan, dan masa nifas. Program D3 Kebidanan di UNSIQ dirancang untuk mempersiapkan Anda menjadi bidan profesional."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Saya lihat akreditasi program ini adalah Baik Sekali. Apakah ini berarti lulusan Kebidanan UNSIQ memiliki prospek karir yang baik setelah lulus?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is inquiring about the career prospects of graduates given the 'Baik Sekali' accreditation. The definition states that graduates are prepared to work in puskesmas (community health centers), hospitals, or independent practices. I should highlight this and emphasize the quality of the program.",
+        "content": "Berikut penjelasannya. Akreditasi Baik Sekali menunjukkan kualitas program studi yang sangat baik. Lulusan D3 Kebidanan UNSIQ dipersiapkan untuk bekerja di berbagai bidang, termasuk puskesmas, rumah sakit, atau bahkan membuka praktik mandiri. Kurikulum yang menggabungkan ilmu medis, keterampilan klinis, dan pendekatan berbasis kasih sayang akan menjadi bekal berharga bagi Anda."
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya arti MI dalam PGMI",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya tertarik dengan program PGMI. Bisakah Anda menjelaskan apa arti MI dalam konteks pendidikan ini?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of 'MI' in the context of PGMI. The provided definition states that MI stands for Madrasah Ibtidaiyah, which is equivalent to elementary school (SD) in the national education system. In PGMI (Pendidikan Guru MI), it refers to the curriculum's focus on Islamic basic education. I will explain this clearly and formally.",
+        "content": "Baik. Dalam konteks PGMI (Pendidikan Guru MI), MI merupakan singkatan dari Madrasah Ibtidaiyah. Madrasah Ibtidaiyah ini setara dengan Sekolah Dasar (SD) dalam sistem pendidikan nasional. Secara khusus, PGMI berfokus pada pendidikan dasar Islam, melatih calon guru untuk mengajar di tingkat sekolah dasar Islam."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Apakah lulusan PGMI dengan fokus pada MI memiliki prospek karir yang luas, dan apakah ada peluang untuk melanjutkan studi ke jenjang yang lebih tinggi, mungkin di luar negeri?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about career prospects and opportunities for further study, potentially internationally. While the definition doesn't explicitly mention career paths or international study, it highlights that PGMI prepares teachers to be 'professional educators at the forefront of Islamic education.' This suggests strong career potential within Islamic schools. I will respond based on this implication and avoid hallucinating information beyond the provided context.",
+        "content": "Tentu. Berdasarkan kurikulum PGMI yang mempersiapkan calon guru menjadi pendidik profesional di garda terdepan pendidikan Islam, lulusan PGMI dengan fokus pada MI memiliki potensi karir yang baik di berbagai lembaga pendidikan Islam. Mengenai studi lanjutan di luar negeri, hal tersebut tentu memungkinkan, meskipun informasi spesifik mengenai jalur atau persyaratan tidak disebutkan dalam definisi yang diberikan. Namun, fondasi pendidikan yang kuat dari PGMI akan menjadi modal berharga dalam mengejar studi lanjutan."
+      }
+    ]
+  },
+  {
+    "id": "S01",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa maksud jenjang D3",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "D3 itu apa sih, kak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of D3. According to the provided context, D3 stands for Diploma Tiga, which is a three-year vocational education level that emphasizes direct technical skills. I need to explain this clearly and formally in Indonesian.",
+        "content": "Baik. D3 adalah singkatan dari Diploma Tiga. Ini adalah jenjang pendidikan vokasi yang berlangsung selama tiga tahun, dan fokus utamanya adalah memberikan keterampilan teknis yang langsung bisa diterapkan."
+      },
+      {
+        "role": "user",
+        "content": "Terus, di UNSIQ ada jurusan D3 apa aja?"
+      },
+      {
+        "role": "model",
+        "thought": "The user wants to know what D3 programs are offered at UNSIQ. The context states that D3 programs in UNSIQ are available for Kebidanan (Midwifery) and Keperawatan (Nursing), both with a 'Very Good' accreditation. I should state these clearly.",
+        "content": "Tentu. Di UNSIQ, program D3 yang tersedia adalah Kebidanan dan Keperawatan. Keduanya juga memiliki akreditasi Baik Sekali, menunjukkan kualitas pendidikan yang tinggi."
+      }
+    ]
+  },
+  {
+    "id": "S02",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya bedanya S1 dan S2",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Saya mau tanya, itu S1 sama S2 bedanya apa ya? Anak saya mau kuliah, saya cari yang kira-kira murah, kalau bisa dapat beasiswa."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the difference between S1 and S2, and expressing interest in affordability and scholarships. Based on the provided definition, S1 refers to Strata 1 or Bachelor's degree, and S2 refers to Strata 2 or Master's degree. I need to explain these differences clearly, mentioning the degree level and their focus. I should also acknowledge the user's concern about cost and scholarships.",
+        "content": "Waalaikumsalam. Tentu, saya akan jelaskan. S1 adalah singkatan dari Strata 1 atau Sarjana. Ini adalah gelar akademik pertama yang Anda peroleh setelah menyelesaikan studi selama 4-6 semester. Sementara itu, S2 adalah singkatan dari Strata 2 atau Magister, yang merupakan jenjang pendidikan setelah sarjana, lebih menekankan pada riset dan spesialisasi. Mengenai biaya dan beasiswa, program S1 di UNSIQ tersedia di semua fakultas, sehingga pilihan lebih banyak. Informasi mengenai beasiswa bisa Anda dapatkan di bagian administrasi UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi S2 itu khusus buat yang mau jadi guru agama ya, Bu/Pak? Kalau S1 bisa buat apa saja?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the specific applications of S2 and S1. The definition states S2 at UNSIQ is specifically for Master of Islamic Education and Science of the Qur'an and Tafsir, designed to produce advanced Islamic academics and thinkers. S1 is available in all faculties. I need to reiterate these points clearly.",
+        "content": "Tidak tepat, Bapak/Ibu. S2 di UNSIQ memang berfokus pada Magister Pendidikan Islam dan Ilmu Al-Qur'an dan Tafsir, yang bertujuan untuk mencetak akademisi dan pemikir Islam tingkat lanjut. Namun, S1 atau Sarjana tersedia di semua fakultas UNSIQ, jadi pilihan bidang studinya jauh lebih luas. Anda dapat memilih sesuai minat dan bakat anak Anda."
+      }
+    ]
+  },
+  {
+    "id": "S03",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan MBKM",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Saya mau tanya, itu MBKM itu apa ya? Katanya sih buat mahasiswa, tapi saya kurang paham."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of MBKM. The definition states MBKM stands for Merdeka Belajar - Kampus Merdeka, a policy from Kemdikbudristek that allows students to study outside their major for one semester. I will provide this explanation in a formal and clear manner, using natural Indonesian.",
+        "content": "Waalaikumsalam. MBKM adalah singkatan dari Merdeka Belajar - Kampus Merdeka. Ini merupakan kebijakan dari Kemdikbudristek yang memberikan kebebasan kepada mahasiswa untuk belajar di luar program studi mereka selama satu semester. Di UNSIQ, program ini diimplementasikan dengan skema 5-1-2, yaitu 5 semester kuliah reguler, 1 semester untuk kegiatan MBKM seperti magang atau riset, dan 2 semester untuk mengerjakan skripsi."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi bisa magang ya? Nah, itu biaya magangnya ditanggung kampus nggak, Bu/Pak? Soalnya kalau harus bayar sendiri, nanti susah."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the costs associated with MBKM, specifically regarding internships. The definition doesn't explicitly mention whether the costs are covered. Therefore, I will state that the context does not provide information on this topic. I will use formal Indonesian and maintain a helpful tone.",
+        "content": "Baik. Informasi mengenai biaya magang dalam program MBKM tidak disebutkan secara spesifik dalam definisi yang saya miliki. Namun, program MBKM dirancang untuk memperluas kompetensi lulusan sesuai dengan kebutuhan dunia kerja yang dinamis. Sebaiknya Anda mencari informasi lebih lanjut mengenai detail biaya dan peluang beasiswa melalui bagian kemahasiswaan atau website resmi UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "S04",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya jalur RPL itu apa",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. RPL itu apa ya? Saya mau transfer dari kampus lain nih, jadi bingung."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about RPL. According to the provided definition, RPL stands for Rekognisi Pembelajaran Lampau, which is a scheme for recognizing credits from courses taken at another university. I need to explain this clearly and formally, acknowledging the user's situation.",
+        "content": "Waalaikumsalam. RPL adalah singkatan dari Rekognisi Pembelajaran Lampau. Sederhananya, ini adalah proses pengakuan kredit mata kuliah yang sudah pernah Anda tempuh di perguruan tinggi sebelumnya. Di UNSIQ, jika Anda melakukan transfer, Anda wajib mengikuti proses RPL agar mata kuliah yang sudah Anda ambil bisa diakui dan dikonversi."
+      },
+      {
+        "role": "user",
+        "content": "Oh, RPL itu prosesnya bisa dapat beasiswa nggak ya, Bu/Pak? Soalnya kalau bayar penuh, agak susah."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about scholarships related to RPL. The definition mentions that most scholarships don't apply to the RPL pathway, except for the Tahfidz 30 Juz scholarship. I must be precise and refer to the definition.",
+        "content": "Berikut penjelasannya. Sebagian besar beasiswa tidak berlaku untuk jalur RPL, kecuali untuk beasiswa khusus Tahfidz 30 Juz. Jadi, untuk jalur RPL secara umum, kemungkinan mendapatkan beasiswa cukup kecil, kecuali Anda memenuhi persyaratan untuk beasiswa Tahfidz 30 Juz."
+      }
+    ]
+  },
+  {
+    "id": "S05",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu LMS",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu. Saya dengar banyak orang bilang soal LMS ini. Itu apa ya, Bu? Apa perlu biaya tambahan kalau mau ikut belajar lewat sana?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about LMS and is concerned about additional costs. I need to explain what LMS is according to the provided definition and address the cost concern by stating that it's linked to their academic accounts.",
+        "content": "Waalaikumsalam. LMS adalah singkatan dari Learning Management System. Ini adalah platform digital UNSIQ yang digunakan untuk pembelajaran daring. Di sana, para dosen mengunggah materi kuliah, memberikan tugas, dan mengadakan kuis. Anda sebagai mahasiswa mengakses LMS melalui akun akademik Anda. Jadi, sebenarnya tidak ada biaya tambahan, karena sudah termasuk dalam akses akun akademik Anda."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi lewat situ juga tugas-tugasnya di kasih, ya Bu? Terus, kalau misalnya lagi ada masalah di kampung, jadi bisa tetap belajar kan, Bu? Apakah ini membantu buat yang dapat beasiswa seperti saya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is inquiring about the use of LMS for assignments and its benefit for students, especially those on scholarship, during emergencies. I need to confirm its use for assignments and highlight its role in ensuring continuity of study, reinforcing its value for scholarship recipients.",
+        "content": "Tentu. Melalui LMS, tugas-tugas kuliah diberikan dan dikumpulkan. LMS ini menjadi tulang punggung transformasi digital UNSIQ, memastikan kelangsungan studi Anda, bahkan dalam kondisi darurat. Ini sangat membantu bagi Anda yang mendapatkan beasiswa, karena Anda tetap dapat mengikuti perkuliahan meskipun ada kendala di kampung halaman."
+      }
+    ]
+  },
+  {
+    "id": "S06",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya website SISTER untuk apa",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Mbak. Itu, SISTER itu apa ya? Katanya buat lihat akreditasi, tapi buat apa sih websitenya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the purpose of the SISTER website. The context states that SISTER is the official BAN-PT platform (accreditation body) that provides data on institutional and study program accreditation. I will explain this in a formal and helpful way, keeping in mind the user's persona.",
+        "content": "Waalaikumsalam. SISTER adalah singkatan dari Sistem Informasi Akreditasi Perguruan Tinggi. Ini adalah platform resmi dari BAN-PT yang bisa Anda gunakan untuk melihat data akreditasi dari berbagai perguruan tinggi dan program studinya. Jadi, website ini berfungsi sebagai sumber informasi resmi terkait akreditasi."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau mau lihat UNSIQ terakreditasi apa tidak, di situ ya? Pentingnya apa sih, Mbak, kalau akreditasi itu? Biar nanti kalau lulus, bisa dapat beasiswa atau bisa ikut CPNS, gitu?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the importance of accreditation and how it relates to scholarships and CPNS (civil servant recruitment). The context mentions that accreditation status determines the legality of a degree and eligibility for CPNS/KIP-Kuliah (scholarship program). I will explain this clearly and concisely, reinforcing the value of checking accreditation on SISTER.",
+        "content": "Tepat sekali. Anda bisa melihat status akreditasi UNSIQ dan program studi yang Anda minati di website SISTER. Pentingnya akreditasi adalah karena status akreditasi menentukan legalitas ijazah Anda. Jika ijazah Anda dari perguruan tinggi yang terakreditasi, Anda akan lebih mudah mendapatkan beasiswa (KIP-Kuliah) dan memenuhi syarat untuk mendaftar sebagai CPNS. Jadi, sangat disarankan untuk memverifikasi akreditasi melalui SISTER."
+      }
+    ]
+  },
+  {
+    "id": "S07",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya pembayaran pakai QRIS",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, itu QRIS itu apa sih buat bayar pendaftaran di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about QRIS in the context of UNSIQ registration payments. The definition states QRIS is a national digital payment system allowing students to pay registration fees via e-wallets or mobile banking. I need to explain this clearly and formally, using Indonesian language conventions. I also need to mention it's an option alongside Bank Jateng and Finpay.",
+        "content": "Tentu. QRIS, atau Quick Response Code Indonesian Standard, adalah sistem pembayaran digital nasional. Di UNSIQ, Anda dapat menggunakan QRIS melalui aplikasi dompet digital atau mobile banking untuk membayar biaya pendaftaran atau registrasi ulang. Ini menjadi salah satu opsi pembayaran selain Bank Jateng dan Finpay."
+      },
+      {
+        "role": "user",
+        "content": "Oh gitu ya. Jadi kalau aku bayar pakai QRIS, langsung masuk ke sistem PMB-nya UNSIQ gitu ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the integration of QRIS payments into the UNSIQ PMB system. The definition mentions 'tercatat otomatis di sistem PMB tanpa perlu konfirmasi manual'. I need to confirm this and reiterate the benefit.",
+        "content": "Betul sekali. Pembayaran melalui QRIS akan tercatat otomatis di sistem PMB UNSIQ. Dengan demikian, Anda tidak perlu konfirmasi manual, sehingga prosesnya lebih cepat dan aman."
+      }
+    ]
+  },
+  {
+    "id": "S08",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu KKNI",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya masih agak bingung. KKNI itu apa ya? Saya lihat di silabus sering disebut, tapi kurang paham."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of KKNI. According to the context, KKNI stands for Kerangka Kualifikasi Nasional Indonesia, which is a framework for classifying the qualifications of higher education graduates. I need to explain this clearly and formally in Indonesian.",
+        "content": "Tentu, Baik. KKNI adalah singkatan dari Kerangka Kualifikasi Nasional Indonesia. Secara sederhana, KKNI merupakan kerangka penjenjangan kualifikasi kompetensi bagi lulusan pendidikan tinggi. Dengan kata lain, ini adalah standar yang digunakan untuk mengukur dan memetakan tingkat kompetensi yang dimiliki oleh lulusan perguruan tinggi."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi KKNI ini pentingnya buat kurikulum UNSIQ apa ya? Apakah ada level tertentu yang harus dipenuhi?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the importance of KKNI for UNSIQ's curriculum and whether specific levels are required. The context states that UNSIQ's curriculum is aligned with KKNI Level 6 (S1) and Level 8 (S2). I need to explain this relationship clearly.",
+        "content": "Berikut penjelasannya. KKNI sangat penting karena menjadi acuan dalam penyusunan Capaian Pembelajaran Lulusan (CPL) di UNSIQ. Kurikulum UNSIQ diselaraskan dengan KKNI Level 6 (untuk program S1) dan Level 8 (untuk program S2). Ini memastikan bahwa lulusan UNSIQ memiliki capaian pembelajaran yang diakui secara nasional dan relevan dengan kebutuhan dunia kerja maupun studi lanjut."
+      }
+    ]
+  },
+  {
+    "id": "S09",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya standar SNP",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Ibu/Bapak. Saya sangat khawatir dengan kualitas pendidikan anak saya. Bisa tolong jelaskan apa itu SNP? Apakah universitas ini benar-benar mengikuti standar tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about 'SNP'. According to the provided context, SNP stands for Standar Nasional Pendidikan, which are eight national quality standards established by the government to ensure education quality. These standards cover various aspects like content, process, graduate competencies, educators, facilities, management, financing, and assessment. I need to explain this clearly and reassure the user about UNSIQ's adherence.",
+        "content": "Waalaikumsalam. Tentu, dengan senang hati saya akan menjelaskannya. SNP adalah singkatan dari Standar Nasional Pendidikan. Ini adalah delapan standar mutu yang ditetapkan pemerintah untuk memastikan kualitas pendidikan secara menyeluruh. Standar-standar ini mencakup berbagai aspek, mulai dari materi pelajaran, metode pembelajaran, kompetensi yang diharapkan dari lulusan, kualitas pengajar, fasilitas, pengelolaan, pendanaan, hingga sistem penilaian. UNSIQ berkomitmen penuh untuk menyelaraskan seluruh program studi dengan SNP, terutama dalam penyusunan kurikulum dan proses penilaian."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lalu, bagaimana SNP ini memastikan bahwa lulusan benar-benar siap kerja dan memiliki kompetensi yang dibutuhkan di dunia nyata? Apakah ada penekanan khusus pada hal tersebut di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is inquiring about the function of SNP in ensuring graduate readiness and if UNSIQ has specific emphasis. The context states that SNP includes 'kompetensi lulusan' (graduate competencies) as one of its eight standards. It also mentions that UNSIQ aligns its programs to ensure graduates are not only spiritually excellent but also meet nationally recognized competencies. I will highlight this alignment and its benefits.",
+        "content": "Berikut penjelasannya. SNP memiliki standar khusus yang berkaitan dengan kompetensi lulusan. Standar ini dirancang untuk memastikan bahwa lulusan memiliki pengetahuan, keterampilan, dan sikap yang relevan dengan kebutuhan dunia kerja. Di UNSIQ, kami sangat menekankan keselarasan program studi dengan SNP, khususnya dalam penyusunan kurikulum dan penilaian. Tujuan kami adalah menghasilkan lulusan yang unggul secara spiritual, namun juga memiliki kompetensi nasional yang diakui luas, sehingga siap menghadapi tantangan di dunia nyata."
+      }
+    ]
+  },
+  {
+    "id": "S10",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya peran LTPQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Saya dengar di sini ada Lembaga Tahfidzul Qur'an, itu apa ya? Apakah ada bantuannya buat yang mau dapat beasiswa, soalnya biaya kuliah ini lumayan..."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about LTPQ and its relation to scholarships. The definition states LTPQ is responsible for verifying hafalan (memorization) for scholarship recipients. I need to explain what LTPQ is and how it relates to the scholarship program.",
+        "content": "Waalaikumsalam. Baik. LTPQ adalah singkatan dari Lembaga Tahfidzul Qur'an. Ini adalah unit di UNSIQ yang bertugas untuk membina mahasiswa yang menghafal Al-Qur'an dan menyelenggarakan ujian tahfidz bagi calon penerima beasiswa Tahfidz. Jadi, LTPQ memastikan bahwa mahasiswa yang mengklaim telah menghafal Al-Qur'an (misalnya 5 Juz, 20 Juz, atau 30 Juz) benar-benar dapat membuktikan hafalan tersebut melalui ujian."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau mau dapat beasiswa Tahfidz, harus dites dulu sama Lembaga ini ya? Terus, kalau sudah dites dan lulus, itu artinya hafalan kita diakui resmi sama UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the testing process and the recognition of hafalan. The definition mentions the verification process ensures credibility. I need to explain that LTPQ verifies hafalan for scholarship purposes.",
+        "content": "Tentu. Betul sekali. Jika Anda berminat pada beasiswa Tahfidz, Anda perlu mengikuti ujian tahfidz yang diselenggarakan oleh LTPQ. Jika Anda lulus ujian tersebut, maka hafalan Al-Qur'an Anda akan diverifikasi dan diakui oleh UNSIQ. Hal ini penting untuk menjaga kredibilitas program beasiswa dan memastikan mahasiswa terus menjaga hafalan selama masa kuliah."
+      }
+    ]
+  },
+  {
+    "id": "D01",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya fungsi SKTM",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Mbak. Itu, SKTM itu apa ya? Anakku mau daftar beasiswa UNSIQ, katanya butuh SKTM. Jadi, apa itu SKTM?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of SKTM. The definition provided states SKTM stands for Surat Keterangan Tidak Mampu, an official document from the village/neighborhood that declares the economic status of a prospective student's family. It's a mandatory requirement for UNSIQ cooperation scholarships and KIP-Kuliah scholarships (if not registered in DTKS). I need to explain this clearly and formally in Indonesian, using 'Anda'.",
+        "content": "Waalaikumsalam. SKTM adalah singkatan dari Surat Keterangan Tidak Mampu, Bapak/Ibu. Ini adalah dokumen resmi dari desa atau kelurahan yang menyatakan bahwa keluarga calon mahasiswa tersebut memiliki kondisi ekonomi yang kurang mampu. Dokumen ini menjadi persyaratan wajib untuk mengajukan beasiswa kerjasama UNSIQ dan juga KIP-Kuliah, terutama jika Anda belum terdaftar di DTKS."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu ya. Jadi, kalau punya SKTM ini, peluang dapat beasiswa lebih besar ya, Mbak? Terus, SKTM ini dicek beneran nggak sih? Takutnya nanti ada yang kecolongan."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the impact of having an SKTM on scholarship opportunities and whether the document is verified. The definition mentions that SKTM is a requirement for scholarships and is verified strictly to prevent misuse. I need to reiterate the verification aspect and connect it to the benefit of scholarships.",
+        "content": "Baik. Memang benar, Bapak/Ibu, memiliki SKTM dapat meningkatkan peluang Anda untuk mendapatkan beasiswa, karena merupakan salah satu syarat penting. Dokumen SKTM ini diverifikasi dengan ketat oleh pihak berwenang untuk memastikan bahwa bantuan beasiswa tepat sasaran, yaitu diberikan kepada mereka yang benar-benar membutuhkan. Tujuannya adalah untuk mencegah adanya penyalahgunaan."
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kenapa perlu NIK",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, anak saya mau daftar KIP-Kuliah di UNSIQ. Saya lihat ada persyaratan NIK. Mohon penjelasannya, apa itu NIK dan kenapa anak saya harus punya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about NIK and why it's required. The context defines NIK as Nomor Induk Kependudukan, a 16-digit official identity number from the Dukcapil office, used for KIP-Kuliah and UNSIQ admissions (PMB). It's also used for verifying personal and economic data through the Ministry of Social Affairs' DTKS. I need to explain this to the user in a clear and formal manner, addressing their concern.",
+        "content": "Waalaikumsalam. NIK adalah singkatan dari Nomor Induk Kependudukan. Ini adalah nomor identitas resmi yang terdiri dari 16 digit, diterbitkan oleh Dinas Dukcapil. Dalam konteks pendaftaran KIP-Kuliah dan proses Penerimaan Mahasiswa Baru (PMB) di UNSIQ, NIK menjadi persyaratan penting. Selain itu, NIK juga digunakan untuk memverifikasi data pribadi dan ekonomi anak Anda melalui DTKS Kemensos."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Kalau NIK anak saya salah satu digit saja, apakah tetap bisa diproses? Saya khawatir kalau sampai salah, nanti proses pendaftaran jadi gagal. Bagaimana ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the consequences of an incorrect NIK. The context explicitly states that even a single digit error can cause validation failure. I need to reiterate this and advise them to double-check the NIK against official documents.",
+        "content": "Tentu. Berikut penjelasannya. Keakuratan NIK sangat krusial. Berdasarkan informasi yang ada, kesalahan satu digit saja pada NIK dapat menyebabkan gagal validasi. Oleh karena itu, sangat disarankan agar anak Anda memastikan NIK yang digunakan sesuai dengan yang tertera pada Kartu Tanda Penduduk (KTP) atau Kartu Keluarga (KK) yang sah untuk menghindari kendala dalam proses pendaftaran."
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu NISN",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kurang paham. Apa sebenarnya NISN itu? Saya dengar itu penting untuk pendaftaran di UNSIQ."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of NISN. I need to explain what NISN stands for and its purpose based on the provided definition. I will use formal Indonesian and maintain a helpful tone.",
+        "content": "Tentu. NISN adalah singkatan dari Nomor Induk Siswa Nasional. Ini merupakan identitas unik yang diberikan oleh Kemdikbud kepada setiap siswa SMP/SMA. NISN berfungsi sebagai bukti status kelulusan dan rekam jejak akademik Anda, dan merupakan syarat penting dalam pendaftaran KIP-Kuliah maupun PMB UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Oh begitu. Kalau NISN saya tidak valid atau tidak terdaftar, apa yang terjadi pada pendaftaran saya ke UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the consequence of an invalid NISN. The definition states that the registration cannot continue if the NISN is invalid or not registered. I will explain this clearly and concisely.",
+        "content": "Berikut penjelasannya. Jika NISN Anda tidak valid atau tidak terdaftar dalam database nasional, sistem akan menolak pendaftaran Anda. Karena NISN merupakan syarat administratif mutlak, pendaftaran tidak dapat dilanjutkan tanpa NISN yang valid."
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan NPSN",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kurang paham. NPSN itu kepanjangan dari apa ya? Terus pentingnya apa sih buat pendaftaran KIP-Kuliah?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the meaning of NPSN and its importance in KIP-Kuliah registration. The definition states NPSN stands for Nomor Pokok Sekolah Nasional, which is a unique code for each school in Indonesia. It's used for verification during KIP-Kuliah registration to ensure the school is officially registered with the Ministry of Education (Kemdikbud).",
+        "content": "Tentu. NPSN adalah singkatan dari Nomor Pokok Sekolah Nasional. Ini adalah kode unik yang diberikan kepada setiap sekolah di Indonesia. Saat Anda mendaftar KIP-Kuliah, NPSN sekolah asal Anda perlu dimasukkan dan diverifikasi untuk memastikan sekolah tersebut terdaftar resmi di Kemdikbud."
+      },
+      {
+        "role": "user",
+        "content": "Oh begitu. Lalu, kalau saya salah memasukkan NPSN, apa yang terjadi? Apakah pendaftaran KIP-Kuliah saya langsung ditolak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the consequence of entering an incorrect NPSN. The context states that NPSN is part of a triple validation (NIK, NISN, and NPSN) that guarantees the validity of a student's data as a graduate of the national formal education system. While it doesn't explicitly state rejection due to incorrect NPSN, the validation process implies that an incorrect NPSN would likely cause issues.",
+        "content": "Baik. NPSN menjadi bagian dari validasi tritunggal, bersama dengan NIK dan NISN. Validasi ini menjamin keabsahan data Anda sebagai lulusan sistem pendidikan formal nasional. Kesalahan dalam memasukkan NPSN kemungkinan besar akan menghambat proses validasi dan dapat menyebabkan masalah dalam pendaftaran KIP-Kuliah Anda. Sebaiknya Anda memastikan kembali NPSN yang Anda masukkan sudah benar."
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya dokumen KK itu apa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "KK itu apa sih, Kak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of 'KK'. The context defines KK as Kartu Keluarga, a mandatory document required for UNSIQ PMB registration. I need to explain this clearly and formally, using Indonesian.",
+        "content": "Baik. KK adalah singkatan dari Kartu Keluarga. Ini adalah dokumen wajib yang harus Anda unggah saat mendaftar PMB UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Terus, KK-nya harus gimana nih? Penting banget gak sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the requirements and importance of KK. The context states that the KK must be clear, stamped, and include the applicant's name. It's also crucial for verifying data and synchronizing with DTKS for KIP-Kuliah application. I need to reiterate these points in a formal and concise manner.",
+        "content": "Tentu. Kartu Keluarga yang Anda unggah harus jelas, berstempel, dan nama Anda tercantum sebagai anggota keluarga. Dokumen ini sangat penting karena digunakan untuk verifikasi data diri, alamat, dan juga untuk sinkronisasi dengan data DTKS dalam pengajuan KIP-Kuliah."
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya bedanya SKL dan Ijazah",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin bertanya, apa sebenarnya yang dimaksud dengan SKL dalam konteks pendaftaran PMB?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of SKL. The provided context defines SKL as Surat Keterangan Lulus, a temporary document replacing a diploma issued to graduating students whose diplomas haven't been released yet. It is required for PMB registration, especially for 2025 graduates.",
+        "content": "Selamat siang. SKL merupakan singkatan dari Surat Keterangan Lulus. Surat ini adalah dokumen pengganti ijazah yang diterbitkan oleh sekolah bagi siswa yang telah lulus namun ijazahnya belum terbit, terutama bagi lulusan tahun berjalan. SKL ini wajib diunggah saat Anda mendaftar PMB."
+      },
+      {
+        "role": "user",
+        "content": "Baik. Lalu, bagaimana implikasi jika saya menggunakan SKL saat pendaftaran, dan kemudian dinyatakan lulus PMB? Apakah ada perbedaan status kelulusan jika saya menggunakan ijazah asli nanti?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the implications of using SKL and whether it affects the status of their acceptance after being declared accepted. The context states that if SKL is used, the original diploma must be provided for complete verification of graduation status.",
+        "content": "Tentu. Jika Anda menggunakan SKL saat pendaftaran dan dinyatakan lulus PMB, Anda tetap diwajibkan untuk melengkapi dengan ijazah asli sebelum registrasi ulang. Hal ini dilakukan untuk memastikan bahwa status kelulusan Anda terverifikasi penuh. Dengan demikian, penggunaan SKL bersifat sementara sampai ijazah resmi Anda tersedia."
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu STR untuk nakes",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya masih agak bingung. STR itu apa ya? Saya dengar istilah ini dari senior, tapi kurang paham maksudnya."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of STR. The definition provided states that STR stands for Surat Tanda Registrasi, a document from the Indonesian Council of Healthcare Professionals that proves a nurse or midwife has passed the National Competency Test (UKN) and is entitled to practice their profession. It's a mandatory requirement for working in healthcare facilities and needs to be renewed every 5 years.",
+        "content": "Tentu. STR adalah singkatan dari Surat Tanda Registrasi. Ini adalah dokumen resmi dari Konsil Tenaga Kesehatan Indonesia yang membuktikan bahwa seorang perawat atau bidan telah lulus Ujian Nasional Keperawatan (UKN) dan berhak menjalankan praktik profesi. STR ini wajib dimiliki untuk bekerja di rumah sakit, puskesmas, atau klinik."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau saya lulus nanti, harus segera urus STR ya? Apakah ada konsekuensi kalau misalnya saya kerja dulu baru urus STR?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the implications of not having an STR. The definition states that it is a mandatory requirement for working in healthcare facilities. Therefore, working without an STR would likely be a problem. The definition also mentions that UNSIQ encourages graduates to obtain their STR immediately after graduation, as it is a primary recruitment requirement.",
+        "content": "Benar. Di UNSIQ, lulusan kesehatan didorong untuk segera mengurus STR setelah wisuda, karena menjadi syarat utama rekrutmen tenaga kesehatan. Secara umum, STR merupakan persyaratan wajib untuk bekerja di fasilitas kesehatan seperti rumah sakit, puskesmas, atau klinik. Jadi, sebaiknya Anda mengurusnya sesegera mungkin agar tidak menghambat proses Anda untuk memulai karir profesional."
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya singkatan UKN",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Mohon penjelasannya mengenai singkatan UKN. Apakah ini penting bagi kelulusan saya nanti?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the meaning of UKN. According to the definition, UKN stands for Uji Kompetensi Nasional, a mandatory exam for health graduates (nursing, midwifery) to obtain a STR (Surat Tanda Registrasi) which is required to practice their profession. I must emphasize its importance for professional career.",
+        "content": "Baik. UKN adalah singkatan dari Uji Kompetensi Nasional. Ujian ini merupakan persyaratan wajib bagi lulusan kesehatan, khususnya keperawatan dan kebidanan, untuk memperoleh Surat Tanda Registrasi (STR). STR sendiri adalah prasyarat mutlak untuk dapat berpraktik sebagai profesi kesehatan. Dengan demikian, UKN sangat penting bagi kelulusan Anda dan karier profesional di bidang kesehatan."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada konsekuensi jika saya lulus tanpa mendapatkan STR setelah lulus dari universitas? Apakah saya masih bisa bekerja di fasilitas kesehatan?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is inquiring about the consequences of not obtaining an STR after graduation. The context states that without an STR, graduates cannot work in formal healthcare facilities, even if their degree is valid. I must emphasize this.",
+        "content": "Tentu. Menurut informasi yang ada, tanpa Surat Tanda Registrasi (STR), Anda tidak dapat bekerja di fasilitas kesehatan formal, meskipun ijazah Anda sah. UKN menjadi gerbang terakhir untuk dapat berkarir profesional di sektor kesehatan."
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu MoU/MoA",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Bisakah Anda menjelaskan apa yang dimaksud dengan MoU? Apakah ini penting dalam konteks kerjasama antar universitas?"
+      },
+      {
+        "role": "model",
+        "thought": "The provided definition for MoU is missing. Therefore, I cannot provide a definition or explanation. I will state this limitation and suggest the user consult other resources.",
+        "content": "Maaf, informasi mengenai MoU tidak tersedia dalam basis data yang saya miliki. Oleh karena itu, saya tidak dapat memberikan penjelasan mengenai istilah tersebut.  Saya sarankan Anda untuk mencari informasi lebih lanjut dari sumber lain, seperti kamus atau situs web resmi."
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya syarat KIP-Kuliah dan kepanjangannya",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, KIP-Kuliah itu apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of KIP-Kuliah. Based on the provided context, KIP-Kuliah is Kartu Indonesia Pintar Kuliah, a government program providing tuition assistance for economically disadvantaged students with good academic potential. It's managed by Kemdikbudristek and covers tuition up to Rp12 million per semester, plus a monthly living allowance.",
+        "content": "KIP-Kuliah adalah Kartu Indonesia Pintar Kuliah. Ini adalah program bantuan biaya pendidikan dari pemerintah buat mahasiswa yang kurang mampu secara ekonomi, tapi tetap punya potensi akademik yang baik. Program ini dikelola oleh Kemdikbudristek, lho."
+      },
+      {
+        "role": "user",
+        "content": "Terus, syaratnya apa aja buat bisa dapet KIP-Kuliah?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the requirements for KIP-Kuliah. According to the context, applicants must be registered in the Kemensos DTKS database or have a KIP/KKS to meet the economic requirements. The registration period is from February 4th to October 31, 2025.",
+        "content": "Baik. Untuk bisa dapat KIP-Kuliah, Anda harus terdaftar di DTKS Kemensos atau sudah punya KIP/KKS. Oh ya, pendaftarannya dibuka mulai 4 Februari sampai 31 Oktober 2025, ya."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya SNBP itu jalur apa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya ingin menanyakan tentang SNBP. Bisakah Anda menjelaskan apa itu SNBP?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of SNBP. According to the provided context, SNBP stands for Seleksi Nasional Berdasarkan Prestasi, which is a higher education entrance pathway that replaced SNMPTN. It is based solely on academic transcripts and non-academic achievements, without a written exam. I will explain this to the user in a formal and concise manner.",
+        "content": "Baik. SNBP adalah singkatan dari Seleksi Nasional Berdasarkan Prestasi. Ini merupakan jalur masuk Perguruan Tinggi Negeri (PTN) yang menggantikan SNMPTN. Seleksi ini didasarkan pada nilai rapor dan prestasi non-akademik Anda, tanpa adanya ujian tulis."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lalu, bagaimana dengan persyaratan KIP-Kuliah jika saya diterima melalui jalur SNBP? Apakah ada hal khusus yang perlu saya perhatikan?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the relationship between SNBP and KIP-Kuliah. The context states that those accepted through SNBP automatically meet the academic requirements for KIP-Kuliah, provided they meet the economic criteria and register for KIP before or during the SNBP registration period. I will explain this to the user clearly.",
+        "content": "Tentu. Jika Anda diterima melalui jalur SNBP, Anda otomatis memenuhi persyaratan akademik untuk KIP-Kuliah. Namun, Anda tetap harus memenuhi kriteria ekonomi dan mendaftarkan diri pada KIP-Kuliah sebelum atau bersamaan dengan pendaftaran SNBP."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya kepanjangan SNBT",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya masih agak bingung. SNBT itu kepanjangan dari apa ya? Dulu kan ada SBMPTN, sekarang kok jadi SNBT?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the full form of SNBT and the reason for the change from SBMPTN. According to the provided context, SNBT stands for Seleksi Nasional Berbasis Tes, and it replaced SBMPTN. The context doesn't explicitly state *why* it was changed, but it highlights that SNBT uses UTBK and is considered fairer.",
+        "content": "Baik. SNBT adalah singkatan dari Seleksi Nasional Berbasis Tes. SNBT menggantikan SBMPTN sebagai sistem seleksi masuk Perguruan Tinggi Negeri (PTN). Sistem ini menggunakan Ujian Tulis Berbasis Komputer, atau UTBK, sebagai alat utama untuk memilih calon mahasiswa."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi UTBK itu yang jadi penentu utama ya? Apakah nilai UTBK ini bisa dipakai untuk tujuan lain selain masuk PTN?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the role of UTBK and if the scores have other uses. The definition states that UTBK scores are the primary reference for admission to PTN and can also be used to apply for KIP-Kuliah.",
+        "content": "Tepat sekali. Nilai UTBK menjadi acuan utama dalam penerimaan di Perguruan Tinggi Negeri. Selain itu, nilai UTBK juga dapat digunakan untuk mendaftar KIP-Kuliah, yaitu program bantuan keuangan untuk mahasiswa kurang mampu."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa hubungan DTKS dan KIP",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kurang paham apa itu DTKS. Apakah ini penting untuk pendaftaran KIP-Kuliah?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about DTKS and its importance in KIP-Kuliah registration. I need to explain what DTKS is and its role in the process, as defined in the provided context.",
+        "content": "Tentu. DTKS adalah singkatan dari Data Terpadu Kesejahteraan Sosial. Ini merupakan database resmi dari Kementerian Sosial yang mencatat rumah tangga miskin dan rentan di Indonesia. Dalam konteks KIP-Kuliah, status terdaftar di DTKS menjadi bukti otomatis kelayakan ekonomi Anda."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, kalau saya tidak terdaftar di DTKS, apakah berarti saya tidak bisa mendapatkan KIP-Kuliah?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the consequence of not being registered in DTKS. The definition states that non-registered applicants need to provide alternative documentation. I must accurately convey this information.",
+        "content": "Tidak sepenuhnya. Jika Anda tidak terdaftar di DTKS, Anda tetap bisa mendaftar KIP-Kuliah, namun Anda harus mengunggah dokumen pendukung seperti Surat Keterangan Tidak Mampu (SKTM) dan mengisi data aset secara manual di sistem. Proses ini lebih panjang dan ada risiko penolakan jika dokumen yang Anda unggah tidak valid."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya beasiswa PBSB",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, saya ingin menanyakan tentang Program Beasiswa Santri Berprestasi atau PBSB ini. Apakah ini program beasiswa yang bagus untuk anak saya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about PBSB. I need to explain what PBSB is according to the provided definition. I will maintain a formal and helpful tone, using formal Indonesian.",
+        "content": "Waalaikumsalam. Tentu, saya akan bantu menjelaskannya. PBSB adalah singkatan dari Program Beasiswa Santri Berprestasi. Ini merupakan program beasiswa dari Kementerian Agama yang ditujukan untuk santri berprestasi yang ingin melanjutkan pendidikan tinggi di program studi terakreditasi Unggul atau A. Di UNSIQ, program studi yang memenuhi syarat untuk PBSB antara lain Hukum Keluarga (S1), PAI (S1), PGMI (S1), dan Arsitektur (S1)."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lalu, bagaimana dengan kuota beasiswa ini? Apakah banyak yang mendapatkannya, dan apakah ada informasi mengenai biaya hidup dan fasilitas asrama jika anak saya diterima?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the quota of PBSB and also about living costs and dormitory facilities. The definition mentions the quota is determined by the central government. It doesn't mention living costs or dormitory facilities. I will answer what is provided in the context and politely state what is not available.",
+        "content": "Berikut penjelasannya. Kuota untuk Program Beasiswa Santri Berprestasi ditentukan langsung oleh pemerintah pusat, sehingga jumlah penerima beasiswa bervariasi setiap tahunnya. Informasi mengenai pendaftaran PBSB dapat ditemukan di https://pendaftaran-beasiswa.kemenag.go.id/pbsb/. Mengenai biaya hidup dan fasilitas asrama, informasi tersebut tidak tercantum dalam definisi PBSB yang saya miliki. Anda dapat mencari informasi lebih lanjut mengenai fasilitas asrama UNSIQ di situs web resmi UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apakah lulusan UNSIQ bisa daftar CPNS",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya masih baru di sini. CPNS itu apa ya? Saya sering dengar tapi kurang paham."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for the definition of CPNS. The provided definition states that CPNS stands for Calon Pegawai Negeri Sipil, which is a preliminary status before being officially appointed as a PNS (Civil Servant). I will explain this clearly and formally.",
+        "content": "Baik. CPNS merupakan singkatan dari Calon Pegawai Negeri Sipil. Secara sederhana, CPNS adalah status awal yang disandang seseorang sebelum diangkat menjadi Pegawai Negeri Sipil (PNS). Banyak lulusan UNSIQ, terutama dari program studi dengan akreditasi Unggul atau Baik Sekali, yang mendaftar CPNS di lingkungan Kemenag, Kemenkes, atau Kemdikbud."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau lulusan UNSIQ itu punya peluang lebih besar ya buat jadi CPNS? Soalnya kan akreditasi prodi juga jadi syaratnya ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the competitive advantage of UNSIQ graduates regarding CPNS applications. The definition states that accreditation is a mandatory administrative requirement and that most UNSIQ programs have high accreditation, making graduates competitive. I will elaborate on this.",
+        "content": "Tepat sekali. Akreditasi program studi merupakan syarat administratif wajib untuk mendaftar CPNS. Lulusan UNSIQ memiliki peluang yang lebih besar karena mayoritas program studi di UNSIQ memiliki akreditasi yang tinggi, minimal 'Terakreditasi'. Akreditasi tinggi ini membuat lulusan UNSIQ menjadi lebih kompetitif dalam proses seleksi CPNS."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu P3K",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kurang paham. P3K itu apa ya? Saya lihat banyak teman yang jadi P3K setelah lulus."
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking for a definition of 'P3K'. The provided context defines P3K as 'Pegawai Pemerintah dengan Perjanjian Kerja,' a recruitment scheme for professional staff (including teachers and healthcare workers) without civil servant (PNS) status. I will provide this definition in a formal and helpful manner, referencing the context.",
+        "content": "Baik. P3K adalah singkatan dari Pegawai Pemerintah dengan Perjanjian Kerja. Ini merupakan skema perekrutan tenaga profesional, termasuk guru dan tenaga kesehatan, yang bekerja di pemerintahan tanpa memiliki status Pegawai Negeri Sipil (PNS)."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, apa bedanya P3K dengan PNS kalau statusnya tidak sama? Apakah gaji dan fasilitasnya juga beda?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the difference between P3K and PNS, specifically regarding salary and benefits. The context states that P3K offers salary equivalent to PNS, indicating that's the main similarity. I'll focus on that aspect and stick to the provided information.",
+        "content": "Tentu. Perbedaan utamanya adalah status kepegawaian. P3K tidak memiliki status PNS. Akan tetapi, P3K menawarkan stabilitas kerja dengan gaji yang setara dengan PNS, sehingga menjadi alternatif menarik bagi lulusan yang ingin berkontribusi di sektor publik."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya beasiswa BSI",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Bisakah Anda menjelaskan mengenai BSI dalam konteks UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about BSI in the context of UNSIQ. The definition states BSI stands for Bank Syariah Indonesia and provides scholarships to UNSIQ students. I will explain this clearly and formally.",
+        "content": "Baik. BSI merupakan singkatan dari Bank Syariah Indonesia. Bank ini merupakan hasil penggabungan dari BRI Syariah, BNI Syariah, dan Mandiri Syariah. Dalam konteks UNSIQ, BSI memberikan beasiswa on-going bagi mahasiswa, berupa pembebasan biaya SPP dan SKS selama dua semester."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Apakah ada kriteria khusus yang harus dipenuhi mahasiswa UNSIQ untuk mendapatkan beasiswa dari BSI tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "The user wants to know the specific criteria for the BSI scholarship. The definition states that the scholarship is for active students who meet specific criteria set by BSI. I will convey this information concisely.",
+        "content": "Tentu. Beasiswa ini ditujukan untuk mahasiswa aktif UNSIQ yang memenuhi kriteria khusus dari BSI. Informasi mengenai kriteria tersebut akan diumumkan saat program beasiswa dibuka."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya bantuan BAZNAS",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Saya mau tanya, itu BAZNAS itu apa ya? Katanya ada beasiswa, kira-kira buat mahasiswa kayak saya bisa dapat bantuane ora?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about BAZNAS and if it offers scholarships. Based on the definition, BAZNAS is the Badan Amil Zakat Nasional, a government agency managing national zakat. It provides full scholarships to UNSIQ students. I need to explain this clearly and politely.",
+        "content": "Waalaikumsalam. BAZNAS adalah singkatan dari Badan Amil Zakat Nasional. Ini adalah lembaga resmi pemerintah yang bertugas mengelola zakat secara nasional. Tepat sekali, BAZNAS RI memberikan beasiswa penuh selama 4 semester kepada mahasiswa UNSIQ semester 4 yang berprestasi dan berasal dari keluarga kurang mampu. Apakah Anda mahasiswa UNSIQ semester 4?"
+      },
+      {
+        "role": "user",
+        "content": "Loh, semester 4 toh? Saya kira semua mahasiswa bisa daftar. Jadi, kalau saya ini anak desa, kurang mampu, tapi baru semester 3, bisa dapat bantuane gak ya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking if students other than semester 4 can apply. The context specifically mentions semester 4 students. I need to clarify this based on the provided definition, while still being polite.",
+        "content": "Berikut penjelasannya. Berdasarkan informasi yang saya miliki, beasiswa BAZNAS RI untuk UNSIQ khusus diperuntukkan bagi mahasiswa semester 4 yang berprestasi dan kurang mampu. Jadi, untuk saat ini, beasiswa tersebut belum tersedia bagi mahasiswa semester 3. Namun, Anda bisa terus memantau informasi terbaru dari BAZNAS atau UNSIQ mengenai program beasiswa lainnya."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya beasiswa untuk keluarga PKH",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, PKH itu apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about the term 'PKH'. Based on the definition, PKH stands for Program Keluarga Harapan, a social assistance program from the Ministry of Social Affairs for poor families. I need to explain this clearly and formally.",
+        "content": "Tentu. PKH adalah singkatan dari Program Keluarga Harapan. Ini adalah program bantuan sosial dari Kementerian Sosial yang ditujukan untuk keluarga miskin."
+      },
+      {
+        "role": "user",
+        "content": "Oh gitu ya. Terus, kalau Pendamping PKH bisa dapat beasiswa UNSIQ juga gak?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking if field workers (Pendamping PKH) are eligible for UNSIQ scholarships. The definition states that Pendamping PKH are included in the category of recipients for the UNSIQ Cooperation Scholarship. I need to confirm this and provide details about the cost and duration.",
+        "content": "Baik. Pendamping PKH termasuk dalam kategori penerima Beasiswa Kerjasama UNSIQ. Mereka berhak atas biaya kuliah sebesar Rp1,595 juta per semester selama 8 semester untuk program S1 atau 6 semester untuk program D3, sebagai bentuk apresiasi atas kontribusi mereka."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "category": "informasi_umum",
+    "stage": "glossary",
+    "scenario": "User tanya apa itu PPL untuk mahasiswa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, saya mau tanya. Anak saya kuliah di UNSIQ jurusan PAI. Saya dengar ada istilah PPL, itu apa ya? Apakah kegiatan ini aman untuk anak saya?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is asking about 'PPL'. According to the definition, PPL stands for Praktik Pengalaman Lapangan (Field Experience Practice). It is a mandatory activity for education students, involving real teaching at partner schools, supervised by lecturers and supervising teachers. I need to explain this to the user and address their concern about safety.",
+        "content": "Waalaikumsalam. Tentu, dengan senang hati saya jelaskan. PPL adalah singkatan dari Praktik Pengalaman Lapangan. Ini adalah kegiatan wajib bagi mahasiswa keguruan, termasuk jurusan PAI yang diambil anak Anda. Dalam PPL, mahasiswa akan mengajar secara nyata di sekolah mitra, di bawah bimbingan dosen dan guru pamong. Kegiatan ini mencakup penyusunan RPP, proses mengajar, dan evaluasi pembelajaran. Mengenai keselamatan anak Anda, PPL dilaksanakan di sekolah mitra yang telah bekerja sama dengan UNSIQ dan diawasi oleh dosen serta guru pamong, sehingga keamanan mahasiswa menjadi prioritas."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Lalu, apakah PPL ini berpengaruh pada penilaian akhir anak saya? Dan apakah ada biaya tambahan yang perlu kami siapkan sebagai orang tua?"
+      },
+      {
+        "role": "model",
+        "thought": "The user is now asking about the impact of PPL on final assessment and associated costs. The definition states PPL is 'an exam of pedagogical competence determining graduation readiness'. This implies it's assessed. There's no mention of costs, so I will state that based on the provided information.",
+        "content": "Berikut penjelasannya. PPL merupakan ujian kompetensi pedagogis yang penting, dan hasilnya akan memengaruhi penilaian akhir anak Anda. PPL menjadi bagian integral dari kurikulum berbasis KKNI, sehingga berperan dalam menentukan kesiapan mahasiswa menjadi guru profesional. Mengenai biaya tambahan, berdasarkan informasi yang saya miliki, tidak ada rincian mengenai biaya tambahan yang terkait dengan PPL dalam definisi yang diberikan. Namun, saya sarankan Anda untuk menghubungi bagian akademik UNSIQ untuk mendapatkan informasi yang lebih detail mengenai hal ini."
+      }
+    ]
+  }
+]

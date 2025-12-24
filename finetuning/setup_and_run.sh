@@ -30,14 +30,14 @@ set -e  # Exit on error
 # Paths
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 FINETUNING_DIR="$PROJECT_ROOT/finetuning"
-VENV_DIR="$PROJECT_ROOT/venv"
+VENV_DIR="$FINETUNING_DIR/venv_finetuning"  # New dedicated venv for finetuning
 
-# Dataset Configuration
-DATASET_SOURCE="$PROJECT_ROOT/data/final/multiturn_dataset_cleaned_no_thought.json"
-DATASET_DIR="$PROJECT_ROOT/data/split"
-TRAIN_DATASET="$DATASET_DIR/multiturn_dataset_cleaned_no_thought_train.json"
-EVAL_DATASET="$DATASET_DIR/multiturn_dataset_cleaned_no_thought_eval.json"
-TEST_DATASET="$DATASET_DIR/multiturn_dataset_cleaned_no_thought_test.json"
+# Dataset Configuration - Updated for merged dataset
+DATASET_SOURCE="$PROJECT_ROOT/data/merged/multiturn_merged_clean.json"
+DATASET_DIR="$PROJECT_ROOT/data/merged"
+TRAIN_DATASET="$DATASET_DIR/multiturn_train.json"
+EVAL_DATASET="$DATASET_DIR/multiturn_eval.json"
+TEST_DATASET="$DATASET_DIR/multiturn_test.json"
 
 OUTPUT_DIR="$FINETUNING_DIR/outputs/gemma3-1b-qlora-sft"
 
@@ -48,16 +48,16 @@ CUDA_PATH="/usr/local/cuda-$CUDA_VERSION"
 # Training Configuration (can be overridden via environment variables)
 MODEL_NAME="${MODEL_NAME:-google/gemma-3-1b-it}"
 JUDGE_MODEL="${JUDGE_MODEL:-google/gemma-3-12b-it}"
-EPOCHS="${EPOCHS:-3}"
-BATCH_SIZE="${BATCH_SIZE:-8}"
-GRAD_ACCUM="${GRAD_ACCUM:-8}"
-LEARNING_RATE="${LEARNING_RATE:-2e-4}"
-LORA_R="${LORA_R:-32}"
-LORA_ALPHA="${LORA_ALPHA:-64}"
+EPOCHS="${EPOCHS:-4}"                   # 4 epochs
+BATCH_SIZE="${BATCH_SIZE:-16}"          # Optimized for A100 80GB
+GRAD_ACCUM="${GRAD_ACCUM:-4}"           # Effective batch = 16 * 4 = 64
+LEARNING_RATE="${LEARNING_RATE:-2e-4}"  # Learning rate
+LORA_R="${LORA_R:-16}"                  # LoRA rank
+LORA_ALPHA="${LORA_ALPHA:-32}"          # LoRA alpha (2x rank)
 MAX_SEQ_LENGTH="${MAX_SEQ_LENGTH:-2048}"
 
 # Evaluation Configuration
-EVAL_SAMPLES="${EVAL_SAMPLES:-100}"
+EVAL_SAMPLES="${EVAL_SAMPLES:-0}"       # 0 = use ALL test samples (179 total)
 GEN_BATCH_SIZE="${GEN_BATCH_SIZE:-16}"
 JUDGE_BATCH_SIZE="${JUDGE_BATCH_SIZE:-32}"
 
@@ -173,6 +173,10 @@ install_dependencies() {
     
     log_info "Installing other dependencies..."
     pip install datasets tensorboard tqdm -q
+    
+    # Evaluation dependencies
+    log_info "Installing evaluation dependencies..."
+    pip install bert-score sentence-transformers -q
     
     # Verify installation
     log_info "Verifying installation..."
@@ -294,8 +298,41 @@ run_training() {
 # EVALUATION FUNCTIONS
 # =============================================================================
 
+run_bertscore_evaluation() {
+    print_header "Step 5a: Running BERTScore Evaluation"
+    
+    activate_venv
+    
+    # Check if fine-tuned model exists
+    FINETUNED_PATH="$OUTPUT_DIR/final_model"
+    if [ ! -d "$FINETUNED_PATH" ]; then
+        log_error "Fine-tuned model not found at $FINETUNED_PATH"
+        log_info "Please run training first"
+        exit 1
+    fi
+    
+    log_info "BERTScore Evaluation Configuration:"
+    echo "  Base Model: $MODEL_NAME"
+    echo "  Fine-tuned: $FINETUNED_PATH"
+    echo "  Test Dataset: $TEST_DATASET"
+    echo "  Test Samples: $EVAL_SAMPLES"
+    
+    cd "$FINETUNING_DIR"
+    
+    python3 evaluate_bertscore.py \
+        --base_model "$MODEL_NAME" \
+        --finetuned_path "$FINETUNED_PATH" \
+        --test_dataset "$TEST_DATASET" \
+        --output "$OUTPUT_DIR/bertscore_evaluation_results.json" \
+        --batch_size $GEN_BATCH_SIZE \
+        --max_samples $EVAL_SAMPLES
+    
+    log_success "BERTScore evaluation completed!"
+    log_info "Results saved to: $OUTPUT_DIR/bertscore_evaluation_results.json"
+}
+
 run_llm_judge_evaluation() {
-    print_header "Step 5: Running LLM-as-Judge Evaluation"
+    print_header "Step 5b: Running LLM-as-Judge Evaluation"
     
     activate_venv
     
@@ -511,6 +548,7 @@ main() {
     fi
     
     if [ "$DO_EVAL" = true ]; then
+        run_bertscore_evaluation
         run_llm_judge_evaluation
     fi
     
@@ -520,12 +558,14 @@ main() {
     echo ""
     echo "Files Generated:"
     echo "  - Model: $OUTPUT_DIR/final_model"
-    echo "  - Evaluation: $OUTPUT_DIR/llm_judge_evaluation_results.json"
+    echo "  - BERTScore: $OUTPUT_DIR/bertscore_evaluation_results.json"
+    echo "  - LLM-Judge: $OUTPUT_DIR/llm_judge_evaluation_results.json"
     echo "  - TensorBoard: $OUTPUT_DIR/tensorboard"
     echo ""
     echo "Next Steps:"
     echo "  1. View logs: tensorboard --logdir $OUTPUT_DIR/tensorboard"
-    echo "  2. Check results: cat $OUTPUT_DIR/llm_judge_evaluation_results.json"
+    echo "  2. Check BERTScore: cat $OUTPUT_DIR/bertscore_evaluation_results.json"
+    echo "  3. Check LLM-Judge: cat $OUTPUT_DIR/llm_judge_evaluation_results.json"
 }
 
 # Run main

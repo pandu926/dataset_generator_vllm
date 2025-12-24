@@ -26,7 +26,7 @@ class EvalConfig:
     """Evaluation configuration."""
     base_model_name: str = "google/gemma-3-1b-it"
     finetuned_model_path: str = "./outputs/gemma3-1b-qlora-sft/final_model"
-    test_dataset_path: str = "../data/final/multiturn_dataset_cleaned.json"
+    test_dataset_path: str = "../data/merged/multiturn_test.json"
     output_path: str = "./outputs/evaluation_results.json"
     
     # Batch processing
@@ -113,15 +113,21 @@ def load_finetuned_model(
 # DATA LOADING
 # =============================================================================
 
-def load_test_data(dataset_path: str, max_samples: int = 100) -> List[Dict]:
-    """Load test data and extract prompts with expected responses."""
+def load_test_data(dataset_path: str, max_samples: int = 0) -> List[Dict]:
+    """Load test data and extract prompts with expected responses.
+    Args:
+        max_samples: 0 or None = use ALL samples
+    """
     print(f"\nLoading test data from: {dataset_path}")
     
     with open(dataset_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
-    # Take last N samples as test set (or random sample)
-    test_data = data[-max_samples:] if len(data) > max_samples else data
+    # max_samples=0 means use ALL samples
+    if max_samples and max_samples > 0 and len(data) > max_samples:
+        test_data = data[-max_samples:]
+    else:
+        test_data = data  # Use all
     
     # Extract first user message and expected model response from each conversation
     test_samples = []
@@ -426,7 +432,7 @@ if __name__ == "__main__":
                         default="./outputs/gemma3-1b-qlora-sft/final_model",
                         help="Path to fine-tuned model")
     parser.add_argument("--test_dataset", type=str,
-                        default="../data/final/multiturn_dataset_cleaned.json",
+                        default="../data/merged/multiturn_test.json",
                         help="Path to test dataset")
     parser.add_argument("--output", type=str, default="./outputs/evaluation_results.json",
                         help="Path to save results")

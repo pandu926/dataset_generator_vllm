@@ -54,7 +54,7 @@ class EvalConfig:
     judge_model_name: str = "google/gemma-3-12b-it"
     
     # Dataset
-    test_dataset_path: str = "../data/final/multiturn_dataset_cleaned_no_thought.json"
+    test_dataset_path: str = "../data/merged/multiturn_test.json"
     output_path: str = "./outputs/llm_judge_evaluation_results.json"
     
     # RAG Configuration
@@ -527,15 +527,21 @@ def generate_all_responses(
 # DATA LOADING
 # =============================================================================
 
-def load_test_data(dataset_path: str, max_samples: int = 100) -> List[Dict]:
-    """Load test data and extract prompts with expected responses."""
+def load_test_data(dataset_path: str, max_samples: int = 0) -> List[Dict]:
+    """Load test data and extract prompts with expected responses.
+    Args:
+        max_samples: 0 or None = use ALL samples
+    """
     print(f"\nLoading test data from: {dataset_path}")
     
     with open(dataset_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     
-    # Take last N samples as test set
-    test_data = data[-max_samples:] if len(data) > max_samples else data
+    # max_samples=0 means use ALL samples
+    if max_samples and max_samples > 0 and len(data) > max_samples:
+        test_data = data[-max_samples:]
+    else:
+        test_data = data  # Use all
     
     # Extract first user message from each conversation
     test_samples = []

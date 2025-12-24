@@ -124,10 +124,10 @@ class TrainConfig:
     max_steps: int = -1  # -1 means use epochs
     
     # Batch Size - Optimized for A100 80GB with 1B model
-    # Effective batch = per_device * accumulation = 8 * 8 = 64
-    per_device_train_batch_size: int = 8  # Can be larger for 1B model
-    per_device_eval_batch_size: int = 8
-    gradient_accumulation_steps: int = 8  # Effective batch = 64
+    # Effective batch = per_device * accumulation = 16 * 4 = 64
+    per_device_train_batch_size: int = 16  # Larger batch for A100 80GB
+    per_device_eval_batch_size: int = 16
+    gradient_accumulation_steps: int = 4  # Effective batch = 64
     
     # Learning Rate Schedule
     learning_rate: float = 2e-4  # Standard for LoRA fine-tuning
@@ -167,6 +167,11 @@ class TrainConfig:
     seed: int = 42
     report_to: str = "tensorboard"  # Enable TensorBoard logging
     run_name: str = None  # Will be auto-generated if None
+    
+    # Dataloader optimization for faster loading
+    dataloader_num_workers: int = 4  # Parallel data loading
+    dataloader_pin_memory: bool = True  # Faster GPU transfer
+    dataloader_prefetch_factor: int = 2  # Prefetch batches
 
 # =============================================================================
 # DATA LOADING
@@ -390,6 +395,9 @@ def train(
         "load_best_model_at_end": True,
         "metric_for_best_model": "eval_loss",
         "greater_is_better": False,
+        "dataloader_num_workers": train_config.dataloader_num_workers,
+        "dataloader_pin_memory": train_config.dataloader_pin_memory,
+        "dataloader_prefetch_factor": train_config.dataloader_prefetch_factor,
     }
     
     # Add version-specific parameters

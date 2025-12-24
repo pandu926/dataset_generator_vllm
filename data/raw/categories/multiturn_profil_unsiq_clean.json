@@ -1,0 +1,1917 @@
+[
+  {
+    "id": "PI01",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya nama resmi dan tahun berdiri UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin menanyakan, apa nama resmi dari Universitas Sains Al-Qur'an ini? Saya ingin memastikan untuk pendaftaran anak saya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks for the official name of UNSIQ. 2. Retrieve: The official name is Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah. 3. Answer: Provide the official name.",
+        "content": "Baik. Nama resmi universitas ini adalah Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Lalu, kapan ya universitas ini didirikan? Saya ingin tahu sejarahnya sedikit."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the year UNSIQ was founded. 2. Retrieve: UNSIQ was founded in 2001 (SK Mendiknas No. 87/D/O/2001 tanggal 10 Juli 2001). 3. Answer: Provide the year and the related decree.",
+        "content": "UNSIQ didirikan pada tahun 2001 berdasarkan SK Mendiknas No. 87/D/O/2001 tanggal 10 Juli 2001."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak atas informasinya. Semoga anak saya bisa menjadi bagian dari UNSIQ."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User expresses gratitude and hope for their child's admission. 2. Retrieve: No specific information to retrieve. 3. Answer: Provide a polite closing statement.",
+        "content": "Tentu. Semoga harapan Anda terwujud. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami."
+      }
+    ]
+  },
+  {
+    "id": "PI02",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya lokasi kampus UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Sugeng rawuh! Mosoh kampus UNSIQ nembak Wingi, tanggonan e nang endi ta? Wis murah tah kuliah nang kono?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the location of UNSIQ and if tuition is affordable. 2. Retrieve: The location is Wonosobo, Jawa Tengah. No information on tuition costs or scholarships is provided. 3. Answer:  Baik. Kampus UNSIQ terletak di Wonosobo, Jawa Tengah. Informasi mengenai biaya kuliah dapat Anda temukan di website kami."
+      },
+      {
+        "role": "user",
+        "content": "Loh, terus website e wonten endi? Kula ndelok beasiswa wonten ta?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for the website address and if there are scholarships available. 2. Retrieve: The website is unsiq.ac.id. No information on scholarships is provided. 3. Answer: Tentu. Anda dapat mengunjungi website UNSIQ di unsiq.ac.id.  Saat ini, informasi mengenai beasiswa belum tersedia di sini. Silakan periksa website secara berkala."
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun! Nggih, kula badhe ndelok. Rektor e sapa ta saiki?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the current Rector. 2. Retrieve: The Rector is Dr. H. Zaenal Sukawi, M.A. 3. Answer: Berikut informasinya. Rektor UNSIQ saat ini adalah Dr. H. Zaenal Sukawi, M.A."
+      }
+    ]
+  },
+  {
+    "id": "PI03",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya siapa rektor UNSIQ saat ini",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin bertanya, siapa rektor Universitas Sains Al-Qur'an (UNSIQ) saat ini? Saya khawatir dengan putra saya yang akan kuliah di sana."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for the current rector of UNSIQ and expressing concern about their child attending. 2. Retrieve: According to the provided context, the rector is Dr. H. Zaenal Sukawi, M.A. 3. Answer: Provide the rector's name and acknowledge the user's concern.",
+        "content": "Waalaikumsalam. Rektor Universitas Sains Al-Qur'an (UNSIQ) saat ini adalah Dr. H. Zaenal Sukawi, M.A. Semoga putra Anda mendapatkan pengalaman belajar yang baik di UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Apakah universitas ini sudah terakreditasi? Saya ingin memastikan putra saya mendapatkan pendidikan yang berkualitas."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the university's accreditation. 2. Retrieve: The context states that UNSIQ is accredited according to BAN-PT standards. 3. Answer: Confirm the accreditation status.",
+        "content": "Baik. UNSIQ telah terakreditasi sesuai standar BAN-PT. Hal ini menjamin kualitas pendidikan yang diberikan."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu melegakan. Bisakah Anda juga memberikan informasi kontak UNSIQ?  Saya mungkin perlu menghubungi mereka terkait asrama dan biaya kuliah."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user requests contact information for UNSIQ, specifically regarding dorms and tuition fees. 2. Retrieve: The context provides a website, email, and telephone number. 3. Answer: Provide the contact details.",
+        "content": "Tentu. Berikut informasinya: \n1. Website: unsiq.ac.id \n2. Email: info@unsiq.ac.id \n3. Telepon: (0286) 321873. Anda dapat menghubungi mereka untuk informasi lebih lanjut mengenai asrama dan biaya kuliah."
+      }
+    ]
+  },
+  {
+    "id": "PI04",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya jenis universitas UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya lihat UNSIQ ini unik, transformatif, humanis, dan Qur'ani. Bisa tolong dijelaskan lebih detail, jenis universitas seperti apa sebenarnya UNSIQ ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a transfer student and wants to know the type of university UNSIQ is. 2. Retrieve: The context states UNSIQ is 'Transformatif, Humanis, dan Qur'ani'. 3. Answer: Provide the information concisely and formally."
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ merupakan universitas dengan tiga karakteristik utama: transformatif, humanis, dan Qur'ani. Ini menunjukkan pendekatan pembelajaran yang berfokus pada perubahan positif, pengembangan potensi manusia secara holistik, dan landasan nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Oh begitu. Apakah ada informasi lain mengenai akreditasi UNSIQ? Saya perlu memastikan apakah ijazah saya nanti akan diakui oleh lembaga lain."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about UNSIQ's accreditation. 2. Retrieve: The context states UNSIQ is 'Terakreditasi sesuai standar BAN-PT'. 3. Answer: Provide the accreditation information concisely."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ terakreditasi sesuai standar BAN-PT. Informasi lebih lanjut mengenai akreditasi dapat Anda periksa melalui website resmi UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, siapa yang menjabat sebagai Rektor saat ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the current Rector. 2. Retrieve: The context states the Rector is 'Dr. H. Zaenal Sukawi, M.A.'. 3. Answer: Provide the Rector's name concisely."
+      },
+      {
+        "role": "model",
+        "content": "Rektor UNSIQ saat ini adalah Dr. H. Zaenal Sukawi, M.A."
+      }
+    ]
+  },
+  {
+    "id": "PI05",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya status akreditasi UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik untuk mendaftar di UNSIQ. Bisakah Anda memberikan informasi mengenai status akreditasi universitas ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about UNSIQ's accreditation status. 2. Retrieve: The context states that UNSIQ is 'Terakreditasi sesuai standar BAN-PT'. 3. Answer: Provide the accreditation information concisely.",
+        "content": "Baik. Universitas Sains Al-Qur'an (UNSIQ) terakreditasi sesuai standar BAN-PT."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Apakah ada informasi lebih lanjut mengenai reputasi UNSIQ di tingkat internasional?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is inquiring about UNSIQ's international reputation. 2. Retrieve: The provided context does not contain information about UNSIQ's international reputation. 3. Answer: Acknowledge the question and state that this information is not available in the provided data.",
+        "content": "Mohon maaf, informasi mengenai reputasi UNSIQ di tingkat internasional tidak tersedia dalam data yang saya miliki saat ini."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Lalu, bagaimana dengan informasi mengenai rektor saat ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking for the current rector's name. 2. Retrieve: The context states that the rector is Dr. H. Zaenal Sukawi, M.A. 3. Answer: Provide the rector's name.",
+        "content": "Berikut informasinya, Rektor UNSIQ saat ini adalah Dr. H. Zaenal Sukawi, M.A."
+      }
+    ]
+  },
+  {
+    "id": "PS01",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya sejarah singkat berdirinya UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "UNSIQ itu awalnya kapan sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User wants to know the history of UNSIQ. 2. Retrieve: The context provides a timeline of UNSIQ's formation. 3. Answer: Briefly state the year UNSIQ was formed and the merging of institutions.",
+        "content": "UNSIQ dibentuk pada tahun 2001 melalui peleburan tiga lembaga sebelumnya."
+      },
+      {
+        "role": "user",
+        "content": "Tiga lembaga apa aja yang dilebur?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the three institutions that merged. 2. Retrieve: The 'Asal-usul UNSIQ' section lists IIQ, AKPER, and STIE. 3. Answer: Provide a numbered list of the three institutions.",
+        "content": "Berikut informasinya:\n1. IIQ (Institut Ilmu Al-Qur'an)\n2. AKPER (Akademi Keperawatan)\n3. STIE (Sekolah Tinggi Ilmu Ekonomi)"
+      },
+      {
+        "role": "user",
+        "content": "Terus, sebelum UNSIQ itu, kapan masing-masing lembaga berdiri?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the establishment dates of the predecessor institutions. 2. Retrieve: The timeline provides the years for YIIQ, IIQ, AKPER, and STIE. 3. Answer: Provide the dates of IIQ, AKPER, and STIE.",
+        "content": "Masing-masing lembaga berdiri sebagai berikut:\n1. IIQ: 1988\n2. AKPER: 1996\n3. STIE: 1999"
+      }
+    ]
+  },
+  {
+    "id": "PS02",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya asal-usul 3 lembaga yang bergabung menjadi UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, saya ingin menanyakan tentang UNSIQ. Saya dengar UNSIQ terbentuk dari beberapa lembaga sebelumnya. Lembaga-lembaga apa saja yang bergabung membentuk UNSIQ, dan kapan mereka berdiri?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the origins of UNSIQ and the institutions that merged to form it, including their founding years. 2. Retrieve: The provided context details the three institutions: IIQ, AKPER, and STIE-YPIIQ, and their establishment years. 3. Answer: Provide the information in a numbered list, maintaining a formal and concise tone.",
+        "content": "Waalaikumsalam. Tentu, berikut informasinya:\n1. IIQ (Institut Ilmu Al-Qur'an) berdiri tahun 1988 sebagai Fakultas Tarbiyah & Dakwah.\n2. AKPER (Akademi Keperawatan) berdiri tahun 1996, menawarkan program D3 Keperawatan & Kebidanan.\n3. STIE (Sekolah Tinggi Ilmu Ekonomi) berdiri tahun 1999, dengan program S1 Manajemen, Akuntansi, dan D3 Manajemen Informatika."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Lalu, kapan tepatnya ketiga lembaga ini resmi menjadi satu dan membentuk UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about the year of UNSIQ's formation. 2. Retrieve: The timeline indicates that UNSIQ was formed in 2001 through the merger of the three institutions. 3. Answer: Respond directly with the year and maintain a formal tone.",
+        "content": "Ketiga lembaga tersebut resmi bergabung membentuk UNSIQ pada tahun 2001."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas penjelasannya. Informasi ini sangat membantu bagi saya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User expresses gratitude. 2. Retrieve: No specific information needed. 3. Answer: Acknowledge the user's thanks and offer further assistance.",
+        "content": "Sama-sama. Apabila ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PS03",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya kapan IIQ, AKPER, dan STIE didirikan",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, IIQ, AKPER, sama STIE itu didirikan kapan ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User wants to know the founding years of IIQ, AKPER, and STIE. 2. Retrieve: The context provides the founding years for each institution. 3. Answer: Provide the years in a numbered list."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. IIQ (Institut Ilmu Al-Qur'an) didirikan tahun 1988.\n2. AKPER (Akademi Keperawatan) didirikan tahun 1996.\n3. STIE (Sekolah Tinggi Ilmu Ekonomi) didirikan tahun 1999."
+      },
+      {
+        "role": "user",
+        "content": "Oh, oke. Terus UNSIQ sendiri kapan dibentuk?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User wants to know when UNSIQ was formed. 2. Retrieve: The context states that UNSIQ was formed in 2001 as a merger of three institutions. 3. Answer: Provide the year and briefly mention it was a merger."
+      },
+      {
+        "role": "model",
+        "content": "UNSIQ dibentuk pada tahun 2001 melalui peleburan dari IIQ, AKPER, dan STIE."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, sebelum 2001 itu mereka berdiri sendiri-sendiri ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User confirms if the institutions operated independently before the merger. 2. Retrieve: The timeline and origin information confirms this. 3. Answer: Affirm the user's statement."
+      },
+      {
+        "role": "model",
+        "content": "Benar, sebelum tahun 2001, IIQ, AKPER, dan STIE berdiri sebagai lembaga yang terpisah."
+      }
+    ]
+  },
+  {
+    "id": "PS04",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya dasar hukum pendirian UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Sugeng rawuh, kula badhe nggih pripun latar mburi pendirian UNSIQ wonten punika?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the history/foundation of UNSIQ. 2. Retrieve: The context provides a timeline and origin information. 3. Answer: Provide the timeline and origins of UNSIQ."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User seems interested in the establishment details. 2. Retrieve: Timeline and origin information from the context. 3. Answer: Elaborate on the origins and the merging of institutions."
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ didirikan pada tahun 2001 melalui penggabungan tiga lembaga, yaitu:\n1. Institut Ilmu Al-Qur'an (IIQ) yang berdiri tahun 1988, sebagai Fakultas Tarbiyah & Dakwah.\n2. Akademi Keperawatan (AKPER) yang berdiri tahun 1996, dengan program D3 Keperawatan & Kebidanan.\n3. STIE-YPIIQ yang berdiri tahun 1999, dengan program S1 Manajemen, Akuntansi, dan D3 Manajemen Informatika.\nSebelumnya, Yayasan Ilmu-Ilmu Al-Qur'an (YIIQ) didirikan pada tahun 1987 sebagai dasar dari lembaga-lembaga tersebut."
+      },
+      {
+        "role": "user",
+        "content": "Nggih, matur nuwun. Kadosipun wonten beasiswa kados ta? Kula kepenginan kuliah nanging sakedik kathah.\n"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User has shifted to inquire about scholarships, indicating a financial constraint. 2. Retrieve: The provided context does not contain information about scholarships. 3. Answer: Acknowledge the request and state the lack of scholarship information in the provided context."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai beasiswa tidak tersedia dalam dokumen ini. Anda dapat mengunjungi website resmi UNSIQ atau menghubungi bagian administrasi untuk informasi lebih lanjut mengenai program beasiswa yang tersedia."
+      }
+    ]
+  },
+  {
+    "id": "PT01",
+    "category": "profil_unsiq",
+    "stage": "tokoh",
+    "scenario": "User tanya siapa pendiri utama UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Sugeng rawuh! Tak kepenak tenan, kula badhe nambah elmu. Siapa ya, sing ngadegake UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the founder of UNSIQ and uses Javanese greetings, indicating a local persona. 2. Retrieve: According to the provided text, K.H. Muntaha Al-Hafidz is the 'Pendiri Utama' (Main Founder) of UNSIQ. 3. Answer: I will respond formally, identifying K.H. Muntaha as the main founder."
+      },
+      {
+        "role": "model",
+        "content": "Baik. K.H. Muntaha Al-Hafidz adalah pendiri utama UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Lha, jenenge kakehan. Niki Mbah Muntaha niki nderek sapa wae?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about other founders alongside K.H. Muntaha. 2. Retrieve: The text lists four 'Pendiri Bersama' (Co-founders) known as the 'Empat Pilar' (Four Pillars). 3. Answer: I will list the co-founders and their roles."
+      },
+      {
+        "role": "model",
+        "content": "Berikut adalah pendiri bersama UNSIQ, yang dikenal sebagai Empat Pilar:\n1. Kyai & Pesantren: K.H. Muntaha (nilai spiritual, ilmu agama)\n2. Birokrasi & Pemerintah: Drs. H. Poedjihardjo (kebijakan, dukungan pemerintah)\n3. Dunia Usaha: A. Halimi (finansial, infrastruktur)\n4. Akademisi: Drs. Karseno (ilmu pengetahuan, metodologi)"
+      },
+      {
+        "role": "user",
+        "content": "Wah, akeh tenan. Kadosmana ya, jenenge Bapak Poedjihardjo niki?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about Drs. H. Poedjihardjo’s contribution. 2. Retrieve: The provided text states that Drs. H. Poedjihardjo contributed through policy and government support. 3. Answer: I will concisely state his contribution."
+      },
+      {
+        "role": "model",
+        "content": "Drs. H. Poedjihardjo berkontribusi dalam bidang kebijakan dan dukungan pemerintah."
+      }
+    ]
+  },
+  {
+    "id": "PT02",
+    "category": "profil_unsiq",
+    "stage": "tokoh",
+    "scenario": "User tanya tentang K.H. Muntaha Al-Hafidz",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya sangat khawatir mengirim anak saya ke UNSIQ. Bisa tolong ceritakan siapa pendirinya? Apakah beliau orang yang bisa diandalkan untuk membimbing anak-anak di sana?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is anxious about sending their child to UNSIQ and asks about the founder, implying a concern for guidance and reliability. 2. Retrieve: Information about K.H. Muntaha Al-Hafidz is available. 3. Answer: Respond with information about K.H. Muntaha, highlighting his roles as an educator and a charismatic religious figure."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User has asked about the founder. 2. Retrieve: K.H. Muntaha's details. 3. Answer: Provide concise information about K.H. Muntaha's background and roles."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Berikut informasinya mengenai K.H. Muntaha Al-Hafidz, pendiri utama UNSIQ: Beliau lahir tahun 1912 dan wafat tahun 2004. K.H. Muntaha memiliki peran penting sebagai berikut: \n1. Militer: Terlibat dalam pembuatan bambu runcing melawan penjajah.\n2. Politisi: Aktif dalam kepemimpinan masyarakat.\n3. Pendidik: Memiliki dedikasi tinggi dalam bidang pendidikan.\n4. Kyai Kharismatik: Merupakan tokoh agama yang berpengaruh luas. Beliau diharapkan dapat memberikan bimbingan spiritual dan moral yang baik bagi mahasiswa."
+      },
+      {
+        "role": "user",
+        "content": "Wah, hebat sekali beliau! Apakah ada tokoh lain yang mendirikan UNSIQ bersama beliau? Saya ingin tahu siapa saja yang terlibat dalam membangun UNSIQ ini."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about co-founders. 2. Retrieve: Information about the four pillars of UNSIQ's founders. 3. Answer: Present the information in a concise, numbered list."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Selain K.H. Muntaha, terdapat empat pilar pendiri bersama UNSIQ: \n1. Kyai & Pesantren: K.H. Muntaha (nilai spiritual, ilmu agama).\n2. Birokrasi & Pemerintah: Drs. H. Poedjihardjo (kebijakan, dukungan pemerintah).\n3. Dunia Usaha: A. Halimi (finansial, infrastruktur).\n4. Akademisi: Drs. Karseno (ilmu pengetahuan, metodologi)."
+      },
+      {
+        "role": "user",
+        "content": "Drs. H. Poedjihardjo ini siapa ya? Beliau berperan apa saja dalam pendirian UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks for more details about Drs. H. Poedjihardjo. 2. Retrieve: His role as Bupati and his contribution to UNSIQ. 3. Answer: Provide a concise explanation of his role."
+      },
+      {
+        "role": "model",
+        "content": "Drs. H. Poedjihardjo adalah seorang Bupati yang berperan sebagai pilar Birokrasi & Pemerintah dalam pendirian UNSIQ. Kontribusinya meliputi kebijakan dan dukungan pemerintah untuk pengembangan UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "PT03",
+    "category": "profil_unsiq",
+    "stage": "tokoh",
+    "scenario": "User tanya konsep 4 pilar pendiri UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sebentar lagi akan masuk UNSIQ, dan saya sedikit khawatir. Saya dengar ada konsep 4 pilar pendiri UNSIQ. Bisakah Anda menjelaskan secara rinci apa itu 4 pilar tersebut dan bagaimana mereka berkontribusi terhadap UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent inquiring about the four pillars of UNSIQ's founders. 2. Retrieve: The context provides information about the four pillars and their respective contributors. 3. Answer: I will explain the four pillars and their contributions in a concise, formal manner.",
+        "content": "Waalaikumsalam. Tentu, berikut informasinya mengenai 4 Pilar Pendiri UNSIQ:\n1. **Kyai & Pesantren:** K.H. Muntaha memberikan nilai spiritual dan ilmu agama.\n2. **Birokrasi & Pemerintah:** Drs. H. Poedjihardjo (Bupati) memberikan dukungan kebijakan dan pemerintah.\n3. **Dunia Usaha:** A. Halimi berkontribusi dalam hal finansial dan infrastruktur.\n4. **Akademisi:** Drs. Karseno memberikan ilmu pengetahuan dan metodologi."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. K.H. Muntaha, saya dengar beliau adalah tokoh yang sangat berpengaruh. Apa peran beliau selain sebagai Kyai dan dalam konteks pesantren?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about K.H. Muntaha's other roles beyond Kyai and pesantren leader. 2. Retrieve: The context mentions his roles as a military figure, politician, and educator. 3. Answer: I will list his other roles.",
+        "content": "K.H. Muntaha Al-Hafidz memiliki peran penting lainnya. Beliau dikenal sebagai:\n1. Seorang militer yang membuat bambu runcing untuk melawan penjajah.\n2. Politisi yang aktif dalam kepemimpinan masyarakat.\n3. Pendidik yang berdedikasi tinggi."
+      },
+      {
+        "role": "user",
+        "content": "Wah, ternyata beliau sangat berjasa. Apakah ada informasi mengenai bagaimana kontribusi A. Halimi, dari dunia usaha, membantu perkembangan fisik kampus UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is specifically asking about A. Halimi’s contribution to the physical development of the campus. 2. Retrieve: The context states A. Halimi contributed to ‘infrastruktur.’ 3. Answer: I will reiterate that Halimi provided infrastructural support.",
+        "content": "A. Halimi berkontribusi dalam hal finansial dan infrastruktur. Dukungan infrastrukturnya sangat membantu dalam pembangunan fisik kampus UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "PT04",
+    "category": "profil_unsiq",
+    "stage": "tokoh",
+    "scenario": "User tanya siapa saja tokoh pendiri selain Mbah Muntaha",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Sugeng rawuh! Tak kepenak tenan. Mbah Muntaha iku tokoh gedhe, lho. Nggih, kula ndadoske kepiye ngatur pendiri UNSIQ liyane? Kados, sapa wae, Nggih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the co-founders of UNSIQ besides K.H. Muntaha. The user uses Javanese language (sugeng rawuh, tak kepenak tenan, Nggih). 2. Retrieve: The context lists four co-founders as 'Pilar' with their names and contributions. 3. Answer: Provide the names of the co-founders in a numbered list, maintaining a formal tone and acknowledging the user's question."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User thanks for the information and asks about the details of Drs. Karseno. 2. Retrieve: The context provides the role and contribution of Drs. Karseno. 3. Answer: Briefly summarize Drs. Karseno's contribution to UNSIQ."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. K.H. Muntaha (Kyai & Pesantren): Nilai spiritual, ilmu agama\n2. Drs. H. Poedjihardjo (Birokrasi & Pemerintah): Kebijakan, dukungan pemerintah\n3. A. Halimi (Dunia Usaha): Finansial, infrastruktur\n4. Drs. Karseno (Akademisi): Ilmu pengetahuan, metodologi"
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun, Gus! Nggih, Drs. Karseno iki kok nduweni andhil apa bae, Nggih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the contribution of Drs. Karseno. 2. Retrieve: The context specifies that Drs. Karseno's contribution is in 'Ilmu pengetahuan, metodologi'. 3. Answer: Provide a concise answer about Drs. Karseno's contribution."
+      },
+      {
+        "role": "model",
+        "content": "Drs. Karseno memberikan kontribusi dalam bidang ilmu pengetahuan dan metodologi."
+      },
+      {
+        "role": "user",
+        "content": "Luwes, matur nuwun sanget. Kula kepiye ya, nggih, yen arek kuliah nang UNSIQ, biyaya e napa, Nggih? Kula kepengin nggih beasiswa."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is now asking about tuition fees and scholarships at UNSIQ. This question is outside the provided context. 2. Retrieve: There is no information about tuition fees or scholarships in the provided context. 3. Answer: Acknowledge the question, state that the information is not available in the provided context, and suggest where the user might find the information."
+      },
+      {
+        "role": "model",
+        "content": "Maaf, informasi mengenai biaya kuliah dan beasiswa tidak tersedia dalam dokumen ini. Anda dapat mengunjungi situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa baru untuk mendapatkan informasi lebih lanjut."
+      }
+    ]
+  },
+  {
+    "id": "PV01",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya visi UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya kurang paham mengenai visi UNSIQ ini. Bisa dijelaskan secara singkat apa visi dari Universitas Sains Al-Qur'an?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is a transfer student and asks for a concise explanation of UNSIQ's vision. 2. Retrieve: The vision statement is provided in the context. 3. Answer: Provide a brief, formal explanation of the vision."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for more detail about the components of the vision. 2. Retrieve: The vision statement details five areas of excellence. 3. Answer: List the components of the vision in a numbered format."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Visi Universitas Sains Al-Qur'an adalah mengembangkan Sumber Daya Manusia (SDM) Unggul yang unggul dalam lima aspek."
+      },
+      {
+        "role": "user",
+        "content": "Lima aspek apa saja itu? Apakah bisa dijabarkan sedikit?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants a breakdown of the five aspects of the vision. 2. Retrieve: The vision statement lists the five aspects. 3. Answer: Provide a numbered list of the five aspects."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. Unggul dalam ilmu pengetahuan dan teknologi\n2. Unggul dalam budi pekerti dan nilai-nilai moral\n3. Unggul dalam nurani dan spiritualitas\n4. Sehat dan kuat secara fisik maupun mental\n5. Siap berkontribusi untuk Indonesia hebat dan peradaban dunia bermartabat"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Apakah visi ini tercermin dalam kurikulum yang diterapkan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking if the vision is reflected in the curriculum. 2. Retrieve: The characteristics section mentions 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. This suggests integration of the vision. 3. Answer: Briefly state how the vision is integrated into the curriculum based on the provided information."
+      },
+      {
+        "role": "model",
+        "content": "Ya, visi tersebut tercermin dalam kurikulum. UNSIQ menerapkan pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern, dengan konsep 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'."
+      }
+    ]
+  },
+  {
+    "id": "PV02",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya misi UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin menanyakan mengenai misi Universitas UNSIQ. Sebagai orang tua, saya sangat ingin mengetahui bagaimana universitas ini membentuk karakter anak-anak kami. Bisakah Anda jelaskan secara rinci?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent concerned about character development. 2. Retrieve: The provided text outlines UNSIQ's mission. 3. Answer: Provide the mission statement, emphasizing the moral and spiritual aspects.",
+        "content": "Waalaikumsalam. Tentu. Misi Universitas Sains Al-Qur’an (UNSIQ) adalah: 1. Menyelenggarakan pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern, dan 2. Mengembangkan mahasiswa menjadi insan berpengetahuan luas dan bermoral tinggi. Fokusnya adalah pada pembentukan karakter yang kuat melalui nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu sangat melegakan. Apakah ada program khusus yang diterapkan untuk mencapai misi tersebut? Saya khawatir tentang lingkungan belajar yang aman dan kondusif bagi perkembangan spiritual anak-anak."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is specifically asking about programs and safety. While the context doesn't detail specific programs, it highlights key characteristics. 2. Retrieve: The 'Karakteristik' section mentions 'Kuliah plus ngaji' and 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. 3. Answer: Respond with the characteristics mentioned, acknowledging the lack of specific program details.",
+        "content": "Berikut informasinya. UNSIQ memiliki karakteristik sebagai universitas TRANSFORMATIF, HUMANIS, dan QUR'ANI. Implementasi misi tersebut antara lain melalui program 'Kuliah plus ngaji', yang menggabungkan pembelajaran akademik dengan pengajian Al-Qur'an. Selain itu, terdapat pula pendekatan 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. Untuk informasi lebih detail mengenai program keamanan dan lingkungan belajar, silakan hubungi bagian kemahasiswaan."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Apakah ada informasi mengenai fasilitas asrama dan perkiraan biaya kuliah per tahunnya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is now inquiring about facilities and costs, shifting the focus. 2. Retrieve: The provided text doesn't contain information on asrama or biaya kuliah. 3. Answer: Acknowledge the lack of information and direct the user to the appropriate channels.",
+        "content": "Maaf, informasi mengenai fasilitas asrama dan perkiraan biaya kuliah per tahun tidak tersedia dalam dokumen ini. Anda dapat menemukan informasi tersebut di situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa baru untuk mendapatkan rincian lebih lanjut."
+      }
+    ]
+  },
+  {
+    "id": "PV03",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya karakteristik universitas UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin bertanya, apa saja karakteristik yang membedakan Universitas Sains Al-Qur'an dari universitas lain? Saya khawatir anak saya akan mendapatkan pendidikan yang komprehensif, baik ilmu pengetahuan maupun akhlaknya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent concerned about their child's education and character development. They want to know the distinguishing characteristics of UNSIQ. 2. Retrieve: The context outlines UNSIQ's characteristics as transformative, humanistic, and Qur'anic, with specifics like 'kuliah plus ngaji,' 'jadi mahasiswa plus santri,' and 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. 3. Answer: Provide a concise explanation of the key characteristics, addressing the parent's concerns about comprehensive education.",
+        "content": "Waalaikumsalam. Universitas Sains Al-Qur'an memiliki tiga karakteristik utama: transformatif, humanis, dan Qur'ani. Berikut penjelasannya:\n1. **Kuliah plus Ngaji:** Mahasiswa mendapatkan pendidikan ilmu pengetahuan modern sekaligus mendalami nilai-nilai Al-Qur'an.\n2. **Mahasiswa plus Santri:**  Lingkungan belajar yang menggabungkan suasana kampus dan pondok pesantren untuk membentuk karakter yang kuat.\n3. **Qur'anisasi Sains dengan Saintifikasi Al-Qur'an:** Integrasi ilmu Al-Qur'an dengan sains, serta penerapan sains dalam memahami Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu menarik. Apakah ada penekanan khusus pada pembentukan karakter dan akhlak mahasiswa di UNSIQ? Saya sangat berharap anak saya tumbuh menjadi pribadi yang berakhlak mulia."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is following up on the previous response and specifically inquiring about character development and moral values. 2. Retrieve: The vision statement highlights 'unggul dalam budi pekerti dan nilai-nilai moral.' The 'mahasiswa plus santri' characteristic also supports character development. 3. Answer: Reiterate the focus on character and values, referencing the vision and the unique student experience.",
+        "content": "Tentu. Pembentukan karakter dan akhlak mahasiswa menjadi prioritas utama. Visi UNSIQ mencita-citakan SDM unggul dalam budi pekerti dan nilai-nilai moral. Program 'mahasiswa plus santri' juga dirancang untuk membentuk karakter yang kuat dan berakhlak mulia melalui bimbingan dan lingkungan yang Islami."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Apakah ada informasi mengenai bagaimana UNSIQ memastikan kesehatan fisik dan mental mahasiswa? Sebagai orang tua, saya sangat peduli dengan hal itu."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is now concerned about the physical and mental well-being of students. 2. Retrieve: The vision statement explicitly mentions 'sehat dan kuat secara fisik maupun mental'.  While specifics are not provided in the context, it's important to acknowledge the statement. 3. Answer: Acknowledge the user's concern and refer to the vision statement, while indicating that specific details are not detailed in the provided context.",
+        "content": "Baik. Dalam visi UNSIQ, SDM unggul diharapkan sehat dan kuat secara fisik maupun mental. Informasi lebih detail mengenai program kesehatan fisik dan mental mahasiswa memerlukan penelusuran lebih lanjut. Namun, UNSIQ berkomitmen untuk menciptakan lingkungan yang mendukung kesejahteraan mahasiswa secara menyeluruh."
+      }
+    ]
+  },
+  {
+    "id": "PV04",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya apa maksud transformatif, humanis, qur'ani",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan UNSIQ. Saya ingin memahami lebih lanjut mengenai karakteristik universitas ini, terutama apa yang dimaksud dengan 'transformatif', 'humanis', dan 'Qur'ani'."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an ambitious student interested in UNSIQ's characteristics. 2. Retrieve: The context defines 'transformatif', 'humanis', and 'Qur'ani' as key characteristics. 3. Answer: I will concisely explain each characteristic based on the provided information.",
+        "content": "Baik. Berikut penjelasannya:\n1. **Transformatif:** UNSIQ berupaya menghasilkan lulusan yang mampu membawa perubahan positif bagi masyarakat dan bangsa.\n2. **Humanis:** Pendidikan di UNSIQ menitikberatkan pada pengembangan karakter manusia yang berakhlak mulia dan peduli terhadap sesama.\n3. **Qur'ani:** Integrasi nilai-nilai Al-Qur'an dalam seluruh aspek pendidikan dan pengajaran di UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana UNSIQ mengintegrasikan nilai-nilai Al-Qur'an dalam sains dan teknologi, seperti yang disebutkan dalam karakteristik 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for a specific example of how UNSIQ integrates Al-Qur'an with science. 2. Retrieve: The context mentions 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. 3. Answer: I will explain this concept briefly based on the given context.",
+        "content": "Tentu. 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' berarti UNSIQ mengintegrasikan nilai-nilai dan prinsip-prinsip Al-Qur'an dalam pengembangan ilmu pengetahuan dan teknologi, sekaligus menggunakan sains untuk memahami dan menafsirkan Al-Qur'an secara lebih mendalam."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada program khusus yang mendukung pengembangan spiritualitas mahasiswa selain kegiatan 'kuliah plus ngaji'?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about spiritual development programs beyond the 'kuliah plus ngaji' program. 2. Retrieve: The context mentions 'kuliah plus ngaji' and the vision of developing students with strong spirituality. 3. Answer: While the context doesn't detail other programs, I can reiterate the vision and refer to the overall aim.",
+        "content": "UNSIQ berfokus pada pengembangan nurani dan spiritualitas mahasiswa. Selain kegiatan 'kuliah plus ngaji', seluruh kurikulum dan lingkungan kampus dirancang untuk menumbuhkan nilai-nilai keagamaan dan moral yang kuat, sejalan dengan visi UNSIQ untuk menghasilkan SDM unggul dalam spiritualitas."
+      }
+    ]
+  },
+  {
+    "id": "PF01",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya fakultas apa saja yang ada di UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya ingin melanjutkan pendidikan tinggi di UNSIQ. Saya ingin tahu, fakultas apa saja yang tersedia di sana? Saya khawatir dia memilih jurusan yang tidak sesuai."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the faculties available at UNSIQ and expresses concern about their child's choice of major. 2. Retrieve: The context lists three faculties: Fakultas Tarbiyah dan Ilmu Pendidikan, Fakultas Ilmu Kesehatan, and Fakultas Ekonomi dan Bisnis. 3. Answer: Provide the list of faculties in a formal and concise manner."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the duration of the programs. 2. Retrieve: The context specifies the duration for D3, S1, and S2 programs. 3. Answer: Provide the program durations clearly."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. UNSIQ memiliki tiga fakultas, yaitu: \n1. Fakultas Tarbiyah dan Ilmu Pendidikan\n2. Fakultas Ilmu Kesehatan\n3. Fakultas Ekonomi dan Bisnis\nBerikut informasinya mengenai jenjang pendidikan yang tersedia:\n1. D3 (Diploma Tiga) – 3 tahun\n2. S1 (Sarjana) – 4 tahun\n3. S2 (Pascasarjana) – 2-3 tahun"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, berapa lama biasanya masa studi untuk setiap jenjang? Saya ingin memastikan dia bisa menyelesaikan kuliah tepat waktu."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the duration of studies for each academic level. 2. Retrieve: The context explicitly states the duration for D3, S1, and S2 programs. 3. Answer: Provide the program durations clearly, reiterating the information already given."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Masa studi untuk setiap jenjang adalah sebagai berikut:\n1. D3 (Diploma Tiga): 3 tahun\n2. S1 (Sarjana): 4 tahun\n3. S2 (Pascasarjana): 2-3 tahun"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas informasinya. Satu lagi, apakah ada program studi yang menawarkan beasiswa untuk mahasiswa baru?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about scholarship opportunities for new students. 2. Retrieve: The provided context does *not* contain information about scholarships. 3. Answer: Acknowledge the question and state that the information is not available in the provided context. Suggest they contact the admissions office for more details."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Informasi mengenai beasiswa untuk mahasiswa baru tidak tersedia dalam dokumen ini. Kami sarankan Anda menghubungi Bagian Penerimaan Mahasiswa Baru UNSIQ untuk mendapatkan informasi lebih lanjut."
+      }
+    ]
+  },
+  {
+    "id": "PF02",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya program studi di Fakultas Kesehatan",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, Fakultas Kesehatan punya program studi apa aja sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about programs in the Faculty of Health Sciences. 2. Retrieve: The context lists D3 Keperawatan, D3 Kebidanan, S1 Keperawatan, and S1 Kebidanan under Fakultas Ilmu Kesehatan. 3. Answer: Provide the list of programs in a numbered format."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User confirms interest in Nursing. 2. Retrieve: Nursing is offered as both D3 and S1 programs. 3. Answer: Briefly explain the duration of each program."
+      },
+      {
+        "role": "user",
+        "content": "Oh, nursing ada D3 sama S1 ya? Lamanya berapa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the duration of the D3 and S1 Nursing programs. 2. Retrieve: D3 programs are 3 years and S1 programs are 4 years. 3. Answer: Provide the duration for both programs."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. D3 Keperawatan: 3 tahun\n2. S1 Keperawatan: 4 tahun"
+      },
+      {
+        "role": "user",
+        "content": "Oke, makasih ya!"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User thanks for the information. 2. Retrieve: No further information needed. 3. Answer: Provide a polite closing statement."
+      },
+      {
+        "role": "model",
+        "content": "Baik, senang bisa membantu. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PF03",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya program studi di Fakultas Ekonomi",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula badhe nggih pripun program studi wonten ing Fakultas Ekonomi Al-Qur'an? Kula kepengin kuliah, nanging budilipun mboten kemawon. Kadosda wonten beasiswa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about programs in the Faculty of Economics and Business, specifically mentioning financial constraints and interest in scholarships. 2. Retrieve: The Faculty of Economics and Business offers S1 Manajemen, S1 Akuntansi, and D3 Manajemen Informatika. Information on scholarships is not directly provided in the context, but a general response acknowledging the possibility is appropriate. 3. Answer: Waalaikumsalam. Fakultas Ekonomi dan Bisnis UNSIQ memiliki tiga program studi: S1 Manajemen, S1 Akuntansi, dan D3 Manajemen Informatika. Informasi mengenai beasiswa dapat Anda peroleh melalui bagian kemahasiswaan."
+      },
+      {
+        "role": "user",
+        "content": "Lha, jenjang pendidikane wonten endak menawi D3? Nggih menawi D3, perkiraan biaya kuliah e nggih kadosda?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the duration of the D3 programs and the estimated tuition fees. 2. Retrieve: D3 programs last 3 years. Tuition fees are not listed. 3. Answer: Jenjang pendidikan D3 di UNSIQ berlangsung selama 3 tahun. Informasi mengenai perkiraan biaya kuliah dapat Anda peroleh melalui website resmi UNSIQ atau menghubungi bagian administrasi."
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun, pak. Kula badhe nyuwun informasi tambahan, saged mboten? Program S1 Akuntansi prospek kerjane kadosda?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the job prospects of the S1 Akuntansi program. 2. Retrieve: No information on job prospects is provided. 3. Answer: Informasi mengenai prospek kerja dari program studi S1 Akuntansi tidak tersedia dalam dokumen ini. Anda dapat mencari informasi tersebut melalui sumber lain, seperti website karir atau menghubungi alumni UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "PF04",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya jenjang pendidikan yang tersedia di UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik untuk melanjutkan studi di UNSIQ. Bisakah Anda informasikan mengenai jenjang pendidikan yang tersedia di universitas ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about available education levels at UNSIQ. 2. Retrieve: The context provides a list of available levels: D3, S1, and S2. 3. Answer: Provide the list of available levels in a formal and concise manner.",
+        "content": "Baik. UNSIQ menyediakan jenjang pendidikan sebagai berikut:\n1. D3 (Diploma Tiga) - 3 tahun\n2. S1 (Sarjana) - 4 tahun\n3. S2 (Pascasarjana) - 2-3 tahun"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Saya berencana mengambil program S1. Apakah ada program S1 di bidang ekonomi dan bisnis yang memiliki akreditasi A?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about S1 programs in economics/business with A accreditation. 2. Retrieve: The context lists S1 Manajemen, S1 Akuntansi, and D3 Manajemen Informatika under Fakultas Ekonomi dan Bisnis.  However, accreditation information is not provided. 3. Answer: State the relevant programs and acknowledge the lack of accreditation information.",
+        "content": "Tentu. Fakultas Ekonomi dan Bisnis memiliki program S1 Manajemen dan S1 Akuntansi. Mengenai informasi akreditasi, mohon merujuk pada website resmi UNSIQ untuk detail lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Apakah UNSIQ memiliki program pertukaran pelajar atau kerjasama dengan universitas asing untuk mahasiswa S1?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User inquires about international exchange programs or collaborations for S1 students. 2. Retrieve: The provided context does not mention international programs or collaborations. 3. Answer: Acknowledge the lack of information and direct the user to the official website.",
+        "content": "Berikut informasinya. Informasi mengenai program pertukaran pelajar atau kerjasama dengan universitas asing tidak tersedia dalam dokumen ini. Untuk informasi lebih lanjut, Anda dapat mengunjungi website resmi UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "PF05",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tertarik prodi Keperawatan, tanya informasinya",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula sawiji warga desa kados nggih punika. Kula badhe nambah elmu, nggih punika wonten prodi Keperawatan wonten UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is a local villager inquiring about the Nursing program (Keperawatan). They mention a desire for education and potentially affordability/scholarships. 2. Retrieve: Fakultas Ilmu Kesehatan offers D3 Keperawatan and S1 Keperawatan. Jenjang available are D3 (3 years) and S1 (4 years). No specific information about scholarships is provided in the context. 3. Answer:  Waalaikumsalam.  Tentu, UNSIQ memiliki program studi Keperawatan. Tersedia dua jenjang, yaitu D3 Keperawatan (3 tahun) dan S1 Keperawatan (4 tahun) di Fakultas Ilmu Kesehatan."
+      },
+      {
+        "role": "user",
+        "content": "Lha, menawi dipun lamparsani, wonten rego pambiyak kula nggih punika? Kula kepengken saged sakderengipun nampi beasiswa."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about tuition fees and expresses interest in scholarships. 2. Retrieve: The context does not provide tuition fee information or scholarship details. 3. Answer: Berikut informasinya: Untuk informasi biaya pambiyak, Anda dapat mengunjungi website resmi UNSIQ atau menghubungi bagian administrasi. Mengenai beasiswa, silakan periksa pengumuman beasiswa terbaru di website UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Nggih, matur nuwun. Kula badhe nyobi wonten websiteipun."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User thanks for the information and states they will check the website. 2. Retrieve: No further information needed. 3. Answer: Sama-sama. Semoga Anda mendapatkan informasi yang Anda butuhkan."
+      }
+    ]
+  },
+  {
+    "id": "PM01",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya apa itu program MBKM di UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya akan masuk UNSIQ, dan saya dengar ada program MBKM. Apakah program ini aman untuk anak-anak kami? Apakah ada biaya tambahan yang harus kami tanggung jika anak kami mengikuti program ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent concerned about safety and costs of the MBKM program. 2. Retrieve: The context mentions MBKM programs are fakultatif (optional) and implemented mandiri (independently) by students. It also mentions funding from various institutions.  No specific safety or cost details are provided. 3. Answer: Waalaikumussalam. Program Merdeka Belajar Kampus Merajar (MBKM) di UNSIQ bersifat fakultatif, artinya partisipasi sepenuhnya atas keinginan mahasiswa. Implementasinya bersifat mandiri. Informasi mengenai keamanan dan biaya program MBKM akan bervariasi tergantung jenis program yang dipilih. UNSIQ menyediakan berbagai program MBKM."
+      },
+      {
+        "role": "user",
+        "content": "Jenis-jenis program MBKM apa saja yang tersedia di UNSIQ? Apakah semua program tersebut aman dan terawasi dengan baik?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user asks for a list of MBKM programs and reiterates concern about safety and supervision. 2. Retrieve: The context lists 8 MBKM programs: Magang/Praktik Kerja, Asistensi Mengajar, Penelitian Akademik, Proyek Kemanusiaan, Wirausaha, Studi Independen, Pertukaran Pelajar, and Program Khusus Lainnya. It doesn't mention supervision details. 3. Answer: Berikut adalah 8 program MBKM yang tersedia di UNSIQ: 1. Magang/Praktik Kerja, 2. Asistensi Mengajar di Satuan Pendidikan, 3. Penelitian Akademik, 4. Proyek Kemanusiaan, 5. Wirausaha, 6. Studi Independen, 7. Pertukaran Pelajar (Mobilitas Mahasiswa), dan 8. Program Khusus Lainnya. Perlu diketahui bahwa setiap program memiliki tingkat pengawasan dan keamanan yang berbeda."
+      },
+      {
+        "role": "user",
+        "content": "Apakah UNSIQ memberikan beasiswa atau bantuan dana untuk program MBKM, mengingat program ini mungkin memerlukan biaya transportasi dan akomodasi?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about financial aid for the MBKM program, specifically mentioning transportation and accommodation costs. 2. Retrieve: The context states that MBKM programs are funded through grants from Kemenag, Kemendikbud, and other institutions. It does not explicitly mention scholarships or direct financial aid. 3. Answer: UNSIQ mendapatkan pendanaan untuk program MBKM melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lainnya. Informasi lebih lanjut mengenai kemungkinan beasiswa atau bantuan dana dapat Anda peroleh melalui bagian kemahasiswaan UNSIQ."
+      }
+    ]
+  },
+  {
+    "id": "PM02",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya skema 5-1-2 dalam MBKM",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik dengan program Merdeka Belajar Kampus Merdeka di UNSIQ. Bisakah Anda menjelaskan secara rinci mengenai skema 5-1-2 yang diterapkan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for details on the 5-1-2 scheme within the MBKM program. 2. Retrieve: The provided context defines the 5-1-2 scheme: 5 semesters of regular learning, 1 semester for Merdeka Belajar activities, and 2 subsequent semesters (or adjusted). 3. Answer: I will provide a concise explanation of the 5-1-2 scheme.",
+        "content": "Baik. Skema 5-1-2 dalam program Merdeka Belajar Kampus Merdeka (MBKM) terdiri dari: 5 semester pembelajaran reguler di kampus, 1 semester untuk kegiatan Merdeka Belajar, dan 2 semester berikutnya yang dapat disesuaikan."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Program Merdeka Belajar apa saja yang tersedia di UNSIQ dalam skema tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants to know the available MBKM programs within the 5-1-2 scheme. 2. Retrieve: The context lists 8 MBKM programs: Magang/Praktik Kerja, Asistensi Mengajar, Penelitian Akademik, Proyek Kemanusiaan, Wirausaha, Studi Independen, Pertukaran Pelajar, and Program Khusus Lainnya. 3. Answer: I will list the available programs.",
+        "content": "UNSIQ menyediakan 8 program MBKM, yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya"
+      },
+      {
+        "role": "user",
+        "content": "Apakah implementasi program-program tersebut bersifat wajib atau sukarela, dan bagaimana pendanaannya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the mandatory/optional nature of the programs and their funding sources. 2. Retrieve: The context states that implementation is independent, facultative (upon request), universiter (UNSIQ program), and funded through grants from Kemenag, Kemendikbud, and other institutions. 3. Answer: Provide the details on implementation and funding.",
+        "content": "Implementasi program bersifat mandiri oleh mahasiswa, fakultatif (atas permintaan), dan merupakan program universiter dari UNSIQ. Pendanaannya diperoleh melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lain."
+      }
+    ]
+  },
+  {
+    "id": "PM03",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya 8 program MBKM yang tersedia",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula mboten ngertos wonten program MBKM menawi wonten program murah, menawi wonten beasiswa, punika badhe dipun ginakaken. Program MBKM wonten endi kemawon wonten UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about MBKM programs, specifically those that are affordable or offer scholarships. They are using a mix of formal and local language (Javanese). 2. Retrieve: The context lists 8 MBKM programs and mentions that implementation can be through grants from various institutions. 3. Answer: I will list the 8 MBKM programs and mention the possibility of funding through grants."
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ memiliki 8 program Merdeka Belajar Kampus Merdeka (MBKM), yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya\n\nImplementasi program-program ini dapat didukung melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lainnya. Informasi mengenai beasiswa atau pendanaan akan disampaikan secara terpisah."
+      },
+      {
+        "role": "user",
+        "content": "Nggih, matur nuwun. Penelitian akademik punika kados ingkang bapak/ibu?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for more details about the Penelitian Akademik (Academic Research) program. 2. Retrieve: The context provides a list of programs but no details about each. I will state this limitation. 3. Answer: Briefly explain the program and state that further information is not available in the provided context."
+      },
+      {
+        "role": "model",
+        "content": "Penelitian Akademik merupakan salah satu program MBKM yang memungkinkan Anda untuk terlibat dalam kegiatan penelitian di bawah bimbingan dosen. Berikut informasinya. Namun, detail lebih lanjut mengenai program Penelitian Akademik tidak tersedia dalam dokumen ini."
+      },
+      {
+        "role": "user",
+        "content": "Sigh... nggih, lumarbiyos. Matur nuwun pinunasane."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is expressing understanding and thanking the AI for the information. 2. Retrieve: No further information is needed. 3. Answer: A polite closing statement."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PM04",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya cara mengikuti program magang MBKM",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sangat tertarik dengan program magang MBKM di UNSIQ. Saya khawatir dengan keselamatannya selama magang, apakah ada pengawasan dari pihak kampus? Dan bagaimana dengan biaya hidup dan akomodasinya? Apakah ada bantuan dari UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent inquiring about the safety, living expenses, and accommodation related to the MBKM internship program. 2. Retrieve: The context mentions MBKM programs are implemented mandiri (independently) by students and fakultatif (optional). It also states that Universiter programs are offered by UNSIQ and funded by grants. There's no direct mention of safety supervision or accommodation assistance. 3. Answer: Waalaikumussalam. Program magang/praktik kerja merupakan salah satu dari 8 program MBKM di UNSIQ. Implementasinya bersifat mandiri, namun UNSIQ menyediakan program universiter yang didanai melalui hibah kompetisi. Informasi lebih lanjut mengenai pendampingan dan dukungan biaya akan disampaikan setelah mahasiswa terpilih."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Apakah program universiter yang didanai hibah tersebut bisa membantu menutupi biaya transportasi dan akomodasi selama magang? Anak saya akan merasa lebih tenang jika ada kepastian mengenai hal ini."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is following up on the universiter program and specifically asking about covering transportation and accommodation costs. 2. Retrieve: The context mentions funding from Kemenag, Kemendikbud, and other institutions, but does not specify how the funds are allocated. 3. Answer: Berikut informasinya. Rincian pendanaan program universiter, termasuk potensi bantuan untuk transportasi dan akomodasi, akan diumumkan bersamaan dengan pengumuman penerima hibah. Kami berusaha semaksimal mungkin untuk memberikan dukungan yang diperlukan."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Satu lagi, bagaimana cara pendaftaran untuk program magang MBKM ini? Apakah ada persyaratan khusus yang harus dipenuhi?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the registration process and specific requirements for the MBKM internship program. 2. Retrieve: The context does not provide details on the registration process or specific requirements. 3. Answer: Tentu. Informasi mengenai pendaftaran dan persyaratan program magang MBKM akan diumumkan melalui website resmi UNSIQ dan pengumuman fakultas terkait. Kami sarankan Anda untuk memantau informasi tersebut secara berkala."
+      }
+    ]
+  },
+  {
+    "id": "PM05",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya apakah MBKM wajib atau opsional",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya masih agak bingung dengan sistem MBKM di sini. Apakah program Merdeka Belajar ini wajib diikuti oleh seluruh mahasiswa, atau ada yang bersifat opsional saja?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a transfer student and asks about the mandatory nature of the MBKM program. 2. Retrieve: The context states that MBKM implementation is 'Fakultatif (atas permintaan)' which means optional. 3. Answer: The program is optional for students."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Program Merdeka Belajar di UNSIQ bersifat fakultatif, atau atas permintaan mahasiswa. Implementasinya bersifat mandiri dan tidak wajib bagi seluruh mahasiswa."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Lalu, apa saja program-program yang termasuk dalam lingkup MBKM di UNSIQ ini? Apakah banyak pilihannya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the programs offered under MBKM. 2. Retrieve: The context lists 8 programs: Magang/Praktik Kerja, Asistensi Mengajar, Penelitian Akademik, Proyek Kemanusiaan, Wirausaha, Studi Independen, Pertukaran Pelajar, and Program Khusus Lainnya. 3. Answer: List the programs."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ menyediakan 8 program MBKM, yaitu: \n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya"
+      },
+      {
+        "role": "user",
+        "content": "Apakah program-program ini didanai oleh UNSIQ, atau ada sumber pendanaan lain?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is inquiring about the funding sources for the MBKM programs. 2. Retrieve: The context mentions funding through 'hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lain'. 3. Answer: Explain the funding sources."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Program MBKM di UNSIQ dapat didanai melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lainnya."
+      }
+    ]
+  },
+  {
+    "id": "PE01",
+    "category": "profil_unsiq",
+    "stage": "epistemologi",
+    "scenario": "User tanya pendekatan keilmuan UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula mboten ngertos bantos tenan. Universitas Sains Al-Qur'an niki pendekatan keilmuane kaya wonten ing nggih? Kula kepengin kuliah niki, nanging budil kula nggih kalih sakedhik. Beasiswa wonten nggih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about UNSIQ's scientific approach and inquires about scholarships due to limited funds. 2. Retrieve: The context describes UNSIQ's epistemology as 'Syajarah Al-Qur'an' which emphasizes harmony, synergy, and integration. It also implies holistic learning and integrated curriculum. No direct mention of scholarships, but affordability is a relevant concern. 3. Answer: Briefly explain the epistemology and mention the integrated curriculum. Acknowledge the affordability concern and direct them to information about scholarships."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for more details about the scholarship. 2. Retrieve: The provided text does not mention specific scholarship programs. 3. Answer: Acknowledge the lack of information in the provided text and suggest contacting the admissions office."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Pendekatan keilmuan UNSIQ dikenal dengan 'Syajarah Al-Qur'an,' yang menekankan tiga prinsip: harmoni, sinergi, dan integrasi. Ini berarti UNSIQ menyatukan berbagai perspektif ilmu, menciptakan sinergi antara pesantren dan universitas, serta mengintegrasikan kurikulum secara menyeluruh. Mengenai biaya, UNSIQ menyadari pentingnya aksesibilitas. Untuk informasi mengenai beasiswa, silakan hubungi kantor penerimaan mahasiswa."
+      },
+      {
+        "role": "user",
+        "content": "Luwes. Nggih, kula badhe matur, wonten program beasiswa khusus buat anak desa kaya kula nggih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is specifically asking about scholarships for village children. 2. Retrieve: The provided text does not mention specific scholarship programs. 3. Answer: Acknowledge the lack of information in the provided text and suggest contacting the admissions office."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai program beasiswa khusus belum tersedia dalam dokumen ini. Namun, kami sarankan Anda menghubungi kantor penerimaan mahasiswa UNSIQ untuk menanyakan informasi lebih lanjut mengenai beasiswa yang tersedia, termasuk kemungkinan beasiswa khusus untuk warga desa."
+      }
+    ]
+  },
+  {
+    "id": "PE02",
+    "category": "profil_unsiq",
+    "stage": "epistemologi",
+    "scenario": "User tanya apa itu Syajarah Al-Qur'an",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya ingin masuk UNSIQ, saya dengar ada konsep 'Syajarah Al-Qur'an'. Mohon dijelaskan, apa sebenarnya Syajarah Al-Qur'an itu? Saya khawatir, apakah ini akan membebani anak saya secara akademis?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent inquiring about 'Syajarah Al-Qur'an' and expresses concern about academic burden. 2. Retrieve: The context defines 'Syajarah Al-Qur'an' as 'Harmonisasi, Sinergi, dan Integrasi'. 3. Answer: Respond with the definition and reassure them without making promises about academic burden."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about harmonisasi. 2. Retrieve: Context defines harmonisasi as 'Menyatukan berbagai perspektif ilmu dan tradisi dalam kesatuan seimbang'. 3. Answer: Explain harmonisasi concisely."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Syajarah Al-Qur'an di UNSIQ merupakan konsep harmonisasi, sinergi, dan integrasi. Harmonisasi berarti menyatukan berbagai perspektif ilmu dan tradisi dalam kesatuan seimbang."
+      },
+      {
+        "role": "user",
+        "content": "Sinergi itu apa ya? Apakah anak saya akan kesulitan memadukan pesantren dan universitas? Saya khawatir ia akan kelelahan."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about 'sinergi' and expresses concern about balancing pesantren and university life. 2. Retrieve: Context defines sinergi as 'Menciptakan sinergi positif antara: Pesantren ↔ Universitas, Tradisi ↔ Modernitas, Spiritual ↔ Intelektual, Al-Qur'an ↔ Sains'. 3. Answer: Explain sinergi and reassure the user."
+      },
+      {
+        "role": "model",
+        "content": "Sinergi di UNSIQ berarti menciptakan hubungan positif antara berbagai elemen, seperti pesantren dan universitas, tradisi dan modernitas, spiritual dan intelektual. Tujuannya adalah untuk menghasilkan mahasiswa yang utuh secara intelektual dan spiritual. UNSIQ berusaha menyeimbangkan kedua aspek tersebut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, kalau integratif? Apakah kurikulumnya akan terintegrasi, dan bagaimana dampaknya terhadap pemahaman anak saya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about 'integratif' and its impact on the curriculum and their child's understanding. 2. Retrieve: Context defines integratif as 'Mengintegrasikan secara menyeluruh: Kurikulum terintegrasi, Pembelajaran holistik, Luaran mahasiswa utuh secara intelectual dan spiritual'. 3. Answer: Explain integration and its purpose."
+      },
+      {
+        "role": "model",
+        "content": "Integratif berarti UNSIQ mengintegrasikan berbagai aspek secara menyeluruh. Ini meliputi kurikulum terintegrasi, pembelajaran holistik, dan menghasilkan mahasiswa yang utuh secara intelektual dan spiritual. Dengan demikian, pemahaman anak Anda diharapkan lebih komprehensif."
+      }
+    ]
+  },
+  {
+    "id": "PE03",
+    "category": "profil_unsiq",
+    "stage": "epistemologi",
+    "scenario": "User tanya konsep harmonis-sinergis-integratif",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, UNSIQ itu konsepnya harmonis, sinergis, integratif itu maksudnya apa sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for a simple explanation of the core concepts of UNSIQ's epistemology. 2. Retrieve: The provided context defines these terms. 3. Answer: Berikut penjelasannya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for a more detailed explanation of 'sinergis'. 2. Retrieve: The context provides a list of pairings that exemplify synergy. 3. Answer: Sinergi di UNSIQ adalah menciptakan hubungan positif antara beberapa elemen."
+      },
+      {
+        "role": "user",
+        "content": "Terus, integratif itu diaplikasinya gimana di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants to know the practical application of the 'integratif' concept. 2. Retrieve: The context mentions integrated curriculum, holistic learning, and the development of well-rounded graduates. 3. Answer: Integrasi diterapkan melalui kurikulum terintegrasi, pembelajaran holistik, dan menghasilkan mahasiswa yang utuh secara intelektual dan spiritual."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, jadi semuanya saling berhubungan ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is confirming their understanding of the interconnectedness of the concepts. 2. Retrieve: All three concepts – harmonis, sinergis, and integratif – are designed to work together. 3. Answer: Tepat sekali. Ketiga konsep tersebut saling berhubungan dan mendukung satu sama lain."
+      }
+    ]
+  },
+  {
+    "id": "PK01",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya keunggulan kuliah di UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik untuk berkuliah di UNSIQ. Bisakah Anda menjelaskan keunggulan yang ditawarkan UNSIQ bagi para lulusannya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the advantages of graduating from UNSIQ. 2. Retrieve: The context details three advantages: specific expertise, competitive edge, and complementary skills. 3. Answer: I will provide these three advantages to the user in a numbered list.",
+        "content": "Baik. UNSIQ menawarkan tiga keunggulan bagi para lulusannya: \n1. Keunggulan Spesifik – Memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif – Mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif – Mampu melengkapi kebutuhan masyarakat."
+      },
+      {
+        "role": "user",
+        "content": "Selain keunggulan lulusan, apakah UNSIQ memiliki program atau inisiatif khusus untuk mendorong mahasiswa agar dapat berkiprah di kancah internasional?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User inquires about international opportunities for students. 2. Retrieve: The context mentions 'Perspektif qur'ani, kerjasama internasional' and 'Harmoni pesantren + universitas modern' suggesting a global outlook and potential collaborations. 3. Answer: I will highlight these aspects and mention the university's overall contribution to the world.",
+        "content": "Tentu. UNSIQ memiliki fokus pada kerjasama internasional dan menawarkan perspektif qur'ani yang relevan secara global. Selain itu, UNSIQ memiliki harmoni antara tradisi pesantren dan universitas modern, yang dapat membuka peluang berharga bagi Anda untuk berkontribusi pada dunia."
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana UNSIQ memastikan bahwa proses pengambilan keputusan di universitas didasarkan pada data, dan bagaimana ini menguntungkan mahasiswa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about data-driven decision making and its benefits for students. 2. Retrieve: The context mentions 'Sistem Data Terpadu' and 'Data-Driven Decision Making' as part of UNSIQ's digital transformation. 3. Answer: I will explain the existence of the system and its impact on continuous improvement.",
+        "content": "UNSIQ menerapkan transformasi digital dengan Sistem Data Terpadu dan Data-Driven Decision Making. Hal ini memungkinkan pengambilan keputusan berdasarkan data, yang pada gilirannya mendukung Continuous Improvement dan memastikan kualitas pendidikan yang terus meningkat bagi seluruh mahasiswa."
+      }
+    ]
+  },
+  {
+    "id": "PK02",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya 3 keunggulan lulusan UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, UNSIQ itu lulusannya punya kelebihan apa aja sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the advantages of UNSIQ graduates. 2. Retrieve: The context states three advantages: specific expertise, competitive edge, and complementary skills. 3. Answer:  Berikut informasinya: 1. Keahlian khusus di bidangnya, 2. Mampu bersaing di tingkat nasional/internasional, 3. Melengkapi kebutuhan masyarakat."
+      },
+      {
+        "role": "user",
+        "content": "Unsiqers Learning Spirit itu apa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User inquires about 'Unsiqers Learning Spirit'. 2. Retrieve: The context describes it as a unique identity of UNSIQ. 3. Answer: Unsiqers Learning Spirit (ULS) merupakan identitas unik dari UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, UNSIQ itu kayak gimana sih, pesantren atau universitas?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User wants to know if UNSIQ is a pesantren or a university. 2. Retrieve: The context mentions a harmony between pesantren and a modern university. 3. Answer: UNSIQ memadukan harmoni pesantren dan universitas modern."
+      },
+      {
+        "role": "user",
+        "content": "Oke, makasih ya!"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is thanking the AI. 2. Retrieve: No relevant information to respond to a thank you. 3. Answer: Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PK03",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya apa yang membedakan UNSIQ dengan kampus lain",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya khawatir mengirim anak saya ke universitas, terutama mengenai kualitas lulusannya. Apa yang membuat UNSIQ berbeda dari universitas lainnya? Saya ingin memastikan ia mendapatkan bekal yang terbaik untuk masa depannya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent concerned about the quality of graduates. 2. Retrieve: The context mentions three graduate advantages: specific expertise, competitive edge, and complementary skills. 3. Answer: I will highlight these advantages and briefly mention UNSIQ's unique identity.",
+        "content": "Waalaikumsalam. UNSIQ memiliki keunggulan yang membedakan lulusannya. Berikut informasinya: \n1. Keunggulan Spesifik: Lulusan memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif: Mereka mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif: Lulusan melengkapi kebutuhan masyarakat.\nSelain itu, UNSIQ memiliki identitas unik berupa Unsiqers Learning Spirit (ULS), harmoni antara pesantren dan universitas modern, serta memadukan tradisi dan modernitas."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu menarik. Lalu, bagaimana UNSIQ mempersiapkan mahasiswanya menghadapi era digital yang semakin maju? Saya ingin anak saya memiliki keterampilan yang relevan dengan perkembangan teknologi."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is interested in UNSIQ's digital transformation initiatives. 2. Retrieve: The context details UNSIQ's digital transformation through a Unified Data System, data-driven decision-making, and continuous improvement. 3. Answer: I will outline these initiatives.",
+        "content": "UNSIQ berkomitmen pada transformasi digital. Berikut adalah beberapa inisiatifnya:\n1. Sistem Data Terpadu: Memastikan pengelolaan data yang efisien.\n2. Data-Driven Decision Making: Pengambilan keputusan berdasarkan data yang akurat.\n3. Continuous Improvement: Peningkatan berkelanjutan dalam proses pembelajaran dan penelitian."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Saya juga ingin tahu, kontribusi apa yang diharapkan dari lulusan UNSIQ bagi bangsa dan dunia?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about UNSIQ's broader impact and the expected contributions of its graduates. 2. Retrieve: The context outlines contributions to students, society, the nation, and the world. 3. Answer: I will summarize these contributions.",
+        "content": "UNSIQ mengharapkan kontribusi signifikan dari lulusannya: \n1. Untuk Mahasiswa: Menghasilkan lulusan berkarakter kuat dan adaptif.\n2. Untuk Masyarakat: Melakukan pengabdian yang relevan dan pemberdayaan.\n3. Untuk Bangsa: Membentuk generasi pemimpin visioner.\n4. Untuk Dunia: Memberikan perspektif qur’ani dan mendorong kerjasama internasional."
+      }
+    ]
+  },
+  {
+    "id": "PK04",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya kontribusi UNSIQ untuk masyarakat",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan kontribusi UNSIQ bagi masyarakat. Bisakah Anda menjelaskan secara rinci mengenai hal tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User wants to know UNSIQ's societal contribution. 2. Retrieve: The context mentions 'Untuk Masyarakat: Pengabdian relevan, pemberdayaan'. 3. Answer: Provide a concise answer based on the retrieved information.",
+        "content": "Tentu. UNSIQ berkontribusi pada masyarakat melalui pengabdian yang relevan dan pemberdayaan."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada contoh konkret dari pengabdian yang relevan tersebut? Saya ingin memahami lebih jelas bagaimana UNSIQ memberikan dampak positif bagi masyarakat."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks for specific examples of societal contribution. 2. Retrieve: The provided context does not provide specific examples. It only states 'Pengabdian relevan, pemberdayaan'. 3. Answer: Acknowledge the lack of specific examples in the provided text and offer a general statement.",
+        "content": "Informasi mengenai contoh konkret pengabdian relevan tidak tersedia dalam dokumen ini. Namun, secara umum, UNSIQ bertujuan untuk memberikan kontribusi positif melalui pengembangan masyarakat yang berlandaskan nilai-nilai keislaman."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, bagaimana UNSIQ mempersiapkan mahasiswanya untuk memberikan kontribusi tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User inquires about how UNSIQ prepares students for societal contribution. 2. Retrieve: The context states 'Untuk Mahasiswa: Lulusan berkarakter kuat, adaptif'. 3. Answer: Relate student preparation to the stated outcome.",
+        "content": "UNSIQ mempersiapkan mahasiswa dengan membentuk karakter yang kuat dan kemampuan adaptasi yang tinggi, sehingga mereka siap memberikan kontribusi positif bagi masyarakat."
+      }
+    ]
+  },
+  {
+    "id": "PC01",
+    "category": "profil_unsiq",
+    "stage": "kontak",
+    "scenario": "User tanya website resmi UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin menanyakan alamat website resmi Universitas Sains Al-Qur'an. Mohon informasinya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for the official website address. 2. Retrieve: The context provides the official website: unsiq.ac.id. 3. Answer: Providing the website address in a formal tone."
+      },
+      {
+        "role": "model",
+        "content": "Baik, website resmi UNSIQ adalah unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Apakah terdapat portal khusus untuk pendaftaran mahasiswa baru di website tersebut?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about a portal for new student registration. 2. Retrieve: The context mentions a PMB portal: pmb.unsiq.ac.id. 3. Answer: Providing the portal address."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Portal pendaftaran mahasiswa baru dapat diakses melalui pmb.unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Baik. Jika saya memiliki pertanyaan lebih lanjut, apakah ada alamat email yang bisa saya hubungi?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is seeking contact information via email. 2. Retrieve: The context lists an email address: info@unsiq.ac.id. 3. Answer: Providing the email address."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya, Anda dapat menghubungi kami melalui email di info@unsiq.ac.id."
+      }
+    ]
+  },
+  {
+    "id": "PC02",
+    "category": "profil_unsiq",
+    "stage": "kontak",
+    "scenario": "User tanya nomor telepon UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin menanyakan nomor telepon yang dapat saya hubungi untuk mendapatkan informasi lebih lanjut mengenai program studi di UNSIQ."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks for a phone number to inquire about programs. 2. Retrieve: Kantor telepon UNSIQ adalah (0286) 321873. 3. Answer: Berikut nomor telepon kantor UNSIQ yang dapat Anda hubungi untuk informasi lebih lanjut: (0286) 321873.",
+        "content": "Berikut nomor telepon kantor UNSIQ yang dapat Anda hubungi untuk informasi lebih lanjut: (0286) 321873."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Apakah ada nomor WhatsApp khusus untuk pendaftaran mahasiswa baru?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about a WhatsApp number for new student registration. 2. Retrieve: Nomor WhatsApp PMB adalah 0857 7504 7504. 3. Answer: Tentu. Untuk informasi mengenai pendaftaran mahasiswa baru, Anda dapat menghubungi nomor WhatsApp berikut: 0857 7504 7504.",
+        "content": "Tentu. Untuk informasi mengenai pendaftaran mahasiswa baru, Anda dapat menghubungi nomor WhatsApp berikut: 0857 7504 7504."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya catat. Satu lagi, apakah UNSIQ memiliki alamat email resmi yang bisa saya gunakan untuk mengirimkan pertanyaan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks for an official email address. 2. Retrieve: Alamat email resmi UNSIQ adalah info@unsiq.ac.id. 3. Answer: Ya, Anda dapat mengirimkan pertanyaan melalui email resmi UNSIQ: info@unsiq.ac.id.",
+        "content": "Ya, Anda dapat mengirimkan pertanyaan melalui email resmi UNSIQ: info@unsiq.ac.id."
+      }
+    ]
+  },
+  {
+    "id": "PC03",
+    "category": "profil_unsiq",
+    "stage": "kontak",
+    "scenario": "User tanya email UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya ingin menanyakan alamat email resmi UNSIQ untuk keperluan koordinasi terkait konversi SKS saya. Mohon informasinya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a transfer student needing the official UNSIQ email address for SKS conversion coordination. 2. Retrieve: The official email address is info@unsiq.ac.id. 3. Answer: Providing the email address directly and confirming its official status."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User confirmed receiving the email and is asking about operating hours. 2. Retrieve: Operating hours are Monday-Friday, 08:00-16:00 WIB. 3. Answer: Providing the hours of operation."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak. Sampai jam berapa saya bisa menghubungi melalui email jika ada pertanyaan lanjutan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is inquiring about the operational hours for email correspondence. 2. Retrieve: The service hours are Monday-Friday, 08:00-16:00 WIB. 3. Answer: Providing the hours of operation for email inquiries."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Email UNSIQ dapat dihubungi melalui info@unsiq.ac.id. Jam layanan informasi adalah Senin-Jumat, pukul 08:00 hingga 16:00 WIB."
+      }
+    ]
+  },
+  {
+    "id": "PI06",
+    "category": "profil_unsiq",
+    "stage": "identitas",
+    "scenario": "User tanya apakah UNSIQ universitas Islam",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik untuk melanjutkan studi di UNSIQ. Apakah UNSIQ merupakan universitas yang berfokus pada studi Islam?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks if UNSIQ is an Islamic university. 2. Retrieve: The context states that UNSIQ is a Transformative, Humanistic, and Qur'ani university. 3. Answer: UNSIQ merupakan universitas yang berfokus pada pendekatan Transformasi, Humanis, dan Qur'ani."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Bisakah Anda menjelaskan mengenai akreditasi UNSIQ saat ini?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about UNSIQ's accreditation. 2. Retrieve: The context states that UNSIQ is accredited according to BAN-PT standards. 3. Answer: UNSIQ terakreditasi sesuai standar BAN-PT."
+      },
+      {
+        "role": "user",
+        "content": "Selain akreditasi, bagaimana UNSIQ mendukung mahasiswa dalam mengembangkan karir setelah lulus?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about career support for graduates. 2. Retrieve: The context does not provide information on career support. 3. Answer: Informasi mengenai dukungan karir bagi mahasiswa setelah lulus tidak tersedia dalam dokumen ini. Anda dapat mengunjungi website UNSIQ di unsiq.ac.id atau menghubungi email info@unsiq.ac.id untuk informasi lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Apakah UNSIQ memiliki program kerjasama dengan universitas asing untuk meningkatkan pengalaman internasional mahasiswa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about international collaborations. 2. Retrieve: The provided context doesn't mention international collaborations. 3. Answer: Informasi mengenai program kerjasama dengan universitas asing tidak tersedia dalam dokumen ini. Silakan kunjungi website UNSIQ di unsiq.ac.id atau hubungi melalui email info@unsiq.ac.id untuk informasi lebih lanjut."
+      }
+    ]
+  },
+  {
+    "id": "PS05",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya peran Bupati Wonosobo dalam pendirian UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya sedang mencoba memahami bagaimana UNSIQ ini bisa berdiri. Apakah ada peran penting dari pemerintah daerah, khususnya Bupati Wonosobo, dalam pendiriannya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a transfer student and wants to know about the role of the Wonosobo Regent in the establishment of UNSIQ. 2. Retrieve: The provided text does not mention the role of the Wonosobo Regent or any government officials in the establishment of UNSIQ. It only details the timeline and origins of the institutions that merged to form UNSIQ. 3. Answer: Informasi mengenai peran Bupati Wonosobo dalam pendirian UNSIQ tidak tersedia dalam dokumen ini. Berikut adalah informasi mengenai sejarah berdirinya UNSIQ: 1. Yayasan Ilmu-Ilmu Al-Qur'an (YIIQ) didirikan pada tahun 1987. 2. Institut Ilmu Al-Qur'an (IIQ) berdiri pada tahun 1988. 3. Akademi Keperawatan (AKPER) berdiri pada tahun 1996. 4. STIE-YPIIQ berdiri pada tahun 1999. 5. Ketiga lembaga tersebut kemudian dilebur menjadi UNSIQ pada tahun 2001."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, lembaga-lembaga yang bergabung membentuk UNSIQ itu, apa saja saja namanya dan kapan mereka didirikan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking for a list of institutions that merged to form UNSIQ and their founding years. 2. Retrieve: The text provides this information directly. 3. Answer: Berikut adalah lembaga-lembaga yang bergabung membentuk UNSIQ: 1. Institut Ilmu Al-Qur'an (IIQ) - didirikan tahun 1988. 2. Akademi Keperawatan (AKPER) - didirikan tahun 1996. 3. STIE-YPIIQ - didirikan tahun 1999."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, awalnya ada tiga lembaga yang berbeda ya? Apakah AKPER fokus pada bidang keagamaan juga?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user confirms the three initial institutions and asks about AKPER's focus. 2. Retrieve: The text states AKPER focuses on nursing and midwifery, not specifically religious studies. 3. Answer: Tepat, awalnya terdapat tiga lembaga yang berbeda. Akademi Keperawatan (AKPER) fokus pada bidang keperawatan dan kebidanan (D3 Keperawatan & Kebidanan), bukan bidang keagamaan."
+      }
+    ]
+  },
+  {
+    "id": "PS06",
+    "category": "profil_unsiq",
+    "stage": "sejarah",
+    "scenario": "User tanya tentang Sekolah Tinggi Ilmu Ekonomi (STIE-YPIIQ) sebelum jadi UNSIQ",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, STIE-YPIIQ itu kapan sih dibikin?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the establishment year of STIE-YPIIQ. 2. Retrieve: According to the provided context, STIE-YPIIQ was established in 1999. 3. Answer: STIE-YPIIQ didirikan pada tahun 1999."
+      },
+      {
+        "role": "user",
+        "content": "Terus, jurusan apa aja dulu di STIE itu?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants to know the departments/majors offered at STIE-YPIIQ. 2. Retrieve: The context states STIE-YPIIQ offered S1 Manajemen, Akuntansi, and D3 Manajemen Informatika. 3. Answer: STIE-YPIIQ memiliki program studi S1 Manajemen, Akuntansi, serta D3 Manajemen Informatika."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, STIE itu sekarang udah gabung sama UNSIQ ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user confirms the merger of STIE-YPIIQ into UNSIQ. 2. Retrieve: The context explicitly states that in 2001, three institutions, including STIE-YPIIQ, merged to form UNSIQ. 3. Answer: Benar. Pada tahun 2001, STIE-YPIIQ bergabung dengan IIQ dan AKPER menjadi UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, makasih infonya!"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is thanking for the information. 2. Retrieve: No specific information needed. 3. Answer: Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PV05",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya maksud slogan 'Kuliah Plus Ngaji'",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya lihat di website UNSIQ ada slogan 'Kuliah Plus Ngaji'. Apakah ini berarti ada mata kuliah khusus yang berkaitan dengan Al-Qur'an, atau bagaimana sistemnya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a transfer student and is asking for clarification on the slogan 'Kuliah Plus Ngaji'. 2. Retrieve: The provided context describes UNSIQ as 'Kuliah plus ngaji' which means studying while also engaging in religious learning. 3. Answer: I will explain what 'Kuliah Plus Ngaji' means at UNSIQ.",
+        "content": "Baik. Slogan 'Kuliah Plus Ngaji' merupakan karakteristik unik dari UNSIQ. Ini berarti mahasiswa tidak hanya mendapatkan pendidikan ilmu pengetahuan dan teknologi, tetapi juga terintegrasi dengan pembelajaran nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, apakah ada tambahan beban SKS untuk kegiatan 'Ngaji' tersebut? Apakah ini akan mempengaruhi jumlah SKS yang harus saya tempuh sebagai mahasiswa pindahan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is now asking if 'Ngaji' adds to the SKS load and how it affects transfer students. 2. Retrieve: The provided context does not specify details regarding SKS or transfer student policies. 3. Answer: I need to state that this information isn't in the provided context and direct them to the relevant department.",
+        "content": "Berikut informasinya. Detail mengenai beban SKS dan ketentuan bagi mahasiswa pindahan, termasuk yang berkaitan dengan kegiatan 'Ngaji', dapat Anda peroleh dengan menghubungi bagian akademik di UNSIQ. Mereka akan memberikan informasi yang lebih spesifik sesuai dengan status Anda."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Apakah ada kontak yang bisa saya hubungi di bagian akademik?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking for contact information for the academic department. 2. Retrieve: The context does not provide contact information. 3. Answer: I will state that the information is not available in the provided context.",
+        "content": "Mohon maaf, informasi kontak bagian akademik tidak tersedia dalam dokumen ini. Anda dapat mengunjungi website resmi UNSIQ untuk mencari informasi kontak yang relevan."
+      }
+    ]
+  },
+  {
+    "id": "PV06",
+    "category": "profil_unsiq",
+    "stage": "visi_misi",
+    "scenario": "User tanya tentang saintifikasi Al-Qur'an",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik dengan konsep saintifikasi Al-Qur'an di UNSIQ. Bisakah Anda menjelaskan lebih rinci mengenai implementasi konsep tersebut dalam kurikulum?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is interested in 'saintifikasi Al-Qur'an' and wants to know how it's implemented in the curriculum. 2. Retrieve: The context mentions 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' as a characteristic of UNSIQ. This implies integrating scientific approaches to understanding the Quran. However, there are no specifics on the curriculum. 3. Answer: Provide a concise explanation based on the available information, acknowledging the lack of curriculum detail.",
+        "content": "Baik. UNSIQ mengimplementasikan konsep saintifikasi Al-Qur'an melalui pendekatan ‘Qur'anisasi sains dengan saintifikasi Al-Qur'an’. Ini berarti pengintegrasian pendekatan ilmiah dalam memahami dan menafsirkan Al-Qur'an. Detail implementasi dalam kurikulum spesifik dapat Anda temukan pada program studi masing-masing."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Apakah ada program khusus yang secara langsung berfokus pada penelitian saintifikasi Al-Qur'an, misalnya di tingkat pascasarjana?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about specific research programs, particularly at the postgraduate level, related to 'saintifikasi Al-Qur'an'. 2. Retrieve: The provided context does not detail specific research programs or postgraduate offerings. 3. Answer:  Acknowledge the lack of specific information and direct the user to further resources.",
+        "content": "Berikut informasinya. Saat ini, informasi mengenai program penelitian saintifikasi Al-Qur'an secara spesifik, terutama di tingkat pascasarjana, tidak tersedia dalam dokumen ini. Kami sarankan untuk memeriksa website resmi program studi terkait atau menghubungi bagian akademik untuk informasi lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Apakah konsep transformasi, humanis, dan Qur'ani yang menjadi ciri khas UNSIQ berdampak pada prospek karir lulusan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants to know if UNSIQ's characteristics (transformative, humanist, Qur'ani) impact the career prospects of graduates. 2. Retrieve: The context outlines the vision and mission of UNSIQ, emphasizing the development of superior human resources with strong moral values and readiness to contribute to Indonesia and the world. 3. Answer: Connect the university's characteristics to potential career benefits, staying concise.",
+        "content": "Tentu. Ciri khas transformatif, humanis, dan Qur'ani UNSIQ dirancang untuk menghasilkan SDM unggul dengan nilai-nilai moral tinggi dan siap berkontribusi. Hal ini akan memberikan keunggulan kompetitif bagi lulusan dalam berbagai bidang pekerjaan yang mengedepankan integritas dan kemampuan beradaptasi."
+      }
+    ]
+  },
+  {
+    "id": "PF06",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya apakah ada jurusan KPI (Komunikasi Penyiaran Islam)",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, UNSIQ ada KPI ga sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking if UNSIQ offers the Komunikasi dan Penyiaran Islam (KPI) program. 2. Retrieve: KPI is listed under Fakultas Tarbiyah dan Ilmu Pendidikan. 3. Answer: KPI tersedia di Fakultas Tarbiyah dan Ilmu Pendidikan."
+      },
+      {
+        "role": "model",
+        "content": "KPI tersedia di Fakultas Tarbiyah dan Ilmu Pendidikan."
+      },
+      {
+        "role": "user",
+        "content": "Berarti ada ya? Berapa lama kuliahnya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the duration of the KPI program. 2. Retrieve: The program is a S1 (Sarjana) program, which takes 4 years. 3. Answer: The duration for S1 is 4 tahun."
+      },
+      {
+        "role": "model",
+        "content": "Berdasarkan jenjang yang tersedia, program S1 membutuhkan waktu 4 tahun."
+      },
+      {
+        "role": "user",
+        "content": "Oke, makasih ya!"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is thanking for the information. 2. Retrieve: No further information is needed. 3. Answer: Acknowledge the thanks."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ]
+  },
+  {
+    "id": "PF07",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya jurusan manajemen masuk fakultas apa",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Jurusan manajemen itu masuk fakultasnya fakultas apa ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about the faculty for the Management program. 2. Retrieve: According to the context, S1 Manajemen is offered under Fakultas Ekonomi dan Bisnis. 3. Answer: Jurusan Manajemen berada di Fakultas Ekonomi dan Bisnis.",
+        "content": "Jurusan Manajemen berada di Fakultas Ekonomi dan Bisnis."
+      },
+      {
+        "role": "user",
+        "content": "Oh, oke. Itu program sarjana (S1) aja ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking if the Management program is only offered as a S1. 2. Retrieve: The context states that S1 Manajemen is offered, and also D3 Manajemen Informatika under the same faculty. 3. Answer: Tersedia program S1 dan D3 Manajemen Informatika di Fakultas Ekonomi dan Bisnis.",
+        "content": "Tersedia program S1 dan D3 Manajemen Informatika di Fakultas Ekonomi dan Bisnis."
+      },
+      {
+        "role": "user",
+        "content": "Berarti lama kuliahnya berapaan?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User is asking about the duration of the Management program (S1). 2. Retrieve: The context states that S1 programs are 4 years long. 3. Answer: Program S1 umumnya berlangsung selama 4 tahun.",
+        "content": "Program S1 umumnya berlangsung selama 4 tahun."
+      }
+    ]
+  },
+  {
+    "id": "PF08",
+    "category": "profil_unsiq",
+    "stage": "fakultas",
+    "scenario": "User tanya apakah ada program pascasarjana (S2)",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula mboten ngertos wonten program S2 nggih punika wonten ing UNSIQ? Kula badhe sekolah nambah ilmu, nanging budilipun kakeh. Raosipun wonten beasiswa?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about S2 programs and scholarships. 2. Retrieve: UNSIQ offers S2 programs with a duration of 2-3 years. The context doesn't mention scholarships. 3. Answer:  Waalaikumsalam. UNSIQ menyediakan program Pascasarjana (S2) dengan durasi 2-3 tahun. Informasi mengenai beasiswa, Anda dapat memeriksanya di website resmi UNSIQ atau menghubungi bagian administrasi."
+      },
+      {
+        "role": "user",
+        "content": "Nggih, matur nuwun. Program S2 nipun wonten jurusan apa saja nggih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the available S2 programs. 2. Retrieve: The provided context does not list specific S2 programs, only the available academic levels. 3. Answer: Berikut informasinya. UNSIQ memiliki Fakultas Tarbiyah dan Ilmu Pendidikan, Fakultas Ilmu Kesehatan, dan Fakultas Ekonomi dan Bisnis. Informasi mengenai program studi S2 yang tersedia dapat Anda temukan di website resmi UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Lalu, menawi kula badhe nggih, biyaya kuliah S2 nipun kirang pinten?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the tuition fees for S2 programs. 2. Retrieve: The provided context does not provide information about tuition fees. 3. Answer: Maaf, informasi mengenai biaya kuliah program S2 tidak tersedia dalam dokumen ini. Anda dapat mengunjungi website resmi UNSIQ atau menghubungi bagian administrasi untuk mendapatkan informasi lebih lanjut."
+      }
+    ]
+  },
+  {
+    "id": "PM06",
+    "category": "profil_unsiq",
+    "stage": "mbkm",
+    "scenario": "User tanya contoh kegiatan proyek kemanusiaan di MBKM",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bapak/Ibu. Saya orang tua mahasiswa baru. Saya sangat khawatir dengan keselamatan anak saya selama program Merdeka Belajar, khususnya jika ia memilih proyek kemanusiaan. Apakah proyek kemanusiaan ini aman, dan apa saja contoh kegiatannya di UNSIQ? Saya ingin tahu detailnya, agar saya bisa lebih tenang."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is an anxious parent concerned about the safety of their child participating in humanitarian projects within the MBKM program. They want examples of such projects and assurance of safety. 2. Retrieve: The context mentions 'Proyek Kemanusiaan' as one of the 8 MBKM programs. It also states implementation is mandiri (independent), fakultatif (optional), and universiter (UNSIQ program). No specific safety details are provided, but the programs are facilitated by UNSIQ. 3. Answer: Waalaikumsalam. Berikut informasinya. Proyek kemanusiaan merupakan salah satu dari 8 program Merdeka Belajar di UNSIQ. Contoh kegiatannya bervariasi, namun umumnya melibatkan kegiatan sosial yang bermanfaat bagi masyarakat. Program ini bersifat fakultatif dan universiter, sehingga UNSIQ turut memfasilitasi dan mengawasi pelaksanaan program. Untuk informasi lebih lanjut mengenai keamanan dan detail kegiatan, silakan hubungi kantor kemahasiswaan."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Lalu, bagaimana dengan biaya selama mengikuti program Merdeka Belajar? Apakah ada biaya tambahan yang harus saya tanggung, terutama jika anak saya memilih program studi independen atau pertukaran pelajar? Saya khawatir dengan beban biaya yang mungkin timbul."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the costs associated with the MBKM program, specifically for independent study and student exchange. They are concerned about additional financial burdens. 2. Retrieve: The context mentions that the program is implemented through grants from Kemenag, Kemendikbud, and other institutions. It does not specify any costs to students. 3. Answer: Tentu. Implementasi program MBKM di UNSIQ didukung melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lain. Umumnya, mahasiswa tidak dikenakan biaya tambahan untuk mengikuti program ini. Namun, untuk program studi independen atau pertukaran pelajar, detail biaya dapat berbeda-beda. Informasi lebih rinci mengenai biaya akan disampaikan pada saat sosialisasi program."
+      },
+      {
+        "role": "user",
+        "content": "Jadi, apakah ada informasi kontak yang bisa saya hubungi untuk mendapatkan informasi lebih detail tentang program ini, termasuk detail keselamatan dan biaya? Saya ingin memastikan anak saya aman dan tidak ada kejutan biaya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user requests contact information for more detailed information about the program, specifically regarding safety and costs. 2. Retrieve: The previous response suggested contacting the student affairs office. 3. Answer: Berikut informasinya. Anda dapat menghubungi kantor kemahasiswaan UNSIQ untuk mendapatkan informasi lebih lanjut mengenai detail keselamatan dan biaya program Merdeka Belajar. Mereka akan dapat memberikan penjelasan yang lebih komprehensif sesuai dengan program yang Anda minati."
+      }
+    ]
+  },
+  {
+    "id": "PE04",
+    "category": "profil_unsiq",
+    "stage": "epistemologi",
+    "scenario": "User tanya hubungan pesantren dan universitas di UNSIQ",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan model pendidikan di UNSIQ. Bagaimana UNSIQ menjalin sinergi antara pesantren dan universitas?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is inquiring about the synergy between pesantren and university at UNSIQ. 2. Retrieve: The context mentions 'sinergis' and specifically lists 'Pesantren ↔ Universitas' as a key area of positive synergy. 3. Answer: UNSIQ menciptakan sinergi positif antara pesantren dan universitas sebagai bagian dari model pendidikan yang unik."
+      },
+      {
+        "role": "user",
+        "content": "Bisakah Anda jelaskan lebih lanjut mengenai bagaimana integrasi tersebut terwujud dalam kurikulum?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user wants details on curriculum integration. 2. Retrieve: The context states 'Kurikulum terintegrasi' as a key aspect of the integrative approach. 3. Answer: UNSIQ menerapkan kurikulum terintegrasi untuk mewujudkan sinergi tersebut secara menyeluruh."
+      },
+      {
+        "role": "user",
+        "content": "Selain kurikulum, apakah ada aspek lain dari pembelajaran di UNSIQ yang mencerminkan pendekatan holistik?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about other aspects of holistic learning. 2. Retrieve: The context mentions 'Pembelajaran holistik' as another element of integration. 3. Answer: Ya, UNSIQ menerapkan pembelajaran holistik yang mencakup pengembangan intelektual dan spiritual mahasiswa secara utuh."
+      },
+      {
+        "role": "user",
+        "content": "Apakah pendekatan ini berdampak pada luaran mahasiswa UNSIQ?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: User asks about the impact on graduates. 2. Retrieve: The context mentions 'Luaran mahasiswa utuh secara intelektual dan spiritual' as a result of the integration. 3. Answer: Pendekatan ini bertujuan menghasilkan luaran mahasiswa yang utuh, baik secara intelektual maupun spiritual."
+      }
+    ]
+  },
+  {
+    "id": "PK05",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya apa itu Unsiqers Learning Spirit (ULS)",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Mosoh, kula bingung, Unsiqers Learning Spirit itu opo ta? Ndak sekolahe Unsiq kok, tapi kula ndak ngertos."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is a local villager (persona) and is asking about 'Unsiqers Learning Spirit (ULS)' and seems to be a new student. 2. Retrieve: The context mentions 'Unsiqers Learning Spirit (ULS)' as part of Unsiq's unique identity. 3. Answer: I will explain ULS in a formal and concise way, while acknowledging the user's slightly informal language."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Unsiqers Learning Spirit (ULS) merupakan salah satu identitas unik yang dimiliki oleh mahasiswa Universitas Sains Al-Qur’an. ULS mencerminkan semangat belajar yang tinggi dan khas dari mahasiswa Unsiq."
+      },
+      {
+        "role": "user",
+        "content": "Ooh, ngertos kula. Trus, mosoh wonten beasiswa nggih? Kula kepengin sekolah neng Unsiq, nanging khawatir masalah biyaya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is now asking about scholarships, showing concern about tuition costs, aligning with their persona's focus. 2. Retrieve: The context doesn't directly mention scholarships. However, it mentions contributions *for* students (lulusan berkarakter kuat, adaptif). I will respond acknowledging the concern and directing them to relevant information."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai beasiswa dapat Anda peroleh di situs web resmi UNSIQ atau dengan menghubungi bagian penerimaan mahasiswa baru. UNSIQ berkomitmen untuk memberikan kontribusi bagi mahasiswa, termasuk dalam bentuk bantuan biaya pendidikan."
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun. Kula coba ndelok webnya."
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user thanks the AI and states they will check the website. 2. Retrieve: No further information is needed from the context. 3. Answer: A polite closing statement is appropriate."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga Anda mendapatkan informasi yang Anda butuhkan."
+      }
+    ]
+  },
+  {
+    "id": "PK06",
+    "category": "profil_unsiq",
+    "stage": "keunggulan",
+    "scenario": "User tanya apakah sistem data UNSIQ sudah terintegrasi",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, UNSIQ udah pake sistem data terpadu belum sih?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the integrated data system. 2. Retrieve: The context mentions 'Sistem Data Terpadu' as part of UNSIQ's digital transformation. 3. Answer: Briefly confirm the existence of the system."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ telah mengimplementasikan Sistem Data Terpadu sebagai bagian dari transformasi digital."
+      },
+      {
+        "role": "user",
+        "content": "Terus, itu buat apa aja sih? Keputusan juga didukung data gitu?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is asking about the purpose of the integrated data system and if it supports decision-making. 2. Retrieve: The context mentions 'Data-Driven Decision Making' as a result of the system. 3. Answer: Explain the purpose and connection to data-driven decisions."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: Sistem tersebut memungkinkan Data-Driven Decision Making, yang berarti setiap keputusan didukung oleh data."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, jadi UNSIQ itu terus berusaha jadi lebih baik ya?"
+      },
+      {
+        "role": "model",
+        "thought": "1. Analyze: The user is confirming UNSIQ's commitment to continuous improvement. 2. Retrieve: The context mentions 'Continuous Improvement' as a consequence of the digital transformation. 3. Answer: Confirm the commitment to continuous improvement."
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ terus berupaya melakukan perbaikan berkelanjutan melalui transformasi digital yang telah diterapkan."
+      }
+    ]
+  }
+]
