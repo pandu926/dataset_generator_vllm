@@ -293,6 +293,30 @@ SCENARIOS = [
     {"id": "PC02", "stage": "kontak", "scenario": "User tanya nomor telepon UNSIQ", "complexity": "direct"},
     {"id": "PC03", "stage": "kontak", "scenario": "User tanya email UNSIQ", "complexity": "direct"},
     {"id": "PC04", "stage": "kontak", "scenario": "User tanya jam operasional layanan UNSIQ", "complexity": "direct"},
+    
+    # === ADDITIONAL 12 SCENARIOS FOR TOTAL 50 ===
+    
+    # --- Identitas & Sejarah ---
+    {"id": "PI06", "stage": "identitas", "scenario": "User tanya apakah UNSIQ universitas Islam", "complexity": "reasoning"},
+    {"id": "PS05", "stage": "sejarah", "scenario": "User tanya peran Bupati Wonosobo dalam pendirian UNSIQ", "complexity": "reasoning"},
+    {"id": "PS06", "stage": "sejarah", "scenario": "User tanya tentang Sekolah Tinggi Ilmu Ekonomi (STIE-YPIIQ) sebelum jadi UNSIQ", "complexity": "direct"},
+    
+    # --- Visi Misi & Karakter ---
+    {"id": "PV05", "stage": "visi_misi", "scenario": "User tanya maksud slogan 'Kuliah Plus Ngaji'", "complexity": "reasoning"},
+    {"id": "PV06", "stage": "visi_misi", "scenario": "User tanya tentang saintifikasi Al-Qur'an", "complexity": "reasoning"},
+    
+    # --- Fakultas & Prodi Specifics ---
+    {"id": "PF06", "stage": "fakultas", "scenario": "User tanya apakah ada jurusan KPI (Komunikasi Penyiaran Islam)", "complexity": "direct"},
+    {"id": "PF07", "stage": "fakultas", "scenario": "User tanya jurusan manajemen masuk fakultas apa", "complexity": "direct"},
+    {"id": "PF08", "stage": "fakultas", "scenario": "User tanya apakah ada program pascasarjana (S2)", "complexity": "direct"},
+    
+    # --- MBKM & Epistemologi ---
+    {"id": "PM06", "stage": "mbkm", "scenario": "User tanya contoh kegiatan proyek kemanusiaan di MBKM", "complexity": "reasoning"},
+    {"id": "PE04", "stage": "epistemologi", "scenario": "User tanya hubungan pesantren dan universitas di UNSIQ", "complexity": "reasoning"},
+    
+    # --- Keunggulan & Lainnya ---
+    {"id": "PK05", "stage": "keunggulan", "scenario": "User tanya apa itu Unsiqers Learning Spirit (ULS)", "complexity": "direct"},
+    {"id": "PK06", "stage": "keunggulan", "scenario": "User tanya apakah sistem data UNSIQ sudah terintegrasi", "complexity": "direct"},
 ]
 
 print(f"Total scenarios: {len(SCENARIOS)}")
