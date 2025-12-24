@@ -39,7 +39,7 @@ A100_80GB_CONFIG = {
     "trust_remote_code": True,
     
     # Memory settings
-    "gpu_memory_utilization": 0.90,  # 90% of 80GB = 72GB available
+    "gpu_memory_utilization": 0.70,  # Reduced to avoid OOM
     "max_model_len": 4096,  # Max sequence length
     
     # Tensor parallelism (set to number of GPUs)
