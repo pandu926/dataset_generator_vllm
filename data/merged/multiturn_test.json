@@ -6351,5 +6351,1037 @@
     ],
     "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, dan saya sangat tertarik dengan beasiswa. Saya lihat ada KIP Kuliah Merdeka yang pembiayaannya penuh, dan ada juga beasiswa Prestasi Non-Akademik yang membebaskan SPP selama satu semester. Jika saya berhasil mendapatkan keduanya, apakah saya tetap perlu membayar sebagian SPP, atau seluruhnya ditanggung? Saya agak bingung dengan kombinasinya.<end_of_turn>\n<start_of_turn>model\nSelamat siang juga! Pertanyaan yang bagus. Jika Anda berhasil mendapatkan KIP Kuliah Merdeka, beasiswa ini memberikan pembiayaan penuh, yang berarti mencakup seluruh biaya kuliah termasuk SPP. Sementara itu, beasiswa Prestasi Non-Akademik memberikan pembebasan SPP selama satu semester. Jadi, untuk satu semester, SPP Anda akan ditanggung oleh beasiswa Prestasi Non-Akademik, dan semester-semester lainnya akan ditanggung oleh KIP Kuliah Merdeka. Semoga penjelasan ini membantu ya!<end_of_turn>\n<start_of_turn>user\nBaik, jadi jika saya gagal mendapatkan KIP Kuliah Merdeka, tapi berhasil mendapatkan beasiswa Kerjasama Mitra Sekolah yang membebaskan SPP selama dua semester, apakah itu cukup untuk menutupi seluruh biaya kuliah saya selama dua semester? Karena kan KIP Kuliah Merdeka itu pembiayaan penuh, sedangkan beasiswa Mitra Sekolah hanya SPP.<end_of_turn>\n<start_of_turn>model\nTentu, saya akan bantu jelaskan. Beasiswa Kerjasama Mitra Sekolah memang membebaskan SPP selama dua semester. Namun, perlu diingat bahwa KIP Kuliah Merdeka memberikan 'pembiayaan penuh', yang mencakup lebih dari sekadar SPP – seperti biaya hidup dan biaya lainnya. Jadi, meskipun beasiswa Mitra Sekolah menutupi SPP selama dua semester, itu tidak akan menutupi seluruh biaya kuliah Anda selama dua semester, karena ada biaya-biaya lain yang juga perlu diperhitungkan. Apakah ada pertanyaan lain?<end_of_turn>\n<start_of_turn>user\nOke, saya mengerti. Lalu, bagaimana dengan kuota beasiswa? Saya lihat ada yang kuotanya ditentukan, ada yang tidak terbatas. Apakah ini berarti peluang saya lebih besar jika saya mencoba Prestasi Non-Akademik karena kuotanya tidak terbatas?<end_of_turn>\n<start_of_turn>model\nBetul sekali! Informasi mengenai kuota memang penting. Karena beasiswa Prestasi Non-Akademik memiliki kuota 'Unlimited', secara umum ini berarti peluang Anda untuk mendapatkan beasiswa tersebut lebih besar dibandingkan dengan KIP Kuliah Merdeka yang memiliki kuota 'Ditentukan'. Namun, perlu diingat bahwa meskipun kuotanya tidak terbatas, beasiswa ini tetap kompetitif dan akan bergantung pada jumlah pelamar serta kriteria penilaian yang digunakan. Semangat terus ya!<end_of_turn>",
     "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_000",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau daftar di UNSIQ. Bisa bantu saya? Saya bingung mau mulai dari mana."
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusanmu! Tentu saja, saya bisa bantu. Senang sekali kamu memilih UNSIQ. Untuk memulai pendaftaran, langkah pertamanya adalah mengakses website kami di pmb.unsiq.ac.id. Di sana kamu akan menemukan menu 'Formulir Pendaftaran' dan 'Login'."
+      },
+      {
+        "role": "user",
+        "content": "Oke, sudah masuk ke website-nya. Lalu langkah selanjutnya bagaimana?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah masuk, kamu akan diminta mengisi formulir pendaftaran. Di dalam formulir tersebut, kamu perlu memilih jenjang pendidikan yang kamu inginkan (D3 atau S1), lalu memilih kelas (Reguler atau Ekstension). Jangan lupa untuk memasukkan data pribadi seperti nama, email, nomor telepon, dan alamatmu. Setelah mengisi formulir, pastikan untuk screenshot nomor pendaftaran dan PIN yang diberikan. Ini penting untuk proses selanjutnya!  Apakah kamu sudah mengisi formulir tersebut?"
+      },
+      {
+        "role": "user",
+        "content": "Sudah, sudah saya isi dan screenshot nomor pendaftarannya. Sekarang bagaimana cara bayar biaya pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Baik, bagus! Untuk pembayaran biaya pendaftaran, kamu bisa memilih gelombang pendaftaran. Gelombang 1 dan 2 gratis, sedangkan Gelombang 3 dikenakan biaya Rp 250.000.  Metode pembayaran yang tersedia adalah melalui Bank Jateng atau Finpay. Apakah kamu memiliki pertanyaan lebih lanjut mengenai biaya pendaftaran?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau daftar di UNSIQ. Bisa bantu saya? Saya bingung mau mulai dari mana.<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusanmu! Tentu saja, saya bisa bantu. Senang sekali kamu memilih UNSIQ. Untuk memulai pendaftaran, langkah pertamanya adalah mengakses website kami di pmb.unsiq.ac.id. Di sana kamu akan menemukan menu 'Formulir Pendaftaran' dan 'Login'.<end_of_turn>\n<start_of_turn>user\nOke, sudah masuk ke website-nya. Lalu langkah selanjutnya bagaimana?<end_of_turn>\n<start_of_turn>model\nSetelah masuk, kamu akan diminta mengisi formulir pendaftaran. Di dalam formulir tersebut, kamu perlu memilih jenjang pendidikan yang kamu inginkan (D3 atau S1), lalu memilih kelas (Reguler atau Ekstension). Jangan lupa untuk memasukkan data pribadi seperti nama, email, nomor telepon, dan alamatmu. Setelah mengisi formulir, pastikan untuk screenshot nomor pendaftaran dan PIN yang diberikan. Ini penting untuk proses selanjutnya!  Apakah kamu sudah mengisi formulir tersebut?<end_of_turn>\n<start_of_turn>user\nSudah, sudah saya isi dan screenshot nomor pendaftarannya. Sekarang bagaimana cara bayar biaya pendaftaran?<end_of_turn>\n<start_of_turn>model\nBaik, bagus! Untuk pembayaran biaya pendaftaran, kamu bisa memilih gelombang pendaftaran. Gelombang 1 dan 2 gratis, sedangkan Gelombang 3 dikenakan biaya Rp 250.000.  Metode pembayaran yang tersedia adalah melalui Bank Jateng atau Finpay. Apakah kamu memiliki pertanyaan lebih lanjut mengenai biaya pendaftaran?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_001",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya ingin mendaftarkan anak saya, bisa dijelaskan prosedurnya bagaimana?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu, Bapak/Ibu! Untuk mendaftarkan anak ke PMB UNSIQ, ada beberapa tahap yang perlu diikuti. Pertama, akses website kami di pmb.unsiq.ac.id, lalu pilih menu 'Formulir Pendaftaran' dan lakukan login. Setelah itu, isi formulir pendaftaran dengan data diri anak, seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot nomor pendaftaran dan PIN yang diberikan."
+      },
+      {
+        "role": "user",
+        "content": "Oke, setelah mengisi formulir, langkah selanjutnya apa?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah mengisi formulir, Bapak/Ibu perlu melakukan pembayaran biaya pendaftaran. Biayanya bervariasi tergantung gelombang dan jenjang pendidikan. Untuk Gelombang 1 dan 2, biaya pendaftaran D3 dan S1 adalah Rp 250.000, sedangkan untuk S2 adalah GRATIS. Gelombang 3 juga sama. Pembayaran bisa dilakukan melalui Bank Jateng atau Finpay. Jangan lupa screenshot bukti pembayaran ya!"
+      },
+      {
+        "role": "user",
+        "content": "Lalu setelah membayar, bagaimana caranya mengunggah dokumen yang dibutuhkan?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah pembayaran berhasil, Bapak/Ibu perlu mengunggah dokumen yang diperlukan. Dokumen yang dibutuhkan antara lain pas foto 3x4 (background merah) dan scan ijazah/SKL/raport. Selain itu, Bapak/Ibu juga perlu mengunggah KTP, Akte Kelahiran, atau Kartu Keluarga (pilih salah satu). Pastikan semua dokumen diunggah dengan jelas dan terbaca."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya ingin mendaftarkan anak saya, bisa dijelaskan prosedurnya bagaimana?<end_of_turn>\n<start_of_turn>model\nTentu, Bapak/Ibu! Untuk mendaftarkan anak ke PMB UNSIQ, ada beberapa tahap yang perlu diikuti. Pertama, akses website kami di pmb.unsiq.ac.id, lalu pilih menu 'Formulir Pendaftaran' dan lakukan login. Setelah itu, isi formulir pendaftaran dengan data diri anak, seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot nomor pendaftaran dan PIN yang diberikan.<end_of_turn>\n<start_of_turn>user\nOke, setelah mengisi formulir, langkah selanjutnya apa?<end_of_turn>\n<start_of_turn>model\nSetelah mengisi formulir, Bapak/Ibu perlu melakukan pembayaran biaya pendaftaran. Biayanya bervariasi tergantung gelombang dan jenjang pendidikan. Untuk Gelombang 1 dan 2, biaya pendaftaran D3 dan S1 adalah Rp 250.000, sedangkan untuk S2 adalah GRATIS. Gelombang 3 juga sama. Pembayaran bisa dilakukan melalui Bank Jateng atau Finpay. Jangan lupa screenshot bukti pembayaran ya!<end_of_turn>\n<start_of_turn>user\nLalu setelah membayar, bagaimana caranya mengunggah dokumen yang dibutuhkan?<end_of_turn>\n<start_of_turn>model\nSetelah pembayaran berhasil, Bapak/Ibu perlu mengunggah dokumen yang diperlukan. Dokumen yang dibutuhkan antara lain pas foto 3x4 (background merah) dan scan ijazah/SKL/raport. Selain itu, Bapak/Ibu juga perlu mengunggah KTP, Akte Kelahiran, atau Kartu Keluarga (pilih salah satu). Pastikan semua dokumen diunggah dengan jelas dan terbaca.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_002",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau daftar kelas ekstension di UNSIQ. Bisa bantu jelaskan alurnya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Tentu saja. Untuk mendaftar kelas ekstension di UNSIQ, ada beberapa langkah yang perlu Anda ikuti. Pertama, akses website pmb.unsiq.ac.id, lalu pilih menu 'Formulir Pendaftaran' dan login. Pada formulir, pilih 'Kelas: Ekstension' dan isi data diri Anda seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot nomor pendaftaran dan PIN Anda, ya! Setelah itu, Anda perlu membayar biaya pendaftaran. Biayanya tergantung pada gelombang pendaftaran, yaitu Rp 250.000 untuk D3 dan S1 pada gelombang 1 dan 3, dan Rp 300.000 untuk S2 pada gelombang 1 dan 3. Anda bisa membayar melalui Bank Jateng atau Finpay. Setelah pembayaran, unggah dokumen seperti pas foto 3x4, scan ijazah, dan KTP. Hasil seleksi akan diumumkan di menu 'Pengumuman' dan Anda akan mendapatkan notifikasi melalui WhatsApp atau email."
+      },
+      {
+        "role": "user",
+        "content": "Oke, kalau untuk gelombang 2, biaya pendaftarannya berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk gelombang 2, biaya pendaftarannya adalah Rp 250.000 untuk D3 dan S1, dan Rp 300.000 untuk S2. Apakah ada hal lain yang ingin Anda tanyakan mengenai proses pendaftaran ini?"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id. Selamat mendaftar!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau daftar kelas ekstension di UNSIQ. Bisa bantu jelaskan alurnya?<end_of_turn>\n<start_of_turn>model\nHalo! Tentu saja. Untuk mendaftar kelas ekstension di UNSIQ, ada beberapa langkah yang perlu Anda ikuti. Pertama, akses website pmb.unsiq.ac.id, lalu pilih menu 'Formulir Pendaftaran' dan login. Pada formulir, pilih 'Kelas: Ekstension' dan isi data diri Anda seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot nomor pendaftaran dan PIN Anda, ya! Setelah itu, Anda perlu membayar biaya pendaftaran. Biayanya tergantung pada gelombang pendaftaran, yaitu Rp 250.000 untuk D3 dan S1 pada gelombang 1 dan 3, dan Rp 300.000 untuk S2 pada gelombang 1 dan 3. Anda bisa membayar melalui Bank Jateng atau Finpay. Setelah pembayaran, unggah dokumen seperti pas foto 3x4, scan ijazah, dan KTP. Hasil seleksi akan diumumkan di menu 'Pengumuman' dan Anda akan mendapatkan notifikasi melalui WhatsApp atau email.<end_of_turn>\n<start_of_turn>user\nOke, kalau untuk gelombang 2, biaya pendaftarannya berapa ya?<end_of_turn>\n<start_of_turn>model\nUntuk gelombang 2, biaya pendaftarannya adalah Rp 250.000 untuk D3 dan S1, dan Rp 300.000 untuk S2. Apakah ada hal lain yang ingin Anda tanyakan mengenai proses pendaftaran ini?<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id. Selamat mendaftar!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_003",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "calon_s2",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya ingin mendaftar S2 di UNSIQ. Bisa bantu saya mengenai prosedur pendaftarannya?"
+      },
+      {
+        "role": "model",
+        "content": "Selamat siang! Tentu saja, dengan senang hati saya akan bantu. Prosedur pendaftaran pascasarjana di UNSIQ cukup mudah. Pertama-tama, Anda perlu mengakses website kami di pmb.unsiq.ac.id dan masuk melalui menu 'Login'."
+      },
+      {
+        "role": "user",
+        "content": "Oke, saya sudah masuk ke website. Lalu langkah selanjutnya bagaimana?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah masuk, Anda akan menemukan menu 'Formulir Pendaftaran'. Silakan isi formulir tersebut dengan data yang diminta, seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot Nomor Pendaftaran dan PIN Anda, ya!"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak. Apakah ada biaya untuk pendaftaran S2?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk program S2, biaya pendaftaran pada Gelombang 1 dan Gelombang 2 adalah GRATIS. Sedangkan untuk Gelombang 3, biaya pendaftarannya adalah Rp 300.000. Anda bisa melakukan pembayaran melalui Bank Jateng atau Finpay."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya akan perhatikan informasinya. Dokumen apa saja yang perlu diunggah?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk mengunggah dokumen, Anda memerlukan pas foto 3x4 (background merah) dan scan ijazah/SKL/raport Anda. Selain itu, Anda juga perlu mengunggah KTP/Akte/Kartu Keluarga (pilih salah satu). Semoga informasi ini bermanfaat!"
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang, saya ingin mendaftar S2 di UNSIQ. Bisa bantu saya mengenai prosedur pendaftarannya?<end_of_turn>\n<start_of_turn>model\nSelamat siang! Tentu saja, dengan senang hati saya akan bantu. Prosedur pendaftaran pascasarjana di UNSIQ cukup mudah. Pertama-tama, Anda perlu mengakses website kami di pmb.unsiq.ac.id dan masuk melalui menu 'Login'.<end_of_turn>\n<start_of_turn>user\nOke, saya sudah masuk ke website. Lalu langkah selanjutnya bagaimana?<end_of_turn>\n<start_of_turn>model\nSetelah masuk, Anda akan menemukan menu 'Formulir Pendaftaran'. Silakan isi formulir tersebut dengan data yang diminta, seperti nama, email, nomor HP, dan alamat. Jangan lupa screenshot Nomor Pendaftaran dan PIN Anda, ya!<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak. Apakah ada biaya untuk pendaftaran S2?<end_of_turn>\n<start_of_turn>model\nUntuk program S2, biaya pendaftaran pada Gelombang 1 dan Gelombang 2 adalah GRATIS. Sedangkan untuk Gelombang 3, biaya pendaftarannya adalah Rp 300.000. Anda bisa melakukan pembayaran melalui Bank Jateng atau Finpay.<end_of_turn>\n<start_of_turn>user\nBaik, saya akan perhatikan informasinya. Dokumen apa saja yang perlu diunggah?<end_of_turn>\n<start_of_turn>model\nUntuk mengunggah dokumen, Anda memerlukan pas foto 3x4 (background merah) dan scan ijazah/SKL/raport Anda. Selain itu, Anda juga perlu mengunggah KTP/Akte/Kartu Keluarga (pilih salah satu). Semoga informasi ini bermanfaat!<end_of_turn>",
+    "num_turns": 8
+  },
+  {
+    "id": "test_alur_pendaftaran_004",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau daftar di UNSIQ. Saya bingung, mulai dari mana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusanmu! Senang sekali kamu memilih UNSIQ. Untuk memulai pendaftaran, kamu bisa akses website kami di pmb.unsiq.ac.id. Di sana, kamu akan menemukan formulir pendaftaran dan petunjuk langkah demi langkah.  Pertama, kamu perlu mengisi formulir pendaftaran dengan data pribadi dan memilih jenjang yang kamu inginkan."
+      },
+      {
+        "role": "user",
+        "content": "Oke, sudah diisi formulir. Sekarang saya mau upload dokumen, tapi saya bingung mau upload apa saja dan bagaimana caranya."
+      },
+      {
+        "role": "model",
+        "content": "Baik, untuk tahap upload dokumen, kamu membutuhkan pas foto 3x4 dengan background merah dan scan ijazah/SKL/raport. Kamu juga perlu mengunggah KTP, Akte, atau Kartu Keluarga sebagai identifikasi.  Kamu bisa mengunggah dokumen-dokumen tersebut melalui website pendaftaran setelah kamu login.  Apakah kamu sudah memiliki semua dokumen tersebut?"
+      },
+      {
+        "role": "user",
+        "content": "Saya punya semua dokumennya. Tapi, saya nggak tahu bagaimana caranya mengunggahnya di website. Bisa dijelaskan lebih detail?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Setelah login, cari tombol atau menu yang bertuliskan 'Upload Dokumen'. Biasanya terletak di bagian formulir pendaftaran atau di halaman profil kamu. Klik tombol tersebut, lalu pilih file dokumen yang ingin kamu unggah. Pastikan file dalam format yang didukung (biasanya PDF atau JPG). Jangan lupa untuk memberikan keterangan yang jelas pada setiap dokumen yang kamu unggah. Kalau masih kesulitan, kamu bisa menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id, ya!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau daftar di UNSIQ. Saya bingung, mulai dari mana ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusanmu! Senang sekali kamu memilih UNSIQ. Untuk memulai pendaftaran, kamu bisa akses website kami di pmb.unsiq.ac.id. Di sana, kamu akan menemukan formulir pendaftaran dan petunjuk langkah demi langkah.  Pertama, kamu perlu mengisi formulir pendaftaran dengan data pribadi dan memilih jenjang yang kamu inginkan.<end_of_turn>\n<start_of_turn>user\nOke, sudah diisi formulir. Sekarang saya mau upload dokumen, tapi saya bingung mau upload apa saja dan bagaimana caranya.<end_of_turn>\n<start_of_turn>model\nBaik, untuk tahap upload dokumen, kamu membutuhkan pas foto 3x4 dengan background merah dan scan ijazah/SKL/raport. Kamu juga perlu mengunggah KTP, Akte, atau Kartu Keluarga sebagai identifikasi.  Kamu bisa mengunggah dokumen-dokumen tersebut melalui website pendaftaran setelah kamu login.  Apakah kamu sudah memiliki semua dokumen tersebut?<end_of_turn>\n<start_of_turn>user\nSaya punya semua dokumennya. Tapi, saya nggak tahu bagaimana caranya mengunggahnya di website. Bisa dijelaskan lebih detail?<end_of_turn>\n<start_of_turn>model\nTentu saja! Setelah login, cari tombol atau menu yang bertuliskan 'Upload Dokumen'. Biasanya terletak di bagian formulir pendaftaran atau di halaman profil kamu. Klik tombol tersebut, lalu pilih file dokumen yang ingin kamu unggah. Pastikan file dalam format yang didukung (biasanya PDF atau JPG). Jangan lupa untuk memberikan keterangan yang jelas pada setiap dokumen yang kamu unggah. Kalau masih kesulitan, kamu bisa menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id, ya!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_005",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya mau mendaftarkan anak saya, tapi saya mau tanya dulu cara bayar biaya pendaftarannya."
+      },
+      {
+        "role": "model",
+        "content": "Selamat pagi! Dengan senang hati saya bantu. Untuk biaya pendaftaran, ada beberapa metode yang bisa Bapak/Ibu gunakan. Saat ini, Bapak/Ibu bisa membayar melalui Bank Jateng atau Finpay. Untuk biaya pendaftaran Gelombang 1, D3 dan S1 gratis. Bagaimana Bapak/Ibu lebih tertarik dengan metode pembayaran mana?"
+      },
+      {
+        "role": "user",
+        "content": "Kalau pakai Finpay, caranya gimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk pembayaran melalui Finpay, Bapak/Ibu bisa mengunduh aplikasi Finpay di smartphone masing-masing. Setelah itu, Bapak/Ibu bisa mencari dan memilih menu pembayaran dengan kode pembayaran dari PMB UNSIQ.  Setelah pembayaran berhasil, simpan bukti transfernya ya. Apakah Bapak/Ibu ingin saya berikan informasi lebih detail mengenai cara melakukan pembayaran melalui Finpay?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, terima kasih banyak informasinya."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami melalui nomor 0857 7504 7504 atau email humas@unsiq.ac.id. Selamat mempersiapkan pendaftaran!"
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya mau mendaftarkan anak saya, tapi saya mau tanya dulu cara bayar biaya pendaftarannya.<end_of_turn>\n<start_of_turn>model\nSelamat pagi! Dengan senang hati saya bantu. Untuk biaya pendaftaran, ada beberapa metode yang bisa Bapak/Ibu gunakan. Saat ini, Bapak/Ibu bisa membayar melalui Bank Jateng atau Finpay. Untuk biaya pendaftaran Gelombang 1, D3 dan S1 gratis. Bagaimana Bapak/Ibu lebih tertarik dengan metode pembayaran mana?<end_of_turn>\n<start_of_turn>user\nKalau pakai Finpay, caranya gimana ya?<end_of_turn>\n<start_of_turn>model\nUntuk pembayaran melalui Finpay, Bapak/Ibu bisa mengunduh aplikasi Finpay di smartphone masing-masing. Setelah itu, Bapak/Ibu bisa mencari dan memilih menu pembayaran dengan kode pembayaran dari PMB UNSIQ.  Setelah pembayaran berhasil, simpan bukti transfernya ya. Apakah Bapak/Ibu ingin saya berikan informasi lebih detail mengenai cara melakukan pembayaran melalui Finpay?<end_of_turn>\n<start_of_turn>user\nOke, terima kasih banyak informasinya.<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami melalui nomor 0857 7504 7504 atau email humas@unsiq.ac.id. Selamat mempersiapkan pendaftaran!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_alur_pendaftaran_006",
+    "source": "synthetic_test",
+    "category": "alur_pendaftaran",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau daftar di UNSIQ. Saya mau tanya, gimana caranya cek hasil seleksi ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusannya! Kami senang mendengar Anda tertarik untuk kuliah di UNSIQ. Untuk mengecek hasil seleksi, silakan kunjungi menu 'Pengumuman' di website pmb.unsiq.ac.id. Pengumuman hasil seleksi biasanya akan diumumkan setelah proses seleksi selesai. Anda juga akan menerima notifikasi via WhatsApp atau email jika Anda terdaftar."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Terus, kalau saya sudah daftar, apakah saya akan dapat notifikasi otomatis?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Setelah Anda melakukan pendaftaran dan pembayaran biaya, Anda akan terdaftar di sistem kami. Kami akan mengirimkan notifikasi via WhatsApp dan email untuk menginformasikan status pendaftaran Anda, termasuk pengumuman hasil seleksi. Pastikan nomor HP dan email yang Anda masukkan saat pendaftaran sudah benar."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak atas penjelasannya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id. Selamat mempersiapkan diri!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau daftar di UNSIQ. Saya mau tanya, gimana caranya cek hasil seleksi ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusannya! Kami senang mendengar Anda tertarik untuk kuliah di UNSIQ. Untuk mengecek hasil seleksi, silakan kunjungi menu 'Pengumuman' di website pmb.unsiq.ac.id. Pengumuman hasil seleksi biasanya akan diumumkan setelah proses seleksi selesai. Anda juga akan menerima notifikasi via WhatsApp atau email jika Anda terdaftar.<end_of_turn>\n<start_of_turn>user\nOh, begitu. Terus, kalau saya sudah daftar, apakah saya akan dapat notifikasi otomatis?<end_of_turn>\n<start_of_turn>model\nTentu saja! Setelah Anda melakukan pendaftaran dan pembayaran biaya, Anda akan terdaftar di sistem kami. Kami akan mengirimkan notifikasi via WhatsApp dan email untuk menginformasikan status pendaftaran Anda, termasuk pengumuman hasil seleksi. Pastikan nomor HP dan email yang Anda masukkan saat pendaftaran sudah benar.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih banyak atas penjelasannya!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau email di humas@unsiq.ac.id. Selamat mempersiapkan diri!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_informasi_umum_000",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau daftar kuliah di UNSIQ. Kira-kira kapan jadwal pendaftarannya untuk gelombang 1?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusan Anda! Senang sekali mendengar minat Anda untuk kuliah di UNSIQ. Untuk gelombang 1, pendaftaran akan berlangsung pada bulan November hingga Desember 2024. Apakah ada hal lain yang ingin Anda ketahui tentang jadwal pendaftaran ini?"
+      },
+      {
+        "role": "user",
+        "content": "Oh, bagus! Kalau biaya pendaftarannya berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk program D3 dan S1 di gelombang 1, biaya pendaftarannya GRATIS. Sedangkan untuk program S2, biayanya Rp 300.000. Apakah Anda tertarik dengan program D3 atau S1?"
+      },
+      {
+        "role": "user",
+        "content": "D3 saja. Ada informasi lain yang perlu saya persiapkan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Selain mengisi formulir pendaftaran secara online, Anda juga perlu menyiapkan transkrip nilai, sertifikat SMA/SMK, dan kartu identitas. Jangan lupa untuk mempelajari lebih lanjut mengenai persyaratan lengkapnya di website PMB UNSIQ: pmb.unsiq.ac.id. Jika ada pertanyaan lain, jangan ragu untuk bertanya, ya!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau daftar kuliah di UNSIQ. Kira-kira kapan jadwal pendaftarannya untuk gelombang 1?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusan Anda! Senang sekali mendengar minat Anda untuk kuliah di UNSIQ. Untuk gelombang 1, pendaftaran akan berlangsung pada bulan November hingga Desember 2024. Apakah ada hal lain yang ingin Anda ketahui tentang jadwal pendaftaran ini?<end_of_turn>\n<start_of_turn>user\nOh, bagus! Kalau biaya pendaftarannya berapa ya?<end_of_turn>\n<start_of_turn>model\nUntuk program D3 dan S1 di gelombang 1, biaya pendaftarannya GRATIS. Sedangkan untuk program S2, biayanya Rp 300.000. Apakah Anda tertarik dengan program D3 atau S1?<end_of_turn>\n<start_of_turn>user\nD3 saja. Ada informasi lain yang perlu saya persiapkan?<end_of_turn>\n<start_of_turn>model\nTentu saja! Selain mengisi formulir pendaftaran secara online, Anda juga perlu menyiapkan transkrip nilai, sertifikat SMA/SMK, dan kartu identitas. Jangan lupa untuk mempelajari lebih lanjut mengenai persyaratan lengkapnya di website PMB UNSIQ: pmb.unsiq.ac.id. Jika ada pertanyaan lain, jangan ragu untuk bertanya, ya!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_informasi_umum_001",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat pagi, saya ingin mendaftarkan anak saya untuk kuliah di UNSIQ. Bisakah saya tahu jam berapa PMB buka?"
+      },
+      {
+        "role": "model",
+        "content": "Selamat pagi! Tentu saja. Jam pelayanan PMB (Panitia Penerimaan Mahasiswa Baru) UNSIQ adalah Senin sampai Jumat pukul 08.00 hingga 16.00 WIB. Pada hari Sabtu, kami buka dari pukul 08.00 hingga 12.00 WIB. Mohon maaf, kami tutup pada hari Minggu dan tanggal merah."
+      },
+      {
+        "role": "user",
+        "content": "Oh, baik. Lalu, apakah ada layanan yang tersedia di hari Sabtu?"
+      },
+      {
+        "role": "model",
+        "content": "Ya, Bapak/Ibu dapat melayani pendaftaran dan konsultasi terkait PMB di hari Sabtu. Namun, jam operasional kami terbatas hingga pukul 12.00 WIB. Apakah ada hal lain yang ingin Bapak/Ibu tanyakan?"
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat pagi, saya ingin mendaftarkan anak saya untuk kuliah di UNSIQ. Bisakah saya tahu jam berapa PMB buka?<end_of_turn>\n<start_of_turn>model\nSelamat pagi! Tentu saja. Jam pelayanan PMB (Panitia Penerimaan Mahasiswa Baru) UNSIQ adalah Senin sampai Jumat pukul 08.00 hingga 16.00 WIB. Pada hari Sabtu, kami buka dari pukul 08.00 hingga 12.00 WIB. Mohon maaf, kami tutup pada hari Minggu dan tanggal merah.<end_of_turn>\n<start_of_turn>user\nOh, baik. Lalu, apakah ada layanan yang tersedia di hari Sabtu?<end_of_turn>\n<start_of_turn>model\nYa, Bapak/Ibu dapat melayani pendaftaran dan konsultasi terkait PMB di hari Sabtu. Namun, jam operasional kami terbatas hingga pukul 12.00 WIB. Apakah ada hal lain yang ingin Bapak/Ibu tanyakan?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_informasi_umum_002",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau tanya, nomor WhatsApp PMB UNSIQ berapa?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Tentu saja. Nomor WhatsApp PMB UNSIQ adalah 0857 7504 7504. Silakan hubungi kami jika ada pertanyaan atau membutuhkan bantuan terkait pendaftaran."
+      },
+      {
+        "role": "user",
+        "content": "Oke, terima kasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jangan ragu untuk menghubungi kami jika ada hal lain yang bisa kami bantu. Selamat melanjutkan proses pendaftaran Anda!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau tanya, nomor WhatsApp PMB UNSIQ berapa?<end_of_turn>\n<start_of_turn>model\nHalo! Tentu saja. Nomor WhatsApp PMB UNSIQ adalah 0857 7504 7504. Silakan hubungi kami jika ada pertanyaan atau membutuhkan bantuan terkait pendaftaran.<end_of_turn>\n<start_of_turn>user\nOke, terima kasih banyak!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jangan ragu untuk menghubungi kami jika ada hal lain yang bisa kami bantu. Selamat melanjutkan proses pendaftaran Anda!<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_informasi_umum_003",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "calon_s2",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau tanya lokasi kampus UNSIQ ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat datang di PMB UNSIQ. Lokasi kampus kami berada di Jl. Raya Kalibening Km. 03, Wonosobo, Jawa Tengah. Apakah ada hal lain yang ingin Anda tanyakan?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, terima kasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jangan ragu untuk bertanya jika ada informasi lain yang Anda butuhkan. Selamat mempersiapkan diri untuk program S2 di UNSIQ."
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau tanya lokasi kampus UNSIQ ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat datang di PMB UNSIQ. Lokasi kampus kami berada di Jl. Raya Kalibening Km. 03, Wonosobo, Jawa Tengah. Apakah ada hal lain yang ingin Anda tanyakan?<end_of_turn>\n<start_of_turn>user\nOke, terima kasih banyak!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jangan ragu untuk bertanya jika ada informasi lain yang Anda butuhkan. Selamat mempersiapkan diri untuk program S2 di UNSIQ.<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_informasi_umum_004",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau daftar kuliah di UNSIQ. Kira-kira kapan deadline pendaftaran gelombang 2?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusanmu! Senang sekali mendengar kamu tertarik kuliah di UNSIQ. Untuk gelombang 2, deadline pendaftarannya adalah tanggal 28 Februari 2025 ya. Apakah ada pertanyaan lain yang bisa saya bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Oh, terima kasih banyak! Kalau biaya pendaftarannya berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk gelombang 2, biaya pendaftarannya adalah Rp 250.000 untuk program D3 dan S1, sedangkan untuk program S2 adalah Rp 300.000. Apakah kamu tertarik dengan program D3 atau S1?"
+      },
+      {
+        "role": "user",
+        "content": "Saya belum yakin, mau ambil D3 dulu. Ada informasi tentang cara mendaftar yang bisa saya ikuti?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Kamu bisa mendapatkan informasi lengkap mengenai cara mendaftar di website PMB kami: pmb.unsiq.ac.id. Di sana terdapat panduan pendaftaran, formulir, dan persyaratan yang perlu kamu lengkapi. Jangan ragu untuk menghubungi kami melalui WhatsApp 0857 7504 7504 jika ada kesulitan. Selamat mempersiapkan diri!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau daftar kuliah di UNSIQ. Kira-kira kapan deadline pendaftaran gelombang 2?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusanmu! Senang sekali mendengar kamu tertarik kuliah di UNSIQ. Untuk gelombang 2, deadline pendaftarannya adalah tanggal 28 Februari 2025 ya. Apakah ada pertanyaan lain yang bisa saya bantu?<end_of_turn>\n<start_of_turn>user\nOh, terima kasih banyak! Kalau biaya pendaftarannya berapa ya?<end_of_turn>\n<start_of_turn>model\nUntuk gelombang 2, biaya pendaftarannya adalah Rp 250.000 untuk program D3 dan S1, sedangkan untuk program S2 adalah Rp 300.000. Apakah kamu tertarik dengan program D3 atau S1?<end_of_turn>\n<start_of_turn>user\nSaya belum yakin, mau ambil D3 dulu. Ada informasi tentang cara mendaftar yang bisa saya ikuti?<end_of_turn>\n<start_of_turn>model\nTentu saja! Kamu bisa mendapatkan informasi lengkap mengenai cara mendaftar di website PMB kami: pmb.unsiq.ac.id. Di sana terdapat panduan pendaftaran, formulir, dan persyaratan yang perlu kamu lengkapi. Jangan ragu untuk menghubungi kami melalui WhatsApp 0857 7504 7504 jika ada kesulitan. Selamat mempersiapkan diri!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_informasi_umum_005",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat pagi, saya ingin mendaftarkan anak saya ke UNSIQ. Kira-kira biaya pendaftarannya bagaimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Selamat pagi! Terima kasih atas minatnya untuk mendaftarkan anak Anda di UNSIQ. Untuk biaya pendaftaran, kami memiliki beberapa gelombang. Untuk D3 dan S1, biaya pendaftarannya GRATIS untuk Gelombang 1 (Nov-Des 2024). Untuk Gelombang 2 dan 3 (Jan-Jun 2025), biaya pendaftarannya masing-masing Rp 250.000 untuk D3 dan S1."
+      },
+      {
+        "role": "user",
+        "content": "Gelombang 2 kapan mulai dan berapa biaya untuk S2?"
+      },
+      {
+        "role": "model",
+        "content": "Gelombang 2 dibuka pada periode Januari hingga Maret 2025. Biaya pendaftaran untuk program S2 pada Gelombang 2 adalah Rp 300.000."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak informasinya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau WhatsApp 0857 7504 7504. Selamat mempersiapkan pendaftaran!"
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat pagi, saya ingin mendaftarkan anak saya ke UNSIQ. Kira-kira biaya pendaftarannya bagaimana ya?<end_of_turn>\n<start_of_turn>model\nSelamat pagi! Terima kasih atas minatnya untuk mendaftarkan anak Anda di UNSIQ. Untuk biaya pendaftaran, kami memiliki beberapa gelombang. Untuk D3 dan S1, biaya pendaftarannya GRATIS untuk Gelombang 1 (Nov-Des 2024). Untuk Gelombang 2 dan 3 (Jan-Jun 2025), biaya pendaftarannya masing-masing Rp 250.000 untuk D3 dan S1.<end_of_turn>\n<start_of_turn>user\nGelombang 2 kapan mulai dan berapa biaya untuk S2?<end_of_turn>\n<start_of_turn>model\nGelombang 2 dibuka pada periode Januari hingga Maret 2025. Biaya pendaftaran untuk program S2 pada Gelombang 2 adalah Rp 300.000.<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak informasinya!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau WhatsApp 0857 7504 7504. Selamat mempersiapkan pendaftaran!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_informasi_umum_006",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau kuliah di UNSIQ. Kira-kira akreditasinya bagaimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusan Anda! Senang sekali mendengar Anda tertarik kuliah di UNSIQ.  Kami bangga bisa menjadi pilihan Anda.  Saat ini, UNSIQ telah terakreditasi B oleh BAN-PT. Semoga informasi ini bermanfaat ya!"
+      },
+      {
+        "role": "user",
+        "content": "Wah, bagus banget! Terima kasih banyak informasinya."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk bertanya, ya. Kami siap membantu Anda dalam proses PMB. Selamat mempersiapkan diri!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau kuliah di UNSIQ. Kira-kira akreditasinya bagaimana ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusan Anda! Senang sekali mendengar Anda tertarik kuliah di UNSIQ.  Kami bangga bisa menjadi pilihan Anda.  Saat ini, UNSIQ telah terakreditasi B oleh BAN-PT. Semoga informasi ini bermanfaat ya!<end_of_turn>\n<start_of_turn>user\nWah, bagus banget! Terima kasih banyak informasinya.<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lain, jangan ragu untuk bertanya, ya. Kami siap membantu Anda dalam proses PMB. Selamat mempersiapkan diri!<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_informasi_umum_007",
+    "source": "synthetic_test",
+    "category": "informasi_umum",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya karyawan yang ingin kuliah. Saya mau tanya, email resmi PMB Unsiq itu apa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Terima kasih sudah menghubungi PMB Unsiq. Email resmi kami adalah humas@unsiq.ac.id. Silakan gunakan email ini untuk semua pertanyaan terkait pendaftaran."
+      },
+      {
+        "role": "user",
+        "content": "Oke, terima kasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami kembali. Selamat mempersiapkan diri!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya karyawan yang ingin kuliah. Saya mau tanya, email resmi PMB Unsiq itu apa ya?<end_of_turn>\n<start_of_turn>model\nHalo! Terima kasih sudah menghubungi PMB Unsiq. Email resmi kami adalah humas@unsiq.ac.id. Silakan gunakan email ini untuk semua pertanyaan terkait pendaftaran.<end_of_turn>\n<start_of_turn>user\nOke, terima kasih banyak!<end_of_turn>\n<start_of_turn>model\nSama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami kembali. Selamat mempersiapkan diri!<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_000",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, kapan sih UNSIQ didirikan?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusan ya! Senang sekali mendengar kamu tertarik masuk ke UNSIQ. UNSIQ didirikan pada tahun 1988. Universitas kami lahir dengan visi untuk memberikan pendidikan yang mengintegrasikan ilmu pengetahuan dengan nilai-nilai Al-Qur'an. Apakah ada hal lain yang ingin kamu ketahui tentang UNSIQ?"
+      },
+      {
+        "role": "user",
+        "content": "Wah, keren! Terus, apakah UNSIQ sudah terakreditasi?"
+      },
+      {
+        "role": "model",
+        "content": "Betul sekali! UNSIQ sudah terakreditasi dengan kategori B oleh BAN-PT. Akreditasi ini menunjukkan bahwa kualitas pendidikan di UNSIQ sudah terjamin dan memenuhi standar nasional. Selain itu, UNSIQ juga memiliki tujuh fakultas yang siap menyambut mahasiswa baru seperti kamu. Apakah kamu tertarik mengetahui lebih lanjut tentang fakultas-fakultas di UNSIQ?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, bagus! Terakhir, apa saja yang bikin UNSIQ beda dari universitas lain?"
+      },
+      {
+        "role": "model",
+        "content": "UNSIQ memiliki beberapa keunggulan yang membedakannya dari universitas lain. Pertama, kami mengintegrasikan ilmu pengetahuan dengan nilai-nilai Al-Qur'an, sehingga lulusan UNSIQ tidak hanya kompeten secara akademis tetapi juga memiliki karakter Islami. Kedua, lingkungan kampus kami yang berada di pegunungan Wonosobo memberikan suasana yang kondusif untuk belajar dan beribadah. Ketiga, kami juga menawarkan biaya kuliah yang terjangkau dengan berbagai beasiswa yang tersedia. Bagaimana, apakah ada aspek tertentu yang ingin kamu gali lebih dalam?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, kapan sih UNSIQ didirikan?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusan ya! Senang sekali mendengar kamu tertarik masuk ke UNSIQ. UNSIQ didirikan pada tahun 1988. Universitas kami lahir dengan visi untuk memberikan pendidikan yang mengintegrasikan ilmu pengetahuan dengan nilai-nilai Al-Qur'an. Apakah ada hal lain yang ingin kamu ketahui tentang UNSIQ?<end_of_turn>\n<start_of_turn>user\nWah, keren! Terus, apakah UNSIQ sudah terakreditasi?<end_of_turn>\n<start_of_turn>model\nBetul sekali! UNSIQ sudah terakreditasi dengan kategori B oleh BAN-PT. Akreditasi ini menunjukkan bahwa kualitas pendidikan di UNSIQ sudah terjamin dan memenuhi standar nasional. Selain itu, UNSIQ juga memiliki tujuh fakultas yang siap menyambut mahasiswa baru seperti kamu. Apakah kamu tertarik mengetahui lebih lanjut tentang fakultas-fakultas di UNSIQ?<end_of_turn>\n<start_of_turn>user\nOke, bagus! Terakhir, apa saja yang bikin UNSIQ beda dari universitas lain?<end_of_turn>\n<start_of_turn>model\nUNSIQ memiliki beberapa keunggulan yang membedakannya dari universitas lain. Pertama, kami mengintegrasikan ilmu pengetahuan dengan nilai-nilai Al-Qur'an, sehingga lulusan UNSIQ tidak hanya kompeten secara akademis tetapi juga memiliki karakter Islami. Kedua, lingkungan kampus kami yang berada di pegunungan Wonosobo memberikan suasana yang kondusif untuk belajar dan beribadah. Ketiga, kami juga menawarkan biaya kuliah yang terjangkau dengan berbagai beasiswa yang tersedia. Bagaimana, apakah ada aspek tertentu yang ingin kamu gali lebih dalam?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_001",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bapak. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ingin tahu, apa visi dan misi UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam, Ibu. Selamat datang di UNSIQ! Tentu saja, dengan senang hati saya akan menjelaskan visi dan misi UNSIQ.  Visi UNSIQ adalah menjadi universitas unggul berbasis nilai-nilai Al-Qur'an yang menghasilkan insan berkarakter, kompeten, dan berdaya saing global. Sedangkan misi UNSIQ adalah: 1) Menyelenggarakan pendidikan tinggi berbasis Al-Qur'an, 2) Mengembangkan penelitian dan pengabdian masyarakat, 3) Membentuk karakter Islami pada civitas akademika, dan 4) Menjalin kerjasama nasional dan internasional. Apakah Ibu ingin saya menjelaskan lebih detail mengenai salah satu dari poin-poin tersebut?"
+      },
+      {
+        "role": "user",
+        "content": "Sangat baik. Jadi, UNSIQ ingin menghasilkan lulusan yang berkarakter kuat dan bisa bersaing di dunia internasional, ya?"
+      },
+      {
+        "role": "model",
+        "content": "Betul sekali, Ibu!  Kami sangat menekankan pada pembentukan karakter Islami dan kompetensi yang relevan dengan kebutuhan dunia kerja saat ini.  Kami percaya bahwa integrasi ilmu pengetahuan dengan nilai-nilai Al-Qur'an akan menghasilkan lulusan yang tidak hanya cerdas, tetapi juga berakhlak mulia dan memiliki kepedulian sosial. Apakah ada hal lain yang ingin Ibu tanyakan terkait visi dan misi UNSIQ, atau mungkin mengenai program studi yang tersedia?"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Bapak. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ingin tahu, apa visi dan misi UNSIQ?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam, Ibu. Selamat datang di UNSIQ! Tentu saja, dengan senang hati saya akan menjelaskan visi dan misi UNSIQ.  Visi UNSIQ adalah menjadi universitas unggul berbasis nilai-nilai Al-Qur'an yang menghasilkan insan berkarakter, kompeten, dan berdaya saing global. Sedangkan misi UNSIQ adalah: 1) Menyelenggarakan pendidikan tinggi berbasis Al-Qur'an, 2) Mengembangkan penelitian dan pengabdian masyarakat, 3) Membentuk karakter Islami pada civitas akademika, dan 4) Menjalin kerjasama nasional dan internasional. Apakah Ibu ingin saya menjelaskan lebih detail mengenai salah satu dari poin-poin tersebut?<end_of_turn>\n<start_of_turn>user\nSangat baik. Jadi, UNSIQ ingin menghasilkan lulusan yang berkarakter kuat dan bisa bersaing di dunia internasional, ya?<end_of_turn>\n<start_of_turn>model\nBetul sekali, Ibu!  Kami sangat menekankan pada pembentukan karakter Islami dan kompetensi yang relevan dengan kebutuhan dunia kerja saat ini.  Kami percaya bahwa integrasi ilmu pengetahuan dengan nilai-nilai Al-Qur'an akan menghasilkan lulusan yang tidak hanya cerdas, tetapi juga berakhlak mulia dan memiliki kepedulian sosial. Apakah ada hal lain yang ingin Ibu tanyakan terkait visi dan misi UNSIQ, atau mungkin mengenai program studi yang tersedia?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_002",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau tanya, fakultas apa saja yang ada di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat datang di PMB UNSIQ. Kami memiliki 7 fakultas di UNSIQ, yaitu Fakultas Ilmu Tarbiyah dan Keguruan, Fakultas Syariah dan Hukum, Fakultas Teknik dan Ilmu Komputer, Fakultas Ekonomi dan Bisnis Islam, Fakultas Dakwah, Fakultas Kesehatan, dan Pascasarjana. Apakah ada fakultas tertentu yang ingin Anda ketahui lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan Fakultas Teknik dan Ilmu Komputer. Apa saja program studi yang ditawarkan?"
+      },
+      {
+        "role": "model",
+        "content": "Baik, Fakultas Teknik dan Ilmu Komputer menawarkan beberapa program studi, antara lain: Teknik Informatika, Teknik Elektro, Teknik Industri, dan Teknik Mesineka. Apakah Anda ingin saya berikan informasi lebih detail mengenai salah satu program studi tersebut?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau tanya, fakultas apa saja yang ada di UNSIQ?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat datang di PMB UNSIQ. Kami memiliki 7 fakultas di UNSIQ, yaitu Fakultas Ilmu Tarbiyah dan Keguruan, Fakultas Syariah dan Hukum, Fakultas Teknik dan Ilmu Komputer, Fakultas Ekonomi dan Bisnis Islam, Fakultas Dakwah, Fakultas Kesehatan, dan Pascasarjana. Apakah ada fakultas tertentu yang ingin Anda ketahui lebih lanjut?<end_of_turn>\n<start_of_turn>user\nSaya tertarik dengan Fakultas Teknik dan Ilmu Komputer. Apa saja program studi yang ditawarkan?<end_of_turn>\n<start_of_turn>model\nBaik, Fakultas Teknik dan Ilmu Komputer menawarkan beberapa program studi, antara lain: Teknik Informatika, Teknik Elektro, Teknik Industri, dan Teknik Mesineka. Apakah Anda ingin saya berikan informasi lebih detail mengenai salah satu program studi tersebut?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_003",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "calon_s2",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan UNSIQ untuk melanjutkan S2. Bisa tolong jelaskan keunggulan UNSIQ, khususnya untuk program pascasarjana?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! UNSIQ memiliki beberapa keunggulan yang sangat menarik, terutama bagi calon mahasiswa pascasarjana. Pertama, kami menawarkan integrasi yang kuat antara ilmu pengetahuan modern dan nilai-nilai Islam, yang menjadikan pendidikan kami unik. Kedua, lingkungan kampus kami yang terletak di pegunungan Wonosobo sangat kondusif untuk belajar dan menenangkan pikiran. Ketiga, biaya pendidikan di UNSIQ relatif terjangkau dan kami memiliki berbagai macam beasiswa yang tersedia untuk mendukung mahasiswa. Terakhir, fasilitas kami lengkap, mulai dari perpustakaan yang memadai, laboratorium modern, hingga masjid yang nyaman. Apakah ada aspek tertentu yang ingin Anda ketahui lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana dengan kualitas dosen dan program studi di pascasarjana UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Kami sangat bangga dengan kualitas dosen di UNSIQ, khususnya di program pascasarjana. Sebagian besar dosen kami memiliki kualifikasi yang sangat baik, dengan banyak yang meraih gelar doktor dari universitas ternama. Selain itu, kami juga memiliki dosen yang aktif dalam penelitian dan pengabdian masyarakat, sehingga Anda akan mendapatkan pengalaman belajar yang sangat relevan dan terdepan. Untuk program studinya, kami memiliki berbagai pilihan yang sesuai dengan minat dan kebutuhan Anda, mulai dari Ilmu Tarbiyah, Syariah dan Hukum, hingga Teknik dan Ilmu Komputer.  Kami juga terus berupaya mengembangkan program studi baru agar tetap relevan dengan perkembangan zaman. Apakah Anda memiliki minat khusus dalam bidang studi pascasarjana?"
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya tertarik dengan UNSIQ untuk melanjutkan S2. Bisa tolong jelaskan keunggulan UNSIQ, khususnya untuk program pascasarjana?<end_of_turn>\n<start_of_turn>model\nTentu saja! UNSIQ memiliki beberapa keunggulan yang sangat menarik, terutama bagi calon mahasiswa pascasarjana. Pertama, kami menawarkan integrasi yang kuat antara ilmu pengetahuan modern dan nilai-nilai Islam, yang menjadikan pendidikan kami unik. Kedua, lingkungan kampus kami yang terletak di pegunungan Wonosobo sangat kondusif untuk belajar dan menenangkan pikiran. Ketiga, biaya pendidikan di UNSIQ relatif terjangkau dan kami memiliki berbagai macam beasiswa yang tersedia untuk mendukung mahasiswa. Terakhir, fasilitas kami lengkap, mulai dari perpustakaan yang memadai, laboratorium modern, hingga masjid yang nyaman. Apakah ada aspek tertentu yang ingin Anda ketahui lebih lanjut?<end_of_turn>\n<start_of_turn>user\nBagaimana dengan kualitas dosen dan program studi di pascasarjana UNSIQ?<end_of_turn>\n<start_of_turn>model\nKami sangat bangga dengan kualitas dosen di UNSIQ, khususnya di program pascasarjana. Sebagian besar dosen kami memiliki kualifikasi yang sangat baik, dengan banyak yang meraih gelar doktor dari universitas ternama. Selain itu, kami juga memiliki dosen yang aktif dalam penelitian dan pengabdian masyarakat, sehingga Anda akan mendapatkan pengalaman belajar yang sangat relevan dan terdepan. Untuk program studinya, kami memiliki berbagai pilihan yang sesuai dengan minat dan kebutuhan Anda, mulai dari Ilmu Tarbiyah, Syariah dan Hukum, hingga Teknik dan Ilmu Komputer.  Kami juga terus berupaya mengembangkan program studi baru agar tetap relevan dengan perkembangan zaman. Apakah Anda memiliki minat khusus dalam bidang studi pascasarjana?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_004",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, akreditasi UNSIQ itu berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusan ya! Senang sekali mendengar kamu tertarik kuliah di UNSIQ. UNSIQ saat ini memiliki akreditasi B dari BAN-PT. Akreditasi ini menunjukkan bahwa kualitas pendidikan di UNSIQ sudah terjamin dan memenuhi standar yang ditetapkan."
+      },
+      {
+        "role": "user",
+        "content": "Oh, hebat! Akreditasi B itu bagus ya? Apa itu BAN-PT?"
+      },
+      {
+        "role": "model",
+        "content": "Betul sekali! Akreditasi B merupakan tingkat akreditasi yang baik. BAN-PT adalah Badan Akreditasi Perguruan Tinggi, lembaga yang bertanggung jawab untuk memberikan akreditasi kepada perguruan tinggi di Indonesia. Akreditasi ini penting karena menjadi salah satu pertimbangan bagi calon mahasiswa saat memilih universitas."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas penjelasannya! Kalau akreditasi UNSIQ B, apakah itu cukup untuk masuk ke universitas lain di masa depan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Akreditasi B UNSIQ sudah cukup memadai dan memberikan keuntungan tersendiri. Akreditasi ini akan sangat membantu kamu saat melamar ke perguruan tinggi lain, bahkan untuk program studi yang lebih tinggi. Semoga sukses dengan kuliahmu di UNSIQ!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, akreditasi UNSIQ itu berapa ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusan ya! Senang sekali mendengar kamu tertarik kuliah di UNSIQ. UNSIQ saat ini memiliki akreditasi B dari BAN-PT. Akreditasi ini menunjukkan bahwa kualitas pendidikan di UNSIQ sudah terjamin dan memenuhi standar yang ditetapkan.<end_of_turn>\n<start_of_turn>user\nOh, hebat! Akreditasi B itu bagus ya? Apa itu BAN-PT?<end_of_turn>\n<start_of_turn>model\nBetul sekali! Akreditasi B merupakan tingkat akreditasi yang baik. BAN-PT adalah Badan Akreditasi Perguruan Tinggi, lembaga yang bertanggung jawab untuk memberikan akreditasi kepada perguruan tinggi di Indonesia. Akreditasi ini penting karena menjadi salah satu pertimbangan bagi calon mahasiswa saat memilih universitas.<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak atas penjelasannya! Kalau akreditasi UNSIQ B, apakah itu cukup untuk masuk ke universitas lain di masa depan?<end_of_turn>\n<start_of_turn>model\nTentu saja! Akreditasi B UNSIQ sudah cukup memadai dan memberikan keuntungan tersendiri. Akreditasi ini akan sangat membantu kamu saat melamar ke perguruan tinggi lain, bahkan untuk program studi yang lebih tinggi. Semoga sukses dengan kuliahmu di UNSIQ!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_005",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, mau tanya lokasi kampus UNSIQ ya. Kira-kira jauh dari mana?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam, warahmatullahi wabarakatuh. Selamat datang di UNSIQ! Kampus kami terletak di Jl. Raya Kalibening Km. 03, Wonosobo, Jawa Tengah. Lokasinya berada di area perbukitan yang indah. Jarak dari kota Yogyakarta sekitar 45-60 kilometer, dan dari kota Solo sekitar 80-90 kilometer. Apakah ada informasi lain yang bisa saya bantu?"
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Kalau dari Wonosobo bagaimana?"
+      },
+      {
+        "role": "model",
+        "content": "Dari Wonosobo, kampus kami bisa dijangkau dengan jarak sekitar 15-20 kilometer. Perjalanan ini cukup mudah dan bisa ditempuh dengan kendaraan pribadi atau transportasi umum seperti bus. Apakah ada hal lain yang ingin Anda ketahui mengenai lokasi kampus atau informasi lainnya?"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak atas penjelasannya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Kami dengan senang hati membantu. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya. Semoga sukses dengan pendaftaran anak Anda di UNSIQ!"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, mau tanya lokasi kampus UNSIQ ya. Kira-kira jauh dari mana?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam, warahmatullahi wabarakatuh. Selamat datang di UNSIQ! Kampus kami terletak di Jl. Raya Kalibening Km. 03, Wonosobo, Jawa Tengah. Lokasinya berada di area perbukitan yang indah. Jarak dari kota Yogyakarta sekitar 45-60 kilometer, dan dari kota Solo sekitar 80-90 kilometer. Apakah ada informasi lain yang bisa saya bantu?<end_of_turn>\n<start_of_turn>user\nOh, begitu. Kalau dari Wonosobo bagaimana?<end_of_turn>\n<start_of_turn>model\nDari Wonosobo, kampus kami bisa dijangkau dengan jarak sekitar 15-20 kilometer. Perjalanan ini cukup mudah dan bisa ditempuh dengan kendaraan pribadi atau transportasi umum seperti bus. Apakah ada hal lain yang ingin Anda ketahui mengenai lokasi kampus atau informasi lainnya?<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih banyak atas penjelasannya!<end_of_turn>\n<start_of_turn>model\nSama-sama! Kami dengan senang hati membantu. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya. Semoga sukses dengan pendaftaran anak Anda di UNSIQ!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_006",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau tanya, kapan sih Universitas Sains Al-Qur'an atau UNSIQ didirikan?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Dengan senang hati saya bantu. UNSIQ didirikan pada tahun 1988. Semoga informasi ini bermanfaat ya! Ada pertanyaan lain?"
+      },
+      {
+        "role": "user",
+        "content": "Wah, terima kasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Senang bisa membantu. Jika ada informasi lain yang Anda butuhkan, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau tanya, kapan sih Universitas Sains Al-Qur'an atau UNSIQ didirikan?<end_of_turn>\n<start_of_turn>model\nHalo! Dengan senang hati saya bantu. UNSIQ didirikan pada tahun 1988. Semoga informasi ini bermanfaat ya! Ada pertanyaan lain?<end_of_turn>\n<start_of_turn>user\nWah, terima kasih banyak!<end_of_turn>\n<start_of_turn>model\nSama-sama! Senang bisa membantu. Jika ada informasi lain yang Anda butuhkan, jangan ragu untuk bertanya.<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_007",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "calon_s2",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, saya lulusan S1 di UNSIQ. Saya tertarik melanjutkan S2 di UNSIQ. Bisa bantu saya tahu tentang program pascasarjana di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam warahmatullahi wabarakatuh! Tentu saja! Kami dengan senang hati membantu Anda. Program Pascasarjana UNSIQ saat ini menawarkan beberapa program studi yang menarik, yaitu: Magister Manajemen Pendidikan Islam, Magister Hukum Ekonomi Syariah, Magister Ilmu Psikologi Islam, dan Doktor Ilmu Agama. Apakah Anda memiliki program studi tertentu yang sudah menjadi pertimbangan?"
+      },
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan Magister Manajemen Pendidikan Islam. Bagaimana prosedur pendaftaran dan persyaratan yang harus saya persiapkan?"
+      },
+      {
+        "role": "model",
+        "content": "Baik, untuk program Magister Manajemen Pendidikan Islam, ada beberapa tahapan dan persyaratan yang perlu Anda perhatikan. Pertama, Anda perlu menyiapkan transkrip nilai S1 yang sudah di-legalisasi, surat lamaran, CV, dan foto terbaru ukuran 3x4. Selain itu, Anda juga harus mengikuti tes seleksi administrasi dan tes potensi akademik (TPA). Informasi lebih detail mengenai persyaratan dan jadwal pendaftaran dapat Anda temukan di website resmi UNSIQ: [https://www.unsiq.ac.id/](https://www.unsiq.ac.id/). Apakah Anda ingin saya bantu mencari informasi lebih lanjut mengenai jadwal pendaftaran atau tahapan tes?"
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas bantuannya. Bisakah saya tahu, apakah UNSIQ memiliki beasiswa untuk program pascasarjana?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! UNSIQ memiliki beberapa program beasiswa untuk mahasiswa pascasarjana. Saat ini, kami memiliki beasiswa Kinerja Akademik, Beasiswa Al-Qur'an, dan Beasiswa dari pihak ketiga. Informasi lengkap mengenai persyaratan dan cara pengajuan beasiswa dapat dilihat di website UNSIQ di bagian beasiswa: [https://www.unsiq.ac.id/beasiswa](https://www.unsiq.ac.id/beasiswa). Apakah Anda ingin saya bantu mencari tahu lebih detail mengenai salah satu jenis beasiswa tersebut?"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, saya lulusan S1 di UNSIQ. Saya tertarik melanjutkan S2 di UNSIQ. Bisa bantu saya tahu tentang program pascasarjana di UNSIQ?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam warahmatullahi wabarakatuh! Tentu saja! Kami dengan senang hati membantu Anda. Program Pascasarjana UNSIQ saat ini menawarkan beberapa program studi yang menarik, yaitu: Magister Manajemen Pendidikan Islam, Magister Hukum Ekonomi Syariah, Magister Ilmu Psikologi Islam, dan Doktor Ilmu Agama. Apakah Anda memiliki program studi tertentu yang sudah menjadi pertimbangan?<end_of_turn>\n<start_of_turn>user\nSaya tertarik dengan Magister Manajemen Pendidikan Islam. Bagaimana prosedur pendaftaran dan persyaratan yang harus saya persiapkan?<end_of_turn>\n<start_of_turn>model\nBaik, untuk program Magister Manajemen Pendidikan Islam, ada beberapa tahapan dan persyaratan yang perlu Anda perhatikan. Pertama, Anda perlu menyiapkan transkrip nilai S1 yang sudah di-legalisasi, surat lamaran, CV, dan foto terbaru ukuran 3x4. Selain itu, Anda juga harus mengikuti tes seleksi administrasi dan tes potensi akademik (TPA). Informasi lebih detail mengenai persyaratan dan jadwal pendaftaran dapat Anda temukan di website resmi UNSIQ: [https://www.unsiq.ac.id/](https://www.unsiq.ac.id/). Apakah Anda ingin saya bantu mencari informasi lebih lanjut mengenai jadwal pendaftaran atau tahapan tes?<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak atas bantuannya. Bisakah saya tahu, apakah UNSIQ memiliki beasiswa untuk program pascasarjana?<end_of_turn>\n<start_of_turn>model\nTentu saja! UNSIQ memiliki beberapa program beasiswa untuk mahasiswa pascasarjana. Saat ini, kami memiliki beasiswa Kinerja Akademik, Beasiswa Al-Qur'an, dan Beasiswa dari pihak ketiga. Informasi lengkap mengenai persyaratan dan cara pengajuan beasiswa dapat dilihat di website UNSIQ di bagian beasiswa: [https://www.unsiq.ac.id/beasiswa](https://www.unsiq.ac.id/beasiswa). Apakah Anda ingin saya bantu mencari tahu lebih detail mengenai salah satu jenis beasiswa tersebut?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_008",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau kuliah di UNSIQ. Ada fasilitas apa saja di kampus ini ya?"
+      },
+      {
+        "role": "model",
+        "content": "Assalamualaikum Warahmatullahi Wabarakatuh! Selamat datang di UNSIQ! Senang sekali mendengar Anda tertarik melanjutkan pendidikan di sini. UNSIQ memiliki banyak fasilitas yang mendukung proses belajar mengajar. Beberapa fasilitas utama yang tersedia di kampus kami antara lain: perpustakaan yang lengkap dengan berbagai sumber bacaan, laboratorium yang modern untuk setiap fakultas, masjid untuk beribadah, asrama yang nyaman, dan fasilitas olahraga. Selain itu, kami juga memiliki fasilitas Wi-Fi yang tersedia di seluruh area kampus. Apakah ada fasilitas tertentu yang ingin Anda ketahui lebih detail?"
+      },
+      {
+        "role": "user",
+        "content": "Wah, kedengarannya bagus! Perpustakaan dan laboratoriumnya seperti apa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Perpustakaan UNSIQ memiliki koleksi buku yang sangat beragam, mulai dari buku teks, jurnal ilmiah, hingga buku-buku referensi. Selain itu, kami juga menyediakan akses ke database jurnal online dan sumber-sumber informasi digital lainnya. Sementara itu, laboratorium kami dilengkapi dengan peralatan yang modern dan sesuai dengan kebutuhan setiap fakultas. Misalnya, Fakultas Teknik dan Ilmu Komputer memiliki laboratorium komputer yang lengkap, sedangkan Fakultas Kesehatan memiliki laboratorium anatomi dan fisiologi yang canggih. Apakah Anda tertarik mengetahui lebih lanjut mengenai fasilitas laboratorium di fakultas tertentu?"
+      },
+      {
+        "role": "user",
+        "content": "Oke, terima kasih banyak informasinya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama! Kami dengan senang hati membantu Anda. Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya. Semoga sukses dengan studi Anda di UNSIQ! Wassalamualaikum Warahmatullahi Wabarakatuh."
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau kuliah di UNSIQ. Ada fasilitas apa saja di kampus ini ya?<end_of_turn>\n<start_of_turn>model\nAssalamualaikum Warahmatullahi Wabarakatuh! Selamat datang di UNSIQ! Senang sekali mendengar Anda tertarik melanjutkan pendidikan di sini. UNSIQ memiliki banyak fasilitas yang mendukung proses belajar mengajar. Beberapa fasilitas utama yang tersedia di kampus kami antara lain: perpustakaan yang lengkap dengan berbagai sumber bacaan, laboratorium yang modern untuk setiap fakultas, masjid untuk beribadah, asrama yang nyaman, dan fasilitas olahraga. Selain itu, kami juga memiliki fasilitas Wi-Fi yang tersedia di seluruh area kampus. Apakah ada fasilitas tertentu yang ingin Anda ketahui lebih detail?<end_of_turn>\n<start_of_turn>user\nWah, kedengarannya bagus! Perpustakaan dan laboratoriumnya seperti apa ya?<end_of_turn>\n<start_of_turn>model\nTentu saja! Perpustakaan UNSIQ memiliki koleksi buku yang sangat beragam, mulai dari buku teks, jurnal ilmiah, hingga buku-buku referensi. Selain itu, kami juga menyediakan akses ke database jurnal online dan sumber-sumber informasi digital lainnya. Sementara itu, laboratorium kami dilengkapi dengan peralatan yang modern dan sesuai dengan kebutuhan setiap fakultas. Misalnya, Fakultas Teknik dan Ilmu Komputer memiliki laboratorium komputer yang lengkap, sedangkan Fakultas Kesehatan memiliki laboratorium anatomi dan fisiologi yang canggih. Apakah Anda tertarik mengetahui lebih lanjut mengenai fasilitas laboratorium di fakultas tertentu?<end_of_turn>\n<start_of_turn>user\nOke, terima kasih banyak informasinya!<end_of_turn>\n<start_of_turn>model\nSama-sama! Kami dengan senang hati membantu Anda. Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya. Semoga sukses dengan studi Anda di UNSIQ! Wassalamualaikum Warahmatullahi Wabarakatuh.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_009",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bapak. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ingin tahu lebih banyak tentang suasana kampus di sana."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam, Ibu. Selamat datang di UNSIQ! Dengan senang hati saya akan memberikan informasi mengenai suasana kampus kami. UNSIQ memiliki suasana yang sangat kondusif dan unik. Lokasinya berada di kaki Gunung Wonosobo yang asri, sehingga memberikan ketenangan dan keindahan alam yang luar biasa. Selain itu, kami memiliki lingkungan kampus yang islami dengan banyak masjid dan kegiatan keagamaan. Mahasiswa kami juga sangat solid dan saling mendukung. Apakah ada aspek spesifik dari suasana kampus yang ingin Ibu ketahui lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana dengan kehidupan sosial dan kegiatan mahasiswa di sana?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu, Ibu. Kehidupan sosial dan kegiatan mahasiswa di UNSIQ sangat aktif dan beragam. Kami memiliki berbagai organisasi kemahasiswaan yang mencakup bidang akademik, keagamaan, seni, olahraga, dan sosial. Ada juga kegiatan rutin seperti diskusi keislaman, seminar, workshop, bakti sosial, dan acara-acara kebudayaan. Selain itu, mahasiswa kami sering mengadakan kegiatan sosial bersama masyarakat sekitar Wonosobo. Kami juga selalu mendukung inisiatif mahasiswa dalam mengembangkan potensi diri dan berkontribusi positif bagi masyarakat. Apakah Ibu ingin tahu lebih banyak tentang salah satu organisasi kemahasiswaan tertentu?"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Bapak. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ingin tahu lebih banyak tentang suasana kampus di sana.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam, Ibu. Selamat datang di UNSIQ! Dengan senang hati saya akan memberikan informasi mengenai suasana kampus kami. UNSIQ memiliki suasana yang sangat kondusif dan unik. Lokasinya berada di kaki Gunung Wonosobo yang asri, sehingga memberikan ketenangan dan keindahan alam yang luar biasa. Selain itu, kami memiliki lingkungan kampus yang islami dengan banyak masjid dan kegiatan keagamaan. Mahasiswa kami juga sangat solid dan saling mendukung. Apakah ada aspek spesifik dari suasana kampus yang ingin Ibu ketahui lebih lanjut?<end_of_turn>\n<start_of_turn>user\nBagaimana dengan kehidupan sosial dan kegiatan mahasiswa di sana?<end_of_turn>\n<start_of_turn>model\nTentu, Ibu. Kehidupan sosial dan kegiatan mahasiswa di UNSIQ sangat aktif dan beragam. Kami memiliki berbagai organisasi kemahasiswaan yang mencakup bidang akademik, keagamaan, seni, olahraga, dan sosial. Ada juga kegiatan rutin seperti diskusi keislaman, seminar, workshop, bakti sosial, dan acara-acara kebudayaan. Selain itu, mahasiswa kami sering mengadakan kegiatan sosial bersama masyarakat sekitar Wonosobo. Kami juga selalu mendukung inisiatif mahasiswa dalam mengembangkan potensi diri dan berkontribusi positif bagi masyarakat. Apakah Ibu ingin tahu lebih banyak tentang salah satu organisasi kemahasiswaan tertentu?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_010",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, apa sih yang bikin UNSIQ beda dari kampus lain?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusan SMA/SMK-nya! Senang sekali mendengar kamu tertarik dengan UNSIQ. Kami memang punya beberapa keunggulan yang membedakan kami dari kampus lain. Salah satunya adalah integrasi ilmu pengetahuan dan nilai-nilai Islam. Di UNSIQ, kamu akan belajar ilmu yang relevan dengan kebutuhan zaman, namun tetap berlandaskan ajaran Al-Qur'an dan Rahmatan Lil ‘Alamin."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kuliahnya ada unsur agama ya? Terus, lingkungannya gimana?"
+      },
+      {
+        "role": "model",
+        "content": "Betul sekali! Unsur agama menjadi bagian integral dari pendidikan di UNSIQ. Kami berupaya membentuk karakter Islami pada seluruh civitas akademika. Selain itu, lingkungan kampus kami juga sangat kondusif. UNSIQ terletak di Wonosobo, di kawasan pegunungan yang asri dan jauh dari kebisingan kota. Semoga lingkungan yang tenang ini bisa mendukung proses belajar kamu! Bagaimana, apakah kamu tertarik dengan suasana seperti itu?"
+      },
+      {
+        "role": "user",
+        "content": "Wah, kedengerannya enak banget! Terus, kalau soal biaya kuliahnya, kira-kira berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Kami memahami pertimbangan biaya. UNSIQ memiliki biaya kuliah yang terjangkau dan kami juga menyediakan berbagai macam beasiswa untuk mendukung mahasiswa. Untuk informasi lebih detail mengenai biaya kuliah dan beasiswa yang tersedia, kamu bisa mengunjungi website resmi UNSIQ di [https://www.unsiq.ac.id/](https://www.unsiq.ac.id/) atau menghubungi bagian penerimaan mahasiswa. Apakah ada hal lain yang ingin kamu tanyakan?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya baru lulus SMA dan mau kuliah di UNSIQ. Saya pengen tau, apa sih yang bikin UNSIQ beda dari kampus lain?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusan SMA/SMK-nya! Senang sekali mendengar kamu tertarik dengan UNSIQ. Kami memang punya beberapa keunggulan yang membedakan kami dari kampus lain. Salah satunya adalah integrasi ilmu pengetahuan dan nilai-nilai Islam. Di UNSIQ, kamu akan belajar ilmu yang relevan dengan kebutuhan zaman, namun tetap berlandaskan ajaran Al-Qur'an dan Rahmatan Lil ‘Alamin.<end_of_turn>\n<start_of_turn>user\nOh, jadi kuliahnya ada unsur agama ya? Terus, lingkungannya gimana?<end_of_turn>\n<start_of_turn>model\nBetul sekali! Unsur agama menjadi bagian integral dari pendidikan di UNSIQ. Kami berupaya membentuk karakter Islami pada seluruh civitas akademika. Selain itu, lingkungan kampus kami juga sangat kondusif. UNSIQ terletak di Wonosobo, di kawasan pegunungan yang asri dan jauh dari kebisingan kota. Semoga lingkungan yang tenang ini bisa mendukung proses belajar kamu! Bagaimana, apakah kamu tertarik dengan suasana seperti itu?<end_of_turn>\n<start_of_turn>user\nWah, kedengerannya enak banget! Terus, kalau soal biaya kuliahnya, kira-kira berapa ya?<end_of_turn>\n<start_of_turn>model\nKami memahami pertimbangan biaya. UNSIQ memiliki biaya kuliah yang terjangkau dan kami juga menyediakan berbagai macam beasiswa untuk mendukung mahasiswa. Untuk informasi lebih detail mengenai biaya kuliah dan beasiswa yang tersedia, kamu bisa mengunjungi website resmi UNSIQ di [https://www.unsiq.ac.id/](https://www.unsiq.ac.id/) atau menghubungi bagian penerimaan mahasiswa. Apakah ada hal lain yang ingin kamu tanyakan?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_011",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya karyawan yang ingin kuliah sambil bekerja. Apakah UNSIQ memiliki kerjasama dengan industri?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat datang di PMB UNSIQ. Tentu saja, kami sangat mendukung mahasiswa yang ingin melanjutkan pendidikan sambil bekerja. UNSIQ memiliki beberapa program kerjasama dengan berbagai industri, terutama di bidang Teknologi Informasi, Kesehatan, dan Bisnis Islam. Beberapa contohnya adalah program magang, pelatihan, dan kerjasama penelitian. Apakah ada bidang industri tertentu yang Anda minati?"
+      },
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan bidang Teknologi Informasi. Apakah ada program magang yang bisa saya ikuti?"
+      },
+      {
+        "role": "model",
+        "content": "Wah, pilihan yang bagus! Untuk bidang Teknologi Informasi, kami memiliki kerjasama dengan beberapa perusahaan seperti PT. [Nama Perusahaan 1] dan PT. [Nama Perusahaan 2]. Program magangnya biasanya melibatkan Anda dalam proyek-proyek nyata di perusahaan tersebut, sehingga Anda bisa mendapatkan pengalaman kerja yang berharga sekaligus menambah pengetahuan di bidang IT. Kami juga bekerja sama dengan beberapa startup lokal. Apakah Anda tertarik untuk mengetahui lebih detail mengenai program magang ini, seperti persyaratan dan proses pendaftarannya?"
+      },
+      {
+        "role": "user",
+        "content": "Boleh tahu lebih detail tentang persyaratan pendaftarannya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu! Untuk mengikuti program magang di UNSIQ, biasanya Anda harus memenuhi beberapa persyaratan, yaitu: 1. Mahasiswa aktif di semester tertentu (biasanya semester 3 atau 4); 2. IPK minimal 2.75; 3. Memiliki minat dan kemampuan yang relevan dengan bidang yang ditawarkan oleh perusahaan mitra; 4. Surat rekomendasi dari dosen; dan 5. Dokumen pendukung lainnya seperti CV dan portofolio (jika ada). Kami akan memberikan informasi lebih detail mengenai persyaratan dan proses pendaftarannya melalui website PMB UNSIQ ([link website]) atau melalui acara orientasi mahasiswa baru. Apakah Anda memiliki pertanyaan lain terkait program magang ini?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya karyawan yang ingin kuliah sambil bekerja. Apakah UNSIQ memiliki kerjasama dengan industri?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat datang di PMB UNSIQ. Tentu saja, kami sangat mendukung mahasiswa yang ingin melanjutkan pendidikan sambil bekerja. UNSIQ memiliki beberapa program kerjasama dengan berbagai industri, terutama di bidang Teknologi Informasi, Kesehatan, dan Bisnis Islam. Beberapa contohnya adalah program magang, pelatihan, dan kerjasama penelitian. Apakah ada bidang industri tertentu yang Anda minati?<end_of_turn>\n<start_of_turn>user\nSaya tertarik dengan bidang Teknologi Informasi. Apakah ada program magang yang bisa saya ikuti?<end_of_turn>\n<start_of_turn>model\nWah, pilihan yang bagus! Untuk bidang Teknologi Informasi, kami memiliki kerjasama dengan beberapa perusahaan seperti PT. [Nama Perusahaan 1] dan PT. [Nama Perusahaan 2]. Program magangnya biasanya melibatkan Anda dalam proyek-proyek nyata di perusahaan tersebut, sehingga Anda bisa mendapatkan pengalaman kerja yang berharga sekaligus menambah pengetahuan di bidang IT. Kami juga bekerja sama dengan beberapa startup lokal. Apakah Anda tertarik untuk mengetahui lebih detail mengenai program magang ini, seperti persyaratan dan proses pendaftarannya?<end_of_turn>\n<start_of_turn>user\nBoleh tahu lebih detail tentang persyaratan pendaftarannya?<end_of_turn>\n<start_of_turn>model\nTentu! Untuk mengikuti program magang di UNSIQ, biasanya Anda harus memenuhi beberapa persyaratan, yaitu: 1. Mahasiswa aktif di semester tertentu (biasanya semester 3 atau 4); 2. IPK minimal 2.75; 3. Memiliki minat dan kemampuan yang relevan dengan bidang yang ditawarkan oleh perusahaan mitra; 4. Surat rekomendasi dari dosen; dan 5. Dokumen pendukung lainnya seperti CV dan portofolio (jika ada). Kami akan memberikan informasi lebih detail mengenai persyaratan dan proses pendaftarannya melalui website PMB UNSIQ ([link website]) atau melalui acara orientasi mahasiswa baru. Apakah Anda memiliki pertanyaan lain terkait program magang ini?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_profil_unsiq_012",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "calon_s2",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya calon mahasiswa S2 di UNSIQ. Saya tertarik dengan program pascasarjana di UNSIQ. Bisakah Anda memberi tahu saya tentang research center yang tersedia di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! UNSIQ memiliki beberapa research center yang dapat Anda pertimbangkan untuk melanjutkan studi S2. Saat ini, UNSIQ memiliki tiga research center utama, yaitu: 1. Research Center Pendidikan Islam (RCPI) yang fokus pada penelitian di bidang pendidikan Islam. 2. Research Center Hukum dan Jariyah yang fokus pada penelitian di bidang hukum Islam dan Syariah. 3. Research Center Teknologi Informasi dan Sains (RCTIS) yang fokus pada penelitian di bidang teknologi informasi dan sains. Apakah Anda tertarik dengan salah satu research center tersebut atau ingin saya memberikan informasi lebih detail mengenai masing-masing center?"
+      },
+      {
+        "role": "user",
+        "content": "Saya tertarik dengan RCTIS. Apakah ada program S2 yang berfokus pada research center tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Baik, untuk RCTIS, saat ini UNSIQ memiliki program S2 Ilmu Komputer yang berfokus pada penelitian di bidang teknologi informasi. Program ini memiliki fasilitas laboratorium yang lengkap dan dosen-dosen yang berpengalaman di bidangnya. Selain itu, mahasiswa S2 Ilmu Komputer juga dapat berkolaborasi dengan research center RCTIS untuk melakukan penelitian yang lebih mendalam. Apakah Anda ingin saya memberikan informasi lebih lanjut mengenai program S2 Ilmu Komputer di UNSIQ?"
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya calon mahasiswa S2 di UNSIQ. Saya tertarik dengan program pascasarjana di UNSIQ. Bisakah Anda memberi tahu saya tentang research center yang tersedia di UNSIQ?<end_of_turn>\n<start_of_turn>model\nTentu saja! UNSIQ memiliki beberapa research center yang dapat Anda pertimbangkan untuk melanjutkan studi S2. Saat ini, UNSIQ memiliki tiga research center utama, yaitu: 1. Research Center Pendidikan Islam (RCPI) yang fokus pada penelitian di bidang pendidikan Islam. 2. Research Center Hukum dan Jariyah yang fokus pada penelitian di bidang hukum Islam dan Syariah. 3. Research Center Teknologi Informasi dan Sains (RCTIS) yang fokus pada penelitian di bidang teknologi informasi dan sains. Apakah Anda tertarik dengan salah satu research center tersebut atau ingin saya memberikan informasi lebih detail mengenai masing-masing center?<end_of_turn>\n<start_of_turn>user\nSaya tertarik dengan RCTIS. Apakah ada program S2 yang berfokus pada research center tersebut?<end_of_turn>\n<start_of_turn>model\nBaik, untuk RCTIS, saat ini UNSIQ memiliki program S2 Ilmu Komputer yang berfokus pada penelitian di bidang teknologi informasi. Program ini memiliki fasilitas laboratorium yang lengkap dan dosen-dosen yang berpengalaman di bidangnya. Selain itu, mahasiswa S2 Ilmu Komputer juga dapat berkolaborasi dengan research center RCTIS untuk melakukan penelitian yang lebih mendalam. Apakah Anda ingin saya memberikan informasi lebih lanjut mengenai program S2 Ilmu Komputer di UNSIQ?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_profil_unsiq_013",
+    "source": "synthetic_test",
+    "category": "profil_unsiq",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ada sedikit pertanyaan mengenai keamanan kampus. Bagaimana sistem keamanannya?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam, Bapak/Ibu. Selamat datang di UNSIQ! Kami sangat senang Bapak/Ibu tertarik dengan kampus kami. Mengenai keamanan kampus, UNSIQ memiliki sistem keamanan berlapis yang komprehensif. Pertama, kami memiliki pos keamanan 24 jam yang ditempatkan di setiap gerbang kampus. Kedua, seluruh area kampus dilengkapi dengan CCTV yang memadai. Ketiga, kami memiliki tim keamanan internal yang bertugas melakukan patroli secara rutin. Keempat, kami juga bekerja sama dengan kepolisian setempat untuk menjaga keamanan lingkungan kampus. Apakah ada hal spesifik yang ingin Bapak/Ibu ketahui lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "Apakah CCTV-nya sampai ke area parkir dan tempat-tempat umum lainnya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja, Bapak/Ibu. CCTV kami memang terpasang di seluruh area kampus, termasuk area parkir, area masjid, area rekreasi, dan area-area umum lainnya. Kami berusaha untuk memastikan bahwa semua area yang strategis dan seringkali ramai dipantau oleh CCTV. Selain itu, kami juga memiliki sistem monitoring yang terpusat untuk memudahkan pengawasan. Apakah Bapak/Ibu ingin tahu lebih banyak tentang fasilitas pendukung keamanan lainnya?"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak atas penjelasannya. Apakah ada sistem keamanan khusus untuk mencegah tindak kriminalitas?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam, Bapak/Ibu. Kami sangat berterima kasih atas pertanyaannya. Ya, Bapak/Ibu. UNSIQ memiliki sistem keamanan khusus untuk mencegah tindak kriminalitas. Selain CCTV dan patroli rutin, kami juga bekerja sama dengan komunitas mahasiswa dalam program keamanan kampus, yaitu ‘Satkamis’. Satkamis ini bertugas sebagai pengawas keamanan di lingkungan kampus, serta membantu dalam memantau dan melaporkan potensi gangguan keamanan. Kami juga memiliki kerjasama dengan pihak kepolisian dalam hal pencegahan dan penanggulangan kriminalitas. Kami berkomitmen untuk menciptakan lingkungan kampus yang aman dan nyaman bagi seluruh civitas akademika. Apakah Bapak/Ibu ada pertanyaan lain?"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Bu. Saya ingin mendaftarkan anak saya ke UNSIQ. Saya ada sedikit pertanyaan mengenai keamanan kampus. Bagaimana sistem keamanannya?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam, Bapak/Ibu. Selamat datang di UNSIQ! Kami sangat senang Bapak/Ibu tertarik dengan kampus kami. Mengenai keamanan kampus, UNSIQ memiliki sistem keamanan berlapis yang komprehensif. Pertama, kami memiliki pos keamanan 24 jam yang ditempatkan di setiap gerbang kampus. Kedua, seluruh area kampus dilengkapi dengan CCTV yang memadai. Ketiga, kami memiliki tim keamanan internal yang bertugas melakukan patroli secara rutin. Keempat, kami juga bekerja sama dengan kepolisian setempat untuk menjaga keamanan lingkungan kampus. Apakah ada hal spesifik yang ingin Bapak/Ibu ketahui lebih lanjut?<end_of_turn>\n<start_of_turn>user\nApakah CCTV-nya sampai ke area parkir dan tempat-tempat umum lainnya?<end_of_turn>\n<start_of_turn>model\nTentu saja, Bapak/Ibu. CCTV kami memang terpasang di seluruh area kampus, termasuk area parkir, area masjid, area rekreasi, dan area-area umum lainnya. Kami berusaha untuk memastikan bahwa semua area yang strategis dan seringkali ramai dipantau oleh CCTV. Selain itu, kami juga memiliki sistem monitoring yang terpusat untuk memudahkan pengawasan. Apakah Bapak/Ibu ingin tahu lebih banyak tentang fasilitas pendukung keamanan lainnya?<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih banyak atas penjelasannya. Apakah ada sistem keamanan khusus untuk mencegah tindak kriminalitas?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam, Bapak/Ibu. Kami sangat berterima kasih atas pertanyaannya. Ya, Bapak/Ibu. UNSIQ memiliki sistem keamanan khusus untuk mencegah tindak kriminalitas. Selain CCTV dan patroli rutin, kami juga bekerja sama dengan komunitas mahasiswa dalam program keamanan kampus, yaitu ‘Satkamis’. Satkamis ini bertugas sebagai pengawas keamanan di lingkungan kampus, serta membantu dalam memantau dan melaporkan potensi gangguan keamanan. Kami juga memiliki kerjasama dengan pihak kepolisian dalam hal pencegahan dan penanggulangan kriminalitas. Kami berkomitmen untuk menciptakan lingkungan kampus yang aman dan nyaman bagi seluruh civitas akademika. Apakah Bapak/Ibu ada pertanyaan lain?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_out_of_topic_000",
+    "source": "synthetic_test",
+    "category": "out_of_topic",
+    "persona": "siswa_baru",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya tertarik dengan program studi di PMB, tapi saya mau tanya, kira-kira laptop gaming yang bagus buat kuliah itu berapa harganya ya?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat atas kelulusannya! Senang sekali mendengar Anda tertarik dengan PMB UNSIQ. Mengenai pertanyaan laptop gaming, PMB UNSIQ tidak menyediakan bantuan terkait harga laptop. Kami fokus pada pendaftaran dan informasi terkait program studi. Untuk informasi mengenai laptop gaming, sebaiknya Anda mencari informasi di toko komputer atau online.  Apakah ada hal lain yang bisa saya bantu terkait pendaftaran mahasiswa baru?"
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Kalau untuk pendaftaran mahasiswa baru itu bagaimana ya? Ada biaya pendaftaran atau persyaratan khusus?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk pendaftaran mahasiswa baru, ada biaya administrasi sebesar Rp 150.000.  Persyaratan utamanya adalah transkrip nilai SMA/SMK yang telah diaktifkan, foto ukuran paspor 3x4, dan kartu ucapan SNMPTN atau IPK jika melamar melalui jalur mandiri.  Anda bisa menemukan detail lengkapnya di website resmi PMB UNSIQ: [https://pmb.unsiqu.ac.id/](https://pmb.unsiqu.ac.id/). Apakah Anda ingin saya bantu menjelaskan salah satu persyaratan tersebut?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo! Saya baru lulus SMA dan mau kuliah di UNSIQ. Saya tertarik dengan program studi di PMB, tapi saya mau tanya, kira-kira laptop gaming yang bagus buat kuliah itu berapa harganya ya?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat atas kelulusannya! Senang sekali mendengar Anda tertarik dengan PMB UNSIQ. Mengenai pertanyaan laptop gaming, PMB UNSIQ tidak menyediakan bantuan terkait harga laptop. Kami fokus pada pendaftaran dan informasi terkait program studi. Untuk informasi mengenai laptop gaming, sebaiknya Anda mencari informasi di toko komputer atau online.  Apakah ada hal lain yang bisa saya bantu terkait pendaftaran mahasiswa baru?<end_of_turn>\n<start_of_turn>user\nOh, begitu. Kalau untuk pendaftaran mahasiswa baru itu bagaimana ya? Ada biaya pendaftaran atau persyaratan khusus?<end_of_turn>\n<start_of_turn>model\nUntuk pendaftaran mahasiswa baru, ada biaya administrasi sebesar Rp 150.000.  Persyaratan utamanya adalah transkrip nilai SMA/SMK yang telah diaktifkan, foto ukuran paspor 3x4, dan kartu ucapan SNMPTN atau IPK jika melamar melalui jalur mandiri.  Anda bisa menemukan detail lengkapnya di website resmi PMB UNSIQ: [https://pmb.unsiqu.ac.id/](https://pmb.unsiqu.ac.id/). Apakah Anda ingin saya bantu menjelaskan salah satu persyaratan tersebut?<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "test_out_of_topic_001",
+    "source": "synthetic_test",
+    "category": "out_of_topic",
+    "persona": "orang_tua",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mau mendaftarkan anak saya ke UNSIQ. Bisa tolong jelaskan sedikit tentang proses pendaftarannya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Selamat datang di UNSIQ! Untuk mendaftarkan anak Anda, ada beberapa langkah yang perlu Anda ikuti. Pertama, unduh formulir pendaftaran dari website resmi kami di [https://www.unsiqu.ac.id/](https://www.unsiqu.ac.id/). Kemudian, isi formulir tersebut dengan lengkap dan lampirkan dokumen-dokumen yang diperlukan seperti transkrip nilai, sertifikat prestasi, dan kartu ucil. Setelah itu, formulir yang sudah diisi dan dokumen-dokumen tersebut dapat Anda kirimkan melalui email ke pendaftaran@unsiqu.ac.id. Untuk informasi lebih lanjut mengenai persyaratan pendaftaran, Anda dapat mengunjungi halaman persyaratan pendaftaran di website kami. Apakah ada hal spesifik yang ingin Anda ketahui lebih lanjut mengenai proses pendaftaran ini?"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, biaya kuliah untuk program studi Teknik Informatika berapa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Untuk program studi Teknik Informatika, biaya kuliah per semester adalah Rp 34.200.000,-.  Biaya ini sudah termasuk biaya akademik dan biaya pengembangan mahasiswa. Namun, perlu diingat bahwa ada biaya lain seperti biaya laboratorium, biaya perpustakaan, dan biaya administrasi yang perlu Anda pertimbangkan. Informasi lebih detail mengenai rincian biaya dapat dilihat di website resmi kami di bagian informasi biaya kuliah. Jika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau melalui email di pendaftaran@unsiqu.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Apakah ada beasiswa yang bisa diajukan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! UNSIQ menyediakan beberapa program beasiswa untuk mahasiswa baru. Beberapa beasiswa yang tersedia antara lain Beasiswa Unggulan UNSIQ, Beasiswa Kinerja, dan Beasiswa Kartu Indonesia Pintar (KIP). Informasi lengkap mengenai persyaratan dan cara pengajuan beasiswa dapat dilihat di website resmi kami di bagian informasi beasiswa. Anda juga dapat menghubungi bagian kemahasiswaan di nomor 0857 7504 7504 untuk mendapatkan informasi lebih lanjut. Apakah Anda ingin saya berikan link langsung ke halaman beasiswa di website kami?"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mau mendaftarkan anak saya ke UNSIQ. Bisa tolong jelaskan sedikit tentang proses pendaftarannya?<end_of_turn>\n<start_of_turn>model\nTentu saja! Selamat datang di UNSIQ! Untuk mendaftarkan anak Anda, ada beberapa langkah yang perlu Anda ikuti. Pertama, unduh formulir pendaftaran dari website resmi kami di [https://www.unsiqu.ac.id/](https://www.unsiqu.ac.id/). Kemudian, isi formulir tersebut dengan lengkap dan lampirkan dokumen-dokumen yang diperlukan seperti transkrip nilai, sertifikat prestasi, dan kartu ucil. Setelah itu, formulir yang sudah diisi dan dokumen-dokumen tersebut dapat Anda kirimkan melalui email ke pendaftaran@unsiqu.ac.id. Untuk informasi lebih lanjut mengenai persyaratan pendaftaran, Anda dapat mengunjungi halaman persyaratan pendaftaran di website kami. Apakah ada hal spesifik yang ingin Anda ketahui lebih lanjut mengenai proses pendaftaran ini?<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Lalu, biaya kuliah untuk program studi Teknik Informatika berapa ya?<end_of_turn>\n<start_of_turn>model\nUntuk program studi Teknik Informatika, biaya kuliah per semester adalah Rp 34.200.000,-.  Biaya ini sudah termasuk biaya akademik dan biaya pengembangan mahasiswa. Namun, perlu diingat bahwa ada biaya lain seperti biaya laboratorium, biaya perpustakaan, dan biaya administrasi yang perlu Anda pertimbangkan. Informasi lebih detail mengenai rincian biaya dapat dilihat di website resmi kami di bagian informasi biaya kuliah. Jika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui telepon di (0286) 321873 atau melalui email di pendaftaran@unsiqu.ac.id.<end_of_turn>\n<start_of_turn>user\nOh, begitu. Apakah ada beasiswa yang bisa diajukan?<end_of_turn>\n<start_of_turn>model\nTentu saja! UNSIQ menyediakan beberapa program beasiswa untuk mahasiswa baru. Beberapa beasiswa yang tersedia antara lain Beasiswa Unggulan UNSIQ, Beasiswa Kinerja, dan Beasiswa Kartu Indonesia Pintar (KIP). Informasi lengkap mengenai persyaratan dan cara pengajuan beasiswa dapat dilihat di website resmi kami di bagian informasi beasiswa. Anda juga dapat menghubungi bagian kemahasiswaan di nomor 0857 7504 7504 untuk mendapatkan informasi lebih lanjut. Apakah Anda ingin saya berikan link langsung ke halaman beasiswa di website kami?<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "test_out_of_topic_002",
+    "source": "synthetic_test",
+    "category": "out_of_topic",
+    "persona": "siswa_kerja",
+    "complexity": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Halo, saya mahasiswa kerja dan ingin kuliah sambil bekerja. Saya sedang mencari cara untuk mengelola uang saya. Ada saran investasi yang aman?"
+      },
+      {
+        "role": "model",
+        "content": "Halo! Selamat datang di PMB UNSIQ. Memang bagus Anda mulai memikirkan pengelolaan keuangan sejak dini. Sebagai mahasiswa kerja, waktu Anda pasti terbatas. Untuk investasi saham, memang perlu riset yang matang. Ada beberapa opsi yang bisa Anda pertimbangkan, seperti reksa dana saham. Reksa dana saham dikelola oleh manajer investasi profesional, jadi Anda tidak perlu repot memilih saham sendiri. Namun, perlu diingat bahwa investasi saham selalu memiliki risiko. Apakah Anda tertarik untuk mengetahui lebih lanjut tentang reksa dana atau opsi investasi lainnya?"
+      },
+      {
+        "role": "user",
+        "content": "Reksa dana saham kedengarannya menarik. Apakah ada rekomendasi reksa dana saham yang bagus?"
+      },
+      {
+        "role": "model",
+        "content": "Sebagai asisten PMB, saya tidak bisa memberikan rekomendasi investasi tertentu. Namun, saya bisa memberikan informasi mengenai beberapa perusahaan manajer investasi yang terpercaya di Indonesia. Anda bisa melakukan riset lebih lanjut mengenai kinerja dan profil risiko masing-masing reksa dana yang mereka kelola. Beberapa nama yang sering disebut adalah PT. Mandiri Manajemen Investasi, PT. BNI Sekuritas, dan PT. CIMB Investment Assets Management. Selain itu, Anda bisa menggunakan platform investasi online untuk membandingkan berbagai pilihan reksa dana. Apakah Anda ingin saya bantu mencari sumber informasi mengenai perusahaan-perusahaan manajer investasi tersebut?"
+      },
+      {
+        "role": "user",
+        "content": "Bisa bantu cari sumber informasinya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu saja! Berikut beberapa sumber informasi yang bisa Anda gunakan: - Website resmi perusahaan manajer investasi: [https://www.mandiri-mutualfund.id/](https://www.mandiri-mutualfund.id/), [https://www.bnisekuritas.com/](https://www.bnisekuritas.com/), [https://www.cimb.co.id/en/investment/mutual-funds](https://www.cimb.co.id/en/investment/mutual-funds) - Platform investasi online seperti Investree: [https://www.investree.id/](https://www.investree.id/)  Selain itu, jangan lupa untuk selalu membaca prospektus reksa dana sebelum berinvestasi. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya kembali kepada saya atau menghubungi PMB UNSIQ melalui telepon di (0286) 321873 atau 0857 7504 7504. Selamat berinvestasi!"
+      }
+    ],
+    "text": "<start_of_turn>user\nHalo, saya mahasiswa kerja dan ingin kuliah sambil bekerja. Saya sedang mencari cara untuk mengelola uang saya. Ada saran investasi yang aman?<end_of_turn>\n<start_of_turn>model\nHalo! Selamat datang di PMB UNSIQ. Memang bagus Anda mulai memikirkan pengelolaan keuangan sejak dini. Sebagai mahasiswa kerja, waktu Anda pasti terbatas. Untuk investasi saham, memang perlu riset yang matang. Ada beberapa opsi yang bisa Anda pertimbangkan, seperti reksa dana saham. Reksa dana saham dikelola oleh manajer investasi profesional, jadi Anda tidak perlu repot memilih saham sendiri. Namun, perlu diingat bahwa investasi saham selalu memiliki risiko. Apakah Anda tertarik untuk mengetahui lebih lanjut tentang reksa dana atau opsi investasi lainnya?<end_of_turn>\n<start_of_turn>user\nReksa dana saham kedengarannya menarik. Apakah ada rekomendasi reksa dana saham yang bagus?<end_of_turn>\n<start_of_turn>model\nSebagai asisten PMB, saya tidak bisa memberikan rekomendasi investasi tertentu. Namun, saya bisa memberikan informasi mengenai beberapa perusahaan manajer investasi yang terpercaya di Indonesia. Anda bisa melakukan riset lebih lanjut mengenai kinerja dan profil risiko masing-masing reksa dana yang mereka kelola. Beberapa nama yang sering disebut adalah PT. Mandiri Manajemen Investasi, PT. BNI Sekuritas, dan PT. CIMB Investment Assets Management. Selain itu, Anda bisa menggunakan platform investasi online untuk membandingkan berbagai pilihan reksa dana. Apakah Anda ingin saya bantu mencari sumber informasi mengenai perusahaan-perusahaan manajer investasi tersebut?<end_of_turn>\n<start_of_turn>user\nBisa bantu cari sumber informasinya?<end_of_turn>\n<start_of_turn>model\nTentu saja! Berikut beberapa sumber informasi yang bisa Anda gunakan: - Website resmi perusahaan manajer investasi: [https://www.mandiri-mutualfund.id/](https://www.mandiri-mutualfund.id/), [https://www.bnisekuritas.com/](https://www.bnisekuritas.com/), [https://www.cimb.co.id/en/investment/mutual-funds](https://www.cimb.co.id/en/investment/mutual-funds) - Platform investasi online seperti Investree: [https://www.investree.id/](https://www.investree.id/)  Selain itu, jangan lupa untuk selalu membaca prospektus reksa dana sebelum berinvestasi. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya kembali kepada saya atau menghubungi PMB UNSIQ melalui telepon di (0286) 321873 atau 0857 7504 7504. Selamat berinvestasi!<end_of_turn>",
+    "num_turns": 6
   }
 ]

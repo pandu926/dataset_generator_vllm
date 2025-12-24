@@ -48,12 +48,12 @@ CUDA_PATH="/usr/local/cuda-$CUDA_VERSION"
 # Training Configuration (can be overridden via environment variables)
 MODEL_NAME="${MODEL_NAME:-google/gemma-3-1b-it}"
 JUDGE_MODEL="${JUDGE_MODEL:-google/gemma-3-12b-it}"
-EPOCHS="${EPOCHS:-4}"                   # 4 epochs
+EPOCHS="${EPOCHS:-3}"                   # 3 epochs
 BATCH_SIZE="${BATCH_SIZE:-16}"          # Optimized for A100 80GB
 GRAD_ACCUM="${GRAD_ACCUM:-4}"           # Effective batch = 16 * 4 = 64
 LEARNING_RATE="${LEARNING_RATE:-2e-4}"  # Learning rate
-LORA_R="${LORA_R:-16}"                  # LoRA rank
-LORA_ALPHA="${LORA_ALPHA:-32}"          # LoRA alpha (2x rank)
+LORA_R="${LORA_R:-32}"                  # LoRA rank
+LORA_ALPHA="${LORA_ALPHA:-64}"          # LoRA alpha (2x rank)
 MAX_SEQ_LENGTH="${MAX_SEQ_LENGTH:-2048}"
 
 # Evaluation Configuration
