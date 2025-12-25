@@ -114,3 +114,9 @@ Thumbs.db
 # Local envs
 venv_dataset/
 *.run
+
+# Finetuning venv
+finetuning/venv_finetuning/
+
+# Model adapters (large files)
+finetuning/final_model/

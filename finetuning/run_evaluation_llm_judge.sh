@@ -10,7 +10,7 @@ set -e  # Exit on error
 # =============================================================================
 
 # Activate virtual environment
-source ../venv/bin/activate
+source ./venv_finetuning/bin/activate
 
 # Set CUDA
 export CUDA_VISIBLE_DEVICES=0
@@ -26,11 +26,11 @@ export TOKENIZERS_PARALLELISM=false
 
 # Models
 BASE_MODEL="google/gemma-3-1b-it"
-FINETUNED_PATH="./outputs/gemma3-1b-qlora-sft/final_model"
+FINETUNED_PATH="./final_model"
 JUDGE_MODEL="google/gemma-3-12b-it"
 
 # Dataset (without thought tags)
-TEST_DATASET="../data/final/multiturn_dataset_cleaned_no_thought.json"
+TEST_DATASET="../data/final/split/merged_all_categories_test.json"
 OUTPUT_PATH="./outputs/llm_judge_evaluation_results.json"
 
 # Batch sizes (optimized for A100 80GB)

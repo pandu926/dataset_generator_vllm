@@ -387,6 +387,23 @@ def evaluate(config: EvalConfig = None):
     print(f"\nFine-tuned Model BERTScore F1: {ft_scores['f1']:.4f}")
     
     # ===========================================
+    # DETAILED RESULTS (ALL samples)
+    # ===========================================
+    print("\nSaving detailed results for all samples...")
+    detailed_results = []
+    for i, sample in enumerate(test_samples):
+        detailed_results.append({
+            "id": sample.get("id", f"sample_{i}"),
+            "category": sample.get("category", ""),
+            "prompt": sample["prompt"],
+            "expected": sample["expected"],
+            "base_response": base_responses[i] if i < len(base_responses) else "",
+            "finetuned_response": ft_responses[i] if i < len(ft_responses) else "",
+        })
+    
+    results["detailed_results"] = detailed_results
+    
+    # ===========================================
     # COMPARISON
     # ===========================================
     improvement_f1 = ft_scores['f1'] - base_scores['f1']
@@ -417,6 +434,8 @@ def evaluate(config: EvalConfig = None):
     print(f"{'F1 Score':<20} {base_scores['f1']:<15.4f} {ft_scores['f1']:<15.4f} {improvement_f1:+.4f} ({improvement_pct:+.1f}%)")
     print("="*60)
     print(f"\nResults saved to: {config.output_path}")
+    print(f"Detailed results: {len(detailed_results)} samples with prompts, expected, and responses")
+
     
     return results
 
