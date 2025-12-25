@@ -1,0 +1,14 @@
+{
+  "source": "../data/final/by_category/merged_all_categories.json",
+  "total_samples": 2201,
+  "train_samples": 1650,
+  "eval_samples": 330,
+  "test_samples": 221,
+  "train_ratio": 0.75,
+  "eval_ratio": 0.15,
+  "test_ratio": 0.1,
+  "seed": 42,
+  "train_path": "../data/final/split/merged_all_categories_train.json",
+  "eval_path": "../data/final/split/merged_all_categories_eval.json",
+  "test_path": "../data/final/split/merged_all_categories_test.json"
+}

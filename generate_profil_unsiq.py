@@ -238,85 +238,191 @@ Senin-Jumat, 08:00-16:00 WIB
 # =============================================================================
 
 SCENARIOS = [
-    # === IDENTITAS ===
+    # ==========================================================================
+    # IDENTITAS INSTITUSI (20 skenario)
+    # ==========================================================================
     {"id": "PI01", "stage": "identitas", "scenario": "User tanya nama resmi dan tahun berdiri UNSIQ", "complexity": "direct"},
     {"id": "PI02", "stage": "identitas", "scenario": "User tanya lokasi kampus UNSIQ", "complexity": "direct"},
     {"id": "PI03", "stage": "identitas", "scenario": "User tanya siapa rektor UNSIQ saat ini", "complexity": "direct"},
     {"id": "PI04", "stage": "identitas", "scenario": "User tanya jenis universitas UNSIQ", "complexity": "direct"},
     {"id": "PI05", "stage": "identitas", "scenario": "User tanya status akreditasi UNSIQ", "complexity": "direct"},
-    
-    # === SEJARAH ===
+    {"id": "PI06", "stage": "identitas", "scenario": "User tanya apakah UNSIQ universitas Islam", "complexity": "reasoning"},
+    {"id": "PI07", "stage": "identitas", "scenario": "User tanya alamat lengkap kampus", "complexity": "direct"},
+    {"id": "PI08", "stage": "identitas", "scenario": "User tanya apakah UNSIQ kampus swasta atau negeri", "complexity": "direct"},
+    {"id": "PI09", "stage": "identitas", "scenario": "User tanya yayasan pengelola UNSIQ", "complexity": "reasoning"},
+    {"id": "PI10", "stage": "identitas", "scenario": "User tanya luas area kampus UNSIQ", "complexity": "reasoning"},
+    {"id": "PI11", "stage": "identitas", "scenario": "User tanya jumlah mahasiswa UNSIQ", "complexity": "reasoning"},
+    {"id": "PI12", "stage": "identitas", "scenario": "User tanya jumlah dosen UNSIQ", "complexity": "reasoning"},
+    {"id": "PI13", "stage": "identitas", "scenario": "User tanya apakah UNSIQ diakui Kemendikbud", "complexity": "reasoning"},
+    {"id": "PI14", "stage": "identitas", "scenario": "User tanya kode PT UNSIQ", "complexity": "direct"},
+    {"id": "PI15", "stage": "identitas", "scenario": "User tanya logo dan warna identitas UNSIQ", "complexity": "direct"},
+    {"id": "PI16", "stage": "identitas", "scenario": "User tanya moto atau slogan UNSIQ", "complexity": "direct"},
+    {"id": "PI17", "stage": "identitas", "scenario": "User tanya struktur organisasi UNSIQ", "complexity": "reasoning"},
+    {"id": "PI18", "stage": "identitas", "scenario": "User tanya nama-nama Wakil Rektor", "complexity": "reasoning"},
+    {"id": "PI19", "stage": "identitas", "scenario": "User tanya apakah UNSIQ terakreditasi internasional", "complexity": "reasoning"},
+    {"id": "PI20", "stage": "identitas", "scenario": "User tanya ranking UNSIQ di Indonesia", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # SEJARAH (20 skenario)
+    # ==========================================================================
     {"id": "PS01", "stage": "sejarah", "scenario": "User tanya sejarah singkat berdirinya UNSIQ", "complexity": "reasoning"},
     {"id": "PS02", "stage": "sejarah", "scenario": "User tanya asal-usul 3 lembaga yang bergabung menjadi UNSIQ", "complexity": "reasoning"},
     {"id": "PS03", "stage": "sejarah", "scenario": "User tanya kapan IIQ, AKPER, dan STIE didirikan", "complexity": "direct"},
     {"id": "PS04", "stage": "sejarah", "scenario": "User tanya dasar hukum pendirian UNSIQ", "complexity": "direct"},
-    
-    # === TOKOH PENDIRI ===
+    {"id": "PS05", "stage": "sejarah", "scenario": "User tanya peran Bupati Wonosobo dalam pendirian UNSIQ", "complexity": "reasoning"},
+    {"id": "PS06", "stage": "sejarah", "scenario": "User tanya tentang STIE-YPIIQ sebelum jadi UNSIQ", "complexity": "direct"},
+    {"id": "PS07", "stage": "sejarah", "scenario": "User tanya sejarah Institut Ilmu Al-Qur'an (IIQ)", "complexity": "reasoning"},
+    {"id": "PS08", "stage": "sejarah", "scenario": "User tanya sejarah Akademi Keperawatan (AKPER)", "complexity": "reasoning"},
+    {"id": "PS09", "stage": "sejarah", "scenario": "User tanya kapan peleburan 3 lembaga menjadi UNSIQ", "complexity": "direct"},
+    {"id": "PS10", "stage": "sejarah", "scenario": "User tanya latar belakang pendirian UNSIQ", "complexity": "reasoning"},
+    {"id": "PS11", "stage": "sejarah", "scenario": "User tanya perkembangan UNSIQ dari 2001 sampai sekarang", "complexity": "reasoning"},
+    {"id": "PS12", "stage": "sejarah", "scenario": "User tanya siapa rektor pertama UNSIQ", "complexity": "direct"},
+    {"id": "PS13", "stage": "sejarah", "scenario": "User tanya berapa kali UNSIQ ganti rektor", "complexity": "reasoning"},
+    {"id": "PS14", "stage": "sejarah", "scenario": "User tanya peran YPIIQ dalam sejarah UNSIQ", "complexity": "reasoning"},
+    {"id": "PS15", "stage": "sejarah", "scenario": "User tanya milestone penting UNSIQ", "complexity": "reasoning"},
+    {"id": "PS16", "stage": "sejarah", "scenario": "User tanya penghargaan yang pernah diraih UNSIQ", "complexity": "reasoning"},
+    {"id": "PS17", "stage": "sejarah", "scenario": "User tanya hubungan UNSIQ dengan pesantren sekitar", "complexity": "reasoning"},
+    {"id": "PS18", "stage": "sejarah", "scenario": "User tanya fakultas pertama yang ada di UNSIQ", "complexity": "direct"},
+    {"id": "PS19", "stage": "sejarah", "scenario": "User tanya prodi baru yang dibuka setelah 2001", "complexity": "reasoning"},
+    {"id": "PS20", "stage": "sejarah", "scenario": "User tanya rencana pengembangan UNSIQ ke depan", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # TOKOH PENDIRI (15 skenario)
+    # ==========================================================================
     {"id": "PT01", "stage": "tokoh", "scenario": "User tanya siapa pendiri utama UNSIQ", "complexity": "direct"},
     {"id": "PT02", "stage": "tokoh", "scenario": "User tanya tentang K.H. Muntaha Al-Hafidz", "complexity": "reasoning"},
     {"id": "PT03", "stage": "tokoh", "scenario": "User tanya konsep 4 pilar pendiri UNSIQ", "complexity": "reasoning"},
     {"id": "PT04", "stage": "tokoh", "scenario": "User tanya siapa saja tokoh pendiri selain Mbah Muntaha", "complexity": "direct"},
-    
-    # === VISI MISI ===
+    {"id": "PT05", "stage": "tokoh", "scenario": "User tanya kontribusi Drs. H. Poedjihardjo", "complexity": "reasoning"},
+    {"id": "PT06", "stage": "tokoh", "scenario": "User tanya siapa A. Halimi dalam sejarah UNSIQ", "complexity": "reasoning"},
+    {"id": "PT07", "stage": "tokoh", "scenario": "User tanya peran Drs. Karseno sebagai akademisi", "complexity": "reasoning"},
+    {"id": "PT08", "stage": "tokoh", "scenario": "User tanya tahun wafat Mbah Muntaha", "complexity": "direct"},
+    {"id": "PT09", "stage": "tokoh", "scenario": "User tanya latar belakang militer Mbah Muntaha", "complexity": "reasoning"},
+    {"id": "PT10", "stage": "tokoh", "scenario": "User tanya warisan pemikiran pendiri UNSIQ", "complexity": "reasoning"},
+    {"id": "PT11", "stage": "tokoh", "scenario": "User tanya apakah ada museum atau memorial tokoh pendiri", "complexity": "reasoning"},
+    {"id": "PT12", "stage": "tokoh", "scenario": "User tanya nilai-nilai yang diwariskan pendiri", "complexity": "reasoning"},
+    {"id": "PT13", "stage": "tokoh", "scenario": "User tanya bagaimana 4 pilar bekerja sama", "complexity": "reasoning"},
+    {"id": "PT14", "stage": "tokoh", "scenario": "User tanya inspirasi pendirian UNSIQ", "complexity": "reasoning"},
+    {"id": "PT15", "stage": "tokoh", "scenario": "User tanya filosofi pendidikan Mbah Muntaha", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # VISI MISI (20 skenario)
+    # ==========================================================================
     {"id": "PV01", "stage": "visi_misi", "scenario": "User tanya visi UNSIQ", "complexity": "direct"},
     {"id": "PV02", "stage": "visi_misi", "scenario": "User tanya misi UNSIQ", "complexity": "direct"},
     {"id": "PV03", "stage": "visi_misi", "scenario": "User tanya karakteristik universitas UNSIQ", "complexity": "reasoning"},
     {"id": "PV04", "stage": "visi_misi", "scenario": "User tanya apa maksud transformatif, humanis, qur'ani", "complexity": "reasoning"},
-    
-    # === FAKULTAS & PRODI ===
+    {"id": "PV05", "stage": "visi_misi", "scenario": "User tanya maksud slogan 'Kuliah Plus Ngaji'", "complexity": "reasoning"},
+    {"id": "PV06", "stage": "visi_misi", "scenario": "User tanya tentang saintifikasi Al-Qur'an", "complexity": "reasoning"},
+    {"id": "PV07", "stage": "visi_misi", "scenario": "User tanya makna qur'anisasi sains", "complexity": "reasoning"},
+    {"id": "PV08", "stage": "visi_misi", "scenario": "User tanya tujuan pendidikan di UNSIQ", "complexity": "reasoning"},
+    {"id": "PV09", "stage": "visi_misi", "scenario": "User tanya nilai-nilai yang dianut UNSIQ", "complexity": "reasoning"},
+    {"id": "PV10", "stage": "visi_misi", "scenario": "User tanya target lulusan UNSIQ", "complexity": "reasoning"},
+    {"id": "PV11", "stage": "visi_misi", "scenario": "User tanya apa itu mahasiswa plus santri", "complexity": "reasoning"},
+    {"id": "PV12", "stage": "visi_misi", "scenario": "User tanya strategi pencapaian visi UNSIQ", "complexity": "reasoning"},
+    {"id": "PV13", "stage": "visi_misi", "scenario": "User tanya komitmen UNSIQ untuk Indonesia", "complexity": "reasoning"},
+    {"id": "PV14", "stage": "visi_misi", "scenario": "User tanya peran UNSIQ dalam pendidikan Islam", "complexity": "reasoning"},
+    {"id": "PV15", "stage": "visi_misi", "scenario": "User tanya bagaimana UNSIQ menggabungkan tradisi dan modernitas", "complexity": "reasoning"},
+    {"id": "PV16", "stage": "visi_misi", "scenario": "User tanya apakah visi UNSIQ sudah tercapai", "complexity": "reasoning"},
+    {"id": "PV17", "stage": "visi_misi", "scenario": "User tanya rencana strategis UNSIQ 5 tahun ke depan", "complexity": "reasoning"},
+    {"id": "PV18", "stage": "visi_misi", "scenario": "User tanya program unggulan untuk mencapai visi", "complexity": "reasoning"},
+    {"id": "PV19", "stage": "visi_misi", "scenario": "User tanya indikator keberhasilan misi UNSIQ", "complexity": "reasoning"},
+    {"id": "PV20", "stage": "visi_misi", "scenario": "User tanya perbedaan visi UNSIQ dengan kampus lain", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # FAKULTAS & PRODI (25 skenario)
+    # ==========================================================================
     {"id": "PF01", "stage": "fakultas", "scenario": "User tanya fakultas apa saja yang ada di UNSIQ", "complexity": "direct"},
     {"id": "PF02", "stage": "fakultas", "scenario": "User tanya program studi di Fakultas Kesehatan", "complexity": "direct"},
     {"id": "PF03", "stage": "fakultas", "scenario": "User tanya program studi di Fakultas Ekonomi", "complexity": "direct"},
     {"id": "PF04", "stage": "fakultas", "scenario": "User tanya jenjang pendidikan yang tersedia di UNSIQ", "complexity": "direct"},
     {"id": "PF05", "stage": "fakultas", "scenario": "User tertarik prodi Keperawatan, tanya informasinya", "complexity": "reasoning"},
-    
-    # === MBKM ===
+    {"id": "PF06", "stage": "fakultas", "scenario": "User tanya apakah ada jurusan KPI", "complexity": "direct"},
+    {"id": "PF07", "stage": "fakultas", "scenario": "User tanya jurusan manajemen masuk fakultas apa", "complexity": "direct"},
+    {"id": "PF08", "stage": "fakultas", "scenario": "User tanya apakah ada program pascasarjana (S2)", "complexity": "direct"},
+    {"id": "PF09", "stage": "fakultas", "scenario": "User tanya prodi PAI untuk apa", "complexity": "reasoning"},
+    {"id": "PF10", "stage": "fakultas", "scenario": "User tanya prospek kerja lulusan FIKES", "complexity": "reasoning"},
+    {"id": "PF11", "stage": "fakultas", "scenario": "User tanya prodi mana yang paling diminati", "complexity": "reasoning"},
+    {"id": "PF12", "stage": "fakultas", "scenario": "User tanya akreditasi masing-masing prodi", "complexity": "reasoning"},
+    {"id": "PF13", "stage": "fakultas", "scenario": "User tanya kurikulum prodi Manajemen", "complexity": "reasoning"},
+    {"id": "PF14", "stage": "fakultas", "scenario": "User tanya fasilitas Fakultas Kesehatan", "complexity": "reasoning"},
+    {"id": "PF15", "stage": "fakultas", "scenario": "User tanya dosen-dosen di Fakultas Tarbiyah", "complexity": "reasoning"},
+    {"id": "PF16", "stage": "fakultas", "scenario": "User tanya kapasitas mahasiswa per prodi", "complexity": "reasoning"},
+    {"id": "PF17", "stage": "fakultas", "scenario": "User tanya prodi D3 apa saja yang ada", "complexity": "direct"},
+    {"id": "PF18", "stage": "fakultas", "scenario": "User tanya prodi S1 apa saja yang ada", "complexity": "direct"},
+    {"id": "PF19", "stage": "fakultas", "scenario": "User tanya prodi S2 apa saja yang ada", "complexity": "direct"},
+    {"id": "PF20", "stage": "fakultas", "scenario": "User tanya prodi baru yang akan dibuka", "complexity": "reasoning"},
+    {"id": "PF21", "stage": "fakultas", "scenario": "User tanya bedanya prodi PAI dan KPI", "complexity": "reasoning"},
+    {"id": "PF22", "stage": "fakultas", "scenario": "User tanya prodi yang cocok untuk calon guru", "complexity": "reasoning"},
+    {"id": "PF23", "stage": "fakultas", "scenario": "User tanya prodi yang cocok untuk calon perawat", "complexity": "reasoning"},
+    {"id": "PF24", "stage": "fakultas", "scenario": "User tanya prodi yang cocok untuk bisnis", "complexity": "reasoning"},
+    {"id": "PF25", "stage": "fakultas", "scenario": "User tanya dekan masing-masing fakultas", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # MBKM (15 skenario)
+    # ==========================================================================
     {"id": "PM01", "stage": "mbkm", "scenario": "User tanya apa itu program MBKM di UNSIQ", "complexity": "direct"},
     {"id": "PM02", "stage": "mbkm", "scenario": "User tanya skema 5-1-2 dalam MBKM", "complexity": "reasoning"},
     {"id": "PM03", "stage": "mbkm", "scenario": "User tanya 8 program MBKM yang tersedia", "complexity": "direct"},
     {"id": "PM04", "stage": "mbkm", "scenario": "User tanya cara mengikuti program magang MBKM", "complexity": "reasoning"},
     {"id": "PM05", "stage": "mbkm", "scenario": "User tanya apakah MBKM wajib atau opsional", "complexity": "reasoning"},
-    
-    # === EPISTEMOLOGI ===
+    {"id": "PM06", "stage": "mbkm", "scenario": "User tanya contoh kegiatan proyek kemanusiaan di MBKM", "complexity": "reasoning"},
+    {"id": "PM07", "stage": "mbkm", "scenario": "User tanya syarat mengikuti MBKM", "complexity": "reasoning"},
+    {"id": "PM08", "stage": "mbkm", "scenario": "User tanya berapa SKS yang dikonversi dari MBKM", "complexity": "reasoning"},
+    {"id": "PM09", "stage": "mbkm", "scenario": "User tanya partner MBKM UNSIQ", "complexity": "reasoning"},
+    {"id": "PM10", "stage": "mbkm", "scenario": "User tanya program pertukaran pelajar MBKM", "complexity": "reasoning"},
+    {"id": "PM11", "stage": "mbkm", "scenario": "User tanya studi independen di MBKM", "complexity": "reasoning"},
+    {"id": "PM12", "stage": "mbkm", "scenario": "User tanya program wirausaha di MBKM", "complexity": "reasoning"},
+    {"id": "PM13", "stage": "mbkm", "scenario": "User tanya hibah kompetisi untuk MBKM", "complexity": "reasoning"},
+    {"id": "PM14", "stage": "mbkm", "scenario": "User tanya testimoni mahasiswa yang ikut MBKM", "complexity": "reasoning"},
+    {"id": "PM15", "stage": "mbkm", "scenario": "User tanya keuntungan mengikuti MBKM", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # EPISTEMOLOGI KEILMUAN (10 skenario)
+    # ==========================================================================
     {"id": "PE01", "stage": "epistemologi", "scenario": "User tanya pendekatan keilmuan UNSIQ", "complexity": "reasoning"},
     {"id": "PE02", "stage": "epistemologi", "scenario": "User tanya apa itu Syajarah Al-Qur'an", "complexity": "reasoning"},
     {"id": "PE03", "stage": "epistemologi", "scenario": "User tanya konsep harmonis-sinergis-integratif", "complexity": "reasoning"},
-    
-    # === KEUNGGULAN ===
+    {"id": "PE04", "stage": "epistemologi", "scenario": "User tanya hubungan pesantren dan universitas di UNSIQ", "complexity": "reasoning"},
+    {"id": "PE05", "stage": "epistemologi", "scenario": "User tanya integrasi kurikulum dengan nilai Islam", "complexity": "reasoning"},
+    {"id": "PE06", "stage": "epistemologi", "scenario": "User tanya sinergi tradisi dan modernitas", "complexity": "reasoning"},
+    {"id": "PE07", "stage": "epistemologi", "scenario": "User tanya pembelajaran holistik di UNSIQ", "complexity": "reasoning"},
+    {"id": "PE08", "stage": "epistemologi", "scenario": "User tanya luaran mahasiswa yang utuh", "complexity": "reasoning"},
+    {"id": "PE09", "stage": "epistemologi", "scenario": "User tanya riset berbasis Al-Qur'an", "complexity": "reasoning"},
+    {"id": "PE10", "stage": "epistemologi", "scenario": "User tanya metodologi keilmuan UNSIQ", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # KEUNGGULAN (15 skenario)
+    # ==========================================================================
     {"id": "PK01", "stage": "keunggulan", "scenario": "User tanya keunggulan kuliah di UNSIQ", "complexity": "reasoning"},
     {"id": "PK02", "stage": "keunggulan", "scenario": "User tanya 3 keunggulan lulusan UNSIQ", "complexity": "direct"},
     {"id": "PK03", "stage": "keunggulan", "scenario": "User tanya apa yang membedakan UNSIQ dengan kampus lain", "complexity": "reasoning"},
     {"id": "PK04", "stage": "keunggulan", "scenario": "User tanya kontribusi UNSIQ untuk masyarakat", "complexity": "reasoning"},
-    
-    # === KONTAK ===
+    {"id": "PK05", "stage": "keunggulan", "scenario": "User tanya apa itu Unsiqers Learning Spirit (ULS)", "complexity": "direct"},
+    {"id": "PK06", "stage": "keunggulan", "scenario": "User tanya apakah sistem data UNSIQ sudah terintegrasi", "complexity": "direct"},
+    {"id": "PK07", "stage": "keunggulan", "scenario": "User tanya transformasi digital UNSIQ", "complexity": "reasoning"},
+    {"id": "PK08", "stage": "keunggulan", "scenario": "User tanya keunggulan spesifik lulusan", "complexity": "reasoning"},
+    {"id": "PK09", "stage": "keunggulan", "scenario": "User tanya keunggulan kompetitif lulusan", "complexity": "reasoning"},
+    {"id": "PK10", "stage": "keunggulan", "scenario": "User tanya keunggulan komplementatif lulusan", "complexity": "reasoning"},
+    {"id": "PK11", "stage": "keunggulan", "scenario": "User tanya kontribusi UNSIQ untuk bangsa", "complexity": "reasoning"},
+    {"id": "PK12", "stage": "keunggulan", "scenario": "User tanya kerjasama internasional UNSIQ", "complexity": "reasoning"},
+    {"id": "PK13", "stage": "keunggulan", "scenario": "User tanya fasilitas unggulan UNSIQ", "complexity": "reasoning"},
+    {"id": "PK14", "stage": "keunggulan", "scenario": "User tanya prestasi mahasiswa UNSIQ", "complexity": "reasoning"},
+    {"id": "PK15", "stage": "keunggulan", "scenario": "User tanya alumni sukses UNSIQ", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # KONTAK & LAYANAN (10 skenario)
+    # ==========================================================================
     {"id": "PC01", "stage": "kontak", "scenario": "User tanya website resmi UNSIQ", "complexity": "direct"},
     {"id": "PC02", "stage": "kontak", "scenario": "User tanya nomor telepon UNSIQ", "complexity": "direct"},
     {"id": "PC03", "stage": "kontak", "scenario": "User tanya email UNSIQ", "complexity": "direct"},
     {"id": "PC04", "stage": "kontak", "scenario": "User tanya jam operasional layanan UNSIQ", "complexity": "direct"},
-    
-    # === ADDITIONAL 12 SCENARIOS FOR TOTAL 50 ===
-    
-    # --- Identitas & Sejarah ---
-    {"id": "PI06", "stage": "identitas", "scenario": "User tanya apakah UNSIQ universitas Islam", "complexity": "reasoning"},
-    {"id": "PS05", "stage": "sejarah", "scenario": "User tanya peran Bupati Wonosobo dalam pendirian UNSIQ", "complexity": "reasoning"},
-    {"id": "PS06", "stage": "sejarah", "scenario": "User tanya tentang Sekolah Tinggi Ilmu Ekonomi (STIE-YPIIQ) sebelum jadi UNSIQ", "complexity": "direct"},
-    
-    # --- Visi Misi & Karakter ---
-    {"id": "PV05", "stage": "visi_misi", "scenario": "User tanya maksud slogan 'Kuliah Plus Ngaji'", "complexity": "reasoning"},
-    {"id": "PV06", "stage": "visi_misi", "scenario": "User tanya tentang saintifikasi Al-Qur'an", "complexity": "reasoning"},
-    
-    # --- Fakultas & Prodi Specifics ---
-    {"id": "PF06", "stage": "fakultas", "scenario": "User tanya apakah ada jurusan KPI (Komunikasi Penyiaran Islam)", "complexity": "direct"},
-    {"id": "PF07", "stage": "fakultas", "scenario": "User tanya jurusan manajemen masuk fakultas apa", "complexity": "direct"},
-    {"id": "PF08", "stage": "fakultas", "scenario": "User tanya apakah ada program pascasarjana (S2)", "complexity": "direct"},
-    
-    # --- MBKM & Epistemologi ---
-    {"id": "PM06", "stage": "mbkm", "scenario": "User tanya contoh kegiatan proyek kemanusiaan di MBKM", "complexity": "reasoning"},
-    {"id": "PE04", "stage": "epistemologi", "scenario": "User tanya hubungan pesantren dan universitas di UNSIQ", "complexity": "reasoning"},
-    
-    # --- Keunggulan & Lainnya ---
-    {"id": "PK05", "stage": "keunggulan", "scenario": "User tanya apa itu Unsiqers Learning Spirit (ULS)", "complexity": "direct"},
-    {"id": "PK06", "stage": "keunggulan", "scenario": "User tanya apakah sistem data UNSIQ sudah terintegrasi", "complexity": "direct"},
+    {"id": "PC05", "stage": "kontak", "scenario": "User tanya nomor WhatsApp PMB", "complexity": "direct"},
+    {"id": "PC06", "stage": "kontak", "scenario": "User tanya portal PMB online", "complexity": "direct"},
+    {"id": "PC07", "stage": "kontak", "scenario": "User tanya cara menghubungi fakultas tertentu", "complexity": "reasoning"},
+    {"id": "PC08", "stage": "kontak", "scenario": "User tanya alamat email pengaduan", "complexity": "reasoning"},
+    {"id": "PC09", "stage": "kontak", "scenario": "User tanya social media resmi UNSIQ", "complexity": "direct"},
+    {"id": "PC10", "stage": "kontak", "scenario": "User tanya cara berkunjung ke kampus", "complexity": "reasoning"},
 ]
 
 print(f"Total scenarios: {len(SCENARIOS)}")

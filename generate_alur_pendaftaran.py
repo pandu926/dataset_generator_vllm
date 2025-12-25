@@ -266,19 +266,52 @@ Semua tahap bisa dilakukan online dari mana saja.
 # =============================================================================
 
 SCENARIOS = [
-    # === TAHAP 1: WEBSITE ===
+    # ==========================================================================
+    # TAHAP 1: WEBSITE (15 skenario)
+    # ==========================================================================
     {"id": "W01", "stage": "website", "scenario": "User tidak bisa akses website PMB, minta troubleshooting", "complexity": "edge_case"},
     {"id": "W02", "stage": "website", "scenario": "User tanya URL resmi PMB UNSIQ", "complexity": "direct"},
+    {"id": "W03", "stage": "website", "scenario": "User tanya apakah ada website alternatif PMB", "complexity": "direct"},
+    {"id": "W04", "stage": "website", "scenario": "User website loading lama, minta solusi", "complexity": "edge_case"},
+    {"id": "W05", "stage": "website", "scenario": "User tanya browser apa yang direkomendasikan", "complexity": "reasoning"},
+    {"id": "W06", "stage": "website", "scenario": "User website error 404, minta bantuan", "complexity": "edge_case"},
+    {"id": "W07", "stage": "website", "scenario": "User tanya menu apa saja yang ada di website PMB", "complexity": "direct"},
+    {"id": "W08", "stage": "website", "scenario": "User akses dari HP, tanya apakah bisa daftar lewat mobile", "complexity": "reasoning"},
+    {"id": "W09", "stage": "website", "scenario": "User tanya cara clear cache browser", "complexity": "direct"},
+    {"id": "W10", "stage": "website", "scenario": "User website blank putih, minta troubleshooting", "complexity": "edge_case"},
+    {"id": "W11", "stage": "website", "scenario": "User tanya apakah pendaftaran bisa offline", "complexity": "reasoning"},
+    {"id": "W12", "stage": "website", "scenario": "User tanya jam berapa website maintenance", "complexity": "direct"},
+    {"id": "W13", "stage": "website", "scenario": "User dapat pesan 'server busy', minta solusi", "complexity": "edge_case"},
+    {"id": "W14", "stage": "website", "scenario": "User tanya apakah perlu akun untuk akses website", "complexity": "direct"},
+    {"id": "W15", "stage": "website", "scenario": "User dari luar negeri, tanya apakah bisa akses website", "complexity": "reasoning"},
     
-    # === TAHAP 2: FORMULIR ===
+    # ==========================================================================
+    # TAHAP 2: FORMULIR (20 skenario)
+    # ==========================================================================
     {"id": "F01", "stage": "formulir", "scenario": "User bingung memilih antara kelas Reguler vs Ekstension", "complexity": "reasoning"},
     {"id": "F02", "stage": "formulir", "scenario": "User tanya perbedaan jenjang D3, S1, S2", "complexity": "direct"},
     {"id": "F03", "stage": "formulir", "scenario": "User lupa nomor pendaftaran dan PIN setelah daftar", "complexity": "edge_case"},
     {"id": "F04", "stage": "formulir", "scenario": "User salah ketik nama saat pendaftaran", "complexity": "edge_case"},
     {"id": "F05", "stage": "formulir", "scenario": "User tanya data apa saja yang perlu diisi di formulir", "complexity": "direct"},
     {"id": "F06", "stage": "formulir", "scenario": "User tanya pentingnya mencatat nomor pendaftaran", "complexity": "reasoning"},
+    {"id": "F07", "stage": "formulir", "scenario": "User tanya berapa lama waktu pengisian formulir", "complexity": "direct"},
+    {"id": "F08", "stage": "formulir", "scenario": "User salah ketik email saat pendaftaran", "complexity": "edge_case"},
+    {"id": "F09", "stage": "formulir", "scenario": "User tanya apakah bisa edit biodata setelah submit", "complexity": "reasoning"},
+    {"id": "F10", "stage": "formulir", "scenario": "User mau daftar 2 prodi sekaligus", "complexity": "edge_case"},
+    {"id": "F11", "stage": "formulir", "scenario": "User tanya format penulisan nama yang benar", "complexity": "direct"},
+    {"id": "F12", "stage": "formulir", "scenario": "User tanya apakah harus pakai email aktif", "complexity": "reasoning"},
+    {"id": "F13", "stage": "formulir", "scenario": "User mau ganti nomor HP setelah daftar", "complexity": "edge_case"},
+    {"id": "F14", "stage": "formulir", "scenario": "User tanya apakah alamat harus lengkap", "complexity": "direct"},
+    {"id": "F15", "stage": "formulir", "scenario": "User tanya siapa yang cocok untuk kelas Ekstension", "complexity": "reasoning"},
+    {"id": "F16", "stage": "formulir", "scenario": "User belum punya KTP, tanya apakah bisa daftar", "complexity": "edge_case"},
+    {"id": "F17", "stage": "formulir", "scenario": "User tanya prodi apa saja yang tersedia", "complexity": "direct"},
+    {"id": "F18", "stage": "formulir", "scenario": "User bingung pilih prodi, minta rekomendasi", "complexity": "reasoning"},
+    {"id": "F19", "stage": "formulir", "scenario": "User mau daftar untuk anak, tanya prosedur", "complexity": "edge_case"},
+    {"id": "F20", "stage": "formulir", "scenario": "User tanya apakah bisa simpan draft formulir", "complexity": "direct"},
     
-    # === TAHAP 3: PEMBAYARAN ===
+    # ==========================================================================
+    # TAHAP 3: PEMBAYARAN PENDAFTARAN (20 skenario)
+    # ==========================================================================
     {"id": "P01", "stage": "pembayaran_pendaftaran", "scenario": "User tanya biaya pendaftaran Gelombang 1", "complexity": "direct"},
     {"id": "P02", "stage": "pembayaran_pendaftaran", "scenario": "User tanya cara bayar lewat Bank Jateng", "complexity": "reasoning"},
     {"id": "P03", "stage": "pembayaran_pendaftaran", "scenario": "User transfer pakai nomor rekening bukan nomor pendaftaran", "complexity": "edge_case"},
@@ -286,8 +319,23 @@ SCENARIOS = [
     {"id": "P05", "stage": "pembayaran_pendaftaran", "scenario": "User sudah bayar tapi status belum berubah", "complexity": "edge_case"},
     {"id": "P06", "stage": "pembayaran_pendaftaran", "scenario": "User tanya perbedaan biaya D3/S1 vs S2", "complexity": "direct"},
     {"id": "P07", "stage": "pembayaran_pendaftaran", "scenario": "User tanya referensi pembayaran yang benar", "complexity": "reasoning"},
+    {"id": "P08", "stage": "pembayaran_pendaftaran", "scenario": "User tanya biaya pendaftaran Gelombang 2", "complexity": "direct"},
+    {"id": "P09", "stage": "pembayaran_pendaftaran", "scenario": "User tanya biaya pendaftaran Gelombang 3", "complexity": "direct"},
+    {"id": "P10", "stage": "pembayaran_pendaftaran", "scenario": "User tanya cara bayar lewat Finpay", "complexity": "reasoning"},
+    {"id": "P11", "stage": "pembayaran_pendaftaran", "scenario": "User transfer nominal kurang dari seharusnya", "complexity": "edge_case"},
+    {"id": "P12", "stage": "pembayaran_pendaftaran", "scenario": "User tanya apakah bisa bayar via transfer antar bank", "complexity": "reasoning"},
+    {"id": "P13", "stage": "pembayaran_pendaftaran", "scenario": "User bukti transfer hilang, minta solusi", "complexity": "edge_case"},
+    {"id": "P14", "stage": "pembayaran_pendaftaran", "scenario": "User tanya deadline pembayaran pendaftaran", "complexity": "direct"},
+    {"id": "P15", "stage": "pembayaran_pendaftaran", "scenario": "User mau bayar pakai QRIS", "complexity": "reasoning"},
+    {"id": "P16", "stage": "pembayaran_pendaftaran", "scenario": "User double transfer, minta refund", "complexity": "edge_case"},
+    {"id": "P17", "stage": "pembayaran_pendaftaran", "scenario": "User tanya apakah biaya bisa dicicil", "complexity": "reasoning"},
+    {"id": "P18", "stage": "pembayaran_pendaftaran", "scenario": "User tanya langkah setelah pembayaran berhasil", "complexity": "direct"},
+    {"id": "P19", "stage": "pembayaran_pendaftaran", "scenario": "User dari luar kota, tanya cara bayar", "complexity": "reasoning"},
+    {"id": "P20", "stage": "pembayaran_pendaftaran", "scenario": "User pembayaran gagal, saldo terpotong", "complexity": "edge_case"},
     
-    # === TAHAP 4: DOKUMEN ===
+    # ==========================================================================
+    # TAHAP 4: DOKUMEN (20 skenario)
+    # ==========================================================================
     {"id": "D01", "stage": "dokumen", "scenario": "User tanya dokumen yang perlu diupload", "complexity": "direct"},
     {"id": "D02", "stage": "dokumen", "scenario": "User belum punya ijazah, tanya pengganti", "complexity": "reasoning"},
     {"id": "D03", "stage": "dokumen", "scenario": "User tanya spesifikasi foto formal", "complexity": "direct"},
@@ -296,45 +344,137 @@ SCENARIOS = [
     {"id": "D06", "stage": "dokumen", "scenario": "User Fakultas Kesehatan tanya syarat surat sehat", "complexity": "reasoning"},
     {"id": "D07", "stage": "dokumen", "scenario": "User tanya format file yang diterima", "complexity": "direct"},
     {"id": "D08", "stage": "dokumen", "scenario": "User tanya cara login ke portal", "complexity": "direct"},
+    {"id": "D09", "stage": "dokumen", "scenario": "User ijazah blur, tanya apakah diterima", "complexity": "edge_case"},
+    {"id": "D10", "stage": "dokumen", "scenario": "User tanya ukuran maksimal file upload", "complexity": "direct"},
+    {"id": "D11", "stage": "dokumen", "scenario": "User foto pakai background biru, tanya apakah valid", "complexity": "reasoning"},
+    {"id": "D12", "stage": "dokumen", "scenario": "User KK sudah tidak berlaku, tanya solusi", "complexity": "edge_case"},
+    {"id": "D13", "stage": "dokumen", "scenario": "User tanya apakah bisa upload dokumen dalam PDF", "complexity": "reasoning"},
+    {"id": "D14", "stage": "dokumen", "scenario": "User gagal upload, muncul error", "complexity": "edge_case"},
+    {"id": "D15", "stage": "dokumen", "scenario": "User tanya cara resize foto", "complexity": "direct"},
+    {"id": "D16", "stage": "dokumen", "scenario": "User lulusan luar negeri, tanya dokumen apa yang diperlukan", "complexity": "reasoning"},
+    {"id": "D17", "stage": "dokumen", "scenario": "User mau ganti foto setelah upload", "complexity": "edge_case"},
+    {"id": "D18", "stage": "dokumen", "scenario": "User tanya apakah ijazah harus dilegalisir", "complexity": "reasoning"},
+    {"id": "D19", "stage": "dokumen", "scenario": "User tanya dokumen tambahan untuk S2", "complexity": "direct"},
+    {"id": "D20", "stage": "dokumen", "scenario": "User upload dokumen orang lain, minta koreksi", "complexity": "edge_case"},
     
-    # === TAHAP 5: PLACEMENT TEST ===
+    # ==========================================================================
+    # TAHAP 5: PLACEMENT TEST (15 skenario)
+    # ==========================================================================
     {"id": "T01", "stage": "placement_test", "scenario": "User tanya kapan bisa ujian placement test", "complexity": "direct"},
     {"id": "T02", "stage": "placement_test", "scenario": "User tanya durasi ujian placement test", "complexity": "direct"},
     {"id": "T03", "stage": "placement_test", "scenario": "User internet mati saat ujian", "complexity": "edge_case"},
     {"id": "T04", "stage": "placement_test", "scenario": "Menu ujian tidak muncul padahal dokumen sudah diupload", "complexity": "edge_case"},
+    {"id": "T05", "stage": "placement_test", "scenario": "User tanya materi apa yang diujikan", "complexity": "reasoning"},
+    {"id": "T06", "stage": "placement_test", "scenario": "User tanya apakah ujian bisa diulang", "complexity": "reasoning"},
+    {"id": "T07", "stage": "placement_test", "scenario": "User laptop mati saat ujian berlangsung", "complexity": "edge_case"},
+    {"id": "T08", "stage": "placement_test", "scenario": "User tanya tips mengerjakan placement test", "complexity": "reasoning"},
+    {"id": "T09", "stage": "placement_test", "scenario": "User tanya bentuk soal placement test", "complexity": "direct"},
+    {"id": "T10", "stage": "placement_test", "scenario": "User tidak sengaja submit sebelum selesai", "complexity": "edge_case"},
+    {"id": "T11", "stage": "placement_test", "scenario": "User tanya passing grade placement test", "complexity": "reasoning"},
+    {"id": "T12", "stage": "placement_test", "scenario": "User tanya jadwal ujian placement test", "complexity": "direct"},
+    {"id": "T13", "stage": "placement_test", "scenario": "User mau reschedule jadwal ujian", "complexity": "edge_case"},
+    {"id": "T14", "stage": "placement_test", "scenario": "User tanya apakah ujian wajib dikerjakan", "complexity": "direct"},
+    {"id": "T15", "stage": "placement_test", "scenario": "User tanya hasil placement test keluar kapan", "complexity": "direct"},
     
-    # === TAHAP 6: PENGUMUMAN ===
+    # ==========================================================================
+    # TAHAP 6: PENGUMUMAN (15 skenario)
+    # ==========================================================================
     {"id": "A01", "stage": "pengumuman", "scenario": "User tanya cara melihat hasil pengumuman", "complexity": "direct"},
     {"id": "A02", "stage": "pengumuman", "scenario": "User dapat status WAITING", "complexity": "reasoning"},
     {"id": "A03", "stage": "pengumuman", "scenario": "User diterima tapi deadline tinggal 2 hari", "complexity": "edge_case"},
+    {"id": "A04", "stage": "pengumuman", "scenario": "User tanya kapan pengumuman keluar", "complexity": "direct"},
+    {"id": "A05", "stage": "pengumuman", "scenario": "User dapat status DITOLAK, tanya opsi selanjutnya", "complexity": "reasoning"},
+    {"id": "A06", "stage": "pengumuman", "scenario": "User tidak menemukan namanya di pengumuman", "complexity": "edge_case"},
+    {"id": "A07", "stage": "pengumuman", "scenario": "User tanya arti status DITERIMA", "complexity": "direct"},
+    {"id": "A08", "stage": "pengumuman", "scenario": "User tanya langkah setelah diterima", "complexity": "reasoning"},
+    {"id": "A09", "stage": "pengumuman", "scenario": "User dapat 2 status berbeda untuk 2 prodi", "complexity": "edge_case"},
+    {"id": "A10", "stage": "pengumuman", "scenario": "User tanya apakah pengumuman dikirim via email", "complexity": "direct"},
+    {"id": "A11", "stage": "pengumuman", "scenario": "User mau konfirmasi kelulusan tapi tombol tidak aktif", "complexity": "edge_case"},
+    {"id": "A12", "stage": "pengumuman", "scenario": "User tanya beda pengumuman tiap gelombang", "complexity": "reasoning"},
+    {"id": "A13", "stage": "pengumuman", "scenario": "User lupa login untuk cek pengumuman", "complexity": "edge_case"},
+    {"id": "A14", "stage": "pengumuman", "scenario": "User tanya apakah bisa banding jika ditolak", "complexity": "reasoning"},
+    {"id": "A15", "stage": "pengumuman", "scenario": "User tanya syarat minimum untuk diterima", "complexity": "reasoning"},
     
-    # === TAHAP 7: REGISTRASI ===
+    # ==========================================================================
+    # TAHAP 7: REGISTRASI / PEMBAYARAN SEMESTER (20 skenario)
+    # ==========================================================================
     {"id": "R01", "stage": "registrasi", "scenario": "User tanya biaya angsuran 1 semester D3/S1", "complexity": "direct"},
     {"id": "R02", "stage": "registrasi", "scenario": "User tanya biaya angsuran 1 semester S2", "complexity": "direct"},
     {"id": "R03", "stage": "registrasi", "scenario": "User tanya cara pembayaran semester 1", "complexity": "reasoning"},
     {"id": "R04", "stage": "registrasi", "scenario": "User bayar semester tapi status tidak update", "complexity": "edge_case"},
+    {"id": "R05", "stage": "registrasi", "scenario": "User tanya rincian biaya kuliah lengkap", "complexity": "direct"},
+    {"id": "R06", "stage": "registrasi", "scenario": "User tanya deadline pembayaran semester 1", "complexity": "direct"},
+    {"id": "R07", "stage": "registrasi", "scenario": "User mau cicil pembayaran semester", "complexity": "reasoning"},
+    {"id": "R08", "stage": "registrasi", "scenario": "User telat bayar semester 1, tanya konsekuensi", "complexity": "edge_case"},
+    {"id": "R09", "stage": "registrasi", "scenario": "User tanya apakah ada potongan untuk bayar lunas", "complexity": "reasoning"},
+    {"id": "R10", "stage": "registrasi", "scenario": "User tanya jadwal cicilan biaya kuliah", "complexity": "direct"},
+    {"id": "R11", "stage": "registrasi", "scenario": "User mau bayar lebih dari angsuran 1", "complexity": "reasoning"},
+    {"id": "R12", "stage": "registrasi", "scenario": "User salah transfer nominal semester", "complexity": "edge_case"},
+    {"id": "R13", "stage": "registrasi", "scenario": "User tanya komponen biaya pendidikan", "complexity": "direct"},
+    {"id": "R14", "stage": "registrasi", "scenario": "User tanya apakah biaya sama untuk semua prodi", "complexity": "reasoning"},
+    {"id": "R15", "stage": "registrasi", "scenario": "User mau mundur setelah bayar semester 1", "complexity": "edge_case"},
+    {"id": "R16", "stage": "registrasi", "scenario": "User tanya biaya untuk mahasiswa transfer", "complexity": "reasoning"},
+    {"id": "R17", "stage": "registrasi", "scenario": "User tanya cara dapat bukti pembayaran", "complexity": "direct"},
+    {"id": "R18", "stage": "registrasi", "scenario": "User pembayaran terblokir karena limit harian", "complexity": "edge_case"},
+    {"id": "R19", "stage": "registrasi", "scenario": "User tanya apakah bisa bayar via e-wallet", "complexity": "reasoning"},
+    {"id": "R20", "stage": "registrasi", "scenario": "User tanya perbedaan biaya reguler vs ekstension", "complexity": "direct"},
     
-    # === TAHAP 8: NIM ===
+    # ==========================================================================
+    # TAHAP 8: NIM (15 skenario)
+    # ==========================================================================
     {"id": "N01", "stage": "nim", "scenario": "User tanya cara reservasi NIM", "complexity": "direct"},
     {"id": "N02", "stage": "nim", "scenario": "User belum dapat NIM setelah 3 hari reservasi", "complexity": "edge_case"},
     {"id": "N03", "stage": "nim", "scenario": "User tanya lama proses verifikasi NIM", "complexity": "direct"},
     {"id": "N04", "stage": "nim", "scenario": "User tanya yang harus dilakukan setelah dapat NIM", "complexity": "reasoning"},
     {"id": "N05", "stage": "nim", "scenario": "Tombol reservasi NIM tidak aktif", "complexity": "edge_case"},
+    {"id": "N06", "stage": "nim", "scenario": "User tanya format NIM UNSIQ", "complexity": "direct"},
+    {"id": "N07", "stage": "nim", "scenario": "User tanya fungsi NIM untuk mahasiswa", "complexity": "reasoning"},
+    {"id": "N08", "stage": "nim", "scenario": "User NIM salah ketik, minta koreksi", "complexity": "edge_case"},
+    {"id": "N09", "stage": "nim", "scenario": "User tanya cara ambil KTM setelah dapat NIM", "complexity": "direct"},
+    {"id": "N10", "stage": "nim", "scenario": "User tanya jadwal orientasi mahasiswa baru", "complexity": "reasoning"},
+    {"id": "N11", "stage": "nim", "scenario": "User tanya cara daftar matakuliah setelah dapat NIM", "complexity": "reasoning"},
+    {"id": "N12", "stage": "nim", "scenario": "User sudah dapat NIM tapi belum dapat email konfirmasi", "complexity": "edge_case"},
+    {"id": "N13", "stage": "nim", "scenario": "User tanya apakah NIM bisa berubah jika pindah prodi", "complexity": "reasoning"},
+    {"id": "N14", "stage": "nim", "scenario": "User tanya apa itu portal akademik", "complexity": "direct"},
+    {"id": "N15", "stage": "nim", "scenario": "User tanya cara akses SIAKAD setelah dapat NIM", "complexity": "direct"},
     
-    # === GENERAL ===
+    # ==========================================================================
+    # GENERAL (15 skenario)
+    # ==========================================================================
     {"id": "G01", "stage": "general", "scenario": "User tanya alur pendaftaran lengkap", "complexity": "reasoning"},
     {"id": "G02", "stage": "general", "scenario": "User mau pindah prodi sebelum ujian", "complexity": "reasoning"},
     {"id": "G03", "stage": "general", "scenario": "User mau pindah prodi setelah dapat NIM", "complexity": "edge_case"},
     {"id": "G04", "stage": "general", "scenario": "User tanya kontak PMB", "complexity": "direct"},
     {"id": "G05", "stage": "general", "scenario": "User tanya jam operasional PMB", "complexity": "direct"},
     {"id": "G06", "stage": "general", "scenario": "User tanya apakah semua proses bisa online", "complexity": "direct"},
+    {"id": "G07", "stage": "general", "scenario": "User tanya alamat kampus UNSIQ", "complexity": "direct"},
+    {"id": "G08", "stage": "general", "scenario": "User tanya berapa lama proses pendaftaran total", "complexity": "reasoning"},
+    {"id": "G09", "stage": "general", "scenario": "User mau batalkan pendaftaran", "complexity": "edge_case"},
+    {"id": "G10", "stage": "general", "scenario": "User tanya email resmi PMB", "complexity": "direct"},
+    {"id": "G11", "stage": "general", "scenario": "User mau konsultasi langsung ke PMB", "complexity": "reasoning"},
+    {"id": "G12", "stage": "general", "scenario": "User complaint layanan PMB", "complexity": "edge_case"},
+    {"id": "G13", "stage": "general", "scenario": "User tanya social media resmi PMB", "complexity": "direct"},
+    {"id": "G14", "stage": "general", "scenario": "User tanya apakah ada open house atau campus tour", "complexity": "reasoning"},
+    {"id": "G15", "stage": "general", "scenario": "User tanya dokumen apa saja yang harus disiapkan dari awal", "complexity": "reasoning"},
     
-    # === JADWAL GELOMBANG ===
+    # ==========================================================================
+    # JADWAL GELOMBANG (15 skenario)
+    # ==========================================================================
     {"id": "JG01", "stage": "jadwal", "scenario": "User tanya periode pendaftaran Gelombang 1, 2, dan 3", "complexity": "direct"},
     {"id": "JG02", "stage": "jadwal", "scenario": "User tanya jadwal ujian tiap gelombang", "complexity": "direct"},
     {"id": "JG03", "stage": "jadwal", "scenario": "User tanya deadline pembayaran angsuran 1 tiap gelombang", "complexity": "direct"},
     {"id": "JG04", "stage": "jadwal", "scenario": "User tanya kapan kuliah dimulai jika daftar Gelombang 2", "complexity": "reasoning"},
     {"id": "JG05", "stage": "jadwal", "scenario": "User bingung pilih Gelombang 1 atau 2", "complexity": "reasoning"},
+    {"id": "JG06", "stage": "jadwal", "scenario": "User tanya keuntungan daftar Gelombang 1", "complexity": "reasoning"},
+    {"id": "JG07", "stage": "jadwal", "scenario": "User telat daftar Gelombang 1, tanya opsi", "complexity": "edge_case"},
+    {"id": "JG08", "stage": "jadwal", "scenario": "User tanya apakah kuota tiap gelombang berbeda", "complexity": "reasoning"},
+    {"id": "JG09", "stage": "jadwal", "scenario": "User tanya jadwal lengkap PMB tahun ini", "complexity": "direct"},
+    {"id": "JG10", "stage": "jadwal", "scenario": "User mau pindah gelombang setelah daftar", "complexity": "edge_case"},
+    {"id": "JG11", "stage": "jadwal", "scenario": "User tanya kapan terakhir bisa daftar tahun ini", "complexity": "direct"},
+    {"id": "JG12", "stage": "jadwal", "scenario": "User belum lulus SMA, tanya gelombang mana yang cocok", "complexity": "reasoning"},
+    {"id": "JG13", "stage": "jadwal", "scenario": "User tanya perbedaan jadwal D3/S1 dan S2", "complexity": "direct"},
+    {"id": "JG14", "stage": "jadwal", "scenario": "User tanya apakah ada gelombang khusus untuk pindahan", "complexity": "reasoning"},
+    {"id": "JG15", "stage": "jadwal", "scenario": "User mau daftar tahun depan, tanya jadwal", "complexity": "edge_case"},
 ]
 
 print(f"Total scenarios: {len(SCENARIOS)}")

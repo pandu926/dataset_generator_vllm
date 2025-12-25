@@ -64,19 +64,38 @@ def load_data_singkatan(base_path: str = "new_dokument_rag") -> Dict[str, str]:
 
 # All scenarios will use the term as the key to look up context
 SCENARIOS = [
-    # === GENERAL TERMS (10) ===
+    # ==========================================================================
+    # GENERAL TERMS & UNIVERSITY (25 skenario)
+    # ==========================================================================
     {"id": "G01", "term": "UNSIQ", "scenario": "User tanya kepanjangan UNSIQ", "complexity": "direct"},
     {"id": "G02", "term": "PMB", "scenario": "User tanya arti PMB", "complexity": "direct"},
     {"id": "G03", "term": "UPT", "scenario": "User tanya apa itu UPT", "complexity": "direct"},
     {"id": "G04", "term": "BAN-PT", "scenario": "User tanya tentang BAN-PT", "complexity": "reasoning"},
     {"id": "G05", "term": "LLDIKTI", "scenario": "User tanya fungsi LLDIKTI", "complexity": "reasoning"},
     {"id": "G06", "term": "YPIIQ", "scenario": "User tanya apa itu YPIIQ", "complexity": "reasoning"},
-    {"id": "G07", "term": "NIM", "scenario": "User tanya bedanya NIM dan NIK", "complexity": "reasoning"}, # Context should include both
+    {"id": "G07", "term": "NIM", "scenario": "User tanya bedanya NIM dan NIK", "complexity": "reasoning"},
     {"id": "G08", "term": "KHS", "scenario": "User tanya apa itu KHS", "complexity": "direct"},
     {"id": "G09", "term": "SK", "scenario": "User tanya SK kelulusan itu apa", "complexity": "direct"},
     {"id": "G10", "term": "Ormawa", "scenario": "User tanya apa itu Ormawa", "complexity": "direct"},
+    {"id": "G11", "term": "Rektor", "scenario": "User tanya siapa Rektor UNSIQ", "complexity": "direct"},
+    {"id": "G12", "term": "Dekan", "scenario": "User tanya fungsi Dekan di fakultas", "complexity": "reasoning"},
+    {"id": "G13", "term": "Kaprodi", "scenario": "User tanya apa tugas Kaprodi", "complexity": "reasoning"},
+    {"id": "G14", "term": "Dosen PA", "scenario": "User tanya apa itu Dosen PA", "complexity": "direct"},
+    {"id": "G15", "term": "IPK", "scenario": "User tanya cara menghitung IPK", "complexity": "reasoning"},
+    {"id": "G16", "term": "IPS", "scenario": "User tanya bedanya IPS dan IPK", "complexity": "reasoning"},
+    {"id": "G17", "term": "SKS", "scenario": "User tanya apa itu SKS", "complexity": "direct"},
+    {"id": "G18", "term": "Semester", "scenario": "User tanya berapa lama 1 semester", "complexity": "direct"},
+    {"id": "G19", "term": "Cuti Akademik", "scenario": "User tanya prosedur cuti akademik", "complexity": "reasoning"},
+    {"id": "G20", "term": "DO", "scenario": "User tanya apa itu status DO", "complexity": "reasoning"},
+    {"id": "G21", "term": "Wisuda", "scenario": "User tanya syarat wisuda", "complexity": "direct"},
+    {"id": "G22", "term": "Yudisium", "scenario": "User tanya perbedaan yudisium dan wisuda", "complexity": "reasoning"},
+    {"id": "G23", "term": "Transkip", "scenario": "User tanya cara dapat transkip nilai", "complexity": "direct"},
+    {"id": "G24", "term": "Ijazah", "scenario": "User tanya kapan ijazah diberikan", "complexity": "direct"},
+    {"id": "G25", "term": "Akreditasi", "scenario": "User tanya apa pentingnya akreditasi", "complexity": "reasoning"},
 
-    # === ACADEMIC ABBREVIATIONS (10) ===
+    # ==========================================================================
+    # ACADEMIC PROGRAMS & PRODI (30 skenario)
+    # ==========================================================================
     {"id": "A01", "term": "PAI", "scenario": "User tanya kepanjangan prodi PAI", "complexity": "direct"},
     {"id": "A02", "term": "KPI", "scenario": "User tanya apa itu jurusan KPI", "complexity": "direct"},
     {"id": "A03", "term": "PIAUD", "scenario": "User tanya tentang prodi PIAUD", "complexity": "direct"},
@@ -87,20 +106,59 @@ SCENARIOS = [
     {"id": "A08", "term": "Tafsir", "scenario": "User tanya tentang prodi Tafsir", "complexity": "reasoning"},
     {"id": "A09", "term": "Kebidanan", "scenario": "User tanya prodi Kebidanan", "complexity": "direct"},
     {"id": "A10", "term": "MI", "scenario": "User tanya arti MI dalam PGMI", "complexity": "reasoning"},
+    {"id": "A11", "term": "Keperawatan", "scenario": "User tanya prospek kerja prodi Keperawatan", "complexity": "reasoning"},
+    {"id": "A12", "term": "Manajemen", "scenario": "User tanya prodi Manajemen di UNSIQ", "complexity": "direct"},
+    {"id": "A13", "term": "Akuntansi", "scenario": "User tanya ada prodi Akuntansi tidak", "complexity": "direct"},
+    {"id": "A14", "term": "Ekonomi Syariah", "scenario": "User tanya bedanya Ekonomi Syariah dengan Manajemen", "complexity": "reasoning"},
+    {"id": "A15", "term": "Bahasa Arab", "scenario": "User tanya prodi Bahasa Arab", "complexity": "direct"},
+    {"id": "A16", "term": "Bahasa Inggris", "scenario": "User tanya prodi Bahasa Inggris", "complexity": "direct"},
+    {"id": "A17", "term": "Ilmu Politik", "scenario": "User tanya prodi Ilmu Politik", "complexity": "direct"},
+    {"id": "A18", "term": "Gizi", "scenario": "User tanya prodi Gizi di FIKES", "complexity": "direct"},
+    {"id": "A19", "term": "FASTIKOM", "scenario": "User tanya fakultas FASTIKOM", "complexity": "direct"},
+    {"id": "A20", "term": "FIKES", "scenario": "User tanya kepanjangan FIKES", "complexity": "direct"},
+    {"id": "A21", "term": "FEB", "scenario": "User tanya apa itu FEB", "complexity": "direct"},
+    {"id": "A22", "term": "FSH", "scenario": "User tanya singkatan FSH", "complexity": "direct"},
+    {"id": "A23", "term": "FITK", "scenario": "User tanya kepanjangan FITK", "complexity": "direct"},
+    {"id": "A24", "term": "FKSP", "scenario": "User tanya apa itu FKSP", "complexity": "direct"},
+    {"id": "A25", "term": "Pascasarjana", "scenario": "User tanya prodi S2 di UNSIQ", "complexity": "reasoning"},
+    {"id": "A26", "term": "D3", "scenario": "User tanya prodi D3 apa saja", "complexity": "direct"},
+    {"id": "A27", "term": "Reguler", "scenario": "User tanya bedanya kelas Reguler dan Ekstension", "complexity": "reasoning"},
+    {"id": "A28", "term": "Ekstension", "scenario": "User tanya siapa yang cocok kelas Ekstension", "complexity": "reasoning"},
+    {"id": "A29", "term": "Transfer", "scenario": "User tanya syarat mahasiswa transfer", "complexity": "reasoning"},
+    {"id": "A30", "term": "Lintas Prodi", "scenario": "User tanya bisa tidak ambil matkul lintas prodi", "complexity": "reasoning"},
 
-    # === TIERS & SYSTEMS (10) ===
-    {"id": "S01", "term": "D3", "scenario": "User tanya apa maksud jenjang D3", "complexity": "direct"},
-    {"id": "S02", "term": "S1", "scenario": "User tanya bedanya S1 dan S2", "complexity": "reasoning"}, # Need S1 and S2 context
-    {"id": "S03", "term": "MBKM", "scenario": "User tanya kepanjangan MBKM", "complexity": "direct"},
-    {"id": "S04", "term": "RPL", "scenario": "User tanya jalur RPL itu apa", "complexity": "reasoning"},
-    {"id": "S05", "term": "LMS", "scenario": "User tanya apa itu LMS", "complexity": "direct"},
-    {"id": "S06", "term": "SISTER", "scenario": "User tanya website SISTER untuk apa", "complexity": "reasoning"},
-    {"id": "S07", "term": "QRIS", "scenario": "User tanya pembayaran pakai QRIS", "complexity": "direct"},
-    {"id": "S08", "term": "KKNI", "scenario": "User tanya apa itu KKNI", "complexity": "reasoning"},
-    {"id": "S09", "term": "SNP", "scenario": "User tanya standar SNP", "complexity": "reasoning"},
-    {"id": "S10", "term": "LTPQ", "scenario": "User tanya peran LTPQ", "complexity": "reasoning"},
+    # ==========================================================================
+    # SYSTEMS & PLATFORMS (25 skenario)
+    # ==========================================================================
+    {"id": "S01", "term": "SIAKAD", "scenario": "User tanya fungsi SIAKAD", "complexity": "direct"},
+    {"id": "S02", "term": "MBKM", "scenario": "User tanya kepanjangan MBKM", "complexity": "direct"},
+    {"id": "S03", "term": "RPL", "scenario": "User tanya jalur RPL itu apa", "complexity": "reasoning"},
+    {"id": "S04", "term": "LMS", "scenario": "User tanya apa itu LMS", "complexity": "direct"},
+    {"id": "S05", "term": "SISTER", "scenario": "User tanya website SISTER untuk apa", "complexity": "reasoning"},
+    {"id": "S06", "term": "QRIS", "scenario": "User tanya pembayaran pakai QRIS", "complexity": "direct"},
+    {"id": "S07", "term": "KKNI", "scenario": "User tanya apa itu KKNI", "complexity": "reasoning"},
+    {"id": "S08", "term": "SNP", "scenario": "User tanya standar SNP", "complexity": "reasoning"},
+    {"id": "S09", "term": "LTPQ", "scenario": "User tanya peran LTPQ", "complexity": "reasoning"},
+    {"id": "S10", "term": "E-Learning", "scenario": "User tanya platform e-learning UNSIQ", "complexity": "direct"},
+    {"id": "S11", "term": "Portal Akademik", "scenario": "User tanya cara akses portal akademik", "complexity": "direct"},
+    {"id": "S12", "term": "KRS", "scenario": "User tanya apa itu KRS", "complexity": "direct"},
+    {"id": "S13", "term": "KRS Online", "scenario": "User tanya cara isi KRS online", "complexity": "reasoning"},
+    {"id": "S14", "term": "UTS", "scenario": "User tanya jadwal UTS", "complexity": "direct"},
+    {"id": "S15", "term": "UAS", "scenario": "User tanya bedanya UTS dan UAS", "complexity": "reasoning"},
+    {"id": "S16", "term": "Praktikum", "scenario": "User tanya apa itu praktikum", "complexity": "direct"},
+    {"id": "S17", "term": "PKL", "scenario": "User tanya syarat PKL", "complexity": "reasoning"},
+    {"id": "S18", "term": "KKN", "scenario": "User tanya apa itu KKN", "complexity": "direct"},
+    {"id": "S19", "term": "Skripsi", "scenario": "User tanya syarat mengambil skripsi", "complexity": "reasoning"},
+    {"id": "S20", "term": "Tesis", "scenario": "User tanya bedanya skripsi dan tesis", "complexity": "reasoning"},
+    {"id": "S21", "term": "Jurnal", "scenario": "User tanya wajib tidak publikasi jurnal", "complexity": "reasoning"},
+    {"id": "S22", "term": "Turnitin", "scenario": "User tanya apa itu Turnitin", "complexity": "direct"},
+    {"id": "S23", "term": "Perpustakaan Digital", "scenario": "User tanya cara akses perpustakaan digital", "complexity": "direct"},
+    {"id": "S24", "term": "SINTA", "scenario": "User tanya apa itu SINTA", "complexity": "reasoning"},
+    {"id": "S25", "term": "Google Scholar", "scenario": "User tanya UNSIQ ada profil Google Scholar tidak", "complexity": "direct"},
 
-    # === DOCUMENTS & ADMIN (10) ===
+    # ==========================================================================
+    # DOCUMENTS & ADMINISTRATION (25 skenario)
+    # ==========================================================================
     {"id": "D01", "term": "SKTM", "scenario": "User tanya fungsi SKTM", "complexity": "direct"},
     {"id": "D02", "term": "NIK", "scenario": "User tanya kenapa perlu NIK", "complexity": "reasoning"},
     {"id": "D03", "term": "NISN", "scenario": "User tanya apa itu NISN", "complexity": "direct"},
@@ -111,8 +169,25 @@ SCENARIOS = [
     {"id": "D08", "term": "UKN", "scenario": "User tanya singkatan UKN", "complexity": "direct"},
     {"id": "D09", "term": "MoU", "scenario": "User tanya apa itu MoU/MoA", "complexity": "reasoning"},
     {"id": "D10", "term": "KIP-Kuliah", "scenario": "User tanya syarat KIP-Kuliah dan kepanjangannya", "complexity": "reasoning"},
+    {"id": "D11", "term": "Slip Gaji", "scenario": "User tanya dokumen slip gaji untuk apa", "complexity": "reasoning"},
+    {"id": "D12", "term": "SKHUN", "scenario": "User tanya apa itu SKHUN", "complexity": "direct"},
+    {"id": "D13", "term": "Rapor", "scenario": "User tanya rapor semester berapa yang diperlukan", "complexity": "reasoning"},
+    {"id": "D14", "term": "Pas Foto", "scenario": "User tanya spesifikasi pas foto pendaftaran", "complexity": "direct"},
+    {"id": "D15", "term": "Surat Sehat", "scenario": "User tanya surat sehat dari mana", "complexity": "reasoning"},
+    {"id": "D16", "term": "Surat Rekomendasi", "scenario": "User tanya surat rekomendasi untuk apa", "complexity": "reasoning"},
+    {"id": "D17", "term": "Legalisir", "scenario": "User tanya cara legalisir ijazah", "complexity": "direct"},
+    {"id": "D18", "term": "Materai", "scenario": "User tanya dokumen mana yang perlu materai", "complexity": "reasoning"},
+    {"id": "D19", "term": "Surat Pernyataan", "scenario": "User tanya isi surat pernyataan bermaterai", "complexity": "reasoning"},
+    {"id": "D20", "term": "Formulir", "scenario": "User tanya formulir pendaftaran di mana", "complexity": "direct"},
+    {"id": "D21", "term": "Kwitansi", "scenario": "User tanya cara dapat kwitansi pembayaran", "complexity": "direct"},
+    {"id": "D22", "term": "Surat Tugas", "scenario": "User tanya apa itu surat tugas dosen", "complexity": "reasoning"},
+    {"id": "D23", "term": "Berita Acara", "scenario": "User tanya fungsi berita acara", "complexity": "reasoning"},
+    {"id": "D24", "term": "Surat Keterangan", "scenario": "User tanya cara minta surat keterangan aktif kuliah", "complexity": "direct"},
+    {"id": "D25", "term": "Alumni", "scenario": "User tanya cara daftar alumni UNSIQ", "complexity": "direct"},
 
-    # === SCHOLARSHIPS & EXTERNAL (10) ===
+    # ==========================================================================
+    # SCHOLARSHIPS & EXTERNAL (25 skenario)
+    # ==========================================================================
     {"id": "E01", "term": "SNBP", "scenario": "User tanya SNBP itu jalur apa", "complexity": "direct"},
     {"id": "E02", "term": "SNBT", "scenario": "User tanya kepanjangan SNBT", "complexity": "direct"},
     {"id": "E03", "term": "DTKS", "scenario": "User tanya apa hubungan DTKS dan KIP", "complexity": "reasoning"},
@@ -123,6 +198,45 @@ SCENARIOS = [
     {"id": "E08", "term": "BAZNAS", "scenario": "User tanya bantuan BAZNAS", "complexity": "direct"},
     {"id": "E09", "term": "PKH", "scenario": "User tanya beasiswa untuk keluarga PKH", "complexity": "reasoning"},
     {"id": "E10", "term": "PPL", "scenario": "User tanya apa itu PPL untuk mahasiswa", "complexity": "direct"},
+    {"id": "E11", "term": "Bidikmisi", "scenario": "User tanya bedanya Bidikmisi dan KIP", "complexity": "reasoning"},
+    {"id": "E12", "term": "Beasiswa Prestasi", "scenario": "User tanya syarat beasiswa prestasi", "complexity": "reasoning"},
+    {"id": "E13", "term": "Beasiswa Hafidz", "scenario": "User tanya beasiswa untuk hafidz Quran", "complexity": "reasoning"},
+    {"id": "E14", "term": "Beasiswa Yatim", "scenario": "User tanya beasiswa untuk anak yatim", "complexity": "direct"},
+    {"id": "E15", "term": "Beasiswa Dhuafa", "scenario": "User tanya syarat beasiswa dhuafa", "complexity": "reasoning"},
+    {"id": "E16", "term": "LPDP", "scenario": "User tanya UNSIQ bisa untuk LPDP tidak", "complexity": "reasoning"},
+    {"id": "E17", "term": "Djarum", "scenario": "User tanya beasiswa Djarum", "complexity": "direct"},
+    {"id": "E18", "term": "Kemenag", "scenario": "User tanya beasiswa dari Kemenag", "complexity": "direct"},
+    {"id": "E19", "term": "Kemendikbud", "scenario": "User tanya bantuan dari Kemendikbud", "complexity": "reasoning"},
+    {"id": "E20", "term": "BLT", "scenario": "User tanya bantuan BLT untuk mahasiswa", "complexity": "reasoning"},
+    {"id": "E21", "term": "UKT", "scenario": "User tanya apa itu UKT", "complexity": "direct"},
+    {"id": "E22", "term": "SPP", "scenario": "User tanya bedanya UKT dan SPP", "complexity": "reasoning"},
+    {"id": "E23", "term": "Potongan", "scenario": "User tanya potongan biaya kuliah", "complexity": "reasoning"},
+    {"id": "E24", "term": "Cicilan", "scenario": "User tanya sistem cicilan pembayaran", "complexity": "direct"},
+    {"id": "E25", "term": "Keringanan", "scenario": "User tanya cara mengajukan keringanan biaya", "complexity": "reasoning"},
+
+    # ==========================================================================
+    # CAMPUS LIFE & FACILITIES (20 skenario)
+    # ==========================================================================
+    {"id": "C01", "term": "UKM", "scenario": "User tanya apa itu UKM di kampus", "complexity": "direct"},
+    {"id": "C02", "term": "BEM", "scenario": "User tanya fungsi BEM", "complexity": "reasoning"},
+    {"id": "C03", "term": "HIMA", "scenario": "User tanya apa itu HIMA", "complexity": "direct"},
+    {"id": "C04", "term": "Laboratorium", "scenario": "User tanya fasilitas laboratorium UNSIQ", "complexity": "direct"},
+    {"id": "C05", "term": "Masjid", "scenario": "User tanya masjid kampus", "complexity": "direct"},
+    {"id": "C06", "term": "Perpustakaan", "scenario": "User tanya jam buka perpustakaan", "complexity": "direct"},
+    {"id": "C07", "term": "Aula", "scenario": "User tanya lokasi aula kampus", "complexity": "direct"},
+    {"id": "C08", "term": "Gedung Rektorat", "scenario": "User tanya di mana gedung rektorat", "complexity": "direct"},
+    {"id": "C09", "term": "Kantin", "scenario": "User tanya fasilitas kantin", "complexity": "direct"},
+    {"id": "C10", "term": "Hotspot", "scenario": "User tanya akses WiFi kampus", "complexity": "direct"},
+    {"id": "C11", "term": "Parkir", "scenario": "User tanya area parkir mahasiswa", "complexity": "direct"},
+    {"id": "C12", "term": "Asrama", "scenario": "User tanya fasilitas asrama mahasiswa", "complexity": "reasoning"},
+    {"id": "C13", "term": "Klinik", "scenario": "User tanya fasilitas kesehatan kampus", "complexity": "direct"},
+    {"id": "C14", "term": "ATM", "scenario": "User tanya lokasi ATM di kampus", "complexity": "direct"},
+    {"id": "C15", "term": "Fotokopi", "scenario": "User tanya tempat fotokopi di kampus", "complexity": "direct"},
+    {"id": "C16", "term": "Mushola", "scenario": "User tanya mushola di tiap gedung", "complexity": "direct"},
+    {"id": "C17", "term": "Toilet", "scenario": "User tanya fasilitas toilet di kampus", "complexity": "direct"},
+    {"id": "C18", "term": "Ruang Kelas", "scenario": "User tanya kapasitas ruang kelas", "complexity": "direct"},
+    {"id": "C19", "term": "Auditorium", "scenario": "User tanya kapasitas auditorium", "complexity": "direct"},
+    {"id": "C20", "term": "Lapangan", "scenario": "User tanya fasilitas olahraga", "complexity": "direct"},
 ]
 
 print(f"Total scenarios: {len(SCENARIOS)}")
