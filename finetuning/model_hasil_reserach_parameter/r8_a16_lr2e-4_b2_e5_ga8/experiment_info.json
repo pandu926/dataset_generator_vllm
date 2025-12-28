@@ -1,0 +1,18 @@
+{
+  "experiment": 6,
+  "description": "small_rank_long_train",
+  "gpu": "RTX 3060 12GB",
+  "parameters": {
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "learning_rate": "2e-4",
+    "batch_size": 2,
+    "epochs": 5,
+    "gradient_accumulation": 8,
+    "max_seq_length": 1024,
+    "effective_batch_size": 16
+  },
+  "output_dir": "/workspace/dataset_generator_vllm/finetuning/outputs/r8_a16_lr2e-4_b2_e5_ga8",
+  "training_time_seconds": 4041,
+  "training_time_formatted": "67m 21s"
+}

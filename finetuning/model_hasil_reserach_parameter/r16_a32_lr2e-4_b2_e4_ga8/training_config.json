@@ -1,0 +1,19 @@
+{
+  "run_name": "gemma3-1b-qlora-20251227_131203",
+  "model_name": "google/gemma-3-1b-it",
+  "max_seq_length": 1024,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "learning_rate": 0.0002,
+  "epochs": 4,
+  "batch_size": 2,
+  "gradient_accumulation": 8,
+  "effective_batch_size": 16,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "neftune_noise_alpha": 5.0,
+  "training_loss": 1.0694567607898338,
+  "total_steps": 408,
+  "timestamp": "2025-12-27T14:06:03.674818"
+}

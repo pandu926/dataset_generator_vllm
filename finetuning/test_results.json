@@ -1,0 +1,50 @@
+[
+  {
+    "model_name": "r16_a32_lr1e-4_b2_e3_ga8",
+    "timestamp": "2025-12-28T07:32:42.913020",
+    "generation_config": {
+      "max_new_tokens": 1024,
+      "temperature": 0.4,
+      "do_sample": false,
+      "top_p": 0.95,
+      "top_k": 100
+    },
+    "results": [
+      {
+        "id": "synth_01099",
+        "category": "beasiswa",
+        "question": "Kak, aku santri di pesantren, tapi juga aktif di salah satu partai politik. Jadi, kira-kira aku bisa dapat beasiswa dari kategori santri dan kader parpol sekaligus nggak ya?",
+        "expected_answer": "Halo! Pertanyaan yang menarik, Kak. Secara prinsip, kamu bisa memenuhi syarat untuk beasiswa dari kategori santri dan kader parpol secara bersamaan, asalkan kamu memang terdaftar sebagai santri di pesantren *dan* aktif di partai politik. Tapi, untuk memastikan prosedur pengajuannya gimana, aku sarankan kamu coba hubungi langsung UPT PMB UNSIQ ya. Mereka bisa kasih informasi yang lebih detail dan akurat tentang hal ini. Dengan senang hati aku bantu!",
+        "generated_response": "Tentu saja! Berdasarkan informasi yang ada, kamu bisa mencoba beasiswa Santri tanpa harus membayar biaya. Tapi, penting untuk diingat bahwa kamu harus memenuhi semua persyaratan yang ditetapkan oleh beasiswa, termasuk kegiatan yang kamu lakukan."
+      },
+      {
+        "id": "synth_01368",
+        "category": "prodi",
+        "question": "Selamat siang. Saya tertarik dengan program studi S1 di Universitas Sains Al-Qur'an. Saya ingin menanyakan, jika saya memilih program studi dengan akreditasi Unggul, apakah durasi studinya akan lebih singkat dibandingkan program studi dengan akreditasi lainnya?",
+        "expected_answer": "Dengan senang hati! Berdasarkan data yang kami miliki, semua program studi S1 yang terdaftar, baik yang memiliki akreditasi Unggul, Baik Sekali, maupun B, memiliki durasi studi yang sama, yaitu 4 tahun. Jadi, akreditasi tidak memengaruhi lamanya studi dalam kasus ini.",
+        "generated_response": "Dengan senang hati! Berdasarkan data yang kami miliki, program studi S1 dengan akreditasi Unggul memiliki durasi studi selama 4 tahun. Program studi S1 dengan akreditasi 'Baik' memiliki durasi studi 3 tahun. Jadi, tidak ada program studi S1 yang memiliki akreditasi Unggul dan durasi studi yang lebih singkat dari program studi S1 dengan akreditasi 'Baik'."
+      },
+      {
+        "id": "synth_01555",
+        "category": "snk",
+        "question": "Assalamualaikum. Saya tertarik dengan program studi Pendidikan Fisika di UNSIQ. Bisakah Anda informasikan mengenai akreditasi program studi tersebut?",
+        "expected_answer": "Waalaikumsalam. Tentu saja! Dengan senang hati saya informasikan bahwa program studi Pendidikan Fisika di Fakultas Ilmu Tarbiyah dan Keguruan UNSIQ memiliki akreditasi Unggul. Semoga informasi ini bermanfaat bagi Anda!",
+        "generated_response": "Tentu. Program studi Keperawatan di UNSIQ memiliki akreditasi 'Baik Sekali'. Apakah ada hal lain yang ingin Anda ketahui tentang program studi Keperawatan?"
+      },
+      {
+        "id": "synth_00025",
+        "category": "biaya",
+        "question": "Assalamualaikum, Mbak. Kulo pengen nanya, rego kuliah Teknik Mesin S1 neng UNSIQ piye ta? Murah sik?",
+        "expected_answer": "Waalaikumsalam, Bapak! Dengan senang hati saya bantu. Biaya kuliah Teknik Mesin S1 di UNSIQ itu kurang lebih seperti ini: Semester 1 sebesar 4.815.000, Semester 2 sebesar 3.970.000, lalu Semester 3 sampai 6 masing-masing 2.950.000, Semester 7 sebesar 2.320.000, dan Semester 8 sebesar 1.400.000.  Secara keseluruhan, lumayan terjangkau, Bapak.  Apakah Bapak ingin tahu informasi mengenai beasiswa juga?",
+        "generated_response": "Sama-sama, Mas! Dengan senang hati saya membantu. Jangan ragu untuk bertanya lagi jika ada hal lain yang ingin Mas ketahui. Semoga sukses untuk Mas dalam memilih program studi!"
+      },
+      {
+        "id": "synth_00825",
+        "category": "biaya",
+        "question": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya lihat ada perbedaan biaya antara semester 1 dan semester 2 untuk Teknik Informatika. Kalau saya masuk di semester 3, apakah biaya semester saya akan sama dengan semester 2, atau mengikuti biaya semester 3 yang tercantum?",
+        "expected_answer": "Selamat siang juga! Tentu, saya mengerti kebingungan Anda sebagai mahasiswa pindahan. Berdasarkan data biaya yang kami miliki, jika Anda masuk di semester 3 Teknik Informatika, maka biaya yang akan Anda bayar akan mengikuti biaya semester 3, yaitu sebesar 3.745.000. Biaya semester 2 hanya berlaku untuk mahasiswa yang memulai dari semester tersebut. Semoga informasi ini membantu, ya!",
+        "generated_response": "Tentu, saya akan coba jawab. Berdasarkan data yang saya miliki, biaya untuk Ilmu Politik adalah Rp 4.055.000, sedangkan Keperawatan adalah Rp 3.710.000. Jadi, ada perbedaan biaya antara program Ilmu Politik dan Keperawatan. Apakah ada pertanyaan lain yang bisa saya bantu?"
+      }
+    ]
+  }
+]
