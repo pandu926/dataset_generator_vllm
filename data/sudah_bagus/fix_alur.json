@@ -1,0 +1,1737 @@
+[
+  {
+    "id": "synth_alur_00001",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Maaf, saya kesulitan mengakses website pmb.unsiq.ac.id. Apakah ada masalah dengan server atau saya yang bermasalah?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut beberapa langkah yang dapat Anda coba: 1. Bersihkan cache browser Anda (Ctrl+Shift+Delete). 2. Coba gunakan browser yang berbeda (Chrome, Firefox, Safari). 3. Periksa koneksi internet Anda, dan coba restart modem."
+      },
+      {
+        "role": "user",
+        "content": "Saya sudah mencoba bersihkan cache dan ganti browser, tapi tetap tidak bisa. Koneksi internet juga stabil. Apakah ada alternatif URL yang bisa saya gunakan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda dapat mencoba mengakses melalui pmb.unsiq.ac.id/2025."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya akan coba. Kalau tetap tidak bisa, apakah ada nomor telepon yang bisa saya hubungi untuk bantuan lebih lanjut?"
+      },
+      {
+        "role": "model",
+        "content": "Anda dapat menghubungi PMB melalui nomor 📱 0857 7504 7504 atau (0286) 321873."
+      }
+    ],
+    "text": "<start_of_turn>user\nMaaf, saya kesulitan mengakses website pmb.unsiq.ac.id. Apakah ada masalah dengan server atau saya yang bermasalah?<end_of_turn>\n<start_of_turn>model\nBerikut beberapa langkah yang dapat Anda coba: 1. Bersihkan cache browser Anda (Ctrl+Shift+Delete). 2. Coba gunakan browser yang berbeda (Chrome, Firefox, Safari). 3. Periksa koneksi internet Anda, dan coba restart modem.<end_of_turn>\n<start_of_turn>user\nSaya sudah mencoba bersihkan cache dan ganti browser, tapi tetap tidak bisa. Koneksi internet juga stabil. Apakah ada alternatif URL yang bisa saya gunakan?<end_of_turn>\n<start_of_turn>model\nTentu. Anda dapat mencoba mengakses melalui pmb.unsiq.ac.id/2025.<end_of_turn>\n<start_of_turn>user\nBaik, saya akan coba. Kalau tetap tidak bisa, apakah ada nomor telepon yang bisa saya hubungi untuk bantuan lebih lanjut?<end_of_turn>\n<start_of_turn>model\nAnda dapat menghubungi PMB melalui nomor 📱 0857 7504 7504 atau (0286) 321873.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00002",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya khawatir putra saya akan salah mengakses situs yang bukan resmi. Bisakah Anda memberikan URL resmi Penerimaan Mahasiswa Baru UNSIQ yang bisa saya jadikan acuan? Saya ingin memastikan beliau mendaftar di situs yang aman."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu, berikut adalah URL resmi Penerimaan Mahasiswa Baru UNSIQ yang dapat Anda gunakan:\n\n1.  Website utama: pmb.unsiq.ac.id\n2.  Alternatif: pmb.unsiq.ac.id/2025\n\nPastikan putra Anda mengakses salah satu dari URL tersebut untuk menghindari potensi penipuan."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak. Tapi, jika putra saya mengalami masalah saat mengakses, seperti situs tidak bisa dibuka, apa yang sebaiknya kami lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut adalah beberapa langkah yang dapat Anda coba:\n\n1.  Bersihkan cache browser: Ctrl+Shift+Delete\n2.  Coba browser berbeda (Chrome, Firefox, Safari)\n3.  Periksa koneksi internet, restart modem\n4.  Hubungi PMB: 📱 0857 7504 7504 atau (0286) 321873"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Semoga putra saya kelancaran dalam proses pendaftaran ini."
+      },
+      {
+        "role": "model",
+        "content": "Semoga sukses untuk putra Anda dalam proses pendaftaran. Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya khawatir putra saya akan salah mengakses situs yang bukan resmi. Bisakah Anda memberikan URL resmi Penerimaan Mahasiswa Baru UNSIQ yang bisa saya jadikan acuan? Saya ingin memastikan beliau mendaftar di situs yang aman.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu, berikut adalah URL resmi Penerimaan Mahasiswa Baru UNSIQ yang dapat Anda gunakan:\n\n1.  Website utama: pmb.unsiq.ac.id\n2.  Alternatif: pmb.unsiq.ac.id/2025\n\nPastikan putra Anda mengakses salah satu dari URL tersebut untuk menghindari potensi penipuan.<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak. Tapi, jika putra saya mengalami masalah saat mengakses, seperti situs tidak bisa dibuka, apa yang sebaiknya kami lakukan?<end_of_turn>\n<start_of_turn>model\nBerikut adalah beberapa langkah yang dapat Anda coba:\n\n1.  Bersihkan cache browser: Ctrl+Shift+Delete\n2.  Coba browser berbeda (Chrome, Firefox, Safari)\n3.  Periksa koneksi internet, restart modem\n4.  Hubungi PMB: 📱 0857 7504 7504 atau (0286) 321873<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Semoga putra saya kelancaran dalam proses pendaftaran ini.<end_of_turn>\n<start_of_turn>model\nSemoga sukses untuk putra Anda dalam proses pendaftaran. Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00003",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan, dan sedikit bingung dengan perbedaan durasi antara D3, S1, dan S2. Bisa dijelaskan secara singkat?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. D3 (Diploma Tiga): 3 tahun\n2. S1 (Sarjana): 4 tahun\n3. S2 (Pascasarjana): 2-3 tahun"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, bagaimana dengan perbedaan kelas Reguler dan Ekstension? Apakah ada perbedaan kurikulumnya?"
+      },
+      {
+        "role": "model",
+        "content": "Kelas Reguler diperuntukkan bagi siswa baru lulusan SMA/SMK. Kelas Ekstension diperuntukkan bagi yang sudah bekerja. Informasi mengenai perbedaan kurikulum tidak disebutkan dalam dokumen ini."
+      },
+      {
+        "role": "user",
+        "content": "Terakhir, saya perhatikan ada instruksi untuk mencatat Nomor Pendaftaran dan PIN/Password. Apakah penting sekali untuk melakukan itu?"
+      },
+      {
+        "role": "model",
+        "content": "Ya, sangat penting. Sistem akan menampilkan Nomor Pendaftaran & PIN/Password setelah Anda mendaftar. Anda wajib melakukan screenshot atau mencatatnya di 3 tempat berbeda sebagai bukti."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, dan sedikit bingung dengan perbedaan durasi antara D3, S1, dan S2. Bisa dijelaskan secara singkat?<end_of_turn>\n<start_of_turn>model\nTentu. Berikut informasinya:\n1. D3 (Diploma Tiga): 3 tahun\n2. S1 (Sarjana): 4 tahun\n3. S2 (Pascasarjana): 2-3 tahun<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Lalu, bagaimana dengan perbedaan kelas Reguler dan Ekstension? Apakah ada perbedaan kurikulumnya?<end_of_turn>\n<start_of_turn>model\nKelas Reguler diperuntukkan bagi siswa baru lulusan SMA/SMK. Kelas Ekstension diperuntukkan bagi yang sudah bekerja. Informasi mengenai perbedaan kurikulum tidak disebutkan dalam dokumen ini.<end_of_turn>\n<start_of_turn>user\nTerakhir, saya perhatikan ada instruksi untuk mencatat Nomor Pendaftaran dan PIN/Password. Apakah penting sekali untuk melakukan itu?<end_of_turn>\n<start_of_turn>model\nYa, sangat penting. Sistem akan menampilkan Nomor Pendaftaran & PIN/Password setelah Anda mendaftar. Anda wajib melakukan screenshot atau mencatatnya di 3 tempat berbeda sebagai bukti.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00004",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, maaf ya, saya lupa nomor pendaftaran sama PINnya itu. Ini mau daftar D3 buat anak saya, insyaAllah kalau ada beasiswa... gimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut informasinya:\n1. Cek email Anda.\n2. Klik \"Lupa Password?\" di halaman login.\n3. Jika belum berhasil, Anda dapat menghubungi PMB di 📱 0857 7504 7504 untuk bantuan lebih lanjut.\nInformasi mengenai beasiswa dapat Anda temukan di website resmi UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Oh iya, saya sudah coba email sama lupa passwordnya, tapi tetep nggak muncul PINnya. Mau gimana ini ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Sebaiknya Anda segera menghubungi PMB di nomor 📱 0857 7504 7504. Mereka dapat membantu Anda memulihkan nomor pendaftaran dan PIN Anda."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, maaf ya, saya lupa nomor pendaftaran sama PINnya itu. Ini mau daftar D3 buat anak saya, insyaAllah kalau ada beasiswa... gimana ya?<end_of_turn>\n<start_of_turn>model\nBaik. Berikut informasinya:\n1. Cek email Anda.\n2. Klik \"Lupa Password?\" di halaman login.\n3. Jika belum berhasil, Anda dapat menghubungi PMB di 📱 0857 7504 7504 untuk bantuan lebih lanjut.\nInformasi mengenai beasiswa dapat Anda temukan di website resmi UNSIQ.<end_of_turn>\n<start_of_turn>user\nOh iya, saya sudah coba email sama lupa passwordnya, tapi tetep nggak muncul PINnya. Mau gimana ini ya?<end_of_turn>\n<start_of_turn>model\nTentu. Sebaiknya Anda segera menghubungi PMB di nomor 📱 0857 7504 7504. Mereka dapat membantu Anda memulihkan nomor pendaftaran dan PIN Anda.<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "synth_alur_00005",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Woi, gue salah ketik nama pas daftar tadi. Gimana nih?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Anda dapat mencoba klik 'Lupa Password?' di halaman login untuk membantu memperbarui data Anda."
+      },
+      {
+        "role": "user",
+        "content": "Terus kalau udah klik 'Lupa Password?', apa yang harus gue lakuin?"
+      },
+      {
+        "role": "model",
+        "content": "Ikuti instruksi yang tertera pada email yang kami kirimkan. Jika Anda mengalami kendala, silakan hubungi PMB di 📱 0857 7504 7504."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, makasih ya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nWoi, gue salah ketik nama pas daftar tadi. Gimana nih?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Anda dapat mencoba klik 'Lupa Password?' di halaman login untuk membantu memperbarui data Anda.<end_of_turn>\n<start_of_turn>user\nTerus kalau udah klik 'Lupa Password?', apa yang harus gue lakuin?<end_of_turn>\n<start_of_turn>model\nIkuti instruksi yang tertera pada email yang kami kirimkan. Jika Anda mengalami kendala, silakan hubungi PMB di 📱 0857 7504 7504.<end_of_turn>\n<start_of_turn>user\nOke sip, makasih ya!<end_of_turn>\n<start_of_turn>model\nSama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00006",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamu'alaikum. Jadi, mau daftar ini, perlu isi data apa saja ya, Mbak? Biar nggak salah, soalnya saya dari desa, kurang paham."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Berikut data yang perlu Anda isi dalam formulir pendaftaran: 1. Nama Lengkap (sesuai ijazah) 2. Email (yang masih aktif) 3. Nomor Handphone 4. Alamat lengkap."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu ya. Email yang aktif penting toh? Nanti kalau ada beasiswa, dikabari lewat email kan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Email yang aktif sangat penting karena sistem akan menampilkan Nomor Pendaftaran & PIN/Password setelah Anda mendaftar, dan informasi tersebut akan dikirimkan ke alamat email Anda."
+      },
+      {
+        "role": "user",
+        "content": "Baik, sudah ngerti. Kalau nanti lupa nomor pendaftaran sama PINnya, gimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut langkah-langkahnya: 1. Cek email Anda. 2. Klik \"Lupa Password?\" di halaman login. 3. Hubungi PMB: 📱 0857 7504 7504."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamu'alaikum. Jadi, mau daftar ini, perlu isi data apa saja ya, Mbak? Biar nggak salah, soalnya saya dari desa, kurang paham.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Berikut data yang perlu Anda isi dalam formulir pendaftaran: 1. Nama Lengkap (sesuai ijazah) 2. Email (yang masih aktif) 3. Nomor Handphone 4. Alamat lengkap.<end_of_turn>\n<start_of_turn>user\nOh, begitu ya. Email yang aktif penting toh? Nanti kalau ada beasiswa, dikabari lewat email kan?<end_of_turn>\n<start_of_turn>model\nTentu. Email yang aktif sangat penting karena sistem akan menampilkan Nomor Pendaftaran & PIN/Password setelah Anda mendaftar, dan informasi tersebut akan dikirimkan ke alamat email Anda.<end_of_turn>\n<start_of_turn>user\nBaik, sudah ngerti. Kalau nanti lupa nomor pendaftaran sama PINnya, gimana ya?<end_of_turn>\n<start_of_turn>model\nBerikut langkah-langkahnya: 1. Cek email Anda. 2. Klik \"Lupa Password?\" di halaman login. 3. Hubungi PMB: 📱 0857 7504 7504.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00007",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Gue mau nanya dong, penting gak sih screenshot nomor pendaftaran sama PIN itu?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Sistem akan menampilkan Nomor Pendaftaran dan PIN/Password setelah Anda mendaftar. Wajib untuk melakukan screenshot atau mencatatnya di 3 tempat berbeda."
+      },
+      {
+        "role": "user",
+        "content": "Terus kalau gue lupa, mesti ngapain?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: 1. Cek email Anda. 2. Klik \"Lupa Password?\" di halaman login. 3. Hubungi PMB: 📱 0857 7504 7504."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, makasih ya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nGue mau nanya dong, penting gak sih screenshot nomor pendaftaran sama PIN itu?<end_of_turn>\n<start_of_turn>model\nTentu. Sistem akan menampilkan Nomor Pendaftaran dan PIN/Password setelah Anda mendaftar. Wajib untuk melakukan screenshot atau mencatatnya di 3 tempat berbeda.<end_of_turn>\n<start_of_turn>user\nTerus kalau gue lupa, mesti ngapain?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: 1. Cek email Anda. 2. Klik \"Lupa Password?\" di halaman login. 3. Hubungi PMB: 📱 0857 7504 7504.<end_of_turn>\n<start_of_turn>user\nOke sip, makasih ya!<end_of_turn>\n<start_of_turn>model\nSama-sama. Jika ada pertanyaan lain, jangan ragu untuk bertanya.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00008",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya ingin mendaftar di UNSIQ. Saya khawatir dengan biaya pendaftarannya. Berapa biaya pendaftaran untuk Gelombang 1, apakah ada biaya sama sekali?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Biaya pendaftaran untuk Gelombang 1 adalah GRATIS untuk program D3 dan S1, serta S2."
+      },
+      {
+        "role": "user",
+        "content": "Alhamdulillah, gratis. Bagaimana cara pembayarannya nanti jika anak saya ingin mendaftar di gelombang berikutnya? Apakah ada metode pembayaran yang mudah?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda dapat melakukan pembayaran melalui Bank Jateng (aplikasi/ATM) atau Finpay (pembayaran seluler)."
+      },
+      {
+        "role": "user",
+        "content": "Baik, kalau saya sudah membayar tapi belum terdeteksi, apa yang harus saya lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: 1. Tunggu 1-2 jam untuk sinkronisasi. 2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening. 3. Jika masih gagal, hubungi PMB dengan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya ingin mendaftar di UNSIQ. Saya khawatir dengan biaya pendaftarannya. Berapa biaya pendaftaran untuk Gelombang 1, apakah ada biaya sama sekali?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Biaya pendaftaran untuk Gelombang 1 adalah GRATIS untuk program D3 dan S1, serta S2.<end_of_turn>\n<start_of_turn>user\nAlhamdulillah, gratis. Bagaimana cara pembayarannya nanti jika anak saya ingin mendaftar di gelombang berikutnya? Apakah ada metode pembayaran yang mudah?<end_of_turn>\n<start_of_turn>model\nTentu. Anda dapat melakukan pembayaran melalui Bank Jateng (aplikasi/ATM) atau Finpay (pembayaran seluler).<end_of_turn>\n<start_of_turn>user\nBaik, kalau saya sudah membayar tapi belum terdeteksi, apa yang harus saya lakukan?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: 1. Tunggu 1-2 jam untuk sinkronisasi. 2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening. 3. Jika masih gagal, hubungi PMB dengan bukti transfer.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00009",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, gimana caranya bayar biaya pendaftaran lewat Bank Jateng?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut langkah-langkahnya:\n1. Buka aplikasi Bank Jateng.\n2. Pilih menu Transfer/Pembayaran.\n3. Masukkan NOMOR PENDAFTARAN sebagai referensi (bukan nomor rekening!).\n4. Masukkan nominal sesuai gelombang yang Anda ikuti.\n5. Konfirmasi & masukkan PIN.\n6. Screenshot bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Terus, kalau nomor rekeningnya dimasukkan, gimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Pastikan Anda menggunakan NOMOR PENDAFTARAN, bukan nomor rekening. Jika pembayaran tetap tidak terdeteksi setelah 1-2 jam, hubungi PMB dengan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Oke, makasih ya!"
+      },
+      {
+        "role": "model",
+        "content": "Baik, terima kasih. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nKak, gimana caranya bayar biaya pendaftaran lewat Bank Jateng?<end_of_turn>\n<start_of_turn>model\nTentu. Berikut langkah-langkahnya:\n1. Buka aplikasi Bank Jateng.\n2. Pilih menu Transfer/Pembayaran.\n3. Masukkan NOMOR PENDAFTARAN sebagai referensi (bukan nomor rekening!).\n4. Masukkan nominal sesuai gelombang yang Anda ikuti.\n5. Konfirmasi & masukkan PIN.\n6. Screenshot bukti transfer.<end_of_turn>\n<start_of_turn>user\nTerus, kalau nomor rekeningnya dimasukkan, gimana ya?<end_of_turn>\n<start_of_turn>model\nPastikan Anda menggunakan NOMOR PENDAFTARAN, bukan nomor rekening. Jika pembayaran tetap tidak terdeteksi setelah 1-2 jam, hubungi PMB dengan bukti transfer.<end_of_turn>\n<start_of_turn>user\nOke, makasih ya!<end_of_turn>\n<start_of_turn>model\nBaik, terima kasih. Jika ada pertanyaan lain, jangan ragu untuk bertanya.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00010",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, aku tadi transfer tapi kok belum masuk ya daftarnya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Mohon periksa kembali, pastikan Anda menggunakan nomor pendaftaran sebagai referensi pembayaran, bukan nomor rekening."
+      },
+      {
+        "role": "user",
+        "content": "Oh iya, salah! Aku panik tadi, jadi salah masukin. Nunggu berapa lama ya sinkronnya?"
+      },
+      {
+        "role": "model",
+        "content": "Biasanya, proses sinkronisasi membutuhkan waktu 1-2 jam. Mohon bersabar."
+      },
+      {
+        "role": "user",
+        "content": "Oke sip, makasih ya!"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Jika masih mengalami kendala, silakan hubungi PMB dengan menyertakan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nEh, aku tadi transfer tapi kok belum masuk ya daftarnya?<end_of_turn>\n<start_of_turn>model\nTentu. Mohon periksa kembali, pastikan Anda menggunakan nomor pendaftaran sebagai referensi pembayaran, bukan nomor rekening.<end_of_turn>\n<start_of_turn>user\nOh iya, salah! Aku panik tadi, jadi salah masukin. Nunggu berapa lama ya sinkronnya?<end_of_turn>\n<start_of_turn>model\nBiasanya, proses sinkronisasi membutuhkan waktu 1-2 jam. Mohon bersabar.<end_of_turn>\n<start_of_turn>user\nOke sip, makasih ya!<end_of_turn>\n<start_of_turn>model\nBaik. Jika masih mengalami kendala, silakan hubungi PMB dengan menyertakan bukti transfer.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00011",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya ingin menanyakan mengenai metode pembayaran biaya pendaftaran yang tersedia untuk gelombang kedua."
+      },
+      {
+        "role": "model",
+        "content": "Providing the available payment methods in a concise manner."
+      },
+      {
+        "role": "model",
+        "content": "Providing the steps in a numbered list."
+      },
+      {
+        "role": "user",
+        "content": "Bisakah Anda jelaskan langkah-langkah pembayaran secara rinci?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut adalah langkah-langkahnya:\n1. Buka aplikasi Bank Jateng/Finpay\n2. Pilih menu Transfer/Pembayaran\n3. Masukkan NOMOR PENDAFTARAN sebagai referensi (BUKAN nomor rekening!)\n4. Masukkan nominal sesuai gelombang\n5. Konfirmasi & masukkan PIN\n6. Screenshot bukti transfer"
+      },
+      {
+        "role": "user",
+        "content": "Jika saya melakukan pembayaran namun belum terdeteksi, apa yang harus saya lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Jika pembayaran Anda belum terdeteksi, silakan:\n1. Tunggu 1-2 jam untuk sinkronisasi.\n2. Pastikan Anda menggunakan nomor pendaftaran (bukan rekening).\n3. Jika masih gagal, hubungi PMB dengan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya ingin menanyakan mengenai metode pembayaran biaya pendaftaran yang tersedia untuk gelombang kedua.<end_of_turn>\n<start_of_turn>model\nProviding the available payment methods in a concise manner.<end_of_turn>\n<start_of_turn>model\nProviding the steps in a numbered list.<end_of_turn>\n<start_of_turn>user\nBisakah Anda jelaskan langkah-langkah pembayaran secara rinci?<end_of_turn>\n<start_of_turn>model\nTentu. Berikut adalah langkah-langkahnya:\n1. Buka aplikasi Bank Jateng/Finpay\n2. Pilih menu Transfer/Pembayaran\n3. Masukkan NOMOR PENDAFTARAN sebagai referensi (BUKAN nomor rekening!)\n4. Masukkan nominal sesuai gelombang\n5. Konfirmasi & masukkan PIN\n6. Screenshot bukti transfer<end_of_turn>\n<start_of_turn>user\nJika saya melakukan pembayaran namun belum terdeteksi, apa yang harus saya lakukan?<end_of_turn>\n<start_of_turn>model\nJika pembayaran Anda belum terdeteksi, silakan:\n1. Tunggu 1-2 jam untuk sinkronisasi.\n2. Pastikan Anda menggunakan nomor pendaftaran (bukan rekening).\n3. Jika masih gagal, hubungi PMB dengan bukti transfer.<end_of_turn>",
+    "num_turns": 7
+  },
+  {
+    "id": "synth_alur_00012",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah melakukan pembayaran biaya pendaftaran gelombang 2 melalui aplikasi Bank Jateng, tapi status pendaftaran saya masih belum berubah. Apakah ada kendalanya?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Mohon tunggu 1-2 jam untuk proses sinkronisasi. Pastikan Anda menggunakan nomor pendaftaran sebagai referensi saat melakukan transfer, bukan nomor rekening. Jika setelah 1-2 jam status belum berubah, silakan hubungi PMB dengan menyertakan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Nomor pendaftaran sudah saya masukkan dengan benar. Saya sudah mengecek ulang. Apakah ada kemungkinan lain?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Pastikan Anda telah melakukan langkah-langkah pembayaran dengan benar: 1. Buka aplikasi Bank Jateng 2. Pilih menu Transfer/Pembayaran 3. Masukkan nomor pendaftaran sebagai referensi 4. Masukkan nominal sesuai gelombang 5. Konfirmasi & masukkan PIN 6. Screenshot bukti transfer. Jika masalah masih berlanjut, silakan hubungi PMB dengan menyertakan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah melakukan pembayaran biaya pendaftaran gelombang 2 melalui aplikasi Bank Jateng, tapi status pendaftaran saya masih belum berubah. Apakah ada kendalanya?<end_of_turn>\n<start_of_turn>model\nBaik. Mohon tunggu 1-2 jam untuk proses sinkronisasi. Pastikan Anda menggunakan nomor pendaftaran sebagai referensi saat melakukan transfer, bukan nomor rekening. Jika setelah 1-2 jam status belum berubah, silakan hubungi PMB dengan menyertakan bukti transfer.<end_of_turn>\n<start_of_turn>user\nNomor pendaftaran sudah saya masukkan dengan benar. Saya sudah mengecek ulang. Apakah ada kemungkinan lain?<end_of_turn>\n<start_of_turn>model\nTentu. Pastikan Anda telah melakukan langkah-langkah pembayaran dengan benar: 1. Buka aplikasi Bank Jateng 2. Pilih menu Transfer/Pembayaran 3. Masukkan nomor pendaftaran sebagai referensi 4. Masukkan nominal sesuai gelombang 5. Konfirmasi & masukkan PIN 6. Screenshot bukti transfer. Jika masalah masih berlanjut, silakan hubungi PMB dengan menyertakan bukti transfer.<end_of_turn>",
+    "num_turns": 4
+  },
+  {
+    "id": "synth_alur_00013",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya ingin menanyakan mengenai besaran biaya pendaftaran untuk program D3 dan S1 dibandingkan dengan program S2. Apakah terdapat perbedaan biaya antar jenjang pendidikan pada setiap gelombang pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. Gelombang 1: D3 & S1 (GRATIS), S2 (GRATIS)\n2. Gelombang 2: D3 & S1 (Rp 250.000), S2 (Rp 300.000)\n3. Gelombang 3: D3 & S1 (Rp 250.000), S2 (Rp 300.000)"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Saya perhatikan bahwa pembayaran dapat dilakukan melalui Bank Jateng atau Finpay. Apakah ada instruksi khusus mengenai penggunaan nomor pendaftaran saat melakukan transfer?"
+      },
+      {
+        "role": "model",
+        "content": "Ya, Anda perlu memasukkan NOMOR PENDAFTARAN sebagai referensi saat melakukan transfer. Pastikan Anda tidak menggunakan nomor rekening."
+      },
+      {
+        "role": "user",
+        "content": "Jika saya mengalami kendala terkait pembayaran yang tidak terdeteksi, langkah apa yang sebaiknya saya lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Jika pembayaran Anda tidak terdeteksi, berikut langkah-langkahnya:\n1. Tunggu 1-2 jam untuk sinkronisasi.\n2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening.\n3. Jika masih gagal, hubungi PMB dengan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya ingin menanyakan mengenai besaran biaya pendaftaran untuk program D3 dan S1 dibandingkan dengan program S2. Apakah terdapat perbedaan biaya antar jenjang pendidikan pada setiap gelombang pendaftaran?<end_of_turn>\n<start_of_turn>model\nTentu. Berikut informasinya:\n1. Gelombang 1: D3 & S1 (GRATIS), S2 (GRATIS)\n2. Gelombang 2: D3 & S1 (Rp 250.000), S2 (Rp 300.000)\n3. Gelombang 3: D3 & S1 (Rp 250.000), S2 (Rp 300.000)<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Saya perhatikan bahwa pembayaran dapat dilakukan melalui Bank Jateng atau Finpay. Apakah ada instruksi khusus mengenai penggunaan nomor pendaftaran saat melakukan transfer?<end_of_turn>\n<start_of_turn>model\nYa, Anda perlu memasukkan NOMOR PENDAFTARAN sebagai referensi saat melakukan transfer. Pastikan Anda tidak menggunakan nomor rekening.<end_of_turn>\n<start_of_turn>user\nJika saya mengalami kendala terkait pembayaran yang tidak terdeteksi, langkah apa yang sebaiknya saya lakukan?<end_of_turn>\n<start_of_turn>model\nJika pembayaran Anda tidak terdeteksi, berikut langkah-langkahnya:\n1. Tunggu 1-2 jam untuk sinkronisasi.\n2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening.\n3. Jika masih gagal, hubungi PMB dengan bukti transfer.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00014",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya ingin menanyakan mengenai referensi yang harus saya masukkan saat melakukan pembayaran biaya pendaftaran. Apakah saya menggunakan nomor rekening atau nomor pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Nomor pendaftaran, bukan nomor rekening, yang harus Anda masukkan sebagai referensi pembayaran."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Lalu, berapa biaya pendaftaran untuk gelombang 2 jika saya mendaftar untuk program S1?"
+      },
+      {
+        "role": "model",
+        "content": "Biaya pendaftaran untuk program S1 pada gelombang 2 adalah Rp 250.000."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada metode pembayaran lain selain Bank Jateng dan Finpay?"
+      },
+      {
+        "role": "model",
+        "content": "Hanya terdapat dua metode pembayaran yang tersedia, yaitu Bank Jateng (melalui aplikasi/ATM) dan Finpay (mobile payment)."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Jika saya sudah melakukan pembayaran, tetapi belum terdeteksi, apa yang harus saya lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut langkah-langkahnya: 1. Tunggu 1-2 jam untuk sinkronisasi. 2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening. 3. Jika masih gagal, hubungi PMB dengan menyertakan bukti transfer."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya ingin menanyakan mengenai referensi yang harus saya masukkan saat melakukan pembayaran biaya pendaftaran. Apakah saya menggunakan nomor rekening atau nomor pendaftaran?<end_of_turn>\n<start_of_turn>model\nNomor pendaftaran, bukan nomor rekening, yang harus Anda masukkan sebagai referensi pembayaran.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Lalu, berapa biaya pendaftaran untuk gelombang 2 jika saya mendaftar untuk program S1?<end_of_turn>\n<start_of_turn>model\nBiaya pendaftaran untuk program S1 pada gelombang 2 adalah Rp 250.000.<end_of_turn>\n<start_of_turn>user\nApakah ada metode pembayaran lain selain Bank Jateng dan Finpay?<end_of_turn>\n<start_of_turn>model\nHanya terdapat dua metode pembayaran yang tersedia, yaitu Bank Jateng (melalui aplikasi/ATM) dan Finpay (mobile payment).<end_of_turn>\n<start_of_turn>user\nTerima kasih. Jika saya sudah melakukan pembayaran, tetapi belum terdeteksi, apa yang harus saya lakukan?<end_of_turn>\n<start_of_turn>model\nBerikut langkah-langkahnya: 1. Tunggu 1-2 jam untuk sinkronisasi. 2. Pastikan Anda menggunakan nomor pendaftaran, bukan nomor rekening. 3. Jika masih gagal, hubungi PMB dengan menyertakan bukti transfer.<end_of_turn>",
+    "num_turns": 8
+  },
+  {
+    "id": "synth_alur_00015",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin memastikan kembali daftar dokumen yang perlu saya unggah pada tahap keempat proses pendaftaran. Bisakah Anda memberikan rinciannya secara lengkap?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut daftar dokumen yang perlu Anda unggah:\n1. Ijazah/SKL (scan asli, lulusan 2025 dapat menggunakan surat keterangan aktif).\n2. Kartu Keluarga (yang masih berlaku dan jelas terbaca).\n3. Foto Formal (250x350 pixel, background putih, formal).\n4. Surat Sehat (KHUSUS Fakultas Kesehatan - dari RS/Puskesmas, tes buta warna untuk laki-laki)."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Saya perhatikan ada ketentuan khusus mengenai surat sehat untuk Fakultas Kesehatan. Apakah ada persyaratan lain yang perlu saya perhatikan terkait fakultas tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Berdasarkan informasi yang tersedia, hanya surat sehat dari RS/Puskesmas dan tes buta warna (bagi laki-laki) yang menjadi persyaratan khusus untuk Fakultas Kesehatan. Informasi lebih lanjut mengenai fakultas dapat Anda temukan di website UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Jika dokumen yang saya unggah kurang jelas atau tidak sesuai, bagaimana proses notifikasinya?"
+      },
+      {
+        "role": "model",
+        "content": "Anda akan mendapatkan notifikasi jika dokumen yang Anda unggah kurang jelas atau tidak sesuai. Notifikasi tersebut akan mengarahkan Anda untuk mengunggah ulang dokumen tersebut."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya ingin memastikan kembali daftar dokumen yang perlu saya unggah pada tahap keempat proses pendaftaran. Bisakah Anda memberikan rinciannya secara lengkap?<end_of_turn>\n<start_of_turn>model\nBaik. Berikut daftar dokumen yang perlu Anda unggah:\n1. Ijazah/SKL (scan asli, lulusan 2025 dapat menggunakan surat keterangan aktif).\n2. Kartu Keluarga (yang masih berlaku dan jelas terbaca).\n3. Foto Formal (250x350 pixel, background putih, formal).\n4. Surat Sehat (KHUSUS Fakultas Kesehatan - dari RS/Puskesmas, tes buta warna untuk laki-laki).<end_of_turn>\n<start_of_turn>user\nTerima kasih. Saya perhatikan ada ketentuan khusus mengenai surat sehat untuk Fakultas Kesehatan. Apakah ada persyaratan lain yang perlu saya perhatikan terkait fakultas tersebut?<end_of_turn>\n<start_of_turn>model\nBerdasarkan informasi yang tersedia, hanya surat sehat dari RS/Puskesmas dan tes buta warna (bagi laki-laki) yang menjadi persyaratan khusus untuk Fakultas Kesehatan. Informasi lebih lanjut mengenai fakultas dapat Anda temukan di website UNSIQ.<end_of_turn>\n<start_of_turn>user\nBaik, saya mengerti. Jika dokumen yang saya unggah kurang jelas atau tidak sesuai, bagaimana proses notifikasinya?<end_of_turn>\n<start_of_turn>model\nAnda akan mendapatkan notifikasi jika dokumen yang Anda unggah kurang jelas atau tidak sesuai. Notifikasi tersebut akan mengarahkan Anda untuk mengunggah ulang dokumen tersebut.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00016",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu. Saya mau tanya, ini kalau belum punya ijazah, pakai apa ya buat daftarnya? Anak saya mau kuliah di UNSIQ, terus saya pengennya dapat beasiswa, soalnya wong desa gini, modalnya mepet."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Bagi lulusan tahun 2025, Anda dapat menggunakan surat keterangan aktif dari sekolah sebagai pengganti ijazah/SKL."
+      },
+      {
+        "role": "user",
+        "content": "Oh, iya ya Bu. Surat keterangan aktif, itu dari mana didapat? Terus, kalau foto formal itu ukurannya harus pas banget ya, 250x350? Takutnya nanti nggak diterima."
+      },
+      {
+        "role": "model",
+        "content": "Surat keterangan aktif dapat diperoleh dari sekolah tempat Anda atau anak Anda bersekolah. Mengenai foto formal, spesifikasi yang Anda sebutkan adalah benar. Ukuran harus 250x350 pixel dengan background putih."
+      },
+      {
+        "role": "user",
+        "content": "Baik, Bu. Satu lagi, kalau nanti ada dokumen yang kurang, bagaimana ya? Apa ada biaya tambahan untuk mengulang upload?"
+      },
+      {
+        "role": "model",
+        "content": "Jika dokumen yang Anda unggah kurang atau tidak jelas, Anda akan mendapatkan notifikasi untuk mengunggah ulang. Tidak ada biaya tambahan untuk proses pengunggahan ulang dokumen."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Bu. Saya mau tanya, ini kalau belum punya ijazah, pakai apa ya buat daftarnya? Anak saya mau kuliah di UNSIQ, terus saya pengennya dapat beasiswa, soalnya wong desa gini, modalnya mepet.<end_of_turn>\n<start_of_turn>model\nTentu. Bagi lulusan tahun 2025, Anda dapat menggunakan surat keterangan aktif dari sekolah sebagai pengganti ijazah/SKL.<end_of_turn>\n<start_of_turn>user\nOh, iya ya Bu. Surat keterangan aktif, itu dari mana didapat? Terus, kalau foto formal itu ukurannya harus pas banget ya, 250x350? Takutnya nanti nggak diterima.<end_of_turn>\n<start_of_turn>model\nSurat keterangan aktif dapat diperoleh dari sekolah tempat Anda atau anak Anda bersekolah. Mengenai foto formal, spesifikasi yang Anda sebutkan adalah benar. Ukuran harus 250x350 pixel dengan background putih.<end_of_turn>\n<start_of_turn>user\nBaik, Bu. Satu lagi, kalau nanti ada dokumen yang kurang, bagaimana ya? Apa ada biaya tambahan untuk mengulang upload?<end_of_turn>\n<start_of_turn>model\nJika dokumen yang Anda unggah kurang atau tidak jelas, Anda akan mendapatkan notifikasi untuk mengunggah ulang. Tidak ada biaya tambahan untuk proses pengunggahan ulang dokumen.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00017",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sangat gugup menghadapi proses upload dokumen ini. Untuk foto formal, apakah ada ketentuan ukuran file maksimalnya? Saya khawatir jika gambarnya terlalu besar."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Spesifikasi foto formal adalah 250x350 pixel dengan background putih. Informasi mengenai ukuran file maksimal tidak disebutkan."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Lalu, jika surat keterangan aktif yang saya unggah tidak memenuhi syarat, apakah akan ada pemberitahuan langsung di sistem? Saya khawatir tidak akan menyadari ada kesalahan."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Jika dokumen yang Anda unggah kurang atau tidak jelas, sistem akan memberikan notifikasi untuk Anda mengunggah ulang."
+      },
+      {
+        "role": "user",
+        "content": "Terakhir, berapa lama kira-kira proses verifikasi dokumen ini? Anak saya jadi tidak tenang kalau prosesnya terlalu lama."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Proses verifikasi dokumen memakan waktu maksimal 2x24 jam."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya sangat gugup menghadapi proses upload dokumen ini. Untuk foto formal, apakah ada ketentuan ukuran file maksimalnya? Saya khawatir jika gambarnya terlalu besar.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Spesifikasi foto formal adalah 250x350 pixel dengan background putih. Informasi mengenai ukuran file maksimal tidak disebutkan.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Lalu, jika surat keterangan aktif yang saya unggah tidak memenuhi syarat, apakah akan ada pemberitahuan langsung di sistem? Saya khawatir tidak akan menyadari ada kesalahan.<end_of_turn>\n<start_of_turn>model\nTentu. Jika dokumen yang Anda unggah kurang atau tidak jelas, sistem akan memberikan notifikasi untuk Anda mengunggah ulang.<end_of_turn>\n<start_of_turn>user\nTerakhir, berapa lama kira-kira proses verifikasi dokumen ini? Anak saya jadi tidak tenang kalau prosesnya terlalu lama.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Proses verifikasi dokumen memakan waktu maksimal 2x24 jam.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00018",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah mengunggah dokumen pada pukul 09.00 pagi ini. Hingga saat ini, statusnya masih dalam proses verifikasi. Apakah ada estimasi waktu yang lebih pasti mengenai proses verifikasi dokumen ini?"
+      },
+      {
+        "role": "model",
+        "content": "Selamat siang. Verifikasi dokumen memerlukan waktu maksimal 2x24 jam. Jika dokumen yang Anda unggah kurang atau tidak jelas, Anda akan menerima notifikasi untuk mengunggah ulang."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Jika dokumen saya dinyatakan terverifikasi, kapan menu ujian akan aktif? Apakah ada informasi lebih lanjut mengenai jadwal ujian?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Menu ujian akan aktif setelah status dokumen Anda berubah menjadi 'TERVERIFIKASI'. Informasi mengenai jadwal ujian belum tersedia dalam dokumen ini."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Satu pertanyaan tambahan, apakah Universitas Sains Al-Qur'an memiliki kerjasama dengan universitas asing untuk program pertukaran pelajar?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Informasi mengenai kerjasama dengan universitas asing untuk program pertukaran pelajar tidak tersedia dalam dokumen ini."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah mengunggah dokumen pada pukul 09.00 pagi ini. Hingga saat ini, statusnya masih dalam proses verifikasi. Apakah ada estimasi waktu yang lebih pasti mengenai proses verifikasi dokumen ini?<end_of_turn>\n<start_of_turn>model\nSelamat siang. Verifikasi dokumen memerlukan waktu maksimal 2x24 jam. Jika dokumen yang Anda unggah kurang atau tidak jelas, Anda akan menerima notifikasi untuk mengunggah ulang.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Jika dokumen saya dinyatakan terverifikasi, kapan menu ujian akan aktif? Apakah ada informasi lebih lanjut mengenai jadwal ujian?<end_of_turn>\n<start_of_turn>model\nBaik. Menu ujian akan aktif setelah status dokumen Anda berubah menjadi 'TERVERIFIKASI'. Informasi mengenai jadwal ujian belum tersedia dalam dokumen ini.<end_of_turn>\n<start_of_turn>user\nBaik, saya mengerti. Satu pertanyaan tambahan, apakah Universitas Sains Al-Qur'an memiliki kerjasama dengan universitas asing untuk program pertukaran pelajar?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Informasi mengenai kerjasama dengan universitas asing untuk program pertukaran pelajar tidak tersedia dalam dokumen ini.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00019",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Dokumenku ditolak notifnya, kenapa nih? ribet banget"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Notifikasi penolakan dokumen menunjukkan bahwa dokumen Anda kurang jelas atau tidak sesuai dengan spesifikasi yang diminta. Mohon periksa kembali dokumen yang Anda unggah."
+      },
+      {
+        "role": "user",
+        "content": "Spesifikasinya gimana sih? Aku lupa"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. Ijazah/SKL: Scan asli (lulusan 2025 bisa pakai surat keterangan aktif).\n2. Kartu Keluarga: KK yang masih berlaku, jelas terbaca.\n3. Foto Formal: 250x350 pixel, background putih, formal.\n4. Surat Sehat (khusus Fakultas Kesehatan): dari RS/Puskesmas, tes buta warna (laki-laki)."
+      },
+      {
+        "role": "user",
+        "content": "Oke deh, makasih ya!"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami."
+      }
+    ],
+    "text": "<start_of_turn>user\nDokumenku ditolak notifnya, kenapa nih? ribet banget<end_of_turn>\n<start_of_turn>model\nBaik. Notifikasi penolakan dokumen menunjukkan bahwa dokumen Anda kurang jelas atau tidak sesuai dengan spesifikasi yang diminta. Mohon periksa kembali dokumen yang Anda unggah.<end_of_turn>\n<start_of_turn>user\nSpesifikasinya gimana sih? Aku lupa<end_of_turn>\n<start_of_turn>model\nBerikut informasinya:\n1. Ijazah/SKL: Scan asli (lulusan 2025 bisa pakai surat keterangan aktif).\n2. Kartu Keluarga: KK yang masih berlaku, jelas terbaca.\n3. Foto Formal: 250x350 pixel, background putih, formal.\n4. Surat Sehat (khusus Fakultas Kesehatan): dari RS/Puskesmas, tes buta warna (laki-laki).<end_of_turn>\n<start_of_turn>user\nOke deh, makasih ya!<end_of_turn>\n<start_of_turn>model\nTentu. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00020",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya ingin menanyakan mengenai persyaratan surat sehat untuk Fakultas Kesehatan. Apakah ada spesifikasi khusus yang harus saya perhatikan selain dari RS/Puskesmas?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Untuk Fakultas Kesehatan, surat sehat harus berasal dari Rumah Sakit atau Puskesmas, dan khusus untuk laki-laki, harus disertai dengan tes buta warna."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Apakah ada batasan ukuran file untuk dokumen yang diunggah?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya, dokumen yang diperlukan harus dalam format JPG. Informasi mengenai batasan ukuran file tidak disebutkan dalam panduan ini."
+      },
+      {
+        "role": "user",
+        "content": "Setelah saya mengunggah dokumen, berapa lama perkiraan waktu verifikasi yang dibutuhkan?"
+      },
+      {
+        "role": "model",
+        "content": "Verifikasi dokumen membutuhkan waktu maksimal 2x24 jam."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya ingin menanyakan mengenai persyaratan surat sehat untuk Fakultas Kesehatan. Apakah ada spesifikasi khusus yang harus saya perhatikan selain dari RS/Puskesmas?<end_of_turn>\n<start_of_turn>model\nTentu. Untuk Fakultas Kesehatan, surat sehat harus berasal dari Rumah Sakit atau Puskesmas, dan khusus untuk laki-laki, harus disertai dengan tes buta warna.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Apakah ada batasan ukuran file untuk dokumen yang diunggah?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya, dokumen yang diperlukan harus dalam format JPG. Informasi mengenai batasan ukuran file tidak disebutkan dalam panduan ini.<end_of_turn>\n<start_of_turn>user\nSetelah saya mengunggah dokumen, berapa lama perkiraan waktu verifikasi yang dibutuhkan?<end_of_turn>\n<start_of_turn>model\nVerifikasi dokumen membutuhkan waktu maksimal 2x24 jam.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00021",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Format dokumennya harus apa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya, seluruh dokumen harus dalam format JPG."
+      },
+      {
+        "role": "user",
+        "content": "Terus, kalau lulusan 2025 boleh pake surat keterangan aktif, bener?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu, lulusan 2025 dapat menggunakan surat keterangan aktif."
+      },
+      {
+        "role": "user",
+        "content": "Foto formalnya ukurannya harus berapa?"
+      },
+      {
+        "role": "model",
+        "content": "Ukuran foto formal yang dibutuhkan adalah 250x350 pixel."
+      }
+    ],
+    "text": "<start_of_turn>user\nFormat dokumennya harus apa ya?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya, seluruh dokumen harus dalam format JPG.<end_of_turn>\n<start_of_turn>user\nTerus, kalau lulusan 2025 boleh pake surat keterangan aktif, bener?<end_of_turn>\n<start_of_turn>model\nTentu, lulusan 2025 dapat menggunakan surat keterangan aktif.<end_of_turn>\n<start_of_turn>user\nFoto formalnya ukurannya harus berapa?<end_of_turn>\n<start_of_turn>model\nUkuran foto formal yang dibutuhkan adalah 250x350 pixel.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00022",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sudah menerima penawaran UNSIQ, tapi saya khawatir bagaimana cara mengakses portalnya untuk mengunggah dokumen. Mohon bantuannya, saya tidak ingin ada kesalahan."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu, berikut langkah-langkah login ke portal UNSIQ:\n1. Buka pmb.unsiq.ac.id\n2. Klik \"Login\"\n3. Masukkan Nomor Pendaftaran & PIN Anda\n4. Klik menu \"Biodata\" atau \"Dokumen\""
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Setelah login, menu dokumennya ada di mana ya? Apakah ada batas waktu untuk mengunggah dokumen setelah login?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah login, Anda dapat mengakses menu \"Dokumen\". Verifikasi dokumen memerlukan maksimal 2x24 jam. Jika dokumen kurang atau tidak jelas, Anda akan mendapatkan notifikasi untuk mengunggah ulang."
+      },
+      {
+        "role": "user",
+        "content": "Baik, kalau dokumen yang dibutuhkan apa saja ya? Apakah ada format khusus yang harus saya perhatikan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut dokumen yang diperlukan dalam format JPG:\n1. Ijazah/SKL (scan asli, lulusan 2025 bisa pakai surat keterangan aktif)\n2. Kartu Keluarga (KK yang masih berlaku, jelas terbaca)\n3. Foto Formal (250x350 pixel, background putih, formal)\n4. Surat Sehat (KHUSUS Fakultas Kesehatan - dari RS/Puskesmas, tes buta warna (laki-laki))"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya sudah menerima penawaran UNSIQ, tapi saya khawatir bagaimana cara mengakses portalnya untuk mengunggah dokumen. Mohon bantuannya, saya tidak ingin ada kesalahan.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu, berikut langkah-langkah login ke portal UNSIQ:\n1. Buka pmb.unsiq.ac.id\n2. Klik \"Login\"\n3. Masukkan Nomor Pendaftaran & PIN Anda\n4. Klik menu \"Biodata\" atau \"Dokumen\"<end_of_turn>\n<start_of_turn>user\nTerima kasih. Setelah login, menu dokumennya ada di mana ya? Apakah ada batas waktu untuk mengunggah dokumen setelah login?<end_of_turn>\n<start_of_turn>model\nSetelah login, Anda dapat mengakses menu \"Dokumen\". Verifikasi dokumen memerlukan maksimal 2x24 jam. Jika dokumen kurang atau tidak jelas, Anda akan mendapatkan notifikasi untuk mengunggah ulang.<end_of_turn>\n<start_of_turn>user\nBaik, kalau dokumen yang dibutuhkan apa saja ya? Apakah ada format khusus yang harus saya perhatikan?<end_of_turn>\n<start_of_turn>model\nBerikut dokumen yang diperlukan dalam format JPG:\n1. Ijazah/SKL (scan asli, lulusan 2025 bisa pakai surat keterangan aktif)\n2. Kartu Keluarga (KK yang masih berlaku, jelas terbaca)\n3. Foto Formal (250x350 pixel, background putih, formal)\n4. Surat Sehat (KHUSUS Fakultas Kesehatan - dari RS/Puskesmas, tes buta warna (laki-laki))<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00023",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan, jadi agak kurang paham sistem di sini. Saya mau tanya, sebenarnya saya bisa kapan saja melakukan ujian placement test ini? Apakah ada jadwal tetapnya?"
+      },
+      {
+        "role": "model",
+        "content": "The placement test dapat Anda lakukan secara online, kapan saja sebelum batas waktu yang ditentukan."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Lalu, kalau misalnya saat mau ujian, menunya kok tidak muncul ya? Padahal dokumen saya sudah diverifikasi."
+      },
+      {
+        "role": "model",
+        "content": "Berikut beberapa hal yang perlu Anda periksa: 1. Pastikan verifikasi dokumen sudah selesai. 2. Cek email Anda untuk notifikasi. 3. Jika masalah belum teratasi setelah 2x24 jam, silakan hubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya akan cek email dan coba tunggu 24 jam dulu. Apakah ada saran lain agar ujiannya lancar?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Untuk kelancaran ujian, pastikan Anda memiliki koneksi internet yang stabil dan menggunakan browser terbaru."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, jadi agak kurang paham sistem di sini. Saya mau tanya, sebenarnya saya bisa kapan saja melakukan ujian placement test ini? Apakah ada jadwal tetapnya?<end_of_turn>\n<start_of_turn>model\nThe placement test dapat Anda lakukan secara online, kapan saja sebelum batas waktu yang ditentukan.<end_of_turn>\n<start_of_turn>user\nOh, begitu. Lalu, kalau misalnya saat mau ujian, menunya kok tidak muncul ya? Padahal dokumen saya sudah diverifikasi.<end_of_turn>\n<start_of_turn>model\nBerikut beberapa hal yang perlu Anda periksa: 1. Pastikan verifikasi dokumen sudah selesai. 2. Cek email Anda untuk notifikasi. 3. Jika masalah belum teratasi setelah 2x24 jam, silakan hubungi PMB.<end_of_turn>\n<start_of_turn>user\nBaik, saya akan cek email dan coba tunggu 24 jam dulu. Apakah ada saran lain agar ujiannya lancar?<end_of_turn>\n<start_of_turn>model\nTentu. Untuk kelancaran ujian, pastikan Anda memiliki koneksi internet yang stabil dan menggunakan browser terbaru.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00024",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sedang mempersiapkan diri untuk ujian placement test. Berapa lama kira-kira ujian ini akan berlangsung? Saya khawatir ia akan kelelahan."
+      },
+      {
+        "role": "model",
+        "content": "Baik, ujian placement test berlangsung selama 60 hingga 90 menit."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih informasinya. Lalu, apakah ujian ini bisa dilakukan kapan saja? Saya ingin memastikan anak saya bisa mengerjakan ujian dalam keadaan tenang, tanpa terburu-buru."
+      },
+      {
+        "role": "model",
+        "content": "Tentu, ujian ini dilakukan secara online dan dapat diakses kapan saja sebelum batas waktu yang ditentukan."
+      },
+      {
+        "role": "user",
+        "content": "Terakhir, jika menu ujian tidak muncul, apa yang harus kami lakukan? Saya tidak ingin anak saya panik jika mengalami kendala teknis."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: \n1. Pastikan verifikasi dokumen sudah selesai.\n2. Cek email untuk notifikasi.\n3. Hubungi PMB jika lebih dari 2x24 jam."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya sedang mempersiapkan diri untuk ujian placement test. Berapa lama kira-kira ujian ini akan berlangsung? Saya khawatir ia akan kelelahan.<end_of_turn>\n<start_of_turn>model\nBaik, ujian placement test berlangsung selama 60 hingga 90 menit.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih informasinya. Lalu, apakah ujian ini bisa dilakukan kapan saja? Saya ingin memastikan anak saya bisa mengerjakan ujian dalam keadaan tenang, tanpa terburu-buru.<end_of_turn>\n<start_of_turn>model\nTentu, ujian ini dilakukan secara online dan dapat diakses kapan saja sebelum batas waktu yang ditentukan.<end_of_turn>\n<start_of_turn>user\nTerakhir, jika menu ujian tidak muncul, apa yang harus kami lakukan? Saya tidak ingin anak saya panik jika mengalami kendala teknis.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: \n1. Pastikan verifikasi dokumen sudah selesai.\n2. Cek email untuk notifikasi.\n3. Hubungi PMB jika lebih dari 2x24 jam.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00025",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamu'alaikum. Saya sedang mengikuti Placement Test, tapi tiba-tiba koneksi internet saya mati. Apakah ini akan mempengaruhi hasil ujian saya?"
+      },
+      {
+        "role": "model",
+        "content": "Wa'alaikumsalam. Koneksi internet yang terputus saat ujian dapat mengganggu proses penyelesaian. Disarankan untuk segera menghubungi Panitia Penerimaan Mahasiswa Baru (PMB) untuk mendapatkan informasi lebih lanjut mengenai penanganan situasi tersebut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya sudah menghubungi PMB, dan mereka menyarankan saya untuk memastikan menu 'Ujian' sudah aktif. Bagaimana cara memastikan menu tersebut aktif?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Menu 'Ujian' akan aktif setelah Anda memastikan status dokumen Anda TERVERIFIKASI."
+      },
+      {
+        "role": "user",
+        "content": "Dokumen saya sudah diverifikasi. Lalu, saya juga sudah mengecek email, tapi tidak ada notifikasi terkait aktivasi menu ujian. Apakah ada hal lain yang perlu saya periksa?"
+      },
+      {
+        "role": "model",
+        "content": "Jika menu 'Ujian' belum aktif setelah verifikasi dokumen dan pengecekan email, silakan hubungi PMB jika masalah ini berlanjut lebih dari 2x24 jam."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamu'alaikum. Saya sedang mengikuti Placement Test, tapi tiba-tiba koneksi internet saya mati. Apakah ini akan mempengaruhi hasil ujian saya?<end_of_turn>\n<start_of_turn>model\nWa'alaikumsalam. Koneksi internet yang terputus saat ujian dapat mengganggu proses penyelesaian. Disarankan untuk segera menghubungi Panitia Penerimaan Mahasiswa Baru (PMB) untuk mendapatkan informasi lebih lanjut mengenai penanganan situasi tersebut.<end_of_turn>\n<start_of_turn>user\nBaik, saya sudah menghubungi PMB, dan mereka menyarankan saya untuk memastikan menu 'Ujian' sudah aktif. Bagaimana cara memastikan menu tersebut aktif?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Menu 'Ujian' akan aktif setelah Anda memastikan status dokumen Anda TERVERIFIKASI.<end_of_turn>\n<start_of_turn>user\nDokumen saya sudah diverifikasi. Lalu, saya juga sudah mengecek email, tapi tidak ada notifikasi terkait aktivasi menu ujian. Apakah ada hal lain yang perlu saya periksa?<end_of_turn>\n<start_of_turn>model\nJika menu 'Ujian' belum aktif setelah verifikasi dokumen dan pengecekan email, silakan hubungi PMB jika masalah ini berlanjut lebih dari 2x24 jam.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00026",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Eh, min, kok menu ujiannya gak muncul ya? Padahal dokumen udah aku upload semua."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut beberapa hal yang perlu Anda periksa:\n1. Pastikan verifikasi dokumen Anda sudah selesai.\n2. Cek email Anda untuk notifikasi terkait aktivasi menu ujian.\n3. Jika menu belum muncul setelah 2x24 jam, silakan hubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Oke, aku udah cek email, gak ada apa-apa juga. Gimana dong?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Mengingat Anda sudah memeriksa email dan menu belum muncul, silakan hubungi PMB untuk mendapatkan bantuan lebih lanjut. Terima kasih."
+      },
+      {
+        "role": "user",
+        "content": "Siap, makasih ya min!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga sukses!"
+      }
+    ],
+    "text": "<start_of_turn>user\nEh, min, kok menu ujiannya gak muncul ya? Padahal dokumen udah aku upload semua.<end_of_turn>\n<start_of_turn>model\nBaik. Berikut beberapa hal yang perlu Anda periksa:\n1. Pastikan verifikasi dokumen Anda sudah selesai.\n2. Cek email Anda untuk notifikasi terkait aktivasi menu ujian.\n3. Jika menu belum muncul setelah 2x24 jam, silakan hubungi PMB.<end_of_turn>\n<start_of_turn>user\nOke, aku udah cek email, gak ada apa-apa juga. Gimana dong?<end_of_turn>\n<start_of_turn>model\nTentu. Mengingat Anda sudah memeriksa email dan menu belum muncul, silakan hubungi PMB untuk mendapatkan bantuan lebih lanjut. Terima kasih.<end_of_turn>\n<start_of_turn>user\nSiap, makasih ya min!<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga sukses!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00027",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Bu/Pak. Saya mau tanya, hasil pendaftaran saya udah bisa dilihat belum ya? Gimana caranya, soalnya saya kurang ngerti."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu, berikut informasinya:\n1. Login ke portal PMB.\n2. Klik menu \"Status Pendaftar\" atau \"Pengumuman\".\n3. Lihat status penerimaan Anda."
+      },
+      {
+        "role": "user",
+        "content": "Oh, iyaaa... Saya lihat, status saya 'WAITING'. Itu maksudnya gimana ya, Bu/Pak? Kira-kira perlu bayar apa dulu gak ya? Saya pengennya kalau bisa dapat beasiswa, soalnya orang tua saya cuma petani."
+      },
+      {
+        "role": "model",
+        "content": "Status 'WAITING' berarti Anda sedang menunggu proses verifikasi. Untuk informasi lebih lanjut mengenai biaya yang perlu dibayarkan atau opsi beasiswa, silakan hubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak informasinya, Bu/Pak. Nanti saya coba hubungi PMB ya."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga sukses!"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Bu/Pak. Saya mau tanya, hasil pendaftaran saya udah bisa dilihat belum ya? Gimana caranya, soalnya saya kurang ngerti.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu, berikut informasinya:\n1. Login ke portal PMB.\n2. Klik menu \"Status Pendaftar\" atau \"Pengumuman\".\n3. Lihat status penerimaan Anda.<end_of_turn>\n<start_of_turn>user\nOh, iyaaa... Saya lihat, status saya 'WAITING'. Itu maksudnya gimana ya, Bu/Pak? Kira-kira perlu bayar apa dulu gak ya? Saya pengennya kalau bisa dapat beasiswa, soalnya orang tua saya cuma petani.<end_of_turn>\n<start_of_turn>model\nStatus 'WAITING' berarti Anda sedang menunggu proses verifikasi. Untuk informasi lebih lanjut mengenai biaya yang perlu dibayarkan atau opsi beasiswa, silakan hubungi PMB.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih banyak informasinya, Bu/Pak. Nanti saya coba hubungi PMB ya.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga sukses!<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00028",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Gue cek status, masih waiting nih. Waiting apaan ya?"
+      },
+      {
+        "role": "model",
+        "content": "Status 'WAITING' berarti Anda sedang menunggu proses verifikasi data pendaftaran."
+      },
+      {
+        "role": "user",
+        "content": "Verifikasi data? Data apa tuh?"
+      },
+      {
+        "role": "model",
+        "content": "Verifikasi data meliputi kebenaran informasi yang Anda masukkan pada formulir pendaftaran."
+      },
+      {
+        "role": "user",
+        "content": "Oke, jadi harus nungguin aja ya?"
+      },
+      {
+        "role": "model",
+        "content": "Betul. Anda perlu menunggu hingga proses verifikasi selesai."
+      }
+    ],
+    "text": "<start_of_turn>user\nGue cek status, masih waiting nih. Waiting apaan ya?<end_of_turn>\n<start_of_turn>model\nStatus 'WAITING' berarti Anda sedang menunggu proses verifikasi data pendaftaran.<end_of_turn>\n<start_of_turn>user\nVerifikasi data? Data apa tuh?<end_of_turn>\n<start_of_turn>model\nVerifikasi data meliputi kebenaran informasi yang Anda masukkan pada formulir pendaftaran.<end_of_turn>\n<start_of_turn>user\nOke, jadi harus nungguin aja ya?<end_of_turn>\n<start_of_turn>model\nBetul. Anda perlu menunggu hingga proses verifikasi selesai.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00029",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah mengecek pengumuman, status saya 'DITERIMA'. Tapi, saya masih agak bingung, apakah saya harus langsung membayar semester 1? Dan bagaimana kalau saya ada kendala konversi SKS dari universitas lama?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Jika status Anda 'DITERIMA', Anda dapat melanjutkan ke pembayaran semester 1. Mengenai kendala konversi SKS, silakan hubungi PMB untuk mendapatkan informasi lebih lanjut mengenai prosedur dan opsi yang tersedia."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Apakah ada batas waktu untuk pembayaran semester 1 ini? Saya lihat di portal tidak ada informasi detailnya."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai batas waktu pembayaran semester 1 tidak tersedia di portal. Anda dapat menghubungi PMB untuk mendapatkan informasi yang lebih akurat."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya akan segera menghubungi PMB. Terima kasih atas bantuannya."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah mengecek pengumuman, status saya 'DITERIMA'. Tapi, saya masih agak bingung, apakah saya harus langsung membayar semester 1? Dan bagaimana kalau saya ada kendala konversi SKS dari universitas lama?<end_of_turn>\n<start_of_turn>model\nBaik. Jika status Anda 'DITERIMA', Anda dapat melanjutkan ke pembayaran semester 1. Mengenai kendala konversi SKS, silakan hubungi PMB untuk mendapatkan informasi lebih lanjut mengenai prosedur dan opsi yang tersedia.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Apakah ada batas waktu untuk pembayaran semester 1 ini? Saya lihat di portal tidak ada informasi detailnya.<end_of_turn>\n<start_of_turn>model\nTentu. Informasi mengenai batas waktu pembayaran semester 1 tidak tersedia di portal. Anda dapat menghubungi PMB untuk mendapatkan informasi yang lebih akurat.<end_of_turn>\n<start_of_turn>user\nBaik, saya akan segera menghubungi PMB. Terima kasih atas bantuannya.<end_of_turn>\n<start_of_turn>model\nSama-sama. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00030",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang, saya mau tanya. Saya sudah daftar, tapi masih bingung berapa biaya angsuran semester pertama untuk program D3/S1 ya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Biaya angsuran pertama untuk program D3/S1 adalah Rp 745.000."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Terus, saya bayarnya lewat mana ya? Apakah sama seperti saat pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Pembayaran dilakukan melalui Bank Jateng atau Finpay, sama seperti pembayaran pendaftaran."
+      },
+      {
+        "role": "user",
+        "content": "Baik, sudah saya transfer. Kira-kira berapa lama ya statusnya baru update di sistem?"
+      },
+      {
+        "role": "model",
+        "content": "Pembayaran biasanya masuk dalam 1-2 jam. Jika setelah 2 jam belum update, silakan hubungi PMB dengan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih informasinya. Apakah ada detail rincian biaya lainnya yang bisa saya lihat?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang, saya mau tanya. Saya sudah daftar, tapi masih bingung berapa biaya angsuran semester pertama untuk program D3/S1 ya?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Biaya angsuran pertama untuk program D3/S1 adalah Rp 745.000.<end_of_turn>\n<start_of_turn>user\nOh, begitu. Terus, saya bayarnya lewat mana ya? Apakah sama seperti saat pendaftaran?<end_of_turn>\n<start_of_turn>model\nTentu. Pembayaran dilakukan melalui Bank Jateng atau Finpay, sama seperti pembayaran pendaftaran.<end_of_turn>\n<start_of_turn>user\nBaik, sudah saya transfer. Kira-kira berapa lama ya statusnya baru update di sistem?<end_of_turn>\n<start_of_turn>model\nPembayaran biasanya masuk dalam 1-2 jam. Jika setelah 2 jam belum update, silakan hubungi PMB dengan bukti transfer.<end_of_turn>\n<start_of_turn>user\nTerima kasih informasinya. Apakah ada detail rincian biaya lainnya yang bisa saya lihat?<end_of_turn>\n<start_of_turn>model\nTentu. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan.<end_of_turn>",
+    "num_turns": 8
+  },
+  {
+    "id": "synth_alur_00031",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin menanyakan mengenai besaran biaya angsuran untuk semester pertama program S2."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumussalam. Biaya angsuran pertama untuk program S2 adalah Rp 1.100.000."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Apakah ada dokumen yang perlu saya perhatikan terkait rincian biaya pendidikan secara lengkap?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan biaya pendidikan."
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana jika setelah melakukan pembayaran, status saya belum berubah dalam sistem? Langkah apa yang harus saya lakukan?"
+      },
+      {
+        "role": "model",
+        "content": "Mohon tunggu maksimal 2 jam. Jika status belum berubah, silakan hubungi PMB dengan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Apakah pembayaran juga dapat dilakukan melalui metode yang sama dengan pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Pembayaran dapat dilakukan melalui Bank Jateng atau Finpay, sama seperti pembayaran pendaftaran. Gunakan NOMOR PENDAFTARAN sebagai referensi."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya ingin menanyakan mengenai besaran biaya angsuran untuk semester pertama program S2.<end_of_turn>\n<start_of_turn>model\nWaalaikumussalam. Biaya angsuran pertama untuk program S2 adalah Rp 1.100.000.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Apakah ada dokumen yang perlu saya perhatikan terkait rincian biaya pendidikan secara lengkap?<end_of_turn>\n<start_of_turn>model\nTentu. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan biaya pendidikan.<end_of_turn>\n<start_of_turn>user\nBagaimana jika setelah melakukan pembayaran, status saya belum berubah dalam sistem? Langkah apa yang harus saya lakukan?<end_of_turn>\n<start_of_turn>model\nMohon tunggu maksimal 2 jam. Jika status belum berubah, silakan hubungi PMB dengan bukti transfer.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Apakah pembayaran juga dapat dilakukan melalui metode yang sama dengan pendaftaran?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Pembayaran dapat dilakukan melalui Bank Jateng atau Finpay, sama seperti pembayaran pendaftaran. Gunakan NOMOR PENDAFTARAN sebagai referensi.<end_of_turn>",
+    "num_turns": 8
+  },
+  {
+    "id": "synth_alur_00032",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mau tanya, bagaimana cara membayar biaya semester 1 ini? Apakah ada perbedaan dengan saat pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Pembayaran biaya semester 1 sama dengan pembayaran pendaftaran, yaitu melalui Bank Jateng atau Finpay. Gunakan nomor pendaftaran Anda sebagai referensi."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya sudah transfer melalui Bank Jateng. Kapan ya status pembayaran saya akan terlihat update di sistem?"
+      },
+      {
+        "role": "model",
+        "content": "Pembayaran biasanya masuk dalam 1-2 jam. Mohon tunggu maksimal 2 jam. Jika status belum update, silakan hubungi PMB dengan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih informasinya. Apakah ada rincian lengkap mengenai komponen biaya semester 1 yang bisa saya lihat?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Rincian biaya lengkap dapat dilihat pada dokumen 'Komponen Biaya Pendidikan'."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mau tanya, bagaimana cara membayar biaya semester 1 ini? Apakah ada perbedaan dengan saat pendaftaran?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Pembayaran biaya semester 1 sama dengan pembayaran pendaftaran, yaitu melalui Bank Jateng atau Finpay. Gunakan nomor pendaftaran Anda sebagai referensi.<end_of_turn>\n<start_of_turn>user\nBaik, saya sudah transfer melalui Bank Jateng. Kapan ya status pembayaran saya akan terlihat update di sistem?<end_of_turn>\n<start_of_turn>model\nPembayaran biasanya masuk dalam 1-2 jam. Mohon tunggu maksimal 2 jam. Jika status belum update, silakan hubungi PMB dengan bukti transfer.<end_of_turn>\n<start_of_turn>user\nTerima kasih informasinya. Apakah ada rincian lengkap mengenai komponen biaya semester 1 yang bisa saya lihat?<end_of_turn>\n<start_of_turn>model\nTentu. Rincian biaya lengkap dapat dilihat pada dokumen 'Komponen Biaya Pendidikan'.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00033",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Gue udah bayar cicilan semester 1 nih, tapi kok statusnya masih belum update ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Mohon tunggu maksimal 2 jam. Jika status Anda belum berubah, silakan hubungi PMB dengan melampirkan bukti transfer."
+      },
+      {
+        "role": "user",
+        "content": "Oke, fix. Kira-kira kalau mau liat rincian biayanya dimana ya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan."
+      },
+      {
+        "role": "user",
+        "content": "Siap, makasih banyak!"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami."
+      }
+    ],
+    "text": "<start_of_turn>user\nGue udah bayar cicilan semester 1 nih, tapi kok statusnya masih belum update ya?<end_of_turn>\n<start_of_turn>model\nTentu. Mohon tunggu maksimal 2 jam. Jika status Anda belum berubah, silakan hubungi PMB dengan melampirkan bukti transfer.<end_of_turn>\n<start_of_turn>user\nOke, fix. Kira-kira kalau mau liat rincian biayanya dimana ya?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Anda dapat melihat dokumen 'Komponen Biaya Pendidikan' untuk detail cicilan.<end_of_turn>\n<start_of_turn>user\nSiap, makasih banyak!<end_of_turn>\n<start_of_turn>model\nBaik. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00034",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Gimana sih cara reservasi NIM nya? Udah bayar nih."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut langkah-langkah reservasi Nomor Induk Mahasiswa (NIM): \n1. Login ke portal PMB.\n2. Periksa status pembayaran Anda: pastikan statusnya LUNAS/TERVERIFIKASI.\n3. Klik tombol 'Reservasi NIM'.\n4. Konfirmasi data Anda.\n5. Tunggu verifikasi selama 1-3 hari kerja."
+      },
+      {
+        "role": "user",
+        "content": "Terus kalau tombol reservasi NIM nya gak aktif gimana?"
+      },
+      {
+        "role": "model",
+        "content": "Jika tombol reservasi tidak aktif, pastikan pembayaran Anda sudah terverifikasi. Jika lebih dari 2 jam, silakan hubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Oke, setelah dapet NIM, harus ngapain aja?"
+      },
+      {
+        "role": "model",
+        "content": "Setelah Anda mendapatkan NIM, berikut yang perlu Anda lakukan:\n1. Ikuti orientasi mahasiswa.\n2. Ambil Kartu Mahasiswa (KTM).\n3. Daftar mata kuliah di portal akademik.\n4. Bayar cicilan sesuai jadwal.\n5. Ikuti kuliah sesuai jadwal."
+      }
+    ],
+    "text": "<start_of_turn>user\nGimana sih cara reservasi NIM nya? Udah bayar nih.<end_of_turn>\n<start_of_turn>model\nBaik. Berikut langkah-langkah reservasi Nomor Induk Mahasiswa (NIM): \n1. Login ke portal PMB.\n2. Periksa status pembayaran Anda: pastikan statusnya LUNAS/TERVERIFIKASI.\n3. Klik tombol 'Reservasi NIM'.\n4. Konfirmasi data Anda.\n5. Tunggu verifikasi selama 1-3 hari kerja.<end_of_turn>\n<start_of_turn>user\nTerus kalau tombol reservasi NIM nya gak aktif gimana?<end_of_turn>\n<start_of_turn>model\nJika tombol reservasi tidak aktif, pastikan pembayaran Anda sudah terverifikasi. Jika lebih dari 2 jam, silakan hubungi PMB.<end_of_turn>\n<start_of_turn>user\nOke, setelah dapet NIM, harus ngapain aja?<end_of_turn>\n<start_of_turn>model\nSetelah Anda mendapatkan NIM, berikut yang perlu Anda lakukan:\n1. Ikuti orientasi mahasiswa.\n2. Ambil Kartu Mahasiswa (KTM).\n3. Daftar mata kuliah di portal akademik.\n4. Bayar cicilan sesuai jadwal.\n5. Ikuti kuliah sesuai jadwal.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00035",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Saya telah melakukan reservasi NIM tiga hari yang lalu, namun statusnya masih belum berubah. Apakah ada kendala dalam proses verifikasi?"
+      },
+      {
+        "role": "model",
+        "content": "Saya memahami kekhawatiran Anda. Verifikasi NIM biasanya memakan waktu 1-3 hari kerja. Mohon menunggu, jika setelah 3 hari kerja status Anda belum berubah, silakan hubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya akan menunggu. Setelah mendapatkan NIM, langkah selanjutnya apa saja yang perlu saya lakukan untuk mempersiapkan studi saya? Saya ingin memastikan saya siap untuk memulai perkuliahan."
+      },
+      {
+        "role": "model",
+        "content": "Berikut adalah langkah-langkah setelah Anda mendapatkan NIM: 1. Ikuti orientasi mahasiswa. 2. Ambil Kartu Mahasiswa (KTM). 3. Daftar matakuliah di portal akademik. 4. Bayar cicilan sesuai jadwal. 5. Ikuti kuliah sesuai jadwal."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Satu pertanyaan tambahan, apakah Universitas Sains Al-Qur'an memiliki program pertukaran pelajar ke universitas luar negeri?"
+      },
+      {
+        "role": "model",
+        "content": "Informasi mengenai program pertukaran pelajar tidak tersedia dalam dokumen ini. Silakan hubungi bagian kemahasiswaan untuk informasi lebih lanjut."
+      }
+    ],
+    "text": "<start_of_turn>user\nSaya telah melakukan reservasi NIM tiga hari yang lalu, namun statusnya masih belum berubah. Apakah ada kendala dalam proses verifikasi?<end_of_turn>\n<start_of_turn>model\nSaya memahami kekhawatiran Anda. Verifikasi NIM biasanya memakan waktu 1-3 hari kerja. Mohon menunggu, jika setelah 3 hari kerja status Anda belum berubah, silakan hubungi PMB.<end_of_turn>\n<start_of_turn>user\nBaik, saya akan menunggu. Setelah mendapatkan NIM, langkah selanjutnya apa saja yang perlu saya lakukan untuk mempersiapkan studi saya? Saya ingin memastikan saya siap untuk memulai perkuliahan.<end_of_turn>\n<start_of_turn>model\nBerikut adalah langkah-langkah setelah Anda mendapatkan NIM: 1. Ikuti orientasi mahasiswa. 2. Ambil Kartu Mahasiswa (KTM). 3. Daftar matakuliah di portal akademik. 4. Bayar cicilan sesuai jadwal. 5. Ikuti kuliah sesuai jadwal.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Satu pertanyaan tambahan, apakah Universitas Sains Al-Qur'an memiliki program pertukaran pelajar ke universitas luar negeri?<end_of_turn>\n<start_of_turn>model\nInformasi mengenai program pertukaran pelajar tidak tersedia dalam dokumen ini. Silakan hubungi bagian kemahasiswaan untuk informasi lebih lanjut.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00036",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah menyelesaikan pembayaran semester pertama. Saya perhatikan tombol reservasi NIM belum aktif. Berapa lama perkiraan waktu verifikasi pembayaran dan aktivasi tombol reservasi tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Verifikasi pembayaran membutuhkan waktu 1 hingga 3 hari kerja."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Apakah ada ketentuan khusus jika melewati batas waktu 3 hari kerja tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Jika lebih dari 2 jam, Anda disarankan untuk menghubungi PMB."
+      },
+      {
+        "role": "user",
+        "content": "Saya mengerti. Setelah NIM saya diverifikasi dan saya bisa melakukan reservasi, langkah selanjutnya apa yang perlu saya persiapkan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut langkah-langkahnya: 1. Ikuti orientasi mahasiswa. 2. Ambil Kartu Mahasiswa (KTM). 3. Daftar matakuliah di portal akademik. 4. Bayar cicilan sesuai jadwal. 5. Ikuti kuliah sesuai jadwal."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah menyelesaikan pembayaran semester pertama. Saya perhatikan tombol reservasi NIM belum aktif. Berapa lama perkiraan waktu verifikasi pembayaran dan aktivasi tombol reservasi tersebut?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Verifikasi pembayaran membutuhkan waktu 1 hingga 3 hari kerja.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Apakah ada ketentuan khusus jika melewati batas waktu 3 hari kerja tersebut?<end_of_turn>\n<start_of_turn>model\nJika lebih dari 2 jam, Anda disarankan untuk menghubungi PMB.<end_of_turn>\n<start_of_turn>user\nSaya mengerti. Setelah NIM saya diverifikasi dan saya bisa melakukan reservasi, langkah selanjutnya apa yang perlu saya persiapkan?<end_of_turn>\n<start_of_turn>model\nBerikut langkah-langkahnya: 1. Ikuti orientasi mahasiswa. 2. Ambil Kartu Mahasiswa (KTM). 3. Daftar matakuliah di portal akademik. 4. Bayar cicilan sesuai jadwal. 5. Ikuti kuliah sesuai jadwal.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00037",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Anak saya sudah mendapatkan NIM-nya. Sekarang, apa saja langkah-langkah selanjutnya yang harus ia lakukan? Saya khawatir, apakah ada hal penting yang terlewatkan?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Setelah mendapatkan NIM, berikut adalah langkah-langkah selanjutnya:\n1. Ikuti orientasi mahasiswa.\n2. Ambil Kartu Mahasiswa (KTM).\n3. Daftar matakuliah di portal akademik.\n4. Bayar cicilan sesuai jadwal.\n5. Ikuti kuliah sesuai jadwal."
+      },
+      {
+        "role": "user",
+        "content": "Orientasi mahasiswa itu seperti apa? Apakah ada informasi mengenai asrama dan keamanan kampus yang akan disampaikan? Saya sangat mementingkan keselamatan anak saya."
+      },
+      {
+        "role": "model",
+        "content": "Informasi mengenai detail orientasi mahasiswa, termasuk pembahasan mengenai asrama dan keamanan kampus, tidak tersedia dalam dokumen ini. Sebaiknya Anda menghubungi pihak PMB untuk mendapatkan informasi lebih lanjut mengenai hal tersebut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih banyak atas bantuannya. Apakah ada biaya tambahan yang perlu diperhatikan setelah pembayaran semester pertama?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda perlu memperhatikan pembayaran cicilan sesuai dengan jadwal yang telah ditentukan."
+      }
+    ],
+    "text": "<start_of_turn>user\nAnak saya sudah mendapatkan NIM-nya. Sekarang, apa saja langkah-langkah selanjutnya yang harus ia lakukan? Saya khawatir, apakah ada hal penting yang terlewatkan?<end_of_turn>\n<start_of_turn>model\nBaik. Setelah mendapatkan NIM, berikut adalah langkah-langkah selanjutnya:\n1. Ikuti orientasi mahasiswa.\n2. Ambil Kartu Mahasiswa (KTM).\n3. Daftar matakuliah di portal akademik.\n4. Bayar cicilan sesuai jadwal.\n5. Ikuti kuliah sesuai jadwal.<end_of_turn>\n<start_of_turn>user\nOrientasi mahasiswa itu seperti apa? Apakah ada informasi mengenai asrama dan keamanan kampus yang akan disampaikan? Saya sangat mementingkan keselamatan anak saya.<end_of_turn>\n<start_of_turn>model\nInformasi mengenai detail orientasi mahasiswa, termasuk pembahasan mengenai asrama dan keamanan kampus, tidak tersedia dalam dokumen ini. Sebaiknya Anda menghubungi pihak PMB untuk mendapatkan informasi lebih lanjut mengenai hal tersebut.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih banyak atas bantuannya. Apakah ada biaya tambahan yang perlu diperhatikan setelah pembayaran semester pertama?<end_of_turn>\n<start_of_turn>model\nTentu. Anda perlu memperhatikan pembayaran cicilan sesuai dengan jadwal yang telah ditentukan.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00038",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah melakukan pembayaran semester 1, tetapi ketika saya masuk ke portal PMB, tombol 'Reservasi NIM' masih tidak aktif. Apakah ada masalah dengan sistemnya?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Pastikan status pembayaran Anda telah terverifikasi di portal PMB. Jika lebih dari 2 jam tombol tersebut masih tidak aktif, silakan hubungi bagian PMB untuk mendapatkan bantuan lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Saya sudah periksa, statusnya menunjukkan 'LUNAS'. Saya sudah coba beberapa kali refresh juga. Apakah saya perlu menunggu sampai jam tertentu?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Jika status pembayaran sudah LUNAS dan tombol Reservasi NIM masih tidak aktif setelah Anda melakukan refresh, disarankan untuk segera menghubungi bagian PMB untuk investigasi lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih informasinya. Saya akan segera menghubungi PMB."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga masalah Anda segera terselesaikan. Silakan hubungi PMB jika ada pertanyaan lebih lanjut."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah melakukan pembayaran semester 1, tetapi ketika saya masuk ke portal PMB, tombol 'Reservasi NIM' masih tidak aktif. Apakah ada masalah dengan sistemnya?<end_of_turn>\n<start_of_turn>model\nBaik. Pastikan status pembayaran Anda telah terverifikasi di portal PMB. Jika lebih dari 2 jam tombol tersebut masih tidak aktif, silakan hubungi bagian PMB untuk mendapatkan bantuan lebih lanjut.<end_of_turn>\n<start_of_turn>user\nSaya sudah periksa, statusnya menunjukkan 'LUNAS'. Saya sudah coba beberapa kali refresh juga. Apakah saya perlu menunggu sampai jam tertentu?<end_of_turn>\n<start_of_turn>model\nTentu. Jika status pembayaran sudah LUNAS dan tombol Reservasi NIM masih tidak aktif setelah Anda melakukan refresh, disarankan untuk segera menghubungi bagian PMB untuk investigasi lebih lanjut.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih informasinya. Saya akan segera menghubungi PMB.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga masalah Anda segera terselesaikan. Silakan hubungi PMB jika ada pertanyaan lebih lanjut.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00039",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, anak saya ingin mendaftar di UNSIQ. Saya khawatir dengan proses pendaftarannya. Bisakah Bapak/Ibu jelaskan secara rinci alur pendaftarannya mulai dari awal sampai akhir? Saya ingin memastikan tidak ada yang terlewat."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu, berikut adalah alur pendaftaran lengkap di UNSIQ:\n\n1. Akses website pmb.unsiq.ac.id\n2. Isi formulir pendaftaran → Anda akan mendapatkan Nomor Pendaftaran & PIN.\n3. Bayar biaya pendaftaran (Gelombang 1 GRATIS).\n4. Login dengan Nomor Pendaftaran dan PIN Anda, lalu upload dokumen (Ijazah, Kartu Keluarga, Foto, Surat Sehat).\n5. Ikuti Ujian Placement Test secara online (60-90 menit).\n6. Cek pengumuman hasil ujian.\n7. Bayar biaya semester 1 (D3/S1: Rp745rb, S2: Rp1.1jt).\n8. Lakukan reservasi Nomor Induk Mahasiswa (NIM) → Anda resmi menjadi mahasiswa UNSIQ."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, bagaimana jika setelah ujian anak saya ingin mengubah pilihan program studi? Apakah ada biaya tambahan untuk itu?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Jika perubahan program studi dilakukan sebelum ujian, Anda dapat mengubahnya sendiri di menu Biodata tanpa biaya. Jika setelah ujian, silakan hubungi PMB untuk reset, yang juga gratis. Namun, setelah Anda mendapatkan NIM, perubahan program studi memerlukan surat kepada Kepala PMB dan dikenakan biaya sebesar Rp 200.000."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas penjelasannya. Satu lagi, bagaimana jika ada pertanyaan lebih lanjut, bagaimana cara menghubungi pihak PMB?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasi kontak PMB:\n\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id\n4. Jam Layanan: Senin-Jumat, 08:00-16:00 WIB."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, anak saya ingin mendaftar di UNSIQ. Saya khawatir dengan proses pendaftarannya. Bisakah Bapak/Ibu jelaskan secara rinci alur pendaftarannya mulai dari awal sampai akhir? Saya ingin memastikan tidak ada yang terlewat.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu, berikut adalah alur pendaftaran lengkap di UNSIQ:\n\n1. Akses website pmb.unsiq.ac.id\n2. Isi formulir pendaftaran → Anda akan mendapatkan Nomor Pendaftaran & PIN.\n3. Bayar biaya pendaftaran (Gelombang 1 GRATIS).\n4. Login dengan Nomor Pendaftaran dan PIN Anda, lalu upload dokumen (Ijazah, Kartu Keluarga, Foto, Surat Sehat).\n5. Ikuti Ujian Placement Test secara online (60-90 menit).\n6. Cek pengumuman hasil ujian.\n7. Bayar biaya semester 1 (D3/S1: Rp745rb, S2: Rp1.1jt).\n8. Lakukan reservasi Nomor Induk Mahasiswa (NIM) → Anda resmi menjadi mahasiswa UNSIQ.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Lalu, bagaimana jika setelah ujian anak saya ingin mengubah pilihan program studi? Apakah ada biaya tambahan untuk itu?<end_of_turn>\n<start_of_turn>model\nTentu. Jika perubahan program studi dilakukan sebelum ujian, Anda dapat mengubahnya sendiri di menu Biodata tanpa biaya. Jika setelah ujian, silakan hubungi PMB untuk reset, yang juga gratis. Namun, setelah Anda mendapatkan NIM, perubahan program studi memerlukan surat kepada Kepala PMB dan dikenakan biaya sebesar Rp 200.000.<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak atas penjelasannya. Satu lagi, bagaimana jika ada pertanyaan lebih lanjut, bagaimana cara menghubungi pihak PMB?<end_of_turn>\n<start_of_turn>model\nBerikut informasi kontak PMB:\n\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id\n4. Jam Layanan: Senin-Jumat, 08:00-16:00 WIB.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00040",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin menanyakan mengenai prosedur perpindahan program studi sebelum pelaksanaan ujian. Apakah prosesnya dapat dilakukan secara mandiri, dan apakah ada biaya yang dikenakan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Perubahan program studi sebelum ujian dapat Anda lakukan sendiri melalui menu Biodata, tanpa dikenakan biaya."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Jika saya sudah memiliki Nomor Induk Mahasiswa (NIM), lalu ingin melakukan perpindahan prodi, apakah prosedurnya sama?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Setelah Anda memiliki NIM, Anda perlu mengajukan surat kepada Kepala PMB dengan biaya sebesar Rp 200.000. Proses ini maksimal membutuhkan waktu 7 hari kerja."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Apakah informasi kontak PMB yang saya bisa hubungi jika ada kendala dalam proses ini?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut adalah kontak PMB yang dapat Anda hubungi: Telepon: (0286) 321873, WhatsApp: 0857 7504 7504, Email: humas@unsiq.ac.id. Layanan tersedia Senin-Jumat, pukul 08:00-16:00 WIB."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya ingin menanyakan mengenai prosedur perpindahan program studi sebelum pelaksanaan ujian. Apakah prosesnya dapat dilakukan secara mandiri, dan apakah ada biaya yang dikenakan?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Perubahan program studi sebelum ujian dapat Anda lakukan sendiri melalui menu Biodata, tanpa dikenakan biaya.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Jika saya sudah memiliki Nomor Induk Mahasiswa (NIM), lalu ingin melakukan perpindahan prodi, apakah prosedurnya sama?<end_of_turn>\n<start_of_turn>model\nTentu. Setelah Anda memiliki NIM, Anda perlu mengajukan surat kepada Kepala PMB dengan biaya sebesar Rp 200.000. Proses ini maksimal membutuhkan waktu 7 hari kerja.<end_of_turn>\n<start_of_turn>user\nBaik, saya mengerti. Apakah informasi kontak PMB yang saya bisa hubungi jika ada kendala dalam proses ini?<end_of_turn>\n<start_of_turn>model\nBerikut adalah kontak PMB yang dapat Anda hubungi: Telepon: (0286) 321873, WhatsApp: 0857 7504 7504, Email: humas@unsiq.ac.id. Layanan tersedia Senin-Jumat, pukul 08:00-16:00 WIB.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00041",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "edge_case",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya sudah mendapatkan NIM, tapi saya ingin pindah program studi. Apakah ada biaya untuk proses pindah prodi setelah NIM terbit?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Setelah Anda mendapatkan NIM, proses pindah prodi memerlukan surat kepada Kepala PMB dengan biaya sebesar Rp 200.000."
+      },
+      {
+        "role": "user",
+        "content": "Baik, kalau begitu saya akan siapkan suratnya. Berapa lama maksimal saya bisa mengajukan surat tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Anda memiliki waktu maksimal 7 hari untuk mengajukan surat tersebut."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada formulir khusus yang perlu saya gunakan untuk surat permohonan pindah prodi tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Tidak ada formulir khusus. Anda dapat membuat surat permohonan pindah prodi secara mandiri, kemudian diserahkan kepada Kepala PMB."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya sudah mendapatkan NIM, tapi saya ingin pindah program studi. Apakah ada biaya untuk proses pindah prodi setelah NIM terbit?<end_of_turn>\n<start_of_turn>model\nBaik. Setelah Anda mendapatkan NIM, proses pindah prodi memerlukan surat kepada Kepala PMB dengan biaya sebesar Rp 200.000.<end_of_turn>\n<start_of_turn>user\nBaik, kalau begitu saya akan siapkan suratnya. Berapa lama maksimal saya bisa mengajukan surat tersebut?<end_of_turn>\n<start_of_turn>model\nTentu. Anda memiliki waktu maksimal 7 hari untuk mengajukan surat tersebut.<end_of_turn>\n<start_of_turn>user\nApakah ada formulir khusus yang perlu saya gunakan untuk surat permohonan pindah prodi tersebut?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Tidak ada formulir khusus. Anda dapat membuat surat permohonan pindah prodi secara mandiri, kemudian diserahkan kepada Kepala PMB.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00042",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dan ingin tahu, bagaimana cara menghubungi pihak PMB untuk konsultasi terkait konversi SKS saya?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut informasi kontak PMB:\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id\nPihak PMB dapat dihubungi pada hari Senin-Jumat, pukul 08:00-16:00 WIB."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Apakah ada biaya tertentu jika saya ingin mengubah program studi setelah ujian?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Jika perubahan program studi dilakukan setelah ujian, Anda perlu menghubungi PMB untuk reset data. Proses reset tersebut gratis. Namun, jika Anda ingin mengajukan surat ke Kepala PMB, dikenakan biaya sebesar Rp 200.000."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Satu lagi, apakah seluruh proses pendaftaran bisa dilakukan secara daring?"
+      },
+      {
+        "role": "model",
+        "content": "Ya, semua tahapan pendaftaran dapat dilakukan secara online dari mana saja."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan dan ingin tahu, bagaimana cara menghubungi pihak PMB untuk konsultasi terkait konversi SKS saya?<end_of_turn>\n<start_of_turn>model\nBaik. Berikut informasi kontak PMB:\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id\nPihak PMB dapat dihubungi pada hari Senin-Jumat, pukul 08:00-16:00 WIB.<end_of_turn>\n<start_of_turn>user\nTerima kasih. Apakah ada biaya tertentu jika saya ingin mengubah program studi setelah ujian?<end_of_turn>\n<start_of_turn>model\nTentu. Jika perubahan program studi dilakukan setelah ujian, Anda perlu menghubungi PMB untuk reset data. Proses reset tersebut gratis. Namun, jika Anda ingin mengajukan surat ke Kepala PMB, dikenakan biaya sebesar Rp 200.000.<end_of_turn>\n<start_of_turn>user\nBaik, saya mengerti. Satu lagi, apakah seluruh proses pendaftaran bisa dilakukan secara daring?<end_of_turn>\n<start_of_turn>model\nYa, semua tahapan pendaftaran dapat dilakukan secara online dari mana saja.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00043",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamu'alaikum. Saya mau tanya, PMB buka jam berapa ya? Soalnya dari desa jauh, takut telat."
+      },
+      {
+        "role": "model",
+        "content": "Wa'alaikumsalam. PMB melayani pertanyaan dan konsultasi dari Senin sampai Jumat, pukul 08:00 hingga 16:00 WIB."
+      },
+      {
+        "role": "user",
+        "content": "Oh, baik. Terus kalau mau ganti program studi, bisa langsung sendiri atau harus ke sana? Biayanya berapa kalau harus ke sana?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: Jika sebelum ujian, Anda dapat mengubah sendiri melalui menu Biodata. Jika setelah ujian, hubungi PMB untuk reset, tanpa biaya. Apabila setelah mendapatkan NIM, diperlukan surat ke Kepala PMB dengan biaya Rp 200.000."
+      },
+      {
+        "role": "user",
+        "content": "Wah, kalau begitu nanti saya pikir-pikir lagi. Kalau biaya pendaftaran, katanya ada gelombang gratis ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tepat sekali. Pada Gelombang 1, biaya pendaftaran tidak dikenakan."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamu'alaikum. Saya mau tanya, PMB buka jam berapa ya? Soalnya dari desa jauh, takut telat.<end_of_turn>\n<start_of_turn>model\nWa'alaikumsalam. PMB melayani pertanyaan dan konsultasi dari Senin sampai Jumat, pukul 08:00 hingga 16:00 WIB.<end_of_turn>\n<start_of_turn>user\nOh, baik. Terus kalau mau ganti program studi, bisa langsung sendiri atau harus ke sana? Biayanya berapa kalau harus ke sana?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: Jika sebelum ujian, Anda dapat mengubah sendiri melalui menu Biodata. Jika setelah ujian, hubungi PMB untuk reset, tanpa biaya. Apabila setelah mendapatkan NIM, diperlukan surat ke Kepala PMB dengan biaya Rp 200.000.<end_of_turn>\n<start_of_turn>user\nWah, kalau begitu nanti saya pikir-pikir lagi. Kalau biaya pendaftaran, katanya ada gelombang gratis ya?<end_of_turn>\n<start_of_turn>model\nTepat sekali. Pada Gelombang 1, biaya pendaftaran tidak dikenakan.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00044",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Semua proses pendaftarannya bisa online, kan?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Semua tahap pendaftaran dapat dilakukan secara online dari mana saja."
+      },
+      {
+        "role": "user",
+        "content": "Oh, sip. Terus kalau mau ganti jurusan, gimana caranya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: \n1. Sebelum ujian: Anda dapat mengubah sendiri di menu Biodata (gratis).\n2. Setelah ujian: Hubungi PMB untuk reset (gratis).\n3. Setelah mendapatkan NIM: Surat ke Kepala PMB + Rp 200.000 (maksimal 7 hari)."
+      },
+      {
+        "role": "user",
+        "content": "Oke, kalau aku mau tanya-tanya lagi, hubungi nomor apa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Anda dapat menghubungi PMB melalui:\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id"
+      }
+    ],
+    "text": "<start_of_turn>user\nSemua proses pendaftarannya bisa online, kan?<end_of_turn>\n<start_of_turn>model\nTentu. Semua tahap pendaftaran dapat dilakukan secara online dari mana saja.<end_of_turn>\n<start_of_turn>user\nOh, sip. Terus kalau mau ganti jurusan, gimana caranya?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: \n1. Sebelum ujian: Anda dapat mengubah sendiri di menu Biodata (gratis).\n2. Setelah ujian: Hubungi PMB untuk reset (gratis).\n3. Setelah mendapatkan NIM: Surat ke Kepala PMB + Rp 200.000 (maksimal 7 hari).<end_of_turn>\n<start_of_turn>user\nOke, kalau aku mau tanya-tanya lagi, hubungi nomor apa ya?<end_of_turn>\n<start_of_turn>model\nAnda dapat menghubungi PMB melalui:\n1. Telepon: (0286) 321873\n2. WhatsApp: 0857 7504 7504\n3. Email: humas@unsiq.ac.id<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00045",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Bro, kapan aja ya pendaftarannya buat Gelombang 1, 2, sama 3?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. Gelombang 1: November - Desember 2025\n2. Gelombang 2: Januari - April 2026\n3. Gelombang 3: Mei - Juli 2026"
+      },
+      {
+        "role": "user",
+        "content": "Gratis pendaftarannya kapan tuh?"
+      },
+      {
+        "role": "model",
+        "content": "Hanya Gelombang 1 yang memiliki biaya pendaftaran gratis, yaitu pada periode November-Desember 2025."
+      },
+      {
+        "role": "user",
+        "content": "Oh, oke. Kalau aku belum lulus SMA, harus ikut gelombang yang mana nih?"
+      },
+      {
+        "role": "model",
+        "content": "Anda disarankan untuk menunggu Gelombang 2 atau 3 jika Anda belum lulus SMA."
+      }
+    ],
+    "text": "<start_of_turn>user\nBro, kapan aja ya pendaftarannya buat Gelombang 1, 2, sama 3?<end_of_turn>\n<start_of_turn>model\nTentu. Berikut informasinya:\n1. Gelombang 1: November - Desember 2025\n2. Gelombang 2: Januari - April 2026\n3. Gelombang 3: Mei - Juli 2026<end_of_turn>\n<start_of_turn>user\nGratis pendaftarannya kapan tuh?<end_of_turn>\n<start_of_turn>model\nHanya Gelombang 1 yang memiliki biaya pendaftaran gratis, yaitu pada periode November-Desember 2025.<end_of_turn>\n<start_of_turn>user\nOh, oke. Kalau aku belum lulus SMA, harus ikut gelombang yang mana nih?<end_of_turn>\n<start_of_turn>model\nAnda disarankan untuk menunggu Gelombang 2 atau 3 jika Anda belum lulus SMA.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00046",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya ingin menanyakan mengenai jadwal ujian untuk masing-masing gelombang Penerimaan Mahasiswa Baru di UNSIQ. Mohon informasinya secara rinci."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Berikut jadwal ujian untuk setiap gelombang PMB UNSIQ:\n1. Gelombang 1: Desember 2025\n2. Gelombang 2: Mei 2026\n3. Gelombang 3: Agustus 2026"
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Apakah ada perbedaan signifikan dalam kuota peserta antara gelombang 1 dengan gelombang lainnya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Gelombang 1 memiliki kuota peserta terbanyak dibandingkan gelombang lainnya."
+      },
+      {
+        "role": "user",
+        "content": "Kemudian, untuk biaya pendaftarannya, bagaimana perbedaannya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. Gelombang 1: Rp 0 (GRATIS)\n2. Gelombang 2: Rp 250.000\n3. Gelombang 3: Rp 300.000"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya ingin menanyakan mengenai jadwal ujian untuk masing-masing gelombang Penerimaan Mahasiswa Baru di UNSIQ. Mohon informasinya secara rinci.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Berikut jadwal ujian untuk setiap gelombang PMB UNSIQ:\n1. Gelombang 1: Desember 2025\n2. Gelombang 2: Mei 2026\n3. Gelombang 3: Agustus 2026<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Apakah ada perbedaan signifikan dalam kuota peserta antara gelombang 1 dengan gelombang lainnya?<end_of_turn>\n<start_of_turn>model\nTentu. Gelombang 1 memiliki kuota peserta terbanyak dibandingkan gelombang lainnya.<end_of_turn>\n<start_of_turn>user\nKemudian, untuk biaya pendaftarannya, bagaimana perbedaannya?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya:\n1. Gelombang 1: Rp 0 (GRATIS)\n2. Gelombang 2: Rp 250.000\n3. Gelombang 3: Rp 300.000<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00047",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan, jadi agak bingung soal jadwalnya. Kapan ya deadline pembayaran angsuran pertama untuk masing-masing gelombang PMB?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut informasi mengenai jadwal bayar angsuran 1 untuk masing-masing gelombang:\n1. Gelombang 1: Desember 2025\n2. Gelombang 2: 15 Mei 2026\n3. Gelombang 3: 15 Agustus 2026"
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi kalau saya daftar gelombang 1, saya harus bayar sebelum Desember ya? Apakah ada perbedaan keuntungan jika saya memilih gelombang 1 selain gratisnya biaya pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Tepat. Anda harus membayar angsuran pertama sebelum Desember 2025. Selain biaya pendaftaran yang gratis, keuntungan memilih Gelombang 1 adalah Anda bisa mulai kuliah lebih cepat dan mendapatkan kuota terbanyak."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih informasinya. Kalau saya belum yakin dengan kelengkapan dokumen, sebaiknya saya ikut gelombang berapa?"
+      },
+      {
+        "role": "model",
+        "content": "Sebaiknya Anda menunggu Gelombang 2 atau Gelombang 3. Tips memilih gelombang menyatakan bahwa jika Anda belum lulus SMA, sebaiknya menunggu gelombang tersebut."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, jadi agak bingung soal jadwalnya. Kapan ya deadline pembayaran angsuran pertama untuk masing-masing gelombang PMB?<end_of_turn>\n<start_of_turn>model\nBaik. Berikut informasi mengenai jadwal bayar angsuran 1 untuk masing-masing gelombang:\n1. Gelombang 1: Desember 2025\n2. Gelombang 2: 15 Mei 2026\n3. Gelombang 3: 15 Agustus 2026<end_of_turn>\n<start_of_turn>user\nOh, jadi kalau saya daftar gelombang 1, saya harus bayar sebelum Desember ya? Apakah ada perbedaan keuntungan jika saya memilih gelombang 1 selain gratisnya biaya pendaftaran?<end_of_turn>\n<start_of_turn>model\nTepat. Anda harus membayar angsuran pertama sebelum Desember 2025. Selain biaya pendaftaran yang gratis, keuntungan memilih Gelombang 1 adalah Anda bisa mulai kuliah lebih cepat dan mendapatkan kuota terbanyak.<end_of_turn>\n<start_of_turn>user\nTerima kasih informasinya. Kalau saya belum yakin dengan kelengkapan dokumen, sebaiknya saya ikut gelombang berapa?<end_of_turn>\n<start_of_turn>model\nSebaiknya Anda menunggu Gelombang 2 atau Gelombang 3. Tips memilih gelombang menyatakan bahwa jika Anda belum lulus SMA, sebaiknya menunggu gelombang tersebut.<end_of_turn>",
+    "num_turns": 6
+  },
+  {
+    "id": "synth_alur_00048",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya sangat ingin masuk UNSIQ, tapi saya khawatir dengan biaya dan kapan dia bisa mulai kuliah. Jika dia mendaftar di Gelombang 2, kapan perkuliahan akan dimulai?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumussalam. Jika Anda mendaftar di Gelombang 2, perkuliahan akan dimulai pada bulan Juni 2026."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, berapa biaya pendaftarannya di Gelombang 2? Saya ingin memastikan anggaran kami cukup."
+      },
+      {
+        "role": "model",
+        "content": "Biaya pendaftarannya adalah Rp 250.000."
+      },
+      {
+        "role": "user",
+        "content": "Apakah ada keuntungan jika mendaftar di Gelombang 1? Anak saya masih harus mempersiapkan beberapa dokumen."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut beberapa keuntungan mendaftar di Gelombang 1: 1. Biaya pendaftaran gratis. 2. Bisa mulai kuliah lebih cepat. 3. Kuota terbanyak."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih banyak atas informasinya. Semoga Allah memudahkan anak saya untuk bisa berkuliah di UNSIQ."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga sukses untuk anak Anda."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya sangat ingin masuk UNSIQ, tapi saya khawatir dengan biaya dan kapan dia bisa mulai kuliah. Jika dia mendaftar di Gelombang 2, kapan perkuliahan akan dimulai?<end_of_turn>\n<start_of_turn>model\nWaalaikumussalam. Jika Anda mendaftar di Gelombang 2, perkuliahan akan dimulai pada bulan Juni 2026.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Lalu, berapa biaya pendaftarannya di Gelombang 2? Saya ingin memastikan anggaran kami cukup.<end_of_turn>\n<start_of_turn>model\nBiaya pendaftarannya adalah Rp 250.000.<end_of_turn>\n<start_of_turn>user\nApakah ada keuntungan jika mendaftar di Gelombang 1? Anak saya masih harus mempersiapkan beberapa dokumen.<end_of_turn>\n<start_of_turn>model\nTentu. Berikut beberapa keuntungan mendaftar di Gelombang 1: 1. Biaya pendaftaran gratis. 2. Bisa mulai kuliah lebih cepat. 3. Kuota terbanyak.<end_of_turn>\n<start_of_turn>user\nTerima kasih banyak atas informasinya. Semoga Allah memudahkan anak saya untuk bisa berkuliah di UNSIQ.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga sukses untuk anak Anda.<end_of_turn>",
+    "num_turns": 8
+  },
+  {
+    "id": "synth_alur_00049",
+    "source": "synthetic_alur_pendaftaran_v1",
+    "category": "alur_pendaftaran",
+    "persona": "staf_pmb",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin menanyakan mengenai jadwal PMB UNSIQ. Saya tertarik untuk mendaftar, namun masih ragu memilih gelombang 1 atau gelombang 2. Apakah ada perbedaan signifikan selain dari biaya pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Perbedaan signifikan antara Gelombang 1 dan Gelombang 2 adalah biaya pendaftaran, waktu perkuliahan dimulai, dan kuota peserta. Gelombang 1 menawarkan pendaftaran gratis, perkuliahan dimulai lebih cepat, dan memiliki kuota terbanyak."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas informasinya. Jika saya memilih Gelombang 1, apakah ada keuntungan lain selain bisa memulai perkuliahan lebih cepat? Apakah ada pengaruhnya terhadap peluang mendapatkan beasiswa atau program pertukaran pelajar ke luar negeri?"
+      },
+      {
+        "role": "model",
+        "content": "Selain memulai perkuliahan lebih cepat, Gelombang 1 memiliki kuota peserta terbanyak. Informasi mengenai beasiswa dan program pertukaran pelajar dapat Anda peroleh di situs web resmi UNSIQ atau dengan menghubungi bagian kemahasiswaan."
+      },
+      {
+        "role": "user",
+        "content": "Saya mengerti. Satu pertanyaan terakhir, apakah ada persyaratan khusus yang berbeda antara gelombang 1 dan gelombang 2 terkait dengan kelengkapan dokumen pendaftaran?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Tidak ada perbedaan persyaratan dokumen antara Gelombang 1 dan Gelombang 2. Persyaratan umum dapat dilihat pada panduan PMB yang tersedia di situs web UNSIQ."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya ingin menanyakan mengenai jadwal PMB UNSIQ. Saya tertarik untuk mendaftar, namun masih ragu memilih gelombang 1 atau gelombang 2. Apakah ada perbedaan signifikan selain dari biaya pendaftaran?<end_of_turn>\n<start_of_turn>model\nTentu. Perbedaan signifikan antara Gelombang 1 dan Gelombang 2 adalah biaya pendaftaran, waktu perkuliahan dimulai, dan kuota peserta. Gelombang 1 menawarkan pendaftaran gratis, perkuliahan dimulai lebih cepat, dan memiliki kuota terbanyak.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas informasinya. Jika saya memilih Gelombang 1, apakah ada keuntungan lain selain bisa memulai perkuliahan lebih cepat? Apakah ada pengaruhnya terhadap peluang mendapatkan beasiswa atau program pertukaran pelajar ke luar negeri?<end_of_turn>\n<start_of_turn>model\nSelain memulai perkuliahan lebih cepat, Gelombang 1 memiliki kuota peserta terbanyak. Informasi mengenai beasiswa dan program pertukaran pelajar dapat Anda peroleh di situs web resmi UNSIQ atau dengan menghubungi bagian kemahasiswaan.<end_of_turn>\n<start_of_turn>user\nSaya mengerti. Satu pertanyaan terakhir, apakah ada persyaratan khusus yang berbeda antara gelombang 1 dan gelombang 2 terkait dengan kelengkapan dokumen pendaftaran?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Tidak ada perbedaan persyaratan dokumen antara Gelombang 1 dan Gelombang 2. Persyaratan umum dapat dilihat pada panduan PMB yang tersedia di situs web UNSIQ.<end_of_turn>",
+    "num_turns": 6
+  }
+]

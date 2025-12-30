@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 """
-Clean and Merge Dataset
-Menggabungkan semua file *_clean.json dari data/raw/categories,
-menghapus field 'thought', dan menyimpan dalam format siap training.
+Regenerate multiturn_snk_clean.json from multiturn_snk_300.json
+Properly removes thinking content from model responses.
 """
 
 import os
 import json
-import glob
 from typing import List, Dict
 
-INPUT_DIR = "data/raw/categories"
-OUTPUT_DIR = "data/merged"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "multiturn_merged_clean.json")
+INPUT_FILE = "data/raw/categories/multiturn_snk_300.json"
+OUTPUT_FILE = "data/raw/categories/multiturn_snk_clean.json"
 
 
 def is_thinking_content(content: str) -> bool:
@@ -36,7 +33,8 @@ def is_thinking_content(content: str) -> bool:
         "present the", "list the", "give the", "tell the user",
         "acknowledge", "direct the user", "direct them",
         "a polite", "a formal", "a courteous", "reiterate the",
-        "provide a concise", "provide the relevant"
+        "provide a concise", "provide the relevant",
+        "process verification requires"  # Mixed English/Indonesian thinking
     ]
     
     # Pattern 3: Numbered analysis format (1. Analyze: 2. Retrieve: 3. Answer:)
@@ -67,7 +65,7 @@ def is_thinking_content(content: str) -> bool:
 
 
 def remove_thought_from_conversation(conversation: List[Dict]) -> List[Dict]:
-    """Remove 'thought' field from all messages and filter consecutive model messages."""
+    """Remove 'thought' field from all messages and filter thinking content."""
     cleaned = []
     for msg in conversation:
         # Skip messages that only contain thought (no actual content)
@@ -115,23 +113,24 @@ def parse_conversation_from_output(output_str: str) -> List[Dict]:
         return []
 
 
-def process_file(filepath: str) -> List[Dict]:
-    """Process a single JSON file."""
-    print(f"Processing: {filepath}")
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"  Error parsing {filepath}: {e}")
-        return []
+def main():
+    print("=" * 60)
+    print("REGENERATE SNK CLEAN DATASET")
+    print("=" * 60)
     
-    if not data:
-        print(f"  Empty file: {filepath}")
-        return []
+    # Load raw data
+    print(f"\nLoading: {INPUT_FILE}")
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    print(f"Loaded {len(data)} items")
     
     cleaned_data = []
+    skipped_items = []
+    
     for item in data:
         conv = None
+        item_id = item.get("id", "unknown")
         
         # Format 1: conversation field langsung (format baru)
         if "conversation" in item and isinstance(item.get("conversation"), list):
@@ -139,99 +138,68 @@ def process_file(filepath: str) -> List[Dict]:
         # Format 2: conversation dalam field output sebagai JSON string (format lama)
         elif "output" in item and isinstance(item.get("output"), str):
             conv = parse_conversation_from_output(item["output"])
-            if conv:
-                # Hapus field lama yang tidak perlu
-                item.pop("output", None)
-                item.pop("instruction", None)
-                item.pop("input", None)
         
         if conv:
             cleaned_conv = remove_thought_from_conversation(conv)
             
-            # Skip if conversation became too short
+            # Check if conversation became too short
             if len(cleaned_conv) < 2:
+                skipped_items.append(item_id)
                 continue
             
-            item["conversation"] = cleaned_conv
-            item["text"] = rebuild_text_field(cleaned_conv)
-            item["num_turns"] = len(cleaned_conv)
-            cleaned_data.append(item)
+            # Create clean item
+            clean_item = {
+                "id": item.get("id"),
+                "source": item.get("source", "synthetic_snk_v1"),
+                "category": item.get("category", "snk"),
+                "subcategory": item.get("subcategory"),
+                "persona": item.get("persona"),
+                "complexity": item.get("complexity"),
+                "conversation": cleaned_conv,
+                "text": rebuild_text_field(cleaned_conv),
+                "num_turns": len(cleaned_conv)
+            }
+            cleaned_data.append(clean_item)
     
-    print(f"  Cleaned {len(cleaned_data)} items from {os.path.basename(filepath)}")
-    return cleaned_data
-
-
-def main():
-    print("="*60)
-    print("CLEAN AND MERGE DATASET")
-    print("="*60)
+    print(f"\nCleaned: {len(cleaned_data)} items")
+    if skipped_items:
+        print(f"Skipped {len(skipped_items)} items (too short after cleaning):")
+        for sid in skipped_items[:5]:
+            print(f"  - {sid}")
+        if len(skipped_items) > 5:
+            print(f"  ... and {len(skipped_items) - 5} more")
     
-    # Find all *_clean.json files
-    pattern = os.path.join(INPUT_DIR, "*_clean.json")
-    files = glob.glob(pattern)
+    # Sample validation - check for thinking content
+    print("\n--- SAMPLE VALIDATION ---")
+    issues_found = 0
+    for item in cleaned_data[:20]:
+        for msg in item.get("conversation", []):
+            if msg.get("role") == "model":
+                content = msg.get("content", "")
+                if is_thinking_content(content):
+                    print(f"ISSUE in {item['id']}: {content[:100]}...")
+                    issues_found += 1
     
-    # Also include multiturn_alur_pendaftaran_100.json if exists
-    alur_file = os.path.join(INPUT_DIR, "multiturn_alur_pendaftaran_100.json")
-    if os.path.exists(alur_file) and alur_file not in files:
-        files.append(alur_file)
+    if issues_found == 0:
+        print("✓ No thinking content found in first 20 items")
+    else:
+        print(f"⚠ Found {issues_found} potential issues")
     
-    print(f"Found {len(files)} files to process:")
-    for f in files:
-        print(f"  - {os.path.basename(f)}")
-    
-    # Process all files
-    all_data = []
-    for filepath in files:
-        file_data = process_file(filepath)
-        all_data.extend(file_data)
-    
-    print(f"\nTotal items after merge: {len(all_data)}")
-    
-    # Create output directory
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    # Save merged file
+    # Save
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(all_data, f, ensure_ascii=False, indent=2)
+        json.dump(cleaned_data, f, ensure_ascii=False, indent=2)
     
-    print(f"Saved to: {OUTPUT_FILE}")
+    print(f"\n✓ Saved to: {OUTPUT_FILE}")
+    print(f"  Total items: {len(cleaned_data)}")
     
-    # Split dataset 0.8 / 0.1 / 0.1
-    import random
-    random.seed(42)
-    random.shuffle(all_data)
+    # Show sample clean item
+    if cleaned_data:
+        sample = cleaned_data[0]
+        print(f"\n--- SAMPLE CLEAN ITEM ({sample['id']}) ---")
+        for i, msg in enumerate(sample["conversation"][:4]):
+            print(f"  [{msg['role']}]: {msg['content'][:80]}...")
     
-    total = len(all_data)
-    train_size = int(total * 0.8)
-    test_size = int(total * 0.1)
-    
-    train_data = all_data[:train_size]
-    test_data = all_data[train_size:train_size + test_size]
-    eval_data = all_data[train_size + test_size:]
-    
-    print(f"\nSplitting dataset (0.8/0.1/0.1):")
-    print(f"  Train: {len(train_data)}")
-    print(f"  Test:  {len(test_data)}")
-    print(f"  Eval:  {len(eval_data)}")
-    
-    # Save split files
-    train_file = os.path.join(OUTPUT_DIR, "multiturn_train.json")
-    test_file = os.path.join(OUTPUT_DIR, "multiturn_test.json")
-    eval_file = os.path.join(OUTPUT_DIR, "multiturn_eval.json")
-    
-    with open(train_file, "w", encoding="utf-8") as f:
-        json.dump(train_data, f, ensure_ascii=False, indent=2)
-    with open(test_file, "w", encoding="utf-8") as f:
-        json.dump(test_data, f, ensure_ascii=False, indent=2)
-    with open(eval_file, "w", encoding="utf-8") as f:
-        json.dump(eval_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"\nSaved to:")
-    print(f"  {train_file}")
-    print(f"  {test_file}")
-    print(f"  {eval_file}")
-    
-    print("="*60)
+    print("\n" + "=" * 60)
     print("DONE!")
 
 

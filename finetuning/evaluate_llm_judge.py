@@ -59,7 +59,7 @@ class EvalConfig:
     
     # RAG Configuration
     chunks_path: str = "../data/chunks/chunks.jsonl"  # For fact-grounded evaluation
-    rag_top_k: int = 3  # Number of chunks to retrieve per question
+    rag_top_k: int = 4  # Number of chunks to retrieve per question
     
     # Batch processing - A100 80GB optimized
     generation_batch_size: int = 16   # For generating responses
@@ -67,9 +67,9 @@ class EvalConfig:
     max_test_samples: int = 100       # Number of samples to evaluate
     
     # Generation parameters
-    max_new_tokens: int = 256
-    temperature: float = 0.7
-    top_p: float = 0.95
+    max_new_tokens: int = 768
+    temperature: float = 0.4
+    top_p: float = 0.9
     
     # vLLM Settings for A100 80GB
     gpu_memory_utilization: float = 0.90

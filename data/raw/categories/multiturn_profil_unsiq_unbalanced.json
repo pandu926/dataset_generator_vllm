@@ -1,0 +1,837 @@
+[
+  {
+    "id": "PI10",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "identitas",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+
+      {
+        "role": "user",
+        "content": "Oh iya, kula kepiye muga wonten beasiswa, merga arep nyambi kerja. Kapan wonten informasi ngenai beasiswa?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Informasi mengenai luas area kampus tidak tersedia dalam dokumen ini. Untuk informasi lebih lanjut, Anda dapat mengunjungi website UNSIQ di unsiq.ac.id atau menghubungi email info@unsiq.ac.id. Informasi mengenai beasiswa juga tidak tersedia. Silakan periksa website UNSIQ untuk informasi lebih lanjut."
+      }
+    ],
+    "text": "<start_of_turn>user\nSugeng rawuh! Saya warga Wonosobo, numpang tanya. Kampus UNSIQ iki areane kena pirsa sak durung? Kalu areane gede, kira-kira cocok kanggo mahasiswa sing arep nyambi kerja?<end_of_turn>\n<start_of_turn>user\nOh iya, kula kepiye muga wonten beasiswa, merga arep nyambi kerja. Kapan wonten informasi ngenai beasiswa?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Informasi mengenai luas area kampus tidak tersedia dalam dokumen ini. Untuk informasi lebih lanjut, Anda dapat mengunjungi website UNSIQ di unsiq.ac.id atau menghubungi email info@unsiq.ac.id. Informasi mengenai beasiswa juga tidak tersedia. Silakan periksa website UNSIQ untuk informasi lebih lanjut.<end_of_turn>\n",
+    "num_turns": 3
+  },
+  {
+    "id": "PS06",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "sejarah",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Anak saya ingin melanjutkan studi Manajemen di UNSIQ. Saya dengar sebelum UNSIQ ada STIE-YPIIQ. Bisa tolong jelaskan bagaimana STIE-YPIIQ bergabung menjadi UNSIQ? Saya khawatir perubahan ini berpengaruh pada kualitas pendidikan anak saya."
+      },
+      {
+        "role": "model",
+        "content": "Baik. STIE-YPIIQ berdiri pada tahun 1999, menawarkan program S1 Manajemen dan Akuntansi, serta D3 Manajemen Informatika. Pada tahun 2001, STIE-YPIIQ bergabung dengan IIQ dan AKPER, membentuk Universitas Sains Al-Qur'an (UNSIQ). Penggabungan ini bertujuan untuk memperluas cakupan ilmu pengetahuan dan meningkatkan kualitas pendidikan. UNSIQ mengintegrasikan keunggulan kurikulum dari lembaga-lembaga sebelumnya dan berkomitmen untuk terus meningkatkan kualitas pembelajaran."
+      },
+      {
+        "role": "user",
+        "content": "Apakah kurikulum Manajemen di UNSIQ sekarang sama dengan yang dulu ada di STIE-YPIIQ? Saya khawatir materi yang diajarkan tidak lagi relevan dengan perkembangan zaman."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Kurikulum program Manajemen di UNSIQ secara berkala ditinjau dan diperbarui untuk memastikan relevansinya dengan perkembangan zaman dan kebutuhan industri. UNSIQ berupaya untuk memberikan pendidikan yang komprehensif dan adaptif."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Anak saya ingin melanjutkan studi Manajemen di UNSIQ. Saya dengar sebelum UNSIQ ada STIE-YPIIQ. Bisa tolong jelaskan bagaimana STIE-YPIIQ bergabung menjadi UNSIQ? Saya khawatir perubahan ini berpengaruh pada kualitas pendidikan anak saya.<end_of_turn>\n<start_of_turn>model\nBaik. STIE-YPIIQ berdiri pada tahun 1999, menawarkan program S1 Manajemen dan Akuntansi, serta D3 Manajemen Informatika. Pada tahun 2001, STIE-YPIIQ bergabung dengan IIQ dan AKPER, membentuk Universitas Sains Al-Qur'an (UNSIQ). Penggabungan ini bertujuan untuk memperluas cakupan ilmu pengetahuan dan meningkatkan kualitas pendidikan. UNSIQ mengintegrasikan keunggulan kurikulum dari lembaga-lembaga sebelumnya dan berkomitmen untuk terus meningkatkan kualitas pembelajaran.<end_of_turn>\n<start_of_turn>user\nApakah kurikulum Manajemen di UNSIQ sekarang sama dengan yang dulu ada di STIE-YPIIQ? Saya khawatir materi yang diajarkan tidak lagi relevan dengan perkembangan zaman.<end_of_turn>\n<start_of_turn>model\nTentu. Kurikulum program Manajemen di UNSIQ secara berkala ditinjau dan diperbarui untuk memastikan relevansinya dengan perkembangan zaman dan kebutuhan industri. UNSIQ berupaya untuk memberikan pendidikan yang komprehensif dan adaptif.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas penjelasannya. Semoga anak saya bisa mendapatkan pendidikan yang berkualitas di UNSIQ.<end_of_turn>\n",
+    "num_turns": 5
+  },
+  {
+    "id": "PS10",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "sejarah",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+
+      {
+        "role": "user",
+        "content": "UNSIQ itu awalnya dari kapan sih? Detailnya dong, tahun berapa aja?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. 1987: Pendirian Yayasan Ilmu-Ilmu Al-Qur'an (YIIQ)\n2. 1988: Berdiri Institut Ilmu Al-Qur'an (IIQ)\n3. 1996: Berdiri Akademi Keperawatan (AKPER)\n4. 1999: Berdiri STIE-YPIIQ\n5. 2001: Peleburan 3 Lembaga menjadi UNSIQ"
+      },
+      {
+        "role": "user",
+        "content": "Jadi sebelum UNSIQ, ada lembaga lain ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Sebelum UNSIQ, terdapat 3 lembaga:\n1. IIQ (Institut Ilmu Al-Qur'an)\n2. AKPER (Akademi Keperawatan)\n3. STIE (Sekolah Tinggi Ilmu Ekonomi)"
+      }
+    ],
+    "text": "<start_of_turn>user\nJadi, UNSIQ itu awalnya dari kapan sih?<end_of_turn>\n<start_of_turn>user\nDetailnya dong, tahun berapa aja?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya:\n1. 1987: Pendirian Yayasan Ilmu-Ilmu Al-Qur'an (YIIQ)\n2. 1988: Berdiri Institut Ilmu Al-Qur'an (IIQ)\n3. 1996: Berdiri Akademi Keperawatan (AKPER)\n4. 1999: Berdiri STIE-YPIIQ\n5. 2001: Peleburan 3 Lembaga menjadi UNSIQ<end_of_turn>\n<start_of_turn>user\nJadi sebelum UNSIQ, ada lembaga lain ya?<end_of_turn>\n<start_of_turn>model\nTentu. Sebelum UNSIQ, terdapat 3 lembaga:\n1. IIQ (Institut Ilmu Al-Qur'an)\n2. AKPER (Akademi Keperawatan)\n3. STIE (Sekolah Tinggi Ilmu Ekonomi)<end_of_turn>\n",
+    "num_turns": 5
+  },
+  {
+    "id": "PV04",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan, dan saya lihat di website UNSIQ ada istilah 'transformasi, humanis, dan qurani'. Bisa dijelaskan apa maksud dari ketiga karakteristik itu? Agak membingungkan ya..."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Berikut penjelasannya:\n1. **Transformatif:** UNSIQ bertujuan untuk membawa perubahan positif bagi mahasiswa dan masyarakat luas.\n2. **Humanis:** Penekanan pada pengembangan nilai-nilai kemanusiaan dan kepedulian sosial.\n3. **Qur'ani:** Pendidikan di UNSIQ didasarkan pada nilai-nilai Al-Qur'an, yang tercermin dalam program 'Qur'anisasi sains dengan saintifikasi Al-Qur'an', yaitu mengintegrasikan ilmu pengetahuan modern dengan nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Oh, jadi 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' itu maksudnya apa ya? Kedengarannya agak rumit..."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' berarti UNSIQ mengintegrasikan ilmu pengetahuan modern dengan nilai-nilai yang terdapat dalam Al-Qur'an. Dengan kata lain, kita berusaha memahami sains melalui perspektif Al-Qur'an, dan juga menerapkan nilai-nilai Al-Qur'an dalam pengembangan ilmu pengetahuan."
+      },
+      {
+        "role": "user",
+        "content": "Baik, sekarang saya mengerti. Terima kasih atas penjelasannya!"
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga penjelasan tersebut bermanfaat bagi Anda. Jika ada pertanyaan lain, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, dan saya lihat di website UNSIQ ada istilah 'transformasi, humanis, dan qurani'. Bisa dijelaskan apa maksud dari ketiga karakteristik itu? Agak membingungkan ya...<end_of_turn>\n<start_of_turn>model\nElaborate on this specific aspect to provide a more complete understanding.<end_of_turn>\n<start_of_turn>model\nBaik. Berikut penjelasannya:\n1. **Transformatif:** UNSIQ bertujuan untuk membawa perubahan positif bagi mahasiswa dan masyarakat luas.\n2. **Humanis:** Penekanan pada pengembangan nilai-nilai kemanusiaan dan kepedulian sosial.\n3. **Qur'ani:** Pendidikan di UNSIQ didasarkan pada nilai-nilai Al-Qur'an, yang tercermin dalam program 'Qur'anisasi sains dengan saintifikasi Al-Qur'an', yaitu mengintegrasikan ilmu pengetahuan modern dengan nilai-nilai Al-Qur'an.<end_of_turn>\n<start_of_turn>user\nOh, jadi 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' itu maksudnya apa ya? Kedengarannya agak rumit...<end_of_turn>\n<start_of_turn>model\nTentu. 'Qur'anisasi sains dengan saintifikasi Al-Qur'an' berarti UNSIQ mengintegrasikan ilmu pengetahuan modern dengan nilai-nilai yang terdapat dalam Al-Qur'an. Dengan kata lain, kita berusaha memahami sains melalui perspektif Al-Qur'an, dan juga menerapkan nilai-nilai Al-Qur'an dalam pengembangan ilmu pengetahuan.<end_of_turn>\n<start_of_turn>user\nBaik, sekarang saya mengerti. Terima kasih atas penjelasannya!<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga penjelasan tersebut bermanfaat bagi Anda. Jika ada pertanyaan lain, jangan ragu untuk bertanya.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PV07",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, itu Qur'anisasi sains tuh maksudnya apa sih?"
+      },
+      {
+        "role": "model",
+        "content": "It's a reciprocal process with 'saintifikasi Al-Qur'an', where scientific approaches are applied to understand the Quran."
+      },
+      {
+        "role": "user",
+        "content": "Oh gitu ya. Jadi kayak gimana tuh kuliah di UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Anda akan mendapatkan pengalaman kuliah yang terintegrasi dengan kegiatan keagamaan, seperti 'ngaji' atau membaca Al-Qur'an. Anda menjadi mahasiswa sekaligus santri."
+      },
+      {
+        "role": "user",
+        "content": "Mantap! Ada lagi ciri khas lain?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya: UNSIQ memiliki tiga karakteristik utama: transformatif, humanis, dan Qur'ani."
+      }
+    ],
+    "text": "<start_of_turn>user\nKak, itu Qur'anisasi sains tuh maksudnya apa sih?<end_of_turn>\n<start_of_turn>model\nThe term means integrating the Quran with science.<end_of_turn>\n<start_of_turn>model\nIt's a reciprocal process with 'saintifikasi Al-Qur'an', where scientific approaches are applied to understand the Quran.<end_of_turn>\n<start_of_turn>user\nOh gitu ya. Jadi kayak gimana tuh kuliah di UNSIQ?<end_of_turn>\n<start_of_turn>model\nAnda akan mendapatkan pengalaman kuliah yang terintegrasi dengan kegiatan keagamaan, seperti 'ngaji' atau membaca Al-Qur'an. Anda menjadi mahasiswa sekaligus santri.<end_of_turn>\n<start_of_turn>user\nMantap! Ada lagi ciri khas lain?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya: UNSIQ memiliki tiga karakteristik utama: transformatif, humanis, dan Qur'ani.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PV08",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya sangat khawatir mengirim anak saya ke universitas. Bisakah Anda menjelaskan secara rinci tujuan pendidikan di UNSIQ? Saya ingin memastikan ia mendapatkan pendidikan yang baik secara akademik maupun akhlaknya."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Tujuan pendidikan di UNSIQ adalah mengembangkan Sumber Daya Manusia (SDM) yang unggul dalam beberapa aspek. Berikut informasinya:\n1. Unggul dalam ilmu pengetahuan dan teknologi.\n2. Unggul dalam budi pekerti dan nilai-nilai moral.\n3. Unggul dalam nurani dan spiritualitas.\n4. Sehat dan kuat secara fisik maupun mental.\n5. Siap berkontribusi untuk Indonesia hebat dan peradaban dunia bermartabat. UNSIQ juga menyelenggarakan pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern, mengembangkan mahasiswa menjadi insan berpengetahuan luas dan bermoral tinggi."
+      },
+      {
+        "role": "user",
+        "content": "Apakah UNSIQ juga menyediakan fasilitas yang memadai untuk mendukung kegiatan belajar mengajar dan juga untuk kenyamanan mahasiswa, terutama untuk yang tinggal di asrama?"
+      },
+
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai fasilitas dan akomodasi asrama tidak secara spesifik disebutkan dalam dokumen ini. Namun, UNSIQ memiliki karakteristik yang transformatif, humanis, dan Qur'ani, dengan konsep 'Kuliah plus ngaji' dan 'Jadi mahasiswa plus santri', yang menunjukkan lingkungan belajar yang unik dan terintegrasi."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Apakah ada informasi mengenai perkiraan biaya kuliah dan biaya hidup di Wonosobo?"
+      },
+      {
+        "role": "model",
+        "content": "Informasi mengenai perkiraan biaya kuliah dan biaya hidup di Wonosobo tidak tersedia dalam dokumen ini. Anda dapat mengunjungi situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa untuk informasi lebih lanjut."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya sangat khawatir mengirim anak saya ke universitas. Bisakah Anda menjelaskan secara rinci tujuan pendidikan di UNSIQ? Saya ingin memastikan ia mendapatkan pendidikan yang baik secara akademik maupun akhlaknya.<end_of_turn>\n<start_of_turn>model\nBaik. Tujuan pendidikan di UNSIQ adalah mengembangkan Sumber Daya Manusia (SDM) yang unggul dalam beberapa aspek. Berikut informasinya:\n1. Unggul dalam ilmu pengetahuan dan teknologi.\n2. Unggul dalam budi pekerti dan nilai-nilai moral.\n3. Unggul dalam nurani dan spiritualitas.\n4. Sehat dan kuat secara fisik maupun mental.\n5. Siap berkontribusi untuk Indonesia hebat dan peradaban dunia bermartabat. UNSIQ juga menyelenggarakan pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern, mengembangkan mahasiswa menjadi insan berpengetahuan luas dan bermoral tinggi.<end_of_turn>\n<start_of_turn>user\nApakah UNSIQ juga menyediakan fasilitas yang memadai untuk mendukung kegiatan belajar mengajar dan juga untuk kenyamanan mahasiswa, terutama untuk yang tinggal di asrama?<end_of_turn>\n<start_of_turn>model\nI must respond truthfully, stating the lack of facility details in the provided text, while still offering a helpful and professional response.<end_of_turn>\n<start_of_turn>model\nTentu. Informasi mengenai fasilitas dan akomodasi asrama tidak secara spesifik disebutkan dalam dokumen ini. Namun, UNSIQ memiliki karakteristik yang transformatif, humanis, dan Qur'ani, dengan konsep 'Kuliah plus ngaji' dan 'Jadi mahasiswa plus santri', yang menunjukkan lingkungan belajar yang unik dan terintegrasi.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas penjelasannya. Apakah ada informasi mengenai perkiraan biaya kuliah dan biaya hidup di Wonosobo?<end_of_turn>\n<start_of_turn>model\nI must state that this information is not available in the provided document, maintaining a professional tone.<end_of_turn>\n<start_of_turn>model\nInformasi mengenai perkiraan biaya kuliah dan biaya hidup di Wonosobo tidak tersedia dalam dokumen ini. Anda dapat mengunjungi situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa untuk informasi lebih lanjut.<end_of_turn>\n",
+    "num_turns": 8
+  },
+  {
+    "id": "PV13",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Oke, jadi maksudnya gimana tuh 'unggul dalam ilmu pengetahuan dan teknologi'?"
+      },
+      {
+        "role": "model",
+        "content": "UNSIQ bertujuan menghasilkan SDM yang unggul dalam ilmu pengetahuan dan teknologi. Berikut informasinya:\n1. Pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern.\n2. Pengembangan mahasiswa menjadi insan berpengetahuan luas."
+      }
+    ],
+    "text": "<start_of_turn>user\nUNSIQ tuh gimana kontribusinya buat Indonesia, nih?<end_of_turn>\n<start_of_turn>model\nList the characteristics concisely.<end_of_turn>\n<start_of_turn>user\nOke, jadi maksudnya gimana tuh 'unggul dalam ilmu pengetahuan dan teknologi'?<end_of_turn>\n<start_of_turn>model\nConnect the vision with the mission to explain the meaning.<end_of_turn>\n<start_of_turn>model\nUNSIQ bertujuan menghasilkan SDM yang unggul dalam ilmu pengetahuan dan teknologi. Berikut informasinya:\n1. Pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern.\n2. Pengembangan mahasiswa menjadi insan berpengetahuan luas.<end_of_turn>\n",
+    "num_turns": 2
+  },
+  {
+    "id": "PV14",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Yth. Bagian Penerimaan Mahasiswa, saya tertarik dengan UNSIQ. Bisakah Anda menjelaskan bagaimana UNSIQ mengintegrasikan nilai-nilai Islam dalam proses pendidikan?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ mengintegrasikan nilai-nilai Islam melalui pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern. Hal ini tercermin dalam beberapa karakteristik unik:\n1.  Kuliah plus ngaji: Mahasiswa mengikuti perkuliahan reguler sekaligus mendalami ilmu agama melalui kegiatan 'ngaji'.\n2.  Jadi mahasiswa plus santri: Mahasiswa berstatus mahasiswa sekaligus santri, menyeimbangkan pengembangan intelektual dan spiritual.\n3.  Qur'anisasi sains dengan saintifikasi Al-Qur'an: Menggabungkan ilmu sains modern dengan nilai-nilai Al-Qur'an."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Bagaimana UNSIQ mempersiapkan mahasiswanya untuk berkontribusi secara global, mengingat visi universitas mencakup peradaban dunia bermartabat?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ bertujuan mengembangkan Sumber Daya Manusia (SDM) Unggul yang siap berkontribusi untuk Indonesia hebat dan peradaban dunia bermartabat. Visi ini mendorong pengembangan mahasiswa yang memiliki kompetensi tinggi dalam ilmu pengetahuan dan teknologi, serta memiliki budi pekerti dan nilai-nilai moral yang luhur, sehingga mampu memberikan dampak positif secara global."
+      },
+      {
+        "role": "user",
+        "content": "Apakah UNSIQ memiliki akreditasi yang baik untuk memastikan kualitas pendidikan yang tinggi?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Informasi mengenai akreditasi UNSIQ tidak tercantum dalam dokumen ini. Untuk informasi lebih lanjut, kami sarankan Anda untuk mengunjungi situs web resmi UNSIQ atau menghubungi bagian akademik."
+      }
+    ],
+    "text": "<start_of_turn>user\nYth. Bagian Penerimaan Mahasiswa, saya tertarik dengan UNSIQ. Bisakah Anda menjelaskan bagaimana UNSIQ mengintegrasikan nilai-nilai Islam dalam proses pendidikan?<end_of_turn>\n<start_of_turn>model\nElaborate on the specific characteristics that define UNSIQ's approach.<end_of_turn>\n<start_of_turn>model\nBaik. UNSIQ mengintegrasikan nilai-nilai Islam melalui pendidikan berbasis nilai Al-Qur'an terintegrasi ilmu pengetahuan modern. Hal ini tercermin dalam beberapa karakteristik unik:\n1.  Kuliah plus ngaji: Mahasiswa mengikuti perkuliahan reguler sekaligus mendalami ilmu agama melalui kegiatan 'ngaji'.\n2.  Jadi mahasiswa plus santri: Mahasiswa berstatus mahasiswa sekaligus santri, menyeimbangkan pengembangan intelektual dan spiritual.\n3.  Qur'anisasi sains dengan saintifikasi Al-Qur'an: Menggabungkan ilmu sains modern dengan nilai-nilai Al-Qur'an.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas penjelasannya. Bagaimana UNSIQ mempersiapkan mahasiswanya untuk berkontribusi secara global, mengingat visi universitas mencakup peradaban dunia bermartabat?<end_of_turn>\n<start_of_turn>model\nWhile specific programs aren't detailed in the provided context, highlight the development of 'SDM Unggul' and the broader vision.<end_of_turn>\n<start_of_turn>model\nTentu. UNSIQ bertujuan mengembangkan Sumber Daya Manusia (SDM) Unggul yang siap berkontribusi untuk Indonesia hebat dan peradaban dunia bermartabat. Visi ini mendorong pengembangan mahasiswa yang memiliki kompetensi tinggi dalam ilmu pengetahuan dan teknologi, serta memiliki budi pekerti dan nilai-nilai moral yang luhur, sehingga mampu memberikan dampak positif secara global.<end_of_turn>\n<start_of_turn>user\nApakah UNSIQ memiliki akreditasi yang baik untuk memastikan kualitas pendidikan yang tinggi?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Informasi mengenai akreditasi UNSIQ tidak tercantum dalam dokumen ini. Untuk informasi lebih lanjut, kami sarankan Anda untuk mengunjungi situs web resmi UNSIQ atau menghubungi bagian akademik.<end_of_turn>\n",
+    "num_turns": 8
+  },
+  {
+    "id": "PV18",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "visi_misi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Yth. Bagian Penerimaan Mahasiswa, saya tertarik dengan program studi di UNSIQ. Bisakah Anda menjelaskan program unggulan yang mendukung pencapaian visi UNSIQ dalam menghasilkan SDM unggul, khususnya dalam aspek ilmu pengetahuan dan teknologi?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Program unggulan UNSIQ adalah integrasi nilai-nilai Al-Qur'an dengan ilmu pengetahuan modern, yang dikenal dengan 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. Hal ini bertujuan untuk menghasilkan lulusan yang tidak hanya unggul dalam bidang ilmu pengetahuan dan teknologi, tetapi juga memiliki karakter mulia.\n\nUntuk kontribusi dalam peradaban dunia, UNSIQ berupaya menanamkan nilai-nilai global dalam pendidikan. Informasi lebih lanjut mengenai program studi dan peluang internasional dapat Anda peroleh melalui website resmi UNSIQ atau dengan menghubungi kami kembali."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Apakah UNSIQ memiliki kerjasama dengan universitas asing untuk program pertukaran pelajar atau riset bersama?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai kerjasama dengan universitas asing untuk program pertukaran pelajar atau riset bersama tidak tersedia dalam dokumen ini. Namun, Anda dapat menemukan informasi tersebut di website resmi UNSIQ atau menanyakannya langsung kepada pihak terkait."
+      },
+      {
+        "role": "user",
+        "content": "Baik, saya mengerti. Satu pertanyaan terakhir, bagaimana UNSIQ memastikan bahwa lulusannya memiliki budi pekerti dan nilai-nilai moral yang unggul, sesuai dengan visi yang ditetapkan?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. UNSIQ memastikan hal tersebut melalui beberapa cara: \n1.  Pendidikan berbasis nilai Al-Qur'an terintegrasi dalam seluruh proses pembelajaran.\n2.  Program 'Kuliah plus ngaji' yang menggabungkan pembelajaran akademik dengan pendalaman ilmu agama.\n3.  Pembentukan karakter mahasiswa menjadi insan berpengetahuan luas dan bermoral tinggi, sesuai dengan misi UNSIQ."
+      }
+    ],
+    "text": "<start_of_turn>user\nYth. Bagian Penerimaan Mahasiswa, saya tertarik dengan program studi di UNSIQ. Bisakah Anda menjelaskan program unggulan yang mendukung pencapaian visi UNSIQ dalam menghasilkan SDM unggul, khususnya dalam aspek ilmu pengetahuan dan teknologi?<end_of_turn>\n<start_of_turn>model\nRespond with a concise explanation of the core program aligning with the user's request.<end_of_turn>\n<start_of_turn>model\nBaik. Program unggulan UNSIQ adalah integrasi nilai-nilai Al-Qur'an dengan ilmu pengetahuan modern, yang dikenal dengan 'Qur'anisasi sains dengan saintifikasi Al-Qur'an'. Hal ini bertujuan untuk menghasilkan lulusan yang tidak hanya unggul dalam bidang ilmu pengetahuan dan teknologi, tetapi juga memiliki karakter mulia.\n\nUntuk kontribusi dalam peradaban dunia, UNSIQ berupaya menanamkan nilai-nilai global dalam pendidikan. Informasi lebih lanjut mengenai program studi dan peluang internasional dapat Anda peroleh melalui website resmi UNSIQ atau dengan menghubungi kami kembali.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Apakah UNSIQ memiliki kerjasama dengan universitas asing untuk program pertukaran pelajar atau riset bersama?<end_of_turn>\n<start_of_turn>model\nTentu. Informasi mengenai kerjasama dengan universitas asing untuk program pertukaran pelajar atau riset bersama tidak tersedia dalam dokumen ini. Namun, Anda dapat menemukan informasi tersebut di website resmi UNSIQ atau menanyakannya langsung kepada pihak terkait.<end_of_turn>\n<start_of_turn>user\nBaik, saya mengerti. Satu pertanyaan terakhir, bagaimana UNSIQ memastikan bahwa lulusannya memiliki budi pekerti dan nilai-nilai moral yang unggul, sesuai dengan visi yang ditetapkan?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. UNSIQ memastikan hal tersebut melalui beberapa cara: \n1.  Pendidikan berbasis nilai Al-Qur'an terintegrasi dalam seluruh proses pembelajaran.\n2.  Program 'Kuliah plus ngaji' yang menggabungkan pembelajaran akademik dengan pendalaman ilmu agama.\n3.  Pembentukan karakter mahasiswa menjadi insan berpengetahuan luas dan bermoral tinggi, sesuai dengan misi UNSIQ.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PF01",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "fakultas",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+    
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Apakah masing-masing fakultas memiliki program studi yang berbeda? Mohon berikan rinciannya."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Berikut informasinya:\n1. Fakultas Tarbiyah dan Ilmu Pendidikan:\n   - Pendidikan Agama Islam (PAI)\n   - Komunikasi dan Penyiaran Islam (KPI)\n2. Fakultas Ilmu Kesehatan:\n   - D3 Keperawatan\n   - D3 Kebidanan\n   - S1 Keperawatan\n   - S1 Kebidanan\n3. Fakultas Ekonomi dan Bisnis:\n   - S1 Manajemen\n   - S1 Akuntansi\n   - D3 Manajemen Informatika"
+      },
+      {
+        "role": "user",
+        "content": "Apakah UNSIQ memiliki program S2 di fakultas-fakultas tersebut? Jika ya, program apa saja yang tersedia?"
+      },
+      {
+        "role": "model",
+        "content": "Informasi mengenai program S2 di masing-masing fakultas tidak disebutkan secara spesifik dalam dokumen yang tersedia. Namun, UNSIQ menyediakan jenjang Pascasarjana (S2) dengan durasi 2-3 tahun."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya tertarik untuk melanjutkan studi di UNSIQ. Bisakah Anda informasikan fakultas apa saja yang tersedia di universitas ini?<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Apakah masing-masing fakultas memiliki program studi yang berbeda? Mohon berikan rinciannya.<end_of_turn>\n<start_of_turn>model\nTentu. Berikut informasinya:\n1. Fakultas Tarbiyah dan Ilmu Pendidikan:\n   - Pendidikan Agama Islam (PAI)\n   - Komunikasi dan Penyiaran Islam (KPI)\n2. Fakultas Ilmu Kesehatan:\n   - D3 Keperawatan\n   - D3 Kebidanan\n   - S1 Keperawatan\n   - S1 Kebidanan\n3. Fakultas Ekonomi dan Bisnis:\n   - S1 Manajemen\n   - S1 Akuntansi\n   - D3 Manajemen Informatika<end_of_turn>\n<start_of_turn>user\nApakah UNSIQ memiliki program S2 di fakultas-fakultas tersebut? Jika ya, program apa saja yang tersedia?<end_of_turn>\n<start_of_turn>model\nInformasi mengenai program S2 di masing-masing fakultas tidak disebutkan secara spesifik dalam dokumen yang tersedia. Namun, UNSIQ menyediakan jenjang Pascasarjana (S2) dengan durasi 2-3 tahun.<end_of_turn>\n",
+    "num_turns": 5
+  },
+  {
+    "id": "PF02",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "fakultas",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Kak, Fakultas Kesehatan punya program studi apa aja sih?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. D3 Keperawatan\n2. D3 Kebidanan\n3. S1 Keperawatan\n4. S1 Kebidanan"
+      },
+      {
+        "role": "user",
+        "content": "Oh iya, lama kuliah masing-masing program berapa tahun?"
+      },
+      {
+        "role": "model",
+        "content": "Durasi kuliah untuk program studi di Fakultas Ilmu Kesehatan adalah:\n1. Program D3: 3 tahun\n2. Program S1: 4 tahun"
+      }
+    ],
+    "text": "<start_of_turn>user\nKak, Fakultas Kesehatan punya program studi apa aja sih?<end_of_turn>\n<start_of_turn>model\nProviding the list of programs in a numbered format.<end_of_turn>\n<start_of_turn>model\nProviding the duration of each program.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya:\n1. D3 Keperawatan\n2. D3 Kebidanan\n3. S1 Keperawatan\n4. S1 Kebidanan<end_of_turn>\n<start_of_turn>user\nOh iya, lama kuliah masing-masing program berapa tahun?<end_of_turn>\n<start_of_turn>model\nProviding the duration information.<end_of_turn>\n<start_of_turn>model\nDurasi kuliah untuk program studi di Fakultas Ilmu Kesehatan adalah:\n1. Program D3: 3 tahun\n2. Program S1: 4 tahun<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PF05",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "fakultas",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula mboten ngertos tengahan. Prodi Keperawatan niki wonten ing UNSIQ, biyaya pethakane mengke?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. UNSIQ memiliki dua program studi Keperawatan, yaitu D3 Keperawatan dan S1 Keperawatan di bawah Fakultas Ilmu Kesehatan. Durasi D3 adalah 3 tahun, sedangkan S1 adalah 4 tahun. Informasi mengenai biaya perkuliahan dapat Anda peroleh dengan menghubungi bagian administrasi UNSIQ atau mengunjungi website resmi kami."
+      },
+      {
+        "role": "user",
+        "content": "Lha, niki wonten beasiswa ngga? Kula pengen kuliah niki, nanging kula mboten kathah duwite."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai beasiswa belum tersedia pada data yang saya miliki. Namun, Anda dapat menghubungi bagian kemahasiswaan UNSIQ untuk mendapatkan informasi lebih lanjut mengenai program beasiswa yang tersedia."
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun, Pak. Kula badhe nyoba hubungi bagian kemahasiswaan."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga berhasil, dan jangan ragu untuk bertanya jika Anda membutuhkan informasi lebih lanjut."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, kula mboten ngertos tengahan. Prodi Keperawatan niki wonten ing UNSIQ, biyaya pethakane mengke?<end_of_turn>\n<start_of_turn>model\nBaik. UNSIQ memiliki dua program studi Keperawatan, yaitu D3 Keperawatan dan S1 Keperawatan di bawah Fakultas Ilmu Kesehatan. Durasi D3 adalah 3 tahun, sedangkan S1 adalah 4 tahun. Informasi mengenai biaya perkuliahan dapat Anda peroleh dengan menghubungi bagian administrasi UNSIQ atau mengunjungi website resmi kami.<end_of_turn>\n<start_of_turn>user\nLha, niki wonten beasiswa ngga? Kula pengen kuliah niki, nanging kula mboten kathah duwite.<end_of_turn>\n<start_of_turn>model\nTentu. Informasi mengenai beasiswa belum tersedia pada data yang saya miliki. Namun, Anda dapat menghubungi bagian kemahasiswaan UNSIQ untuk mendapatkan informasi lebih lanjut mengenai program beasiswa yang tersedia.<end_of_turn>\n<start_of_turn>user\nMatursuwun, Pak. Kula badhe nyoba hubungi bagian kemahasiswaan.<end_of_turn>\n<start_of_turn>model\nA polite farewell.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga berhasil, dan jangan ragu untuk bertanya jika Anda membutuhkan informasi lebih lanjut.<end_of_turn>\n",
+    "num_turns": 7
+  },
+
+  {
+    "id": "PF19",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "fakultas",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, Mas. Saya mau tanya, di UNSIQ ada program S2 apa saja ya? Anak saya pengen lanjut kuliah, tapi saya pinginnya yang nggak terlalu mahal, Mas. Kalau ada beasiswa, lebih bagus."
+      },
+      {
+        "role": "model",
+        "content": "Baik. Informasi mengenai program S2 di UNSIQ belum tersedia secara rinci. Jenjang Pascasarjana tersedia dengan durasi 2-3 tahun. Mengenai informasi beasiswa, saya sarankan untuk menghubungi Fakultas terkait untuk mendapatkan informasi lebih lanjut."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu ya Mas. Kalau Fakultas Ekonomi dan Bisnis, ada S2-nya nggak ya Mas?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Fakultas Ekonomi dan Bisnis saat ini hanya menyediakan program S1 dan D3. Belum ada program S2 di fakultas tersebut. Berikut daftar program yang tersedia: \n1. S1 Manajemen\n2. S1 Akuntansi\n3. D3 Manajemen Informatika"
+      },
+      {
+        "role": "user",
+        "content": "Baiklah Mas, terima kasih banyak informasinya. Semoga Allah mudahkan."
+      },
+      {
+        "role": "model",
+        "content": "Terima kasih kembali. Semoga Anda dan keluarga selalu dalam lindungan Allah SWT."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, Mas. Saya mau tanya, di UNSIQ ada program S2 apa saja ya? Anak saya pengen lanjut kuliah, tapi saya pinginnya yang nggak terlalu mahal, Mas. Kalau ada beasiswa, lebih bagus.<end_of_turn>\n<start_of_turn>model\nBaik. Informasi mengenai program S2 di UNSIQ belum tersedia secara rinci. Jenjang Pascasarjana tersedia dengan durasi 2-3 tahun. Mengenai informasi beasiswa, saya sarankan untuk menghubungi Fakultas terkait untuk mendapatkan informasi lebih lanjut.<end_of_turn>\n<start_of_turn>user\nOh, begitu ya Mas. Kalau Fakultas Ekonomi dan Bisnis, ada S2-nya nggak ya Mas?<end_of_turn>\n<start_of_turn>model\nTentu. Fakultas Ekonomi dan Bisnis saat ini hanya menyediakan program S1 dan D3. Belum ada program S2 di fakultas tersebut. Berikut daftar program yang tersedia: \n1. S1 Manajemen\n2. S1 Akuntansi\n3. D3 Manajemen Informatika<end_of_turn>\n<start_of_turn>user\nBaiklah Mas, terima kasih banyak informasinya. Semoga Allah mudahkan.<end_of_turn>\n<start_of_turn>model\nRespond with a polite closing statement.<end_of_turn>\n<start_of_turn>model\nTerima kasih kembali. Semoga Anda dan keluarga selalu dalam lindungan Allah SWT.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PM01",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "mbkm",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik dengan program Merdeka Belajar Kampus Merdeka di UNSIQ. Bisakah Anda menjelaskan secara rinci mengenai program tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Program Merdeka Belajar Kampus Merdeka (MBKM) di UNSIQ merupakan kerangka kerja yang memberikan fleksibilitas kepada mahasiswa dalam memilih kegiatan akademik dan non-akademik. Struktur programnya adalah skema 5-1-2, yang berarti 5 semester pembelajaran reguler, 1 semester untuk aktivitas Merdeka Belajar, dan 2 semester berikutnya yang dapat disesuaikan. \n\nUNSIQ menawarkan 8 program MBKM, yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya"
+      },
+      {
+        "role": "user",
+        "content": "Apakah program-program MBKM ini diwajibkan, atau bersifat pilihan bagi mahasiswa?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Program-program MBKM bersifat fakultatif, atau atas permintaan mahasiswa. Partisipasi dalam program ini tidak diwajibkan, namun sangat dianjurkan untuk memperluas wawasan dan pengalaman."
+      },
+      {
+        "role": "user",
+        "content": "Bagaimana UNSIQ memfasilitasi pelaksanaan program MBKM ini? Apakah ada dukungan finansial atau sumber daya lainnya?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Implementasi program MBKM di UNSIQ difasilitasi melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lainnya. Ini memungkinkan UNSIQ untuk menyediakan dukungan finansial dan sumber daya yang dibutuhkan bagi mahasiswa yang berpartisipasi."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya tertarik dengan program Merdeka Belajar Kampus Merdeka di UNSIQ. Bisakah Anda menjelaskan secara rinci mengenai program tersebut?<end_of_turn>\n<start_of_turn>model\nBaik. Program Merdeka Belajar Kampus Merdeka (MBKM) di UNSIQ merupakan kerangka kerja yang memberikan fleksibilitas kepada mahasiswa dalam memilih kegiatan akademik dan non-akademik. Struktur programnya adalah skema 5-1-2, yang berarti 5 semester pembelajaran reguler, 1 semester untuk aktivitas Merdeka Belajar, dan 2 semester berikutnya yang dapat disesuaikan. \n\nUNSIQ menawarkan 8 program MBKM, yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya<end_of_turn>\n<start_of_turn>user\nApakah program-program MBKM ini diwajibkan, atau bersifat pilihan bagi mahasiswa?<end_of_turn>\n<start_of_turn>model\nTentu. Program-program MBKM bersifat fakultatif, atau atas permintaan mahasiswa. Partisipasi dalam program ini tidak diwajibkan, namun sangat dianjurkan untuk memperluas wawasan dan pengalaman.<end_of_turn>\n<start_of_turn>user\nBagaimana UNSIQ memfasilitasi pelaksanaan program MBKM ini? Apakah ada dukungan finansial atau sumber daya lainnya?<end_of_turn>\n<start_of_turn>model\nExplain how the programs are facilitated financially.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Implementasi program MBKM di UNSIQ difasilitasi melalui hibah kompetisi dari Kemenag, Kemendikbud, dan instansi lainnya. Ini memungkinkan UNSIQ untuk menyediakan dukungan finansial dan sumber daya yang dibutuhkan bagi mahasiswa yang berpartisipasi.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PM05",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "mbkm",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan, jadi agak bingung soal Kurikulum Merdeka Belajar ini. Apakah program MBKM-nya wajib diikuti atau boleh ikut saja kalau ada waktu?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Program Kurikulum Merdeka Belajar (MBKM) bersifat fakultatif, atau atas permintaan mahasiswa. Partisipasi Anda tidak diwajibkan."
+      },
+      {
+        "role": "user",
+        "content": "Oh, begitu. Lalu, program MBKM di UNSIQ itu ada berapa macam sih? Saya lihat banyak sekali daftarnya."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ memiliki 8 program MBKM, yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya"
+      },
+      {
+        "role": "user",
+        "content": "Kalau program-program ini didanai oleh siapa, ya? Apakah dari pihak kampus?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Program-program MBKM di UNSIQ didanai melalui hibah kompetisi dari berbagai instansi, seperti Kemenag, Kemendikbud, dan instansi lainnya."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan, jadi agak bingung soal Kurikulum Merdeka Belajar ini. Apakah program MBKM-nya wajib diikuti atau boleh ikut saja kalau ada waktu?<end_of_turn>\n<start_of_turn>model\nThe MBKM program is optional and based on student request.<end_of_turn>\n<start_of_turn>model\nBaik. Program Kurikulum Merdeka Belajar (MBKM) bersifat fakultatif, atau atas permintaan mahasiswa. Partisipasi Anda tidak diwajibkan.<end_of_turn>\n<start_of_turn>user\nOh, begitu. Lalu, program MBKM di UNSIQ itu ada berapa macam sih? Saya lihat banyak sekali daftarnya.<end_of_turn>\n<start_of_turn>model\nTentu. UNSIQ memiliki 8 program MBKM, yaitu:\n1. Magang/Praktik Kerja\n2. Asistensi Mengajar di Satuan Pendidikan\n3. Penelitian Akademik\n4. Proyek Kemanusiaan\n5. Wirausaha\n6. Studi Independen\n7. Pertukaran Pelajar (Mobilitas Mahasiswa)\n8. Program Khusus Lainnya<end_of_turn>\n<start_of_turn>user\nKalau program-program ini didanai oleh siapa, ya? Apakah dari pihak kampus?<end_of_turn>\n<start_of_turn>model\nExplain the funding sources.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Program-program MBKM di UNSIQ didanai melalui hibah kompetisi dari berbagai instansi, seperti Kemenag, Kemendikbud, dan instansi lainnya.<end_of_turn>\n",
+    "num_turns": 8
+  },
+  {
+    "id": "PE03",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "epistemologi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya sangat khawatir mengirim putra saya ke universitas. Saya dengar UNSIQ punya konsep harmonis, sinergis, dan integratif. Bisakah Anda jelaskan secara sederhana apa maksudnya? Apakah konsep ini akan membantu membentuk karakter anak saya secara menyeluruh?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu. UNSIQ mengadopsi konsep harmonis, sinergis, dan integratif untuk membentuk mahasiswa secara utuh. Berikut penjelasannya:\n1. **Harmonis:** Menggabungkan berbagai perspektif ilmu dan tradisi secara seimbang.\n2. **Sinergis:** Menciptakan hubungan positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3. **Integratif:** Mengintegrasikan kurikulum, pembelajaran holistik, dan membentuk luaran mahasiswa yang utuh secara intelektual dan spiritual. Konsep ini dirancang untuk membantu membentuk karakter yang kuat dan berakhlak mulia."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu cukup meyakinkan. Lalu, bagaimana konsep ini diterapkan dalam kurikulum dan metode pembelajaran di UNSIQ? Apakah ada perbedaan signifikan dengan universitas lain?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya:\n1. **Kurikulum Terintegrasi:** Mata kuliah dirancang untuk saling terkait, menghubungkan Al-Qur'an dengan sains dan disiplin ilmu lainnya.\n2. **Pembelajaran Holistik:** Pembelajaran tidak hanya fokus pada aspek kognitif, tetapi juga spiritual dan karakter mahasiswa. Metode pembelajaran meliputi diskusi, studi kasus, dan kegiatan pengabdian masyarakat.\nPerbedaan signifikan dengan universitas lain terletak pada penekanan kuat pada integrasi nilai-nilai Islam dalam setiap aspek pembelajaran."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas penjelasannya. Semoga putra saya bisa berkembang dengan baik di UNSIQ."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga putra Anda sukses dan berkembang di UNSIQ. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya sangat khawatir mengirim putra saya ke universitas. Saya dengar UNSIQ punya konsep harmonis, sinergis, dan integratif. Bisakah Anda jelaskan secara sederhana apa maksudnya? Apakah konsep ini akan membantu membentuk karakter anak saya secara menyeluruh?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu. UNSIQ mengadopsi konsep harmonis, sinergis, dan integratif untuk membentuk mahasiswa secara utuh. Berikut penjelasannya:\n1. **Harmonis:** Menggabungkan berbagai perspektif ilmu dan tradisi secara seimbang.\n2. **Sinergis:** Menciptakan hubungan positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3. **Integratif:** Mengintegrasikan kurikulum, pembelajaran holistik, dan membentuk luaran mahasiswa yang utuh secara intelektual dan spiritual. Konsep ini dirancang untuk membantu membentuk karakter yang kuat dan berakhlak mulia.<end_of_turn>\n<start_of_turn>user\nBaik, itu cukup meyakinkan. Lalu, bagaimana konsep ini diterapkan dalam kurikulum dan metode pembelajaran di UNSIQ? Apakah ada perbedaan signifikan dengan universitas lain?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya:\n1. **Kurikulum Terintegrasi:** Mata kuliah dirancang untuk saling terkait, menghubungkan Al-Qur'an dengan sains dan disiplin ilmu lainnya.\n2. **Pembelajaran Holistik:** Pembelajaran tidak hanya fokus pada aspek kognitif, tetapi juga spiritual dan karakter mahasiswa. Metode pembelajaran meliputi diskusi, studi kasus, dan kegiatan pengabdian masyarakat.\nPerbedaan signifikan dengan universitas lain terletak pada penekanan kuat pada integrasi nilai-nilai Islam dalam setiap aspek pembelajaran.<end_of_turn>\n<start_of_turn>user\nTerima kasih atas penjelasannya. Semoga putra saya bisa berkembang dengan baik di UNSIQ.<end_of_turn>\n<start_of_turn>model\nA polite and reassuring closing statement is appropriate.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga putra Anda sukses dan berkembang di UNSIQ. Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PE09",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "epistemologi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya mahasiswa pindahan dari universitas lain. Saya masih agak kesulitan memahami bagaimana riset di UNSIQ ini berbeda, terutama yang berkaitan dengan Al-Qur'an. Apakah ada konsep khusus yang menjadi landasan dalam penelitian di sini?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Penelitian di UNSIQ dilandaskan pada konsep 'Syajarah Al-Qur'an', yang menekankan pada harmonisasi, sinergi, dan integrasi. Berikut penjelasannya:\n\n1. **Harmonis:** Menyatukan berbagai perspektif ilmu dan tradisi dalam kesatuan seimbang.\n2. **Sinergis:** Menciptakan sinergi positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3. **Integratif:** Mengintegrasikan kurikulum, pembelajaran, dan menghasilkan luaran mahasiswa yang utuh secara intelektual dan spiritual."
+      },
+      {
+        "role": "user",
+        "content": "Wah, menarik sekali. Jadi, dalam praktiknya, bagaimana konsep sinergis ini diwujudkan dalam sebuah penelitian? Bisakah Anda berikan contohnya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Sebagai contoh, sebuah penelitian tentang tafsir Al-Qur'an dapat menggabungkan metode tradisional dari pesantren (misalnya, *tafsir bil-lingghah*) dengan metode ilmiah modern dari universitas (misalnya, analisis linguistik komparatif). Sinergi ini menghasilkan pemahaman yang lebih mendalam dan komprehensif tentang Al-Qur'an, yang memperkaya baik aspek spiritual maupun intelektual."
+      },
+      {
+        "role": "user",
+        "content": "Baik, itu cukup menjelaskan. Terima kasih atas penjelasannya."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya mahasiswa pindahan dari universitas lain. Saya masih agak kesulitan memahami bagaimana riset di UNSIQ ini berbeda, terutama yang berkaitan dengan Al-Qur'an. Apakah ada konsep khusus yang menjadi landasan dalam penelitian di sini?<end_of_turn>\n<start_of_turn>model\nThe response should explain 'Syajarah Al-Qur'an' and its key aspects.<end_of_turn>\n<start_of_turn>model\nBaik. Penelitian di UNSIQ dilandaskan pada konsep 'Syajarah Al-Qur'an', yang menekankan pada harmonisasi, sinergi, dan integrasi. Berikut penjelasannya:\n\n1. **Harmonis:** Menyatukan berbagai perspektif ilmu dan tradisi dalam kesatuan seimbang.\n2. **Sinergis:** Menciptakan sinergi positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3. **Integratif:** Mengintegrasikan kurikulum, pembelajaran, dan menghasilkan luaran mahasiswa yang utuh secara intelektual dan spiritual.<end_of_turn>\n<start_of_turn>user\nWah, menarik sekali. Jadi, dalam praktiknya, bagaimana konsep sinergis ini diwujudkan dalam sebuah penelitian? Bisakah Anda berikan contohnya?<end_of_turn>\n<start_of_turn>model\nTentu. Sebagai contoh, sebuah penelitian tentang tafsir Al-Qur'an dapat menggabungkan metode tradisional dari pesantren (misalnya, *tafsir bil-lingghah*) dengan metode ilmiah modern dari universitas (misalnya, analisis linguistik komparatif). Sinergi ini menghasilkan pemahaman yang lebih mendalam dan komprehensif tentang Al-Qur'an, yang memperkaya baik aspek spiritual maupun intelektual.<end_of_turn>\n<start_of_turn>user\nBaik, itu cukup menjelaskan. Terima kasih atas penjelasannya.<end_of_turn>\n<start_of_turn>model\nA polite closing statement.<end_of_turn>\n<start_of_turn>model\nSama-sama. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya.<end_of_turn>\n",
+    "num_turns": 8
+  },
+  {
+    "id": "PE10",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "epistemologi",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Sugeng rawuh! Kulo pengen nambah ilmu, tak tanya. Metodologi keilmuan UNSIQ niku wonten endi, Nggih?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Metodologi keilmuan UNSIQ didasarkan pada konsep 'Syajarah Al-Qur'an' yang meliputi:\n\n1.  **Harmonisasi:** Menyatukan berbagai perspektif ilmu dan tradisi.\n2.  **Sinergisi:** Menciptakan sinergi positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3.  **Integratif:** Mengintegrasikan kurikulum, pembelajaran holistik, dan menghasilkan luaran mahasiswa yang utuh secara intelektual dan spiritual."
+      },
+      {
+        "role": "user",
+        "content": "Wah, menarik sekali. Trus, metodologi niku nguwuhke biaya kuliah niku piyambak, Nggih? Kulo kepengin kuliah, nanging sakedik kathah."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Informasi mengenai biaya kuliah dan beasiswa tidak tersedia dalam dokumen ini. Berikut informasinya: Anda dapat menemukan informasi lebih lanjut mengenai biaya kuliah dan program beasiswa di situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa baru."
+      },
+      {
+        "role": "user",
+        "content": "Matursuwun, Nggih. Kulo badhe nyoba."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Semoga sukses!"
+      }
+    ],
+    "text": "<start_of_turn>user\nSugeng rawuh! Kulo pengen nambah ilmu, tak tanya. Metodologi keilmuan UNSIQ niku wonten endi, Nggih?<end_of_turn>\n<start_of_turn>model\nElaborate on the integration aspects, staying formal and concise.<end_of_turn>\n<start_of_turn>model\nBaik. Metodologi keilmuan UNSIQ didasarkan pada konsep 'Syajarah Al-Qur'an' yang meliputi:\n\n1.  **Harmonisasi:** Menyatukan berbagai perspektif ilmu dan tradisi.\n2.  **Sinergisi:** Menciptakan sinergi positif antara Pesantren dan Universitas, Tradisi dan Modernitas, Spiritual dan Intelektual, serta Al-Qur'an dan Sains.\n3.  **Integratif:** Mengintegrasikan kurikulum, pembelajaran holistik, dan menghasilkan luaran mahasiswa yang utuh secara intelektual dan spiritual.<end_of_turn>\n<start_of_turn>user\nWah, menarik sekali. Trus, metodologi niku nguwuhke biaya kuliah niku piyambak, Nggih? Kulo kepengin kuliah, nanging sakedik kathah.<end_of_turn>\n<start_of_turn>model\nTentu. Informasi mengenai biaya kuliah dan beasiswa tidak tersedia dalam dokumen ini. Berikut informasinya: Anda dapat menemukan informasi lebih lanjut mengenai biaya kuliah dan program beasiswa di situs web resmi UNSIQ atau menghubungi bagian penerimaan mahasiswa baru.<end_of_turn>\n<start_of_turn>user\nMatursuwun, Nggih. Kulo badhe nyoba.<end_of_turn>\n<start_of_turn>model\nSama-sama. Semoga sukses!<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PK02",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "keunggulan",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, kula mboten ngertos banyune, tapi kula kepengin ngertos, lha lulusan UNSIQ puniki wonten keunggulan wonten ing endi?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Tentu, berikut informasinya:\n1. Keunggulan Spesifik - Memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif - Mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif - Melengkapi kebutuhan masyarakat.\n\nUNSIQ juga memiliki berbagai program beasiswa untuk meringankan biaya pendidikan Anda."
+      },
+      {
+        "role": "user",
+        "content": "Keunggulan kompetitif puniki wonten pinya contoh? Kula ajeng dipun gegetaske wonten ing bidang teknologi, cocok ta UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Baik. Sayangnya, informasi mengenai contoh spesifik keunggulan kompetitif tidak tersedia dalam dokumen ini. Namun, UNSIQ terus berupaya mengembangkan lulusan yang adaptif dan berdaya saing tinggi. Untuk mengetahui lebih lanjut mengenai program studi teknologi yang tersedia dan relevansinya dengan minat Anda, silakan kunjungi website resmi UNSIQ atau hubungi bagian penerimaan mahasiswa baru."
+      },
+      {
+        "role": "user",
+        "content": "Maturnuwun, InshaAllah kula wonten wekdalipun saged rawuh."
+      },
+      {
+        "role": "model",
+        "content": "Sama-sama. Kami tunggu kedatangan Anda. Selamat siang."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, kula mboten ngertos banyune, tapi kula kepengin ngertos, lha lulusan UNSIQ puniki wonten keunggulan wonten ing endi?<end_of_turn>\n<start_of_turn>model\nRespond with the three advantages in a formal Indonesian, acknowledging the user's potential concern about affordability.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Tentu, berikut informasinya:\n1. Keunggulan Spesifik - Memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif - Mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif - Melengkapi kebutuhan masyarakat.\n\nUNSIQ juga memiliki berbagai program beasiswa untuk meringankan biaya pendidikan Anda.<end_of_turn>\n<start_of_turn>user\nKeunggulan kompetitif puniki wonten pinya contoh? Kula ajeng dipun gegetaske wonten ing bidang teknologi, cocok ta UNSIQ?<end_of_turn>\n<start_of_turn>model\nBaik. Sayangnya, informasi mengenai contoh spesifik keunggulan kompetitif tidak tersedia dalam dokumen ini. Namun, UNSIQ terus berupaya mengembangkan lulusan yang adaptif dan berdaya saing tinggi. Untuk mengetahui lebih lanjut mengenai program studi teknologi yang tersedia dan relevansinya dengan minat Anda, silakan kunjungi website resmi UNSIQ atau hubungi bagian penerimaan mahasiswa baru.<end_of_turn>\n<start_of_turn>user\nMaturnuwun, InshaAllah kula wonten wekdalipun saged rawuh.<end_of_turn>\n<start_of_turn>model\nSama-sama. Kami tunggu kedatangan Anda. Selamat siang.<end_of_turn>\n",
+    "num_turns": 7
+  },
+  {
+    "id": "PK07",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "keunggulan",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum. Saya sangat khawatir dengan keamanan data anak saya jika ia kuliah di universitas. Apakah UNSIQ memiliki sistem yang aman dalam hal transformasi digital?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. UNSIQ memiliki Sistem Data Terpadu sebagai bagian dari transformasi digitalnya. Hal ini menunjukkan pendekatan terstruktur dalam pengelolaan data."
+      },
+      {
+        "role": "user",
+        "content": "Apakah sistem ini berarti data pribadi anak saya akan aman dan terlindungi dari penyalahgunaan? Apakah ada langkah-langkah keamanan khusus yang diterapkan?"
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. UNSIQ berkomitmen pada peningkatan berkelanjutan (Continuous Improvement) dalam sistem digitalnya. Pengambilan keputusan berdasarkan data (Data-Driven Decision Making) memastikan evaluasi dan optimalisasi sistem secara berkala."
+      },
+      {
+        "role": "user",
+        "content": "Baik, terima kasih atas penjelasannya. Apakah transformasi digital ini juga berdampak pada proses pembelajaran anak saya?"
+      },
+     
+      {
+        "role": "model",
+        "content": "Baik. Transformasi digital di UNSIQ bertujuan untuk meningkatkan efisiensi dan efektivitas, termasuk dalam proses pembelajaran."
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum. Saya sangat khawatir dengan keamanan data anak saya jika ia kuliah di universitas. Apakah UNSIQ memiliki sistem yang aman dalam hal transformasi digital?<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. UNSIQ memiliki Sistem Data Terpadu sebagai bagian dari transformasi digitalnya. Hal ini menunjukkan pendekatan terstruktur dalam pengelolaan data.<end_of_turn>\n<start_of_turn>user\nApakah sistem ini berarti data pribadi anak saya akan aman dan terlindungi dari penyalahgunaan? Apakah ada langkah-langkah keamanan khusus yang diterapkan?<end_of_turn>\n<start_of_turn>model\nUNSIQ berkomitmen pada peningkatan berkelanjutan (Continuous Improvement) dalam sistem digitalnya. Pengambilan keputusan berdasarkan data (Data-Driven Decision Making) memastikan evaluasi dan optimalisasi sistem secara berkala.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. UNSIQ berkomitmen pada peningkatan berkelanjutan (Continuous Improvement) dalam sistem digitalnya. Pengambilan keputusan berdasarkan data (Data-Driven Decision Making) memastikan evaluasi dan optimalisasi sistem secara berkala.<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih atas penjelasannya. Apakah transformasi digital ini juga berdampak pada proses pembelajaran anak saya?<end_of_turn>\n<start_of_turn>model\nTransformasi digital di UNSIQ bertujuan untuk meningkatkan efisiensi dan efektivitas, termasuk dalam proses pembelajaran.<end_of_turn>\n<start_of_turn>model\nBaik. Transformasi digital di UNSIQ bertujuan untuk meningkatkan efisiensi dan efektivitas, termasuk dalam proses pembelajaran.<end_of_turn>\n",
+    "num_turns": 8
+  },
+ 
+  {
+    "id": "PK15",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "keunggulan",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya tertarik dengan UNSIQ, khususnya mengenai keunggulan yang diperoleh lulusan dari universitas ini. Bisakah Anda menjelaskan lebih detail mengenai keunggulan tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Lulusan UNSIQ memiliki tiga keunggulan utama:\n1. Keunggulan Spesifik - Memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif - Mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif - Mampu melengkapi kebutuhan masyarakat."
+      },
+      {
+        "role": "user",
+        "content": "Baik. Selain keunggulan lulusan, apakah UNSIQ memiliki identitas atau pendekatan pembelajaran yang unik?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. UNSIQ memiliki identitas unik berupa:\n1. Unsiqers Learning Spirit (ULS)\n2. Harmoni antara pesantren dan universitas modern.\n3. Memadukan tradisi dan modernitas dalam proses pembelajaran."
+      },
+      {
+        "role": "user",
+        "content": "Menarik sekali. Bagaimana UNSIQ menerapkan transformasi digital dalam proses perkuliahan?"
+      },
+      {
+        "role": "model",
+        "content": "UNSIQ menerapkan transformasi digital melalui:\n1. Sistem Data Terpadu\n2. Pengambilan keputusan berbasis data (Data-Driven Decision Making).\n3. Peningkatan berkelanjutan (Continuous Improvement)."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih atas informasinya. Apakah UNSIQ memiliki kontribusi khusus bagi mahasiswa, masyarakat, bangsa, dan dunia?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ memberikan kontribusi sebagai berikut:\n1. Untuk Mahasiswa: Menghasilkan lulusan berkarakter kuat dan adaptif.\n2. Untuk Masyarakat: Memberikan pengabdian yang relevan dan pemberdayaan.\n3. Untuk Bangsa: Membentuk generasi pemimpin visioner.\n4. Untuk Dunia: Menawarkan perspektif qur'ani dan mendorong kerjasama internasional."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya tertarik dengan UNSIQ, khususnya mengenai keunggulan yang diperoleh lulusan dari universitas ini. Bisakah Anda menjelaskan lebih detail mengenai keunggulan tersebut?<end_of_turn>\n<start_of_turn>model\nTentu. Lulusan UNSIQ memiliki tiga keunggulan utama:\n1. Keunggulan Spesifik - Memiliki keahlian khusus di bidangnya.\n2. Keunggulan Kompetitif - Mampu bersaing di tingkat nasional maupun internasional.\n3. Keunggulan Komplementatif - Mampu melengkapi kebutuhan masyarakat.<end_of_turn>\n<start_of_turn>user\nBaik. Selain keunggulan lulusan, apakah UNSIQ memiliki identitas atau pendekatan pembelajaran yang unik?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. UNSIQ memiliki identitas unik berupa:\n1. Unsiqers Learning Spirit (ULS)\n2. Harmoni antara pesantren dan universitas modern.\n3. Memadukan tradisi dan modernitas dalam proses pembelajaran.<end_of_turn>\n<start_of_turn>user\nMenarik sekali. Bagaimana UNSIQ menerapkan transformasi digital dalam proses perkuliahan?<end_of_turn>\n<start_of_turn>model\nList these as aspects of digital transformation.<end_of_turn>\n<start_of_turn>model\nUNSIQ menerapkan transformasi digital melalui:\n1. Sistem Data Terpadu\n2. Pengambilan keputusan berbasis data (Data-Driven Decision Making).\n3. Peningkatan berkelanjutan (Continuous Improvement).<end_of_turn>\n<start_of_turn>user\nTerima kasih atas informasinya. Apakah UNSIQ memiliki kontribusi khusus bagi mahasiswa, masyarakat, bangsa, dan dunia?<end_of_turn>\n<start_of_turn>model\nSummarize these contributions.<end_of_turn>\n<start_of_turn>model\nTentu. UNSIQ memberikan kontribusi sebagai berikut:\n1. Untuk Mahasiswa: Menghasilkan lulusan berkarakter kuat dan adaptif.\n2. Untuk Masyarakat: Memberikan pengabdian yang relevan dan pemberdayaan.\n3. Untuk Bangsa: Membentuk generasi pemimpin visioner.\n4. Untuk Dunia: Menawarkan perspektif qur'ani dan mendorong kerjasama internasional.<end_of_turn>\n",
+    "num_turns": 10
+  },
+  {
+    "id": "PC02",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "kontak",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Bro, UNSIQ ada nomor telepon apa ya?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. UNSIQ memiliki dua nomor telepon: Kantor: (0286) 321873 dan WhatsApp PMB: 0857 7504 7504. Apakah Anda ingin informasi lebih lanjut?"
+      },
+      {
+        "role": "user",
+        "content": "WhatsApp PMB itu buat apa?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. WhatsApp PMB 0857 7504 7504 dapat Anda gunakan untuk pertanyaan terkait Penerimaan Mahasiswa Baru (PMB)."
+      }
+    ],
+    "text": "<start_of_turn>user\nBro, UNSIQ ada nomor telepon apa ya?<end_of_turn>\n<start_of_turn>model\nTentu. UNSIQ memiliki dua nomor telepon: Kantor: (0286) 321873 dan WhatsApp PMB: 0857 7504 7504. Apakah Anda ingin informasi lebih lanjut?<end_of_turn>\n<start_of_turn>user\nWhatsApp PMB itu buat apa?<end_of_turn>\n<start_of_turn>model\nExplain the purpose.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. WhatsApp PMB 0857 7504 7504 dapat Anda gunakan untuk pertanyaan terkait Penerimaan Mahasiswa Baru (PMB).<end_of_turn>\n",
+    "num_turns": 5
+  },
+  {
+    "id": "PC05",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "kontak",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Baik, terima kasih. Lalu, di mana saya dapat menemukan informasi mengenai website resmi UNSIQ?"
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Website resmi UNSIQ adalah unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Satu pertanyaan lagi, apakah ada portal khusus untuk pendaftaran mahasiswa baru?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Portal Penerimaan Mahasiswa Baru dapat diakses melalui pmb.unsiq.ac.id."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya ingin menanyakan nomor WhatsApp untuk informasi Penerimaan Mahasiswa Baru. Apakah Anda memiliki informasi tersebut?<end_of_turn>\n<start_of_turn>user\nBaik, terima kasih. Lalu, di mana saya dapat menemukan informasi mengenai website resmi UNSIQ?<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Website resmi UNSIQ adalah unsiq.ac.id.<end_of_turn>\n<start_of_turn>user\nTerima kasih. Satu pertanyaan lagi, apakah ada portal khusus untuk pendaftaran mahasiswa baru?<end_of_turn>\n<start_of_turn>model\nTentu. Portal Penerimaan Mahasiswa Baru dapat diakses melalui pmb.unsiq.ac.id.<end_of_turn>\n",
+    "num_turns": 5
+  },
+  {
+    "id": "PC07",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "kontak",
+    "persona": "formal_parent",
+    "complexity": "reasoning",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Assalamualaikum, numpang tanya. Kalo mau tanya-tanya soal Fakultas Ekonomi, gimana ya? Biayane kira-kira piye toh, Mas? Aku pengen kuliah, tapi isih nyari-nyari beasiswa."
+      },
+      {
+        "role": "model",
+        "content": "Waalaikumsalam. Berikut informasinya: \n1. Anda dapat menghubungi kantor UNSIQ melalui telepon di (0286) 321873.\n2. Untuk informasi lebih lanjut mengenai Fakultas Ekonomi dan juga peluang beasiswa, Anda dapat mengunjungi portal PMB di pmb.unsiq.ac.id.\n3. Anda juga dapat mengirimkan pertanyaan melalui email ke info@unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Oh iya, Mas. Portal PMB itu alamatnya bener, ya? Tak coba ndelok isine, semoga ada beasiswa buat aku."
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Alamat portal PMB UNSIQ adalah pmb.unsiq.ac.id. Jika Anda memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami."
+      },
+      {
+        "role": "user",
+        "content": "Maturnuwun, Mas. Semoga sukses UNSIQ!"
+      },
+      {
+        "role": "model",
+        "content": "Terima kasih. Semoga sukses juga untuk Anda!"
+      }
+    ],
+    "text": "<start_of_turn>user\nAssalamualaikum, numpang tanya. Kalo mau tanya-tanya soal Fakultas Ekonomi, gimana ya? Biayane kira-kira piye toh, Mas? Aku pengen kuliah, tapi isih nyari-nyari beasiswa.<end_of_turn>\n<start_of_turn>model\nWaalaikumsalam. Berikut informasinya: \n1. Anda dapat menghubungi kantor UNSIQ melalui telepon di (0286) 321873.\n2. Untuk informasi lebih lanjut mengenai Fakultas Ekonomi dan juga peluang beasiswa, Anda dapat mengunjungi portal PMB di pmb.unsiq.ac.id.\n3. Anda juga dapat mengirimkan pertanyaan melalui email ke info@unsiq.ac.id.<end_of_turn>\n<start_of_turn>user\nOh iya, Mas. Portal PMB itu alamatnya bener, ya? Tak coba ndelok isine, semoga ada beasiswa buat aku.<end_of_turn>\n<start_of_turn>model\nReaffirm the address and offer further assistance if needed.<end_of_turn>\n<start_of_turn>model\nTentu. Alamat portal PMB UNSIQ adalah pmb.unsiq.ac.id. Jika Anda memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami.<end_of_turn>\n<start_of_turn>user\nMaturnuwun, Mas. Semoga sukses UNSIQ!<end_of_turn>\n<start_of_turn>model\nA polite closing remark.<end_of_turn>\n<start_of_turn>model\nTerima kasih. Semoga sukses juga untuk Anda!<end_of_turn>\n",
+    "num_turns": 8
+  },
+  {
+    "id": "PC09",
+    "source": "synthetic_profil_v1_formal",
+    "category": "profil_unsiq",
+    "subcategory": "kontak",
+    "persona": "formal_parent",
+    "complexity": "direct",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Selamat siang. Saya ingin menanyakan alamat website resmi Universitas Sains Al-Qur'an. Bisakah Anda memberikan informasi tersebut?"
+      },
+      {
+        "role": "model",
+        "content": "Tentu. Website resmi UNSIQ adalah unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Terima kasih. Apakah terdapat portal khusus untuk pendaftaran mahasiswa baru? Jika ada, mohon berikan alamatnya."
+      },
+      {
+        "role": "model",
+        "content": "Berikut informasinya. Portal PMB UNSIQ dapat diakses melalui pmb.unsiq.ac.id."
+      },
+      {
+        "role": "user",
+        "content": "Baik. Jika saya memiliki pertanyaan lebih lanjut, apakah ada alamat email yang bisa saya hubungi?"
+      },
+      {
+        "role": "model",
+        "content": "Anda dapat menghubungi kami melalui email di info@unsiq.ac.id."
+      }
+    ],
+    "text": "<start_of_turn>user\nSelamat siang. Saya ingin menanyakan alamat website resmi Universitas Sains Al-Qur'an. Bisakah Anda memberikan informasi tersebut?<end_of_turn>\n<start_of_turn>model\nProviding the requested website address in a formal manner.<end_of_turn>\n<start_of_turn>model\nTentu. Website resmi UNSIQ adalah unsiq.ac.id.<end_of_turn>\n<start_of_turn>user\nTerima kasih. Apakah terdapat portal khusus untuk pendaftaran mahasiswa baru? Jika ada, mohon berikan alamatnya.<end_of_turn>\n<start_of_turn>model\nProviding the PMB portal address.<end_of_turn>\n<start_of_turn>model\nBerikut informasinya. Portal PMB UNSIQ dapat diakses melalui pmb.unsiq.ac.id.<end_of_turn>\n<start_of_turn>user\nBaik. Jika saya memiliki pertanyaan lebih lanjut, apakah ada alamat email yang bisa saya hubungi?<end_of_turn>\n<start_of_turn>model\nProviding the email address.<end_of_turn>\n<start_of_turn>model\nAnda dapat menghubungi kami melalui email di info@unsiq.ac.id.<end_of_turn>\n",
+    "num_turns": 9
+  }
+]

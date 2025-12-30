@@ -16,14 +16,14 @@ export TOKENIZERS_PARALLELISM=false
 # =============================================================================
 
 BASE_MODEL="google/gemma-3-1b-it"
-FINETUNED_PATH="./outputs/gemma3-1b-qlora-no-cot/final_model"
+FINETUNED_PATH="./outputs/gemma3-1b-r32-a64-lr2e4-e3/final_model"
 JUDGE_MODEL="google/gemma-3-12b-it"
 
-TEST_DATASET="../data/final/split/merged_all_categories_test_no_cot.json"
+TEST_DATASET="../data/sudah_bagus/test.json"
 OUTPUT="./outputs/llm_judge_results.json"
 
-GEN_BATCH_SIZE=16
-JUDGE_BATCH_SIZE=32
+GEN_BATCH_SIZE=64
+JUDGE_BATCH_SIZE=64
 MAX_SAMPLES=0  # 0 = ALL
 
 # =============================================================================
